@@ -1,7 +1,7 @@
 title: Peter Salvato
 description: Principal Systems Architect | Operationalizing Intuition
-url: "https://petersalvato.com"
-baseurl: ""
+url: "https://petersalvato.github.io/petersalvato-constellation"
+baseurl: "/petersalvato-constellation"
 
 # Build settings
 markdown: kramdown
