@@ -1,209 +1,624 @@
 ---
 ---
 
-// Variables
-$color-bg: #ffffff;
-$color-text: #000000;
-$color-accent: #0066cc;
-$color-muted: #666666;
+// ============================================================================
+// CONSTELLATION DESIGN SYSTEM
+// Mid-Century Modernist Educational Aesthetic
+// ============================================================================
 
-$font-mono: 'Courier New', Courier, monospace;
-$font-serif: Georgia, 'Times New Roman', serif;
-$font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+// TYPOGRAPHY
+// Geometric sans-serif (headers), refined serif (body), monospace (code)
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 1024px;
+// COLOR PALETTE
+$color-cream: #faf8f3;
+$color-white: #ffffff;
+$color-charcoal: #2a2a2a;
+$color-gray-light: #e8e6e1;
+$color-gray-medium: #c4c0b8;
+$color-accent: #c85a2f;    // Burnt orange - intellectual energy
+$color-accent-light: #f5ebe4;
 
-// Reset
+// TYPOGRAPHY SCALES
+$font-display: 'IBM Plex Sans', sans-serif;
+$font-body: 'Crimson Text', serif;
+$font-mono: 'Space Mono', monospace;
+
+$size-xs: 0.75rem;
+$size-sm: 0.875rem;
+$size-base: 1rem;
+$size-lg: 1.25rem;
+$size-xl: 1.5rem;
+$size-2xl: 2rem;
+$size-3xl: 2.5rem;
+$size-4xl: 3.5rem;
+
+// SPACING (8pt grid)
+$space-1: 0.5rem;
+$space-2: 1rem;
+$space-3: 1.5rem;
+$space-4: 2rem;
+$space-5: 2.5rem;
+$space-6: 3rem;
+$space-8: 4rem;
+$space-12: 6rem;
+
+// BREAKPOINTS
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+$bp-wide: 1280px;
+
+// ============================================================================
+// RESET & BASE STYLES
+// ============================================================================
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: $font-serif;
+html {
     font-size: 16px;
-    line-height: 1.6;
-    color: $color-text;
-    /*background: $color-bg;*/
-    background: orange;
-}
-
-// Network Bar
-.network-bar {
-    background: $color-text;
-    color: $color-bg;
-    padding: 0.5rem 1rem;
-    font-family: $font-mono;
-    font-size: 0.875rem;
-    text-transform: uppercase;
-
-    .system-status {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        flex-wrap: wrap;
+    @media (max-width: $bp-tablet) {
+        font-size: 15px;
     }
-
-    .label {
-        font-weight: bold;
-    }
-
-    .node {
-        color: $color-bg;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-
-        &.active {
-            color: #00ff00;
-        }
-    }
-
-    .status {
-        color: #00ff00;
-    }
-
-    .divider {
-        color: $color-muted;
+    @media (max-width: $bp-mobile) {
+        font-size: 14px;
     }
 }
 
-// Content Wrapper
-.content-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 3rem 1rem;
+body {
+    font-family: $font-body;
+    font-size: $size-base;
+    line-height: 1.7;
+    color: $color-charcoal;
+    background: $color-cream;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
-// Typography
+// ============================================================================
+// TYPOGRAPHY
+// ============================================================================
+
 h1 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    font-weight: bold;
+    font-family: $font-display;
+    font-size: $size-4xl;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $color-charcoal;
+    margin-top: 0;
+    margin-bottom: $space-3;
+    letter-spacing: -0.02em;
+
+    @media (max-width: $bp-tablet) {
+        font-size: $size-3xl;
+        margin-bottom: $space-2;
+    }
+    @media (max-width: $bp-mobile) {
+        font-size: $size-2xl;
+    }
 }
 
 h2 {
-    font-size: 1.75rem;
-    line-height: 1.3;
-    margin: 2rem 0 1rem;
+    font-family: $font-display;
+    font-size: $size-2xl;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $color-charcoal;
+    margin-top: $space-6;
+    margin-bottom: $space-2;
+    border-bottom: 3px solid $color-accent;
+    padding-bottom: $space-2;
+    letter-spacing: -0.01em;
+
+    @media (max-width: $bp-tablet) {
+        font-size: $size-xl;
+        margin-top: $space-4;
+    }
 }
 
 h3 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-    margin: 1.5rem 0 0.5rem;
+    font-family: $font-display;
+    font-size: $size-lg;
+    font-weight: 600;
+    line-height: 1.3;
+    color: $color-charcoal;
+    margin-top: $space-4;
+    margin-bottom: $space-1;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.95rem;
 }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: $space-3;
+    max-width: 65ch;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 a {
     color: $color-accent;
+    text-decoration: none;
+    border-bottom: 1px solid $color-accent;
+    transition: all 0.2s ease;
 
     &:hover {
-        text-decoration: none;
+        color: $color-charcoal;
+        background: $color-accent-light;
+        padding: 0 $space-1;
+        margin: 0 -$space-1;
     }
 }
 
-// Project Card
-.project-card {
-    border-top: 1px solid $color-text;
-    padding: 1.5rem 0;
+code {
+    font-family: $font-mono;
+    font-size: 0.9em;
+    background: $color-gray-light;
+    padding: 0.2em 0.4em;
+    border-radius: 2px;
+}
 
-    h3 {
-        margin-top: 0;
-    }
+strong {
+    font-weight: 600;
+    color: $color-charcoal;
+}
 
-    .subtitle {
-        font-style: italic;
-        color: $color-muted;
-        font-size: 0.95rem;
-    }
+em {
+    font-style: italic;
+}
 
-    .role {
-        font-family: $font-mono;
-        font-size: 0.875rem;
-        text-transform: uppercase;
-        margin-top: 0.5rem;
+// ============================================================================
+// LAYOUT COMPONENTS
+// ============================================================================
+
+// Network Bar - constellation navigation
+.network-bar {
+    background: $color-charcoal;
+    color: $color-white;
+    padding: $space-2 $space-3;
+    font-family: $font-mono;
+    font-size: $size-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 3px solid $color-accent;
+
+    @media (max-width: $bp-tablet) {
+        padding: $space-2;
+        font-size: $size-xs;
     }
 }
 
-// Case Study
+.system-status {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: $space-1;
+    flex-wrap: wrap;
+
+    @media (max-width: $bp-mobile) {
+        gap: $space-1;
+    }
+}
+
+.network-bar .label {
+    font-weight: 700;
+    color: $color-accent;
+    margin-right: $space-1;
+}
+
+.network-bar .node {
+    color: $color-white;
+    text-decoration: none;
+    border-bottom: none;
+    transition: all 0.2s ease;
+    padding: 0;
+    margin: 0;
+
+    &:hover {
+        color: $color-accent;
+        background: none;
+        padding: 0;
+    }
+
+    &.active {
+        color: $color-accent;
+        font-weight: 700;
+    }
+}
+
+.network-bar .status {
+    color: $color-accent;
+    margin-left: 0.25em;
+}
+
+.network-bar .divider {
+    color: $color-gray-medium;
+    opacity: 0.6;
+}
+
+// Main content wrapper
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: $space-8 $space-4;
+
+    @media (max-width: $bp-tablet) {
+        padding: $space-6 $space-3;
+    }
+    @media (max-width: $bp-mobile) {
+        padding: $space-4 $space-2;
+    }
+}
+
+// ============================================================================
+// CASE STUDY / PROJECT LAYOUT
+// ============================================================================
+
 .case-study-header {
-    border-bottom: 2px solid $color-text;
-    padding-bottom: 1.5rem;
-    margin-bottom: 2rem;
+    border-bottom: 2px solid $color-gray-light;
+    padding-bottom: $space-4;
+    margin-bottom: $space-6;
 
-    .subtitle {
-        font-size: 1.25rem;
-        font-style: italic;
-        color: $color-muted;
-        margin-top: 0.5rem;
+    h1 {
+        margin-bottom: $space-1;
     }
+}
+
+.subtitle {
+    font-size: $size-lg;
+    font-style: italic;
+    color: $color-gray-medium;
+    margin-bottom: $space-2;
+    font-family: $font-body;
 }
 
 .case-study-meta {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0.5rem 1rem;
-    margin-top: 1.5rem;
+    gap: $space-1 $space-2;
+    margin-top: $space-3;
     font-family: $font-mono;
-    font-size: 0.875rem;
+    font-size: $size-sm;
 
     dt {
-        font-weight: bold;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-accent;
+        letter-spacing: 0.05em;
     }
 
     dd {
         margin: 0;
+        color: $color-charcoal;
     }
 }
 
 .case-study-content {
     h1, h2 {
-        border-top: 1px solid $color-text;
-        padding-top: 1.5rem;
-        margin-top: 2.5rem;
+        border-bottom: 3px solid $color-accent;
+        padding-bottom: $space-2;
     }
 }
 
-// Footer
+// ============================================================================
+// PROJECT CARDS & LISTS
+// ============================================================================
+
+.project-card {
+    border-left: 4px solid $color-accent;
+    padding-left: $space-3;
+    padding-top: $space-2;
+    padding-bottom: $space-2;
+    margin-bottom: $space-4;
+    transition: all 0.2s ease;
+
+    &:hover {
+        border-left-color: $color-charcoal;
+        padding-left: calc($space-3 + $space-1);
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: $space-1;
+    }
+
+    a {
+        font-weight: 600;
+    }
+}
+
+.subtitle {
+    font-style: italic;
+    color: $color-gray-medium;
+    font-size: 0.95rem;
+    margin-bottom: $space-1;
+}
+
+.role {
+    font-family: $font-mono;
+    font-size: $size-xs;
+    text-transform: uppercase;
+    color: $color-accent;
+    letter-spacing: 0.05em;
+    margin-top: $space-1;
+}
+
+// ============================================================================
+// CATEGORY INDEX
+// ============================================================================
+
+.category-index {
+    h2 {
+        margin-top: 0;
+    }
+}
+
+.project-list {
+    margin-top: $space-6;
+}
+
+// ============================================================================
+// FOOTER
+// ============================================================================
+
 .system-footer {
-    border-top: 1px solid $color-text;
-    padding: 2rem 1rem;
-    margin-top: 4rem;
+    border-top: 3px solid $color-accent;
+    padding-top: $space-6;
+    padding-bottom: $space-6;
+    margin-top: $space-12;
+    background: $color-white;
+}
 
-    .colophon {
-        max-width: 800px;
-        margin: 0 auto;
-        font-family: $font-mono;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        flex-wrap: wrap;
+.colophon {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 $space-4;
+    font-family: $font-mono;
+    font-size: $size-xs;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-gray-medium;
+    letter-spacing: 0.05em;
+    display: flex;
+    justify-content: center;
+    gap: $space-2;
+    flex-wrap: wrap;
+
+    @media (max-width: $bp-tablet) {
+        padding: 0 $space-2;
+        gap: $space-1;
     }
 }
 
-// Responsive
-@media (max-width: $breakpoint-tablet) {
-    .content-wrapper {
-        padding: 2rem 1rem;
+.colophon .divider {
+    color: $color-gray-medium;
+}
+
+// ============================================================================
+// RESPONSIVE UTILITIES
+// ============================================================================
+
+// Grid layout for multi-column content
+.grid {
+    display: grid;
+    gap: $space-4;
+
+    &.cols-2 {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        @media (max-width: $bp-tablet) {
+            grid-template-columns: 1fr;
+        }
     }
 
-    h1 {
-        font-size: 2rem;
+    &.cols-3 {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+        @media (max-width: $bp-tablet) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: $bp-mobile) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+// Page sections with breathing room
+.section {
+    margin-bottom: $space-8;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+// Blockquote styling
+blockquote {
+    border-left: 4px solid $color-accent;
+    padding-left: $space-3;
+    margin-left: 0;
+    margin-bottom: $space-3;
+    font-style: italic;
+    color: $color-gray-medium;
+}
+
+// ============================================================================
+// POST/BLOG STYLES (for modernisthomestead.com)
+// ============================================================================
+
+.post-header {
+    border-bottom: 2px solid $color-gray-light;
+    padding-bottom: $space-4;
+    margin-bottom: $space-6;
+}
+
+.post-meta {
+    font-family: $font-mono;
+    font-size: $size-sm;
+    color: $color-gray-medium;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: $space-1;
+}
+
+.post-card {
+    border-left: 4px solid $color-accent;
+    padding-left: $space-3;
+    padding-top: $space-2;
+    padding-bottom: $space-2;
+    margin-bottom: $space-3;
+
+    h3 {
+        margin-top: 0;
+    }
+}
+
+// ============================================================================
+// PRODUCT/COMMERCE STYLES (for 3rd.ltd)
+// ============================================================================
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: $space-4;
+    margin-top: $space-4;
+
+    @media (max-width: $bp-tablet) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: $space-3;
     }
 
-    .network-bar .system-status {
-        font-size: 0.75rem;
+    @media (max-width: $bp-mobile) {
+        grid-template-columns: 1fr;
     }
+}
+
+.product-card {
+    border: 2px solid $color-gray-light;
+    overflow: hidden;
+    transition: all 0.2s ease;
+
+    &:hover {
+        border-color: $color-accent;
+        box-shadow: 0 4px 12px rgba($color-accent, 0.15);
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+
+    h3 {
+        padding: $space-3;
+        margin: 0;
+        font-size: $size-lg;
+    }
+
+    .price {
+        padding: 0 $space-3 $space-3;
+        font-family: $font-mono;
+        font-weight: 700;
+        font-size: $size-lg;
+        color: $color-accent;
+    }
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $space-6;
+
+    @media (max-width: $bp-tablet) {
+        grid-template-columns: 1fr;
+        gap: $space-4;
+    }
+}
+
+.buy-button {
+    background: $color-charcoal;
+    color: $color-white;
+    border: 2px solid $color-charcoal;
+    padding: $space-2 $space-4;
+    font-family: $font-display;
+    font-size: $size-lg;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: $space-3;
+    width: 100%;
+
+    &:hover {
+        background: $color-accent;
+        border-color: $color-accent;
+    }
+}
+
+// ============================================================================
+// AUDIO/MEDIA STYLES (for mathontape.com)
+// ============================================================================
+
+.audio-embed {
+    background: $color-white;
+    border: 2px solid $color-gray-light;
+    border-left: 4px solid $color-accent;
+    padding: $space-3;
+    margin: $space-4 0;
+}
+
+.audio-player {
+    margin: 0;
+
+    audio {
+        width: 100%;
+    }
+}
+
+.project-meta {
+    font-family: $font-mono;
+    font-size: $size-sm;
+    color: $color-gray-medium;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+// ============================================================================
+// ACCESSIBILITY & PRINT
+// ============================================================================
+
+@media print {
+    .network-bar,
+    .system-footer {
+        display: none;
+    }
+
+    a {
+        color: $color-charcoal;
+        border-bottom: none;
+    }
+}
+
+// Focus states for keyboard navigation
+*:focus {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+}
+
+button:focus,
+a:focus {
+    outline: 2px solid $color-accent;
+    outline-offset: 4px;
 }
