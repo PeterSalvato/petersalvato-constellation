@@ -1,0 +1,17 @@
+title: Peter Salvato
+description: Principal Systems Architect | Operationalizing Intuition
+url: "https://petersalvato.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="category-index">
+    {{ content }}
+
+    {% if page.category_data %}
+        <div class="project-list">
+            {% for project in site.data[page.category_data] %}
+                {% include project-card.html
+                   title=project.title
+                   subtitle=project.subtitle
+                   url=project.url
+                   role=project.role %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>

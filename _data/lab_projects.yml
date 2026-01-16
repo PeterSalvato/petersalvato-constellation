@@ -1,0 +1,11 @@
+- id: echo-and-bone
+  title: "Echo & Bone"
+  subtitle: "Visual Research Study"
+  url: "/labs/visual-research/echo-and-bone"
+  status: "Research"
+
+- id: photogeography
+  title: "Photogeography"
+  subtitle: "Visual Research Study"
+  url: "/labs/visual-research/photogeography"
+  status: "Research"
