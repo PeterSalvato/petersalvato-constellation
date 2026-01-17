@@ -113,7 +113,7 @@ a {
   width: $sidebar-width;
   height: 100vh;
   background-color: $color-white;
-  border-right: 1px solid $color-border;
+  border-right: 0.5px solid #f0f0f0;
   padding: $space-xl $space-md;
   overflow-y: auto;
   font-family: $font-mono;
