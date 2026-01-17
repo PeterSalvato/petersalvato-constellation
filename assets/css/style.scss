@@ -92,8 +92,6 @@ a {
 // Main Content Wrapper
 .content-wrapper {
   padding: $space-2xl;
-  max-width: 900px;
-  margin: 0 auto;
 
   @media (max-width: $bp-tablet) {
     padding: $space-xl;
