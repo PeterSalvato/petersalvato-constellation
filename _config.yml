@@ -1,3 +1,8 @@
+# Google Fonts Import
+google_fonts:
+  - IBM Plex Sans:400,700
+  - Courier Prime:400
+
 title: Peter Salvato
 description: Principal Systems Architect | Operationalizing Intuition
 url: "https://petersalvato.github.io/petersalvato-constellation"

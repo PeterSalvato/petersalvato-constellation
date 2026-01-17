@@ -1,0 +1,51 @@
+// assets/css/_variables.scss
+
+// Color Palette
+$color-white: #ffffff;
+$color-charcoal: #2a2a2a;
+$color-text: $color-charcoal;
+
+// Domain Colors (Desaturated RGB)
+$color-creative: #b8523a;    // Red - Creative/Evidence
+$color-systems: #5a8c6f;     // Green - Systems/Labs
+$color-technical: #4a6fa5;   // Blue - Technical/Frontend
+
+// Neutral shades
+$color-light-gray: #f9f9f9;
+$color-border: #e5e5e5;
+
+// Typography
+$font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-mono: 'Courier Prime', 'Courier New', monospace;
+
+$font-size-base: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+$font-size-2xl: 24px;
+$font-size-3xl: 32px;
+$font-size-4xl: 48px;
+
+$line-height-tight: 1.2;
+$line-height-normal: 1.6;
+$line-height-relaxed: 1.8;
+
+// Spacing Scale
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 24px;
+$space-xl: 32px;
+$space-2xl: 48px;
+$space-3xl: 64px;
+
+// Sidebar
+$sidebar-width: 200px;
+
+// Breakpoints
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+
+// Transitions
+$transition-fast: 150ms ease;
+$transition-normal: 300ms ease;

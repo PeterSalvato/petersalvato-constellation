@@ -1,0 +1,105 @@
+// assets/css/style.scss
+
+@import 'variables';
+
+// Grain texture background (subtle, aged paper effect)
+@mixin grain-texture {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.02) 0px,
+      rgba(0, 0, 0, 0.02) 1px,
+      transparent 1px,
+      transparent 2px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+}
+
+// Reset & Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-sans;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  color: $color-text;
+  background-color: $color-white;
+  @include grain-texture;
+}
+
+// Typography Defaults
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: $line-height-tight;
+  margin-bottom: $space-md;
+}
+
+h1 {
+  font-size: $font-size-4xl;
+}
+
+h2 {
+  font-size: $font-size-3xl;
+  margin-top: $space-2xl;
+}
+
+h3 {
+  font-size: $font-size-2xl;
+  margin-top: $space-xl;
+}
+
+p {
+  margin-bottom: $space-md;
+}
+
+a {
+  color: $color-charcoal;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color $transition-fast;
+
+  &:hover {
+    border-bottom-color: $color-charcoal;
+  }
+}
+
+// Page Layout Grid
+.page-layout {
+  display: grid;
+  grid-template-columns: $sidebar-width 1fr;
+  min-height: 100vh;
+
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Main Content Wrapper
+.content-wrapper {
+  padding: $space-2xl;
+  max-width: 900px;
+  margin: 0 auto;
+
+  @media (max-width: $bp-tablet) {
+    padding: $space-xl;
+  }
+
+  @media (max-width: $bp-mobile) {
+    padding: $space-lg;
+  }
+}
