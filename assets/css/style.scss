@@ -217,3 +217,102 @@ a {
   }
 }
 
+// ===== MOBILE HEADER & HAMBURGER MENU =====
+
+.mobile-header {
+  display: none;
+
+  @media (max-width: $bp-tablet) {
+    display: block;
+    padding: $space-md;
+    background-color: $color-white;
+    border-bottom: 1px solid $color-border;
+    @include grain-texture;
+  }
+}
+
+.hamburger-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: $space-sm;
+  width: 40px;
+  height: 40px;
+  position: relative;
+
+  @media (max-width: $bp-tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: $color-charcoal;
+    transition: all $transition-normal;
+    border-radius: 1px;
+  }
+
+  &.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  &.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  &.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+}
+
+// ===== RESPONSIVE REFINEMENTS & FINAL POLISH =====
+
+// Responsive Image Handling
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Improve readability on mobile
+@media (max-width: $bp-mobile) {
+  h1 {
+    font-size: $font-size-2xl;
+  }
+
+  h2 {
+    font-size: $font-size-xl;
+  }
+
+  h3 {
+    font-size: $font-size-lg;
+  }
+}
+
+// Print styles
+@media print {
+  .sidebar-nav,
+  .mobile-header {
+    display: none;
+  }
+
+  .page-layout {
+    display: block;
+  }
+
+  .content-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    border: none;
+  }
+}
+
