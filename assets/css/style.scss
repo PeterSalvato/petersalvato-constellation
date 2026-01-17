@@ -117,22 +117,25 @@ a {
   padding: $space-xl $space-md;
   overflow-y: auto;
   font-family: $font-mono;
-  font-size: 12px;
+  font-size: $font-size-sidebar-base;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 
   @include grain-texture;
 
   @media (max-width: $bp-tablet) {
-    display: none; // Hidden on mobile, will be toggled by hamburger
-    position: fixed;
+    display: none;
     width: 250px;
-    background: $color-white;
     z-index: 999;
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
 
     &.active {
       display: block;
+    }
+
+    @media (max-width: $bp-mobile) {
+      width: 100%;
+      max-width: 300px;
     }
   }
 }
@@ -144,7 +147,7 @@ a {
 }
 
 .sidebar-title {
-  font-size: 14px;
+  font-size: $font-size-sidebar-title;
   font-weight: 700;
   line-height: $line-height-tight;
   letter-spacing: 1px;
@@ -198,7 +201,7 @@ a {
   margin-bottom: $space-sm;
 
   a {
-    font-size: 11px;
+    font-size: $font-size-sidebar-link;
     color: $color-charcoal;
     text-decoration: none;
     border: none;
@@ -206,17 +209,11 @@ a {
     padding: 2px $space-sm;
     transition: color $transition-fast;
 
+    // Unified hover color for all nav links (creative accent)
+    // This creates visual cohesion across domain sections
     &:hover {
       color: $color-creative;
     }
   }
 }
 
-// Update .content-wrapper positioning for sidebar
-.content-wrapper {
-  grid-column: 2;
-
-  @media (max-width: $bp-tablet) {
-    grid-column: 1;
-  }
-}
