@@ -170,7 +170,7 @@ a {
 }
 
 .nav-section {
-  margin-bottom: $space-xl;
+  margin-bottom: $space-2xl;
 
   &:last-child {
     margin-bottom: 0;
@@ -178,27 +178,25 @@ a {
 }
 
 .nav-section-title {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
-  margin: 0 0 $space-sm 0;
-  padding-left: $space-sm;
-  border-left: 3px solid $color-border;
-  letter-spacing: 1px;
-  color: $color-charcoal;
+  margin: 0 0 $space-md 0;
+  padding: 0;
+  border: none;
+  letter-spacing: 0.5px;
+  color: rgba($color-charcoal, 0.5);
+  text-transform: uppercase;
 
   &.nav-section-title--creative {
-    border-left-color: $color-creative;
-    color: $color-creative;
+    color: rgba($color-charcoal, 0.5);
   }
 
   &.nav-section-title--systems {
-    border-left-color: $color-systems;
-    color: $color-systems;
+    color: rgba($color-charcoal, 0.5);
   }
 
   &.nav-section-title--technical {
-    border-left-color: $color-technical;
-    color: $color-technical;
+    color: rgba($color-charcoal, 0.5);
   }
 }
 
@@ -209,7 +207,7 @@ a {
 }
 
 .nav-list li {
-  margin-bottom: $space-sm;
+  margin-bottom: $space-md;
 
   a {
     font-size: $font-size-sidebar-link;
@@ -217,13 +215,11 @@ a {
     text-decoration: none;
     border: none;
     display: block;
-    padding: 2px $space-sm;
+    padding: 0;
     transition: color $transition-fast;
 
-    // Unified hover color for all nav links (creative accent)
-    // This creates visual cohesion across domain sections
     &:hover {
-      color: $color-creative;
+      color: $color-accent;
     }
   }
 }
@@ -478,33 +474,38 @@ img {
 
   .whitepaper-meta {
     display: flex;
-    gap: $space-md;
+    gap: $space-lg;
     margin-bottom: $space-2xl;
-    font-family: $font-mono;
+    font-family: $font-sans;
     font-size: $font-size-sm;
-    letter-spacing: $tracking-wide;
-    text-transform: uppercase;
+    letter-spacing: 0;
+    text-transform: capitalize;
 
     .label {
       font-weight: 700;
+      color: rgba($color-charcoal, 0.6);
+    }
+
+    .value {
+      color: $color-charcoal;
     }
   }
 
   .whitepaper-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: $space-sm;
+    gap: $space-md;
     margin-bottom: $space-2xl;
 
     .tag {
       display: inline-block;
-      padding: $space-xs $space-sm;
-      border: 1px solid $color-border;
-      font-family: $font-mono;
+      padding: 0;
+      border: none;
+      font-family: $font-sans;
       font-size: $font-size-sm;
-      letter-spacing: $tracking-wide;
-      text-transform: uppercase;
-      color: $color-charcoal;
+      letter-spacing: 0;
+      text-transform: capitalize;
+      color: rgba($color-charcoal, 0.7);
     }
   }
 }
@@ -517,17 +518,78 @@ img {
   .log-type,
   .log-status {
     display: flex;
-    gap: $space-md;
-    margin-bottom: $space-lg;
-    font-family: $font-mono;
+    gap: $space-lg;
+    margin-bottom: $space-2xl;
+    font-family: $font-sans;
     font-size: $font-size-sm;
-    letter-spacing: $tracking-wide;
-    text-transform: uppercase;
+    letter-spacing: 0;
+    text-transform: capitalize;
 
     .label {
       font-weight: 700;
-      min-width: 80px;
+      color: rgba($color-charcoal, 0.6);
+      min-width: auto;
     }
+
+    .value {
+      color: $color-charcoal;
+    }
+  }
+}
+
+// Article content typography
+.whitepaper-article,
+.log-article {
+  h1 {
+    font-size: $font-size-3xl;
+    margin-top: 0;
+    margin-bottom: $space-xl;
+  }
+
+  h2 {
+    font-size: $font-size-xl;
+    margin-top: $space-3xl;
+    margin-bottom: $space-lg;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: $font-size-lg;
+    margin-top: $space-2xl;
+    margin-bottom: $space-md;
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: $space-lg;
+    max-width: 70ch;
+    line-height: 1.7;
+  }
+
+  ul, ol {
+    margin-bottom: $space-lg;
+    padding-left: $space-lg;
+  }
+
+  li {
+    margin-bottom: $space-sm;
+    line-height: 1.6;
+  }
+
+  table {
+    margin: $space-2xl 0;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: $space-md;
+    text-align: left;
+    border-bottom: 1px solid $color-border;
+  }
+
+  th {
+    font-weight: 700;
+    background-color: rgba($color-charcoal, 0.02);
   }
 }
 
