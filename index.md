@@ -3,51 +3,73 @@ layout: console
 title: "System Root"
 ---
 
-# OPERATIONALIZING
-# INTUITION.
+# PETER SALVATO
+## Principal Systems Architect
 
-> *I bridge the gap between rigorous engineering (Logic) and visual governance (Taste). I do not just build products; I architect the durable systems that sustain them.*
+I architect durable systems. Enterprise infrastructure. Visual identity. Narrative simulation. Family logistics.
 
-## STATUS BOARD
-
-| | |
-|---|---|
-| **ROLE** | PRINCIPAL SYSTEMS ARCHITECT |
-| **FOCUS** | SOVEREIGN INFRASTRUCTURE |
-| **LOCATION** | FORT LAUDERDALE [26.12° N, 80.14° W] |
-| **STATUS** | AVAILABLE FOR SELECT ARCHITECTURE |
+Twelve years designing systems that don't require willpower to operate.
 
 ---
 
-## 1.0 THE EVIDENCE
+## THE EVIDENCE
 
-*Rigorous, high-stakes architecture for enterprise and commerce.*
+Commercial work. High-stakes architecture.
 
-- **[The Encore Platform](/evidence/the-encore-platform)** — 12-Year Tenure | Global Market Leader | Full-Stack Ownership
+### [The Encore Platform](/evidence/the-encore-platform)
+**12-year tenure** | 99.9% uptime | Mission-critical SaaS
 
-  A longitudinal study in sovereign architecture. Migrating, maintaining, and evolving a mission-critical enterprise SaaS product through a decade of technological entropy.
+A study in legacy modernization. Replacing the engine while the car drives at 60mph.
 
-- **[Visual Governance](/evidence/visual-governance)** — Identity Systems | Tokenization | Drift Control
+### [Visual Governance](/evidence/visual-governance)
+**Identity systems** | Brand coherence at scale
 
-  Selected works: Aiden Jae (Tokenized Jewelry), Altrueism (Brand Identity), Everyday Gold (E-Commerce Platform)
-
----
-
-## 2.0 THE LABS
-
-*Proprietary research into the physics of aesthetics and logistics.*
-
-- **[New City](/labs/new-city)** — Narrative Simulation | 40+ Entity Graph | Transit Stress Test
-
-  An architectural study disguised as fiction. What happens when infrastructure fails?
-
-- **[Modernist Homestead](/labs/modernist-homestead)** — Bio-Logistics | Neurodivergent Family Systems | Culinary Supply Chains
-
-  Optimizing the human hardware. Zero-willpower meal systems rooted in Italian and Thai principles.
+Luxury commerce. E-commerce platforms. Drift control.
 
 ---
 
-## 3.0 THE OPERATOR
+## THE LABS
 
-* [The Doctrine](/system/doctrine) — Principles and Practices
-* [Contact](/system/contact) — Reach Out
+Applied research. Experiments in logistics and aesthetics.
+
+### [New City](/labs/new-city)
+**Narrative simulation** | 40+ entity graph
+
+What happens when infrastructure fails? A fictional city stress-tested against economic collapse.
+
+### [Modernist Homestead](/labs/modernist-homestead)
+**Bio-logistics** | Neurodivergent family systems
+
+Zero-willpower meal systems. Italian and Thai supply chains for household resilience.
+
+### [Visual Systems](/labs/visual-systems)
+**Design research** | Constraint-based frameworks
+
+How visual systems survive organizational change.
+
+### [Math On Tape](/labs/math-on-tape)
+**Signal processing** | Live educational environment
+
+Tactile mathematics. Making abstract concepts physically graspable.
+
+---
+
+## THE PROTOCOLS
+
+Operational frameworks. Methods that scale.
+
+### [Savepoint](/protocols/savepoint)
+**Operational stability** | Documented recovery
+
+How to architect moments of stability in complex systems.
+
+### [Order of the Aetherwright](/protocols/order-of-the-aetherwright)
+**Systems doctrine** | Clarity, consistency, coherence
+
+The discipline of designing intangible systems.
+
+---
+
+## CONTACT
+
+[Reach out](/system/contact) | [Principles](/system/doctrine)

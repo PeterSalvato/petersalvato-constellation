@@ -51,20 +51,33 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: $font-size-4xl;
+  margin-bottom: $space-sm;
 }
 
 h2 {
-  font-size: $font-size-3xl;
-  margin-top: $space-2xl;
+  font-size: $font-size-2xl;
+  margin-top: $space-3xl;
+  margin-bottom: $space-lg;
+  font-weight: 400;
+  color: rgba($color-charcoal, 0.7);
 }
 
 h3 {
-  font-size: $font-size-2xl;
-  margin-top: $space-xl;
+  font-size: $font-size-lg;
+  margin-top: $space-2xl;
+  margin-bottom: $space-md;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 p {
-  margin-bottom: $space-md;
+  margin-bottom: $space-lg;
+  max-width: 70ch;
+}
+
+p + h2,
+p + h3 {
+  margin-top: $space-3xl;
 }
 
 a {
@@ -384,21 +397,48 @@ img {
 .console-layout {
   h1 {
     font-family: $font-display;
-    font-size: $font-size-5xl;
+    font-size: $font-size-4xl;
     font-weight: 700;
-    letter-spacing: $tracking-tight;
-    line-height: 0.9;
-    margin-bottom: $space-2xl;
-    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: $space-xs;
+    text-transform: none;
+  }
+
+  h1 + h2 {
+    margin-top: $space-xs;
   }
 
   h2 {
-    font-family: $font-display;
-    font-size: $font-size-3xl;
-    font-weight: 700;
-    letter-spacing: $tracking-tight;
+    font-family: $font-sans;
+    font-size: $font-size-lg;
+    font-weight: 400;
+    letter-spacing: 0;
     margin-top: $space-3xl;
-    margin-bottom: $space-lg;
+    margin-bottom: $space-xl;
+    color: rgba($color-charcoal, 0.7);
+  }
+
+  h3 {
+    font-family: $font-sans;
+    font-size: $font-size-lg;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: $space-2xl;
+    margin-bottom: $space-sm;
+  }
+
+  > p:first-of-type {
+    font-size: $font-size-lg;
+    line-height: 1.6;
+    margin-bottom: $space-2xl;
+    color: $color-charcoal;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba($color-charcoal, 0.1);
+    margin: $space-3xl 0;
   }
 }
 
