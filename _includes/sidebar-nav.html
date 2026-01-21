@@ -4,30 +4,17 @@
   </div>
 
   <nav class="sidebar-menu" aria-label="Site sections">
-    <!-- Evidence Section -->
+    {% for section in site.data.navigation.sections %}
     <div class="nav-section">
-      <h3 class="nav-section-title nav-section-title--creative">EVIDENCE</h3>
+      <h3 class="nav-section-title nav-section-title--{{ section.color }}">
+        {{ section.label }}
+      </h3>
       <ul class="nav-list">
-        <li><a href="{{ '/evidence/enterprise-systems' | relative_url }}">Enterprise Systems</a></li>
-        <li><a href="{{ '/evidence/brand-commerce-systems' | relative_url }}">Brand Commerce</a></li>
+        {% for item in section.items %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+        {% endfor %}
       </ul>
     </div>
-
-    <!-- Labs Section -->
-    <div class="nav-section">
-      <h3 class="nav-section-title nav-section-title--systems">LABS</h3>
-      <ul class="nav-list">
-        <li><a href="{{ '/labs/visual-research' | relative_url }}">Visual Research</a></li>
-      </ul>
-    </div>
-
-    <!-- System Section -->
-    <div class="nav-section">
-      <h3 class="nav-section-title nav-section-title--technical">SYSTEM</h3>
-      <ul class="nav-list">
-        <li><a href="{{ '/system/doctrine' | relative_url }}">Doctrine</a></li>
-        <li><a href="{{ '/system/contact' | relative_url }}">Contact</a></li>
-      </ul>
-    </div>
+    {% endfor %}
   </nav>
 </aside>
