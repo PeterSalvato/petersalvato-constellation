@@ -1,50 +1,53 @@
 ---
-layout: default
-title: Peter Salvato | Principal Systems Architect
-description: Operationalizing Intuition
+layout: console
+title: "System Root"
 ---
 
-# PETER SALVATO
-**Principal Systems Architect**
-*Operationalizing Intuition.*
+# OPERATIONALIZING
+# INTUITION.
 
-I bridge the gap between rigorous engineering (Logic) and visual governance (Taste). I don't just build products; I architect the systems that sustain them.
+> *I bridge the gap between rigorous engineering (Logic) and visual governance (Taste). I do not just build products; I architect the durable systems that sustain them.*
+
+## STATUS BOARD
+
+| | |
+|---|---|
+| **ROLE** | PRINCIPAL SYSTEMS ARCHITECT |
+| **FOCUS** | SOVEREIGN INFRASTRUCTURE |
+| **LOCATION** | FORT LAUDERDALE [26.12° N, 80.14° W] |
+| **STATUS** | AVAILABLE FOR SELECT ARCHITECTURE |
 
 ---
 
-## 1.0 THE EVIDENCE (Commercial Systems)
+## 1.0 THE EVIDENCE
+
 *Rigorous, high-stakes architecture for enterprise and commerce.*
 
-### [THE ENCORE PLATFORM (The Monolith) →](/evidence/enterprise-systems/the-encore-platform)
-**Scope:** 12-Year Tenure | Global Market Leader | Full-Stack Ownership
-A longitudinal study in sovereign architecture. Migrating, maintaining, and evolving a mission-critical enterprise SaaS product through a decade of technological entropy.
+- **[The Encore Platform](/evidence/the-encore-platform)** — 12-Year Tenure | Global Market Leader | Full-Stack Ownership
 
-### [VISUAL GOVERNANCE (The Specimens) →](/evidence/brand-commerce-systems/)
-**Scope:** Identity Systems | Tokenization | Drift Control
-**Selected Works:** [Aiden Jae](/evidence/brand-commerce-systems/aiden-jae) | [Altrueism](/evidence/brand-commerce-systems/altrueism) | [Everyday Gold](/evidence/brand-commerce-systems/everyday-gold)
+  A longitudinal study in sovereign architecture. Migrating, maintaining, and evolving a mission-critical enterprise SaaS product through a decade of technological entropy.
+
+- **[Visual Governance](/evidence/visual-governance)** — Identity Systems | Tokenization | Drift Control
+
+  Selected works: Aiden Jae (Tokenized Jewelry), Altrueism (Brand Identity), Everyday Gold (E-Commerce Platform)
 
 ---
 
-## 2.0 THE LABS (Applied Studies)
+## 2.0 THE LABS
+
 *Proprietary research into the physics of aesthetics and logistics.*
 
-### [MODERNIST HOMESTEAD (External Node) →](https://modernisthomestead.com)
-**System Type:** Biological Logistics
-**Status:** Live Environment
+- **[New City](/labs/new-city)** — Narrative Simulation | 40+ Entity Graph | Transit Stress Test
 
-### [3RD LTD. (The Press) →](https://3rd.ltd)
-**System Type:** Commerce & Fulfillment
-**Status:** Live Environment
+  An architectural study disguised as fiction. What happens when infrastructure fails?
 
-### [MATH ON TAPE (External Node) →](https://mathontape.com)
-**System Type:** Signal Processing
-**Status:** Live Environment
+- **[Modernist Homestead](/labs/modernist-homestead)** — Bio-Logistics | Neurodivergent Family Systems | Culinary Supply Chains
 
-### [VISUAL RESEARCH (The Sandbox) →](/labs/visual-research/)
-**Selected Studies:** [Echo & Bone](/labs/visual-research/echo-and-bone) | [Photogeography](/labs/visual-research/photogeography)
+  Optimizing the human hardware. Zero-willpower meal systems rooted in Italian and Thai principles.
 
 ---
 
 ## 3.0 THE OPERATOR
-* [The Doctrine](/system/doctrine)
-* [Contact](/system/contact)
+
+* [The Doctrine](/system/doctrine) — Principles and Practices
+* [Contact](/system/contact) — Reach Out
