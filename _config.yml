@@ -1,12 +1,24 @@
 # Google Fonts Import
 google_fonts:
-  - IBM Plex Sans:400,700
-  - Courier Prime:400
+  - Helvetica Now:400,700
+  - Space Mono:400,700
 
 title: Peter Salvato
 description: Principal Systems Architect | Operationalizing Intuition
 url: "https://petersalvato.github.io/petersalvato-constellation"
 baseurl: "/petersalvato-constellation"
+
+# Jekyll Collections
+collections:
+  evidence:
+    output: true
+    permalink: /evidence/:path/
+  protocols:
+    output: true
+    permalink: /protocols/:path/
+  labs:
+    output: true
+    permalink: /labs/:path/
 
 # Build settings
 markdown: kramdown
@@ -20,3 +32,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - docs/plans/
