@@ -1,0 +1,118 @@
+# _data/index.yml
+# Source of truth for all portfolio content
+
+manifesto:
+  id: "00"
+  title: "PRINCIPLES"
+  type: "manifesto"
+  content: |
+    I build durable systems. My work sits at the intersection of design, engineering, and strategy.
+
+    Twelve years of architecture that didn't break when pressure increased.
+
+    I came up through screen shops and grid systems, writing type by hand and code by habit.
+    Design from SVA. Published work at Random House and Sterling. Years in brands, interfaces,
+    systems that had to scale without breaking.
+
+    That foundation shaped everything: the work itself, the way I approach it, the frameworks
+    I've built to understand it better.
+
+    What's here is the visible part. Underneath is structure. Beneath that, process.
+
+domains:
+  - id: "01"
+    name: "INFRASTRUCTURE"
+    color: "blue"
+    definition: "The Substrate. The Code. The Hardware."
+    description: "Mission-critical systems that scale. Platforms that survive technological epochs. The operational backbone."
+    artifacts:
+      - id: "1.1"
+        title: "THE ENCORE PLATFORM"
+        context: "Enterprise Architecture"
+        spec: "12 years. 99.9% uptime. 40,000+ users. Strangler pattern legacy modernization."
+        result: "Replaced the engine while the car drove at 60mph. Systems that survived three technological epochs."
+        status: "DEPLOYED"
+        link: "/evidence/the-encore-platform"
+
+      - id: "1.2"
+        title: "VISUAL GOVERNANCE"
+        context: "Identity Systems at Scale"
+        spec: "Luxury brands scaling across e-commerce, print, retail, campaigns, social."
+        result: "$10M+ annual commerce. Visual coherence maintained through team transitions."
+        status: "ACTIVE"
+        link: "/evidence/visual-governance"
+
+      - id: "1.3"
+        title: "HOMELAB STACK"
+        context: "Sovereign Compute"
+        spec: "Offline-first server infrastructure. Ubuntu + Docker. Self-hosted everything."
+        result: "Physical data sovereignty. Family media server, automation, backup infrastructure."
+        status: "LIVE"
+
+  - id: "02"
+    name: "METHODS"
+    color: "red"
+    definition: "The Logic. The Workflows. The Protocols."
+    description: "Systems designed to be operated. Frameworks that scale because they're built on clarity."
+    artifacts:
+      - id: "2.1"
+        title: "SAVEPOINT PROTOCOL"
+        context: "Cognitive Versioning"
+        spec: "Documented moments of stability. Syntax-enforced recovery. Weekly reviews, quarterly audits."
+        result: "Teams that practice savepoints recover faster, make bolder decisions, maintain institutional memory."
+        status: "V3.0"
+        link: "/protocols/savepoint"
+
+      - id: "2.2"
+        title: "ORDER OF THE ÆTHERWRIGHT"
+        context: "Systems Doctrine"
+        spec: "Three pillars: Clarity, Consistency, Coherence. Discipline for designing intangible systems."
+        result: "Systems that survive organizational change because they're built to be maintained."
+        status: "ACTIVE"
+        link: "/protocols/order-of-the-aetherwright"
+
+      - id: "2.3"
+        title: "MODERNIST HOMESTEAD"
+        context: "Domestic Systems"
+        spec: "Zero-willpower meal systems. Italian and Thai supply chains for household resilience."
+        result: "Family that reliably feeds itself even when executive function is offline."
+        status: "ACTIVE"
+        link: "/labs/modernist-homestead"
+
+  - id: "03"
+    name: "DESIGN"
+    color: "green"
+    definition: "The Semiotics. The Narrative. The World."
+    description: "Visual systems that survive change. Research into how forms persist through organizational pressure."
+    artifacts:
+      - id: "3.1"
+        title: "NEW CITY"
+        context: "Narrative Simulation"
+        spec: "40+ entity graph stress-testing infrastructure collapse. What happens when systems fail?"
+        result: "Operational architecture expressed as narrative. Infrastructure under pressure."
+        status: "IN DEVELOPMENT"
+        link: "/labs/new-city"
+
+      - id: "3.2"
+        title: "VISUAL SYSTEMS RESEARCH"
+        context: "Design Operations"
+        spec: "How visual systems survive team growth and organizational drift."
+        result: "Constraint hierarchies that let distributed teams extend identity coherently."
+        status: "ONGOING"
+        link: "/labs/visual-systems"
+
+      - id: "3.3"
+        title: "MATH ON TAPE"
+        context: "Educational"
+        spec: "Tactile mathematics. Making abstract concepts physically graspable through interaction."
+        result: "Live environment used as primary teaching tool for mathematically curious audiences."
+        status: "LIVE"
+        link: "/labs/math-on-tape"
+
+contact:
+  email: "peter@petersalvato.com"
+  links:
+    - title: "GitHub"
+      url: "https://github.com/petersalvato"
+    - title: "LinkedIn"
+      url: "https://linkedin.com/in/petersalvato"
