@@ -26,20 +26,33 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 48px;
+  margin-bottom: 8px;
 }
 
 h2 {
-  font-size: 32px;
-  margin-top: 48px;
+  font-size: 24px;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  color: rgba(42, 42, 42, 0.7);
 }
 
 h3 {
-  font-size: 24px;
-  margin-top: 32px;
+  font-size: 16px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 p {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  max-width: 70ch;
+}
+
+p + h2,
+p + h3 {
+  margin-top: 64px;
 }
 
 a {
@@ -130,32 +143,30 @@ a:hover {
 }
 
 .nav-section {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 .nav-section:last-child {
   margin-bottom: 0;
 }
 
 .nav-section-title {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
-  margin: 0 0 8px 0;
-  padding-left: 8px;
-  border-left: 3px solid #e5e5e5;
-  letter-spacing: 1px;
-  color: #2A2A2A;
+  margin: 0 0 16px 0;
+  padding: 0;
+  border: none;
+  letter-spacing: 0.5px;
+  color: rgba(42, 42, 42, 0.5);
+  text-transform: uppercase;
 }
 .nav-section-title.nav-section-title--creative {
-  border-left-color: #b8523a;
-  color: #b8523a;
+  color: rgba(42, 42, 42, 0.5);
 }
 .nav-section-title.nav-section-title--systems {
-  border-left-color: #5a8c6f;
-  color: #5a8c6f;
+  color: rgba(42, 42, 42, 0.5);
 }
 .nav-section-title.nav-section-title--technical {
-  border-left-color: #4a6fa5;
-  color: #4a6fa5;
+  color: rgba(42, 42, 42, 0.5);
 }
 
 .nav-list {
@@ -165,7 +176,7 @@ a:hover {
 }
 
 .nav-list li {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .nav-list li a {
   font-size: 10px;
@@ -173,11 +184,11 @@ a:hover {
   text-decoration: none;
   border: none;
   display: block;
-  padding: 2px 8px;
+  padding: 0;
   transition: color 150ms ease;
 }
 .nav-list li a:hover {
-  color: #b8523a;
+  color: #FF4400;
 }
 
 .mobile-header {
@@ -263,3 +274,272 @@ img {
     border: none;
   }
 }
+.crop-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+.crop-mark.crop-mark--tl {
+  top: 32px;
+  left: 32px;
+  border-right: none;
+  border-bottom: none;
+}
+.crop-mark.crop-mark--tr {
+  top: 32px;
+  right: 32px;
+  border-left: none;
+  border-bottom: none;
+}
+.crop-mark.crop-mark--bl {
+  bottom: 32px;
+  left: 32px;
+  border-right: none;
+  border-top: none;
+}
+.crop-mark.crop-mark--br {
+  bottom: 32px;
+  right: 32px;
+  border-left: none;
+  border-top: none;
+}
+
+.timestamp-slug {
+  position: fixed;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%) rotate(270deg);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: "Space Mono", "Courier Prime", "Courier New", monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #2A2A2A;
+  opacity: 0.2;
+  pointer-events: none;
+  white-space: nowrap;
+  user-select: none;
+  z-index: -1;
+}
+@media (max-width: 768px) {
+  .timestamp-slug {
+    display: none;
+  }
+}
+
+.console-layout h1 {
+  font-family: "Helvetica Now Display", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 4px;
+  text-transform: none;
+}
+.console-layout h1 + h2 {
+  margin-top: 4px;
+}
+.console-layout h2 {
+  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  color: rgba(42, 42, 42, 0.7);
+}
+.console-layout h3 {
+  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+.console-layout > p:first-of-type {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+  color: #2A2A2A;
+}
+.console-layout hr {
+  border: none;
+  border-top: 1px solid rgba(42, 42, 42, 0.1);
+  margin: 64px 0;
+}
+
+.status-board {
+  margin: 48px 0;
+  font-family: "Space Mono", "Courier Prime", "Courier New", monospace;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+.status-board .row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  padding: 8px 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.status-board .row .label {
+  font-weight: 700;
+  color: #2A2A2A;
+  text-transform: uppercase;
+}
+.status-board .row .value {
+  color: #2A2A2A;
+}
+.status-board .row .value.active {
+  color: #FF4400;
+}
+
+.whitepaper-article {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.whitepaper-article .whitepaper-meta {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 48px;
+  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.whitepaper-article .whitepaper-meta .label {
+  font-weight: 700;
+  color: rgba(42, 42, 42, 0.6);
+}
+.whitepaper-article .whitepaper-meta .value {
+  color: #2A2A2A;
+}
+.whitepaper-article .whitepaper-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.whitepaper-article .whitepaper-tags .tag {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: rgba(42, 42, 42, 0.7);
+}
+
+.log-article {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.log-article .log-type,
+.log-article .log-status {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 48px;
+  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.log-article .log-type .label,
+.log-article .log-status .label {
+  font-weight: 700;
+  color: rgba(42, 42, 42, 0.6);
+  min-width: auto;
+}
+.log-article .log-type .value,
+.log-article .log-status .value {
+  color: #2A2A2A;
+}
+
+.whitepaper-article h1,
+.log-article h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.whitepaper-article h2,
+.log-article h2 {
+  font-size: 20px;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.whitepaper-article h3,
+.log-article h3 {
+  font-size: 16px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.whitepaper-article p,
+.log-article p {
+  margin-bottom: 24px;
+  max-width: 70ch;
+  line-height: 1.7;
+}
+.whitepaper-article ul, .whitepaper-article ol,
+.log-article ul,
+.log-article ol {
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+.whitepaper-article li,
+.log-article li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+.whitepaper-article table,
+.log-article table {
+  margin: 48px 0;
+  border-collapse: collapse;
+}
+.whitepaper-article th, .whitepaper-article td,
+.log-article th,
+.log-article td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+.whitepaper-article th,
+.log-article th {
+  font-weight: 700;
+  background-color: rgba(42, 42, 42, 0.02);
+}
+
+body {
+  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Now Display", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.status-board,
+.whitepaper-meta,
+.whitepaper-tags,
+.log-type,
+.log-status,
+.sidebar-nav {
+  font-family: "Space Mono", "Courier Prime", "Courier New", monospace;
+}
+
+a {
+  transition: color 150ms ease, border-color 150ms ease;
+}
+a:hover {
+  color: #FF4400;
+}
+
+code,
+pre {
+  font-family: "Space Mono", "Courier Prime", "Courier New", monospace;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
