@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 14px;
   line-height: 1.5;
   color: #2A2A2A;
@@ -330,7 +330,7 @@ img {
 }
 
 .console-layout h1 {
-  font-family: "Helvetica Now Display", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 48px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -342,7 +342,7 @@ img {
   margin-top: 4px;
 }
 .console-layout h2 {
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
@@ -351,7 +351,7 @@ img {
   color: rgba(42, 42, 42, 0.7);
 }
 .console-layout h3 {
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0;
@@ -402,7 +402,7 @@ img {
   display: flex;
   gap: 24px;
   margin-bottom: 48px;
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px;
   letter-spacing: 0;
   text-transform: capitalize;
@@ -424,7 +424,7 @@ img {
   display: inline-block;
   padding: 0;
   border: none;
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px;
   letter-spacing: 0;
   text-transform: capitalize;
@@ -440,7 +440,7 @@ img {
   display: flex;
   gap: 24px;
   margin-bottom: 48px;
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px;
   letter-spacing: 0;
   text-transform: capitalize;
@@ -512,11 +512,11 @@ img {
 }
 
 body {
-  font-family: "Helvetica Now", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Now Display", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: -0.04em;
 }
 
