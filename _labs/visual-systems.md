@@ -5,27 +5,26 @@ type: "DESIGN RESEARCH"
 status: "Active Research"
 ---
 
-# 1.0 THE FRAMEWORK
+# WHAT THIS EXPLORES
 
-**Visual systems are not collections of colors and fonts. They are operational frameworks.**
+Visual systems aren't color and font libraries. They're operational frameworks—how decisions get made at scale.
 
-A visual system defines how visual decisions get made at scale. It establishes constraints (rules) and provides mechanisms for generating novelty within those constraints.
+The question: How do teams maintain visual coherence without constant gatekeeping? What rules are actually inviolable? Which can bend? How does a system survive team changes, organizational growth, format migration?
 
-# 2.0 METHODOLOGY
+# HOW IT WORKS
 
-Visual systems research examines:
-- **Constraint hierarchies** - What rules are inviolable? What rules are flexible?
-- **Scalability patterns** - How do systems survive team growth and organizational change?
-- **Decision frameworks** - How do designers make consistent choices without explicit guidance on every pixel?
+Looking at constraint hierarchies. Scalability patterns. How designers make consistent choices without pixel-level guidance.
 
-# 3.0 APPLICATIONS
+The thread running through: the relationship between mathematical constraint (golden ratio, modular scale) and perceived visual harmony. How it works differently in digital, print, environmental space.
 
-This research feeds directly into:
-- Brand identity system architecture
-- Design operations workflows
-- Design token systems
-- Governance protocols for distributed teams
+# WHERE IT FEEDS
 
-# 4.0 CURRENT FOCUS
+This research doesn't stay theoretical. It becomes:
+- Architecture for brand systems
+- Design ops workflows
+- Design token structures
+- Governance frameworks for distributed teams
 
-Research into the relationship between mathematical constraint (golden ratio, modular scale) and perceived visual harmony across different media (digital, print, environmental).
+# STATUS
+
+Ongoing. Building frameworks that actually work, then testing them at scale.

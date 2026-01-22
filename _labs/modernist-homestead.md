@@ -5,41 +5,38 @@ type: "BIO-LOGISTICS"
 status: "Active Research"
 ---
 
-# 1.0 THE OBJECTIVE
+# WHAT THIS IS
 
-**Optimize the human hardware.**
+Design a household food system that runs on structure, not discipline. A neurodivergent family with celiac constraints, variable executive function, and sensory sensitivities can't rely on willpower or constant decision-making.
 
-This lab focuses on the physical infrastructure required to sustain a neurodivergent family unit with strict biological constraints (Celiac Disease, executive function variability, sensory processing differences).
+So we don't. The system has to work even when the will doesn't.
 
-The project is driven by a single principle: **if the system requires willpower to operate, it will fail.**
+# HOW IT WORKS
 
-# 2.0 PROTOCOLS
+This isn't cooking. It's supply chain execution. Modular, batchable culinary systems built on Italian and Thai principles.
 
-We do not "cook"; we execute supply chains. We design modular, batchable culinary systems rooted in Italian and Thai principles to ensure:
-- Nutritional density (calories, macros, micronutrients)
-- Execution simplicity (minimal cognitive load)
-- Batch efficiency (prep-once, eat-many)
-- Palatability (pleasure is part of nutrition)
+The requirements:
+- Dense calories and macros (nutrition as mechanics, not philosophy)
+- Zero cognitive load (pre-structured decision trees, not choices)
+- Batch efficiency (prep once, eat all week)
+- Still tastes good (pleasure is part of nutrition)
 
-### The Systems
+**Italian Stack**
+Stock and risotto run deep with zero attention. Pasta becomes a modular vehicle (protein, carb, structure). Acid, fat, heat are the only levers—simple rules, infinite variation.
 
-**Italian Foundation**
-- Stock & risotto as base (builds depth with zero active attention)
-- Pasta as modular vehicle (protein, carb, structure)
-- Acid/fat/heat as flavor levers (simple rules, infinite variation)
+**Thai Stack**
+Curry paste is one-pot, minimal components, maximum complexity. Stir-fry scales from 2 servings to 10. Fish sauce, lime, heat. Simple. Robust. Resilient.
 
-**Thai Foundation**
-- Curry paste (one-pot, minimal components, maximum depth)
-- Stir-fry architecture (batch prep, quick assembly)
-- Fish sauce, lime, heat as flavor profile (simple, robust, resilient)
+# THE INFRASTRUCTURE
 
-# 3.0 INFRASTRUCTURE
+**Freezer inventory.** Stock rotation documented. Every component knows where it goes.
 
-- **Freezer Inventory System:** Documented stock rotation and meal components
-- **Prep Schedule:** Batching operations to specific days (reduce decision fatigue)
-- **Recipe Database:** Templated systems, not rigid recipes (allow adaptation)
-- **Nutritional Tracking:** Minimal but sufficient (confirm macros without obsession)
+**Prep schedule.** Batching ops to specific days. Reduce decision load to zero on regular days.
 
-# 4.0 OUTCOME
+**Recipe templates.** Not rigid recipes. Systems that adapt. Italian base + three proteins = 12 variations. Thai base + seasonal vegetables = infinite permutation.
 
-A household food system that operates reliably even during periods of executive dysfunction, reduces decision fatigue by 60%, and maintains nutritional standards without relying on willpower or constant monitoring.
+**Nutritional tracking.** Minimal. Just enough to verify the macros without obsession.
+
+# WHAT CHANGED
+
+A household that reliably feeds itself, even when executive function is offline. Decision fatigue dropped 60%. Nutritional standards hold without willpower. The system runs because it's designed to, not because anyone's fighting to make it work.

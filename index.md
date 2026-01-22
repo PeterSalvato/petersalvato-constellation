@@ -4,69 +4,69 @@ title: "System Root"
 ---
 
 # PETER SALVATO
-## Principal Systems Architect
+## Systems Architect
 
-I architect durable systems. Enterprise infrastructure. Visual identity. Narrative simulation. Family logistics.
+I build systems, type, interfaces, and tools. Usually by hand. Always with intent.
 
-Twelve years designing systems that don't require willpower to operate.
+Twelve years designing things that hold.
 
 ---
 
-## THE EVIDENCE
+## EVIDENCE
 
-Commercial work. High-stakes architecture.
+Work that held. Long projects, high stakes.
 
 ### [The Encore Platform](/evidence/the-encore-platform)
-**12-year tenure** | 99.9% uptime | Mission-critical SaaS
+**12 years** | 99.9% uptime | Mission-critical SaaS
 
-A study in legacy modernization. Replacing the engine while the car drives at 60mph.
+Replacing the engine while the car drives at 60mph. A study in what happens when you refuse to break the rules just because they're old.
 
 ### [Visual Governance](/evidence/visual-governance)
-**Identity systems** | Brand coherence at scale
+**Identity systems** | Coherence at scale
 
-Luxury commerce. E-commerce platforms. Drift control.
+Luxury brands, commerce platforms. How structure holds when the pressure increases.
 
 ---
 
-## THE LABS
+## LABS
 
-Applied research. Experiments in logistics and aesthetics.
+Problems worth solving twice. Experiments with form and logistics.
 
 ### [New City](/labs/new-city)
 **Narrative simulation** | 40+ entity graph
 
-What happens when infrastructure fails? A fictional city stress-tested against economic collapse.
+Infrastructure stress test. What happens when the system fails? A fictional city built to understand collapse.
 
 ### [Modernist Homestead](/labs/modernist-homestead)
-**Bio-logistics** | Neurodivergent family systems
+**Family systems** | Zero-willpower operations
 
-Zero-willpower meal systems. Italian and Thai supply chains for household resilience.
+How to design a life that runs on structure, not discipline. Neurodivergent logistics. Supply chains for resilience.
 
 ### [Visual Systems](/labs/visual-systems)
-**Design research** | Constraint-based frameworks
+**Design research** | What survives change
 
-How visual systems survive organizational change.
+Visual systems that hold through organizational drift.
 
 ### [Math On Tape](/labs/math-on-tape)
-**Signal processing** | Live educational environment
+**Signal processing** | Tactile mathematics
 
-Tactile mathematics. Making abstract concepts physically graspable.
+Making abstract ideas physically graspable. Education as material practice.
 
 ---
 
-## THE PROTOCOLS
+## PROTOCOLS
 
-Operational frameworks. Methods that scale.
+Tools I needed. Methods that scale because they're built on clarity.
 
 ### [Savepoint](/protocols/savepoint)
-**Operational stability** | Documented recovery
+**Operational stability** | Moments of recovery
 
-How to architect moments of stability in complex systems.
+How to architect stability into complex systems. Documented recovery.
 
 ### [Order of the Aetherwright](/protocols/order-of-the-aetherwright)
 **Systems doctrine** | Clarity, consistency, coherence
 
-The discipline of designing intangible systems.
+The discipline of designing systems that exist only on paper and in practice.
 
 ---
 

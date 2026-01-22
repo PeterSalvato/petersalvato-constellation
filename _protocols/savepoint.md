@@ -5,40 +5,42 @@ type: "OPERATIONAL PROTOCOL"
 status: "Active Documentation"
 ---
 
-# 1.0 THE PROTOCOL
+# WHAT IT IS
 
-**A savepoint is a documented moment of stability in a complex system.**
+A savepoint is a documented moment of stability. In games, you can return to a known good state if the next decision breaks everything. In real work, you need the same thing.
 
-In narrative games, a savepoint allows you to return to a known good state if the next decision leads to catastrophe. In complex projects, savepoints are just as critical.
+# IN PRACTICE
 
-# 2.0 APPLICATION
+**Engineering projects:**
+- Define decision points (before refactors, deployments, schema changes)
+- Document state (code snapshot, database, config)
+- Create rollback paths (revert scripts, restoration procedures)
+- Execute and archive
 
-### Engineering Projects
-- Define clear decision points (before major refactors, deployments, schema changes)
-- Document the system state (code snapshot, database state, configuration)
-- Create a rollback path (revert script, data restoration procedure)
-- Execute the savepoint (commit, tag, archive)
-
-### Family Systems
-- Weekly check-ins that document household patterns (meals, sleep, mood)
-- Monthly reviews to identify emerging problems before crisis
-- Quarterly deep dives to adjust systems (if breakfast prep takes 90 min, it will fail)
+**Households:**
+- Weekly check-ins documenting patterns (meals, sleep, mood)
+- Monthly reviews to catch problems before crisis
+- Quarterly adjustments (if breakfast prep takes 90 minutes, it will fail)
 - Annual audits (are we still solving the right problem?)
 
-### Creative Work
-- Define scene completion criteria (not "done," but "stable")
-- Save the intermediate state (not just the latest draft)
-- Document what works (so you don't erase it in the next revision)
-- Create decision history (why did we choose this direction?)
+**Creative work:**
+- Define stability criteria (not "done," just "stable")
+- Save intermediate states (not just the final version)
+- Document what works (you don't want to erase it accidentally)
+- Keep decision history (why this direction?)
 
-# 3.0 THE DISCIPLINE
+# THE REQUIREMENTS
 
-Savepoints require:
-1. **Clarity** - Know what "stable" looks like
-2. **Documentation** - Write it down, don't hold it in your head
-3. **Automation** - Savepoints that require manual work will be skipped
-4. **Review** - Periodically verify your savepoints still work (test the rollback)
+**Clarity.** Know what "stable" actually means.
 
-# 4.0 OUTCOME
+**Documentation.** Write it down. Don't hold it in your head.
 
-Teams that practice savepoints recover faster from failures, make bolder decisions (because fallback is documented), and maintain institutional memory across member transitions.
+**Automation.** If savepoints require manual work, they won't happen.
+
+**Verification.** Periodically test the rollback. Make sure it actually works.
+
+# WHAT CHANGES
+
+Teams that do this recover faster from failures. They make bolder decisions because fallback is documented, not theoretical. They keep institutional memory when people leave.
+
+The discipline holds.

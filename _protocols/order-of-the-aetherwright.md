@@ -5,34 +5,39 @@ type: "OPERATIONAL DOCTRINE"
 status: "Active Documentation"
 ---
 
-# 1.0 THE FOUNDATION
+# WHAT THIS IS
 
-**The Aetherwright is an architect of intangible systems.**
+The Aetherwright designs systems that exist between the physical and digital. Process systems. Knowledge systems. Organizational structure.
 
-This protocol documents the discipline required to design and maintain systems that exist in the space between the physical and digital—systems of process, knowledge, and organizational structure.
+This documents the discipline required to make those systems actually work.
 
-# 2.0 THE THREE PILLARS
+# THE THREE PILLARS
 
-### Clarity
-Systems must be intellectually transparent. Ambiguity is debt. Every rule must have a reason; every exception must be documented.
+**Clarity**
+Systems must be intellectually transparent. Ambiguity is debt. Every rule needs a reason. Every exception needs documentation.
 
-### Consistency
-Systems that survive do so because they are predictable. Team members must be able to operate the system without constant recalibration. Consistency builds trust.
+**Consistency**
+Systems that survive are predictable. People operate them without constant recalibration. Consistency builds trust.
 
-### Coherence
-The system must be internally logicaladjustments in one area must cascade coherently through dependent areas. Incoherent systems generate hidden debt and team friction.
+**Coherence**
+The system must be logically sound. Changes in one area cascade through dependent areas without contradiction. Incoherent systems generate hidden debt and friction.
 
-# 3.0 PRINCIPLES
+# THE PRINCIPLES
 
-1. **Start with constraints** - Define what cannot happen before optimizing for what should happen
-2. **Make implicit decisions explicit** - Document decision points and decision criteria
-3. **Build feedback loops** - Systems that can't measure themselves can't improve themselves
-4. **Plan for succession** - Assume you won't be here to maintain this. Design for the next architect.
+Start with constraints. Define what cannot happen before optimizing what should.
 
-# 4.0 PRACTICE
+Make implicit decisions explicit. Document decision points and decision criteria.
 
-The Order requires:
-- Weekly system reviews (do we still need this rule?)
-- Quarterly architecture audits (is the system still coherent?)
-- Annual re-authorization (should this system continue to exist?)
-- Continuous documentation (if it's not written down, it didn't happen)
+Build feedback loops. Systems that can't measure themselves can't improve.
+
+Plan for succession. Assume you won't be here. Design for the next architect.
+
+# IN PRACTICE
+
+Weekly system reviews (do we still need this rule?)
+
+Quarterly audits (is this still coherent?)
+
+Annual re-authorization (should this system continue?)
+
+Continuous documentation (if it's not written down, it didn't happen)
