@@ -39,4 +39,4 @@ Curry paste is one-pot, minimal components, maximum complexity. Stir-fry scales 
 
 # WHAT CHANGED
 
-A household that reliably feeds itself, even when executive function is offline. Decision fatigue dropped 60%. Nutritional standards hold without willpower. The system runs because it's designed to, not because anyone's fighting to make it work.
+A household that reliably feeds itself, even when executive function is offline. Decision fatigue dropped 60%. Nutritional standards stay consistent without willpower. The system runs because it's designed to, not because anyone's fighting to make it work.

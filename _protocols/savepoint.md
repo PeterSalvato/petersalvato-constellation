@@ -43,4 +43,4 @@ A savepoint is a documented moment of stability. In games, you can return to a k
 
 Teams that do this recover faster from failures. They make bolder decisions because fallback is documented, not theoretical. They keep institutional memory when people leave.
 
-The discipline holds.
+It works because the structure does the work, not people.

@@ -8,13 +8,13 @@ title: "System Root"
 
 I build systems, type, interfaces, and tools. Usually by hand. Always with intent.
 
-Twelve years designing things that hold.
+Twelve years of work that didn't break when the pressure increased.
 
 ---
 
 ## EVIDENCE
 
-Work that held. Long projects, high stakes.
+Long projects. Systems that scaled through constraint, not luck.
 
 ### [The Encore Platform](/evidence/the-encore-platform)
 **12 years** | 99.9% uptime | Mission-critical SaaS
@@ -24,7 +24,7 @@ Replacing the engine while the car drives at 60mph. A study in what happens when
 ### [Visual Governance](/evidence/visual-governance)
 **Identity systems** | Coherence at scale
 
-Luxury brands, commerce platforms. How structure holds when the pressure increases.
+Luxury brands, commerce platforms. How identity stays coherent when teams grow and pressure increases.
 
 ---
 
