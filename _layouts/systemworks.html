@@ -354,6 +354,13 @@
 
                         <p class="artifact-result">{{ artifact.result }}</p>
 
+                        {% if artifact.case_study_focus %}
+                        <div class="artifact-case-study-focus" style="margin: 16px 0; padding: 12px 0; border-top: 1px solid #E5E5E0; border-bottom: 1px solid #E5E5E0;">
+                          <p style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #2A2A2A; margin-bottom: 8px;">Case Study Focus</p>
+                          <p style="font-family: 'EB Garamond', Georgia, serif; font-size: 14px; line-height: 1.6; color: #1A1A1A;">{{ artifact.case_study_focus }}</p>
+                        </div>
+                        {% endif %}
+
                         <div class="artifact-meta">
                             <div class="artifact-meta-label">Status:</div>
                             <div class="artifact-meta-value">{{ artifact.status }}</div>
