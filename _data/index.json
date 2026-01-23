@@ -1,0 +1,145 @@
+{
+  "manifesto": {
+    "id": "00",
+    "title": "SYSTEMS FOR SOVEREIGNTY",
+    "type": "manifesto",
+    "content": "I build sovereign, high-fidelity systems. Not products. Not SaaS. Systems designed for the gap between chaos and control.\n\nMost innovation fails because of Fidelity Drift—the growing distance between strategy, design, and implementation. By the time a product ships, the original intention has been compromised by frameworks, dependencies, and architectural shortcuts.\n\nI work at the seam of Design, Engineering, and AI Infrastructure. I am a Luthier—I build bespoke instruments because standard tools lack the resolution required for deep work.\n\nMy stack is intentionally idiosyncratic. Custom schemas. Local compute. Offline-first architecture. These choices are not over-engineering; they are Cognitive Ergonomics. They are built to scaffold the kind of rigor that prevents drift.\n\nThis site is not a portfolio. It is documentation of how a sovereign systems architect thinks. It is proof that you can build resilience \"in a vacuum,\" without corporate dependencies.\n\nWhat's here: Evidence of mastery. Underneath: Architecture. Beneath that: Philosophy."
+  },
+  "domains": [
+    {
+      "id": "01",
+      "name": "INFRASTRUCTURE",
+      "color": "blue",
+      "definition": "The Substrate. The Sovereign Stack. The Proof.",
+      "description": "Mission-critical systems that survive without external dependencies. Platforms that maintain integrity across technological epochs. The operational proof that sovereignty is achievable at scale.",
+      "artifacts": [
+        {
+          "id": "1.1",
+          "title": "THE ENCORE PLATFORM",
+          "context": "Enterprise Architecture & Sovereignty",
+          "spec": "12 years. 99.9% uptime. 40,000+ users. Strangler pattern legacy modernization maintaining system fidelity across technological epochs.",
+          "result": "Replaced the engine while the car drove at 60mph. Proof that you can maintain operational integrity while completely replacing core infrastructure. Systems that survived three technological epochs without drift.",
+          "status": "DEPLOYED",
+          "link": "/evidence/the-encore-platform",
+          "case_study_focus": "Fidelity Preservation Under Pressure"
+        },
+        {
+          "id": "1.2",
+          "title": "VISUAL GOVERNANCE",
+          "context": "Identity Systems at Scale & Organizational Resilience",
+          "spec": "Luxury brands scaling across e-commerce, print, retail, campaigns, social. Constraint hierarchies enabling distributed teams to extend identity coherently.",
+          "result": "$10M+ annual commerce. Visual coherence maintained through team transitions, market pressure, and organizational change. Proof that Taste is systematic, not decorative.",
+          "status": "ACTIVE",
+          "link": "/evidence/visual-governance",
+          "case_study_focus": "Taste as Engineering Constraint"
+        },
+        {
+          "id": "1.3",
+          "title": "HOMELAB STACK",
+          "context": "Sovereign Infrastructure & Offline Autonomy",
+          "spec": "Offline-first server infrastructure. Ubuntu + Docker + custom monitoring. Self-hosted everything: media server, automation, backup. Physical data sovereignty.",
+          "result": "Family media server, automated backups, AI compute, knowledge systems—all running on local hardware. Zero cloud dependencies. Proof of concept for truly sovereign infrastructure.",
+          "status": "LIVE",
+          "case_study_focus": "Independence Over Convenience"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "METHODS",
+      "color": "red",
+      "definition": "The Logic. The Protocols. The Discipline.",
+      "description": "Systems designed to be operated. Frameworks that scale because they're built on clarity and constraint. Evidence that rigor is the antidote to chaos.",
+      "artifacts": [
+        {
+          "id": "2.1",
+          "title": "SAVEPOINT PROTOCOL",
+          "context": "Cognitive Versioning & Drift Control",
+          "spec": "Documented moments of stability. Syntax-enforced recovery. Weekly reviews, quarterly audits. Mechanism for maintaining epistemic fidelity across time.",
+          "result": "Teams using Savepoint protocol recover 40% faster from context loss, make bolder architectural decisions, maintain institutional memory across team turnover.",
+          "status": "V3.0 - Open Source",
+          "link": "/protocols/savepoint",
+          "spoke_id": "savepoint",
+          "spoke_external_url": "https://savepoint.systems",
+          "hub_context": "Proof of Fidelity Preservation in distributed teams and context management at scale.",
+          "case_study_focus": "Fidelity Preservation in Teams"
+        },
+        {
+          "id": "2.2",
+          "title": "ORDER OF THE ÆTHERWRIGHT",
+          "context": "Systems Doctrine & Organizational Design",
+          "spec": "Three pillars: Clarity, Consistency, Coherence. Discipline for designing intangible systems that survive organizational pressure.",
+          "result": "Framework for building systems that scale without drift. Used by early-stage founders and design leaders to architect culture and infrastructure simultaneously.",
+          "status": "ACTIVE",
+          "link": "/protocols/order-of-the-aetherwright",
+          "case_study_focus": "Systems Survive When Built for Change"
+        },
+        {
+          "id": "2.3",
+          "title": "MODERNIST HOMESTEAD",
+          "context": "Applied Constraints & Resilience",
+          "spec": "Zero-willpower meal systems. Italian and Thai supply chains for household resilience. Chemical constraints (Celiac + allergies) as design parameters.",
+          "result": "Family that reliably feeds itself even when executive function is offline. Proof that rigorous constraints produce higher quality outcomes than willpower-dependent systems.",
+          "status": "ACTIVE",
+          "link": "/labs/modernist-homestead",
+          "spoke_id": "tasteonomy",
+          "spoke_external_url": "https://tasteonomy.com",
+          "hub_context": "A stress-test of software versioning logic and constraint systems applied to biological recipes.",
+          "case_study_focus": "Constraints Drive Quality"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "DESIGN",
+      "color": "green",
+      "definition": "The Semiotics. The Narrative. The Tangibility.",
+      "description": "Visual systems that survive organizational pressure. Research into how forms persist through change. Proof that Taste is not subjective—it is a system of variables.",
+      "artifacts": [
+        {
+          "id": "3.1",
+          "title": "NEW CITY",
+          "context": "Narrative Simulation & Systems Under Pressure",
+          "spec": "40+ entity graph stress-testing infrastructure collapse. Modeling: What happens when systems fail? How do humans respond? What breaks first?",
+          "result": "Operational architecture expressed as interactive narrative. Research into how systems maintain integrity under pressure. Foundation for understanding resilience in design.",
+          "status": "IN DEVELOPMENT",
+          "link": "/labs/new-city",
+          "case_study_focus": "Resilience is Designable"
+        },
+        {
+          "id": "3.2",
+          "title": "VISUAL SYSTEMS RESEARCH",
+          "context": "Design Operations & Organizational Scaling",
+          "spec": "How visual systems survive team growth and organizational drift. Constraint hierarchies. Distributed autonomy. Typographic governance.",
+          "result": "Framework for teams to extend design coherence without centralized control. Proof that 'Taste' can be systematized for scale.",
+          "status": "ONGOING",
+          "link": "/labs/visual-systems",
+          "case_study_focus": "Taste Scales Through Constraints"
+        },
+        {
+          "id": "3.3",
+          "title": "MATH ON TAPE",
+          "context": "Tangible Cognition & Educational Design",
+          "spec": "Tactile mathematics. Making abstract concepts physically graspable through interaction. Converting symbolic representation into sensory experience.",
+          "result": "Live environment used as primary teaching tool. Proof that understanding deepens when systems map to multiple cognitive channels.",
+          "status": "LIVE",
+          "link": "/labs/math-on-tape",
+          "case_study_focus": "Cognition Through Design"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "peter@petersalvato.com",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/petersalvato"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/petersalvato"
+      }
+    ]
+  }
+}

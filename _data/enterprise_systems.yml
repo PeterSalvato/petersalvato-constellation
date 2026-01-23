@@ -1,7 +1,0 @@
-- id: encore
-  title: "The Encore Platform"
-  subtitle: "A 12-Year Longitudinal Study"
-  role: "Principal Product Architect & Lead Frontend Engineer"
-  url: "/evidence/enterprise-systems/the-encore-platform"
-  status: "Active / Production"
-  stack: ["PHP", "JavaScript", "SCSS", "Legacy Stack"]

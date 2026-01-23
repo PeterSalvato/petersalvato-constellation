@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "label": "1.0 THE EVIDENCE",
+      "color": "creative",
+      "items": [
+        {
+          "label": "The Encore Platform",
+          "url": "/evidence/the-encore-platform"
+        },
+        {
+          "label": "Visual Governance",
+          "url": "/evidence/visual-governance"
+        }
+      ]
+    },
+    {
+      "label": "2.0 THE PROTOCOLS",
+      "color": "systems",
+      "items": [
+        {
+          "label": "Savepoint",
+          "url": "/protocols/savepoint"
+        },
+        {
+          "label": "The Order",
+          "url": "/protocols/order-of-the-aetherwright"
+        }
+      ]
+    },
+    {
+      "label": "3.0 THE LABS",
+      "color": "technical",
+      "items": [
+        {
+          "label": "New City (Sim)",
+          "url": "/labs/new-city"
+        },
+        {
+          "label": "Modernist Homestead",
+          "url": "/labs/modernist-homestead"
+        },
+        {
+          "label": "Visual Systems",
+          "url": "/labs/visual-systems"
+        },
+        {
+          "label": "Math On Tape",
+          "url": "/labs/math-on-tape"
+        }
+      ]
+    }
+  ]
+}
