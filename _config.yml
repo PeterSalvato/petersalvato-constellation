@@ -23,7 +23,10 @@ collections:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Tailwind CSS processing
 sass:
+  sass_dir: assets/css
   style: compressed
 
 # Exclude from build
