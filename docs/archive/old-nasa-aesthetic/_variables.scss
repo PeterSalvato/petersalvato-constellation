@@ -1,0 +1,76 @@
+// assets/css/_variables.scss
+// NASA Graphics Manual (1975) Inspired Design System
+
+// ===== COLOR PALETTE =====
+$color-white: #F4F4F0;           // Archival Paper
+$color-charcoal: #2A2A2A;        // Faded Carbon Ink
+$color-text: $color-charcoal;
+$color-accent: #FF4400;          // Safety Orange
+
+// Domain Colors (Aero-Space Brutalism)
+$color-creative: #b8523a;        // Red - Creative/Evidence
+$color-systems: #5a8c6f;         // Green - Systems/Labs
+$color-technical: #4a6fa5;       // Blue - Technical/Frontend
+
+// Neutral shades
+$color-light-gray: #f9f9f9;
+$color-border: #e5e5e5;
+$color-registration: rgba(0, 0, 0, 0.15);  // For crop marks
+
+// ===== TYPOGRAPHY =====
+// Primary: Rubik (display and body)
+$font-display: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-sans: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+// Data: Space Mono (monospace)
+$font-mono: 'Space Mono', 'Courier Prime', 'Courier New', monospace;
+
+// ===== FONT SIZING =====
+$font-size-base: 14px;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-size-xl: 20px;
+$font-size-2xl: 24px;
+$font-size-3xl: 32px;
+$font-size-4xl: 48px;
+$font-size-5xl: 64px;
+
+$line-height-tight: 1.1;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.8;
+
+// ===== LETTER SPACING (NASA style: tight for headers, wide for data) =====
+$tracking-tight: -0.04em;
+$tracking-normal: 0em;
+$tracking-wide: 0.04em;
+$tracking-wider: 0.08em;
+
+// ===== SPACING SCALE =====
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 24px;
+$space-xl: 32px;
+$space-2xl: 48px;
+$space-3xl: 64px;
+
+// ===== LAYOUT =====
+$sidebar-width: 320px;
+$content-max-width: 960px;
+$gutter: $space-xl;
+
+// ===== SIDEBAR TYPOGRAPHY =====
+$font-size-sidebar-base: 11px;
+$font-size-sidebar-title: 14px;
+$font-size-sidebar-link: 10px;
+
+// ===== BREAKPOINTS =====
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+$bp-wide: 1440px;
+
+// ===== TRANSITIONS =====
+$transition-fast: 150ms ease;
+$transition-normal: 300ms ease;
+$transition-slow: 500ms ease;

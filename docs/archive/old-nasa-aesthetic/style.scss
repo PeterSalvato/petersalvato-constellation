@@ -1,0 +1,631 @@
+// assets/css/style.scss
+
+@import 'variables';
+
+// Grain texture background (subtle, aged paper effect)
+@mixin grain-texture {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.02) 0px,
+      rgba(0, 0, 0, 0.02) 1px,
+      transparent 1px,
+      transparent 2px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+}
+
+// Reset & Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-sans;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  color: $color-text;
+  background-color: $color-white;
+  @include grain-texture;
+}
+
+// Typography Defaults
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: $line-height-tight;
+  margin-bottom: $space-md;
+}
+
+h1 {
+  font-size: $font-size-4xl;
+  margin-bottom: $space-sm;
+}
+
+h2 {
+  font-size: $font-size-2xl;
+  margin-top: $space-3xl;
+  margin-bottom: $space-lg;
+  font-weight: 400;
+  color: rgba($color-charcoal, 0.7);
+}
+
+h3 {
+  font-size: $font-size-lg;
+  margin-top: $space-2xl;
+  margin-bottom: $space-md;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+p {
+  margin-bottom: $space-lg;
+  max-width: 70ch;
+}
+
+p + h2,
+p + h3 {
+  margin-top: $space-3xl;
+}
+
+a {
+  color: $color-charcoal;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color $transition-fast;
+
+  &:hover {
+    border-bottom-color: $color-charcoal;
+  }
+}
+
+// Page Layout Grid
+.page-layout {
+  display: grid;
+  grid-template-columns: $sidebar-width 1fr;
+  min-height: 100vh;
+
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Main Content Wrapper
+.content-wrapper {
+  padding: $space-2xl;
+
+  @media (max-width: $bp-tablet) {
+    padding: $space-xl;
+  }
+
+  @media (max-width: $bp-mobile) {
+    padding: $space-lg;
+  }
+}
+
+// ===== SIDEBAR NAVIGATION =====
+
+.sidebar-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: $sidebar-width;
+  height: 100vh;
+  background-color: $color-white;
+  border-right: 0.5px solid #f0f0f0;
+  padding: $space-xl $space-md;
+  overflow-y: auto;
+  font-family: $font-mono;
+  font-size: $font-size-sidebar-base;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  @include grain-texture;
+
+  @media (max-width: $bp-tablet) {
+    display: none;
+    width: 250px;
+    z-index: 999;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+
+    &.active {
+      display: block;
+    }
+
+    @media (max-width: $bp-mobile) {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+}
+
+.sidebar-header {
+  margin-bottom: $space-2xl;
+  padding-bottom: $space-lg;
+  border-bottom: 1px solid $color-border;
+}
+
+.sidebar-title {
+  font-size: $font-size-sidebar-title;
+  font-weight: 700;
+  line-height: $line-height-tight;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.sidebar-menu {
+  list-style: none;
+}
+
+.nav-section {
+  margin-bottom: $space-2xl;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.nav-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0 0 $space-md 0;
+  padding: 0;
+  border: none;
+  letter-spacing: 0.5px;
+  color: rgba($color-charcoal, 0.5);
+  text-transform: uppercase;
+
+  &.nav-section-title--creative {
+    color: rgba($color-charcoal, 0.5);
+  }
+
+  &.nav-section-title--systems {
+    color: rgba($color-charcoal, 0.5);
+  }
+
+  &.nav-section-title--technical {
+    color: rgba($color-charcoal, 0.5);
+  }
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-bottom: $space-md;
+
+  a {
+    font-size: $font-size-sidebar-link;
+    color: $color-charcoal;
+    text-decoration: none;
+    border: none;
+    display: block;
+    padding: 0;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+// ===== MOBILE HEADER & HAMBURGER MENU =====
+
+.mobile-header {
+  display: none;
+
+  @media (max-width: $bp-tablet) {
+    display: block;
+    padding: $space-md;
+    background-color: $color-white;
+    border-bottom: 1px solid $color-border;
+    @include grain-texture;
+  }
+}
+
+.hamburger-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: $space-sm;
+  width: 40px;
+  height: 40px;
+  position: relative;
+
+  @media (max-width: $bp-tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: $color-charcoal;
+    transition: all $transition-normal;
+    border-radius: 1px;
+  }
+
+  &.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  &.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  &.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+}
+
+// ===== RESPONSIVE REFINEMENTS & FINAL POLISH =====
+
+// Responsive Image Handling
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Improve readability on mobile
+@media (max-width: $bp-mobile) {
+  h1 {
+    font-size: $font-size-2xl;
+  }
+
+  h2 {
+    font-size: $font-size-xl;
+  }
+
+  h3 {
+    font-size: $font-size-lg;
+  }
+}
+
+// Print styles
+@media print {
+  .sidebar-nav,
+  .mobile-header {
+    display: none;
+  }
+
+  .page-layout {
+    display: block;
+  }
+
+  .content-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    border: none;
+  }
+}
+
+// ===== PRINTER EXHAUST AESTHETIC (NASA Graphics Manual Inspired) =====
+
+// Crop Marks (Registration marks at page corners)
+.crop-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $color-registration;
+  pointer-events: none;
+
+  // Top-Left
+  &.crop-mark--tl {
+    top: $space-xl;
+    left: $space-xl;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  // Top-Right
+  &.crop-mark--tr {
+    top: $space-xl;
+    right: $space-xl;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  // Bottom-Left
+  &.crop-mark--bl {
+    bottom: $space-xl;
+    left: $space-xl;
+    border-right: none;
+    border-top: none;
+  }
+
+  // Bottom-Right
+  &.crop-mark--br {
+    bottom: $space-xl;
+    right: $space-xl;
+    border-left: none;
+    border-top: none;
+  }
+}
+
+// Timestamp Slug (Vertical text along right margin)
+.timestamp-slug {
+  position: fixed;
+  right: $space-md;
+  top: 50%;
+  transform: translateY(-50%) rotate(270deg);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: $font-mono;
+  font-size: $font-size-sm;
+  letter-spacing: $tracking-wider;
+  color: $color-charcoal;
+  opacity: 0.2;
+  pointer-events: none;
+  white-space: nowrap;
+  user-select: none;
+  z-index: -1;
+
+  @media (max-width: $bp-tablet) {
+    display: none;
+  }
+}
+
+// Console-specific typography
+.console-layout {
+  h1 {
+    font-family: $font-display;
+    font-size: $font-size-4xl;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: $space-xs;
+    text-transform: none;
+  }
+
+  h1 + h2 {
+    margin-top: $space-xs;
+  }
+
+  h2 {
+    font-family: $font-sans;
+    font-size: $font-size-lg;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: $space-3xl;
+    margin-bottom: $space-xl;
+    color: rgba($color-charcoal, 0.7);
+  }
+
+  h3 {
+    font-family: $font-sans;
+    font-size: $font-size-lg;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: $space-2xl;
+    margin-bottom: $space-sm;
+  }
+
+  > p:first-of-type {
+    font-size: $font-size-lg;
+    line-height: 1.6;
+    margin-bottom: $space-2xl;
+    color: $color-charcoal;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba($color-charcoal, 0.1);
+    margin: $space-3xl 0;
+  }
+}
+
+// Status Board (Table styling)
+.status-board {
+  margin: $space-2xl 0;
+  font-family: $font-mono;
+  font-size: $font-size-md;
+  letter-spacing: $tracking-wide;
+
+  .row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    padding: $space-sm $space-md;
+    border-bottom: 1px solid $color-border;
+
+    .label {
+      font-weight: 700;
+      color: $color-charcoal;
+      text-transform: uppercase;
+    }
+
+    .value {
+      color: $color-charcoal;
+
+      &.active {
+        color: $color-accent;
+      }
+    }
+  }
+}
+
+// Whitepaper article styling
+.whitepaper-article {
+  max-width: $content-max-width;
+  margin: 0 auto;
+
+  .whitepaper-meta {
+    display: flex;
+    gap: $space-lg;
+    margin-bottom: $space-2xl;
+    font-family: $font-sans;
+    font-size: $font-size-sm;
+    letter-spacing: 0;
+    text-transform: capitalize;
+
+    .label {
+      font-weight: 700;
+      color: rgba($color-charcoal, 0.6);
+    }
+
+    .value {
+      color: $color-charcoal;
+    }
+  }
+
+  .whitepaper-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-md;
+    margin-bottom: $space-2xl;
+
+    .tag {
+      display: inline-block;
+      padding: 0;
+      border: none;
+      font-family: $font-sans;
+      font-size: $font-size-sm;
+      letter-spacing: 0;
+      text-transform: capitalize;
+      color: rgba($color-charcoal, 0.7);
+    }
+  }
+}
+
+// Log article styling
+.log-article {
+  max-width: $content-max-width;
+  margin: 0 auto;
+
+  .log-type,
+  .log-status {
+    display: flex;
+    gap: $space-lg;
+    margin-bottom: $space-2xl;
+    font-family: $font-sans;
+    font-size: $font-size-sm;
+    letter-spacing: 0;
+    text-transform: capitalize;
+
+    .label {
+      font-weight: 700;
+      color: rgba($color-charcoal, 0.6);
+      min-width: auto;
+    }
+
+    .value {
+      color: $color-charcoal;
+    }
+  }
+}
+
+// Article content typography
+.whitepaper-article,
+.log-article {
+  h1 {
+    font-size: $font-size-3xl;
+    margin-top: 0;
+    margin-bottom: $space-xl;
+  }
+
+  h2 {
+    font-size: $font-size-xl;
+    margin-top: $space-3xl;
+    margin-bottom: $space-lg;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: $font-size-lg;
+    margin-top: $space-2xl;
+    margin-bottom: $space-md;
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: $space-lg;
+    max-width: 70ch;
+    line-height: 1.7;
+  }
+
+  ul, ol {
+    margin-bottom: $space-lg;
+    padding-left: $space-lg;
+  }
+
+  li {
+    margin-bottom: $space-sm;
+    line-height: 1.6;
+  }
+
+  table {
+    margin: $space-2xl 0;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: $space-md;
+    text-align: left;
+    border-bottom: 1px solid $color-border;
+  }
+
+  th {
+    font-weight: 700;
+    background-color: rgba($color-charcoal, 0.02);
+  }
+}
+
+// ===== UPDATED TYPOGRAPHY FOR HELVETICA NOW =====
+
+body {
+  font-family: $font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-display;
+  letter-spacing: $tracking-tight;
+}
+
+// Data typography (Space Mono)
+.status-board,
+.whitepaper-meta,
+.whitepaper-tags,
+.log-type,
+.log-status,
+.sidebar-nav {
+  font-family: $font-mono;
+}
+
+// Links with safety orange accent on hover
+a {
+  transition: color $transition-fast, border-color $transition-fast;
+
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+// Code blocks in Space Mono
+code,
+pre {
+  font-family: $font-mono;
+  font-size: $font-size-sm;
+}
