@@ -22,8 +22,8 @@ domains:
   - id: "01"
     name: "INFRASTRUCTURE"
     color: "blue"
-    definition: "The Substrate. The Code. The Hardware."
-    description: "Mission-critical systems that scale. Platforms that survive technological epochs. The operational backbone."
+    definition: "The Substrate. The Sovereign Stack. The Proof."
+    description: "Mission-critical systems that survive without external dependencies. Platforms that maintain integrity across technological epochs. The operational proof that sovereignty is achievable at scale."
     artifacts:
       - id: "1.1"
         title: "THE ENCORE PLATFORM"
@@ -51,8 +51,8 @@ domains:
   - id: "02"
     name: "METHODS"
     color: "red"
-    definition: "The Logic. The Workflows. The Protocols."
-    description: "Systems designed to be operated. Frameworks that scale because they're built on clarity."
+    definition: "The Logic. The Protocols. The Discipline."
+    description: "Systems designed to be operated. Frameworks that scale because they're built on clarity and constraint. Evidence that rigor is the antidote to chaos."
     artifacts:
       - id: "2.1"
         title: "SAVEPOINT PROTOCOL"
@@ -87,8 +87,8 @@ domains:
   - id: "03"
     name: "DESIGN"
     color: "green"
-    definition: "The Semiotics. The Narrative. The World."
-    description: "Visual systems that survive change. Research into how forms persist through organizational pressure."
+    definition: "The Semiotics. The Narrative. The Tangibility."
+    description: "Visual systems that survive organizational pressure. Research into how forms persist through change. Proof that Taste is not subjective—it is a system of variables."
     artifacts:
       - id: "3.1"
         title: "NEW CITY"
