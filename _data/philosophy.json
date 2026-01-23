@@ -2,34 +2,29 @@
   "philosophy": {
     "sections": [
       {
-        "id": "drift-control",
-        "title": "FIDELITY DRIFT: The Core Problem",
-        "content": "Most enterprises lose their original intent between strategy and execution. Slack erodes context. Jira obscures vision. Documentation rots.\n\nI use AI not to generate content, but to maintain cognitive context across massive datasets. Every system I build includes Drift Control: mechanisms to preserve fidelity from concept through implementation."
+        "id": "chassis",
+        "title": "THE CHASSIS MATTERS",
+        "content": "Before you design anything, you understand what people are actually trying to build. That's where everything else comes from. A broken foundation breaks everything on top."
       },
       {
-        "id": "sovereignty",
-        "title": "SOVEREIGNTY: Independence Over Convenience",
-        "content": "Renting infrastructure creates fragility. Cloud-dependent systems fail when connectivity breaks. SaaS platforms diverge from your actual needs.\n\nI build Offline-First architectures. Systems that work without the grid. This is not anachronistic; it is resilience."
+        "id": "clarity",
+        "title": "CLARITY OVER BUZZWORDS",
+        "content": "Most people talk about this with design cosplay. Jargon masquerading as depth. Not useful."
       },
       {
-        "id": "neuro-ergonomics",
-        "title": "NEURO-ERGONOMICS: Designing for Cognition",
-        "content": "Most interfaces are designed for mass adoption. They create noise to maximize engagement.\n\nI design for signal. Interfaces that reduce cognitive load. High information density without overwhelm. Tools that scaffold rather than distract."
-      },
-      {
-        "id": "luthier",
-        "title": "THE LUTHIER MODEL: Building Custom Instruments",
-        "content": "A luthier doesn't build guitars with SaaS APIs and off-the-shelf electronics. They understand wood, acoustics, and the specific needs of the musician.\n\nI build software the same way. Custom schemas. Tailored constraints. Bespoke architectures.\n\nThe complexity is not over-engineering. It is resolution."
+        "id": "custom",
+        "title": "CUSTOM THINKING",
+        "content": "Each problem gets the approach it needs. Not the approach that's trendy or convenient."
       }
     ],
     "engagement": [
       {
         "title": "Who I Work With",
-        "content": "- Founders building Zero-to-One systems who need an architect that can scaffold culture and infrastructure simultaneously.\n- Complex Domain Leaders (BioTech, AI, Logistics, Infrastructure) who need interfaces that reduce risk and error.\n- R&D Labs that need to bridge Research Papers and Working Prototypes."
+        "content": "- Founders building systems that need an architect.\n- Complex domain leaders who need interfaces that reduce risk.\n- Teams that need to bridge research and working prototypes."
       },
       {
-        "title": "My Constraints",
-        "content": "- I value Async & Deep Work over Always-On availability.\n- I prioritize System Integrity over Quick Hacks.\n- I work best when given Autonomy to solve the problem, not execute tickets.\n- I filter for leadership that respects the complexity of deep work."
+        "title": "How I Work",
+        "content": "- Deep evaluation of what you're actually trying to build.\n- Custom approach. No templates.\n- Async. Deep work. Not always-on availability."
       }
     ]
   }
