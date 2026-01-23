@@ -3,8 +3,10 @@ google_fonts:
   - Helvetica Now:400,700
   - Space Mono:400,700
 
-title: Peter Salvato
-description: Principal Systems Architect | Operationalizing Intuition
+title: "Peter Salvato"
+description: "Design Systems Architect. Operational systems. Technical infrastructure."
+author: "Peter Salvato"
+email: "peter@petersalvato.com"
 url: "https://petersalvato.github.io/petersalvato-constellation"
 baseurl: "/petersalvato-constellation"
 
@@ -36,3 +38,8 @@ exclude:
   - Gemfile.lock
   - vendor/
   - docs/plans/
+  - /node_modules
+  - /package.json
+  - /package-lock.json
+  - /tailwind.config.js
+  - /.gitignore
