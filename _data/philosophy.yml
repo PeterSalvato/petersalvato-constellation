@@ -1,0 +1,45 @@
+philosophy:
+  sections:
+    - id: "drift-control"
+      title: "FIDELITY DRIFT: The Core Problem"
+      content: |
+        Most enterprises lose their original intent between strategy and execution. Slack erodes context. Jira obscures vision. Documentation rots.
+
+        I use AI not to generate content, but to maintain cognitive context across massive datasets. Every system I build includes Drift Control: mechanisms to preserve fidelity from concept through implementation.
+
+    - id: "sovereignty"
+      title: "SOVEREIGNTY: Independence Over Convenience"
+      content: |
+        Renting infrastructure creates fragility. Cloud-dependent systems fail when connectivity breaks. SaaS platforms diverge from your actual needs.
+
+        I build Offline-First architectures. Systems that work without the grid. This is not anachronistic; it is resilience.
+
+    - id: "neuro-ergonomics"
+      title: "NEURO-ERGONOMICS: Designing for Cognition"
+      content: |
+        Most interfaces are designed for mass adoption. They create noise to maximize engagement.
+
+        I design for signal. Interfaces that reduce cognitive load. High information density without overwhelm. Tools that scaffold rather than distract.
+
+    - id: "luthier"
+      title: "THE LUTHIER MODEL: Building Custom Instruments"
+      content: |
+        A luthier doesn't build guitars with SaaS APIs and off-the-shelf electronics. They understand wood, acoustics, and the specific needs of the musician.
+
+        I build software the same way. Custom schemas. Tailored constraints. Bespoke architectures.
+
+        The complexity is not over-engineering. It is resolution.
+
+  engagement:
+    - title: "Who I Work With"
+      content: |
+        - Founders building Zero-to-One systems who need an architect that can scaffold culture and infrastructure simultaneously.
+        - Complex Domain Leaders (BioTech, AI, Logistics, Infrastructure) who need interfaces that reduce risk and error.
+        - R&D Labs that need to bridge Research Papers and Working Prototypes.
+
+    - title: "My Constraints"
+      content: |
+        - I value Async & Deep Work over Always-On availability.
+        - I prioritize System Integrity over Quick Hacks.
+        - I work best when given Autonomy to solve the problem, not execute tickets.
+        - I filter for leadership that respects the complexity of deep work.

@@ -280,6 +280,50 @@
         </div>
         {% endif %}
 
+        <!-- Philosophy Section -->
+        {% if site.data.philosophy %}
+        <div class="philosophy-section" style="margin: 96px 0; max-width: 1000px; margin-left: auto; margin-right: auto;">
+          <h2 style="font-size: 32px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 48px; border-bottom: 2px solid #1A1A1A; padding-bottom: 24px;">THE PHILOSOPHY</h2>
+
+          <div class="philosophy-subsections" style="display: grid; gap: 64px; margin-bottom: 96px;">
+            {% for section in site.data.philosophy.philosophy.sections %}
+            <div class="philosophy-subsection" style="border-bottom: 1px solid #E5E5E0; padding-bottom: 48px;">
+              <h3 style="font-size: 20px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 24px;">{{ section.title }}</h3>
+              <div style="font-size: 14px; line-height: 1.8; max-width: 900px;">
+                {% assign paragraphs = section.content | split: "
+" %}
+                {% for paragraph in paragraphs %}
+                  {% if paragraph != "" %}
+                    <p style="margin-bottom: 16px;">{{ paragraph }}</p>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+          <!-- Engagement Section -->
+          <div class="engagement-section" style="border-top: 2px solid #1A1A1A; padding-top: 48px;">
+            <h2 style="font-size: 28px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 48px;">ENGAGEMENT MODELS</h2>
+
+            {% for engagement in site.data.philosophy.philosophy.engagement %}
+            <div style="margin-bottom: 48px;">
+              <h3 style="font-size: 16px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 16px;">{{ engagement.title }}</h3>
+              <div style="font-size: 14px; line-height: 1.8; max-width: 900px;">
+                {% assign lines = engagement.content | split: "
+" %}
+                {% for line in lines %}
+                  {% if line != "" %}
+                    <p style="margin-bottom: 12px;">{{ line }}</p>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
         <!-- Domains -->
         <div class="domains-container">
             {% for domain in site.data.index.domains %}
