@@ -1,0 +1,38 @@
+# Google Fonts Import
+google_fonts:
+  - Helvetica Now:400,700
+  - Space Mono:400,700
+
+title: Peter Salvato
+description: Principal Systems Architect | Operationalizing Intuition
+url: "https://petersalvato.github.io/petersalvato-constellation"
+baseurl: "/petersalvato-constellation"
+
+# Jekyll Collections
+collections:
+  evidence:
+    output: true
+    permalink: /evidence/:path/
+  protocols:
+    output: true
+    permalink: /protocols/:path/
+  labs:
+    output: true
+    permalink: /labs/:path/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Tailwind CSS processing
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - docs/plans/
