@@ -2,7 +2,7 @@
   "sections": [
     {
       "label": "1.0 THE EVIDENCE",
-      "color": "creative",
+      "color": "blue",
       "items": [
         {
           "label": "The Encore Platform",
@@ -16,7 +16,7 @@
     },
     {
       "label": "2.0 THE PROTOCOLS",
-      "color": "systems",
+      "color": "red",
       "items": [
         {
           "label": "Savepoint",
@@ -30,7 +30,7 @@
     },
     {
       "label": "3.0 THE LABS",
-      "color": "technical",
+      "color": "green",
       "items": [
         {
           "label": "New City (Sim)",
