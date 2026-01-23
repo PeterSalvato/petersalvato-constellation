@@ -1,0 +1,47 @@
+holding_company:
+  hub:
+    name: "petersalvato.com"
+    function: "Glass Box / Meta-Layer / Command Center"
+    description: "Full transparency. Explains systems thinking, reveals the machinery, aggregates the ecosystem."
+
+  spokes:
+    - id: "tasteonomy"
+      name: "Tasteonomy"
+      type: "Product / Sensory Systems"
+      url: "https://tasteonomy.com"
+      description: "Algorithmic sensory systems applied to culinary arts."
+      hub_framing: "A stress-test of software versioning logic and constraint systems applied to biological recipes."
+      hub_artifact_id: "2.3"
+      rules:
+        - "Operates as independent brand"
+        - "Does not mention Peter the Architect"
+        - "Does not link back to Hub"
+        - "Graduation from side project to venture"
+
+    - id: "joinery"
+      name: "Joinery"
+      type: "Service / Operational Interface"
+      url: "https://joinerysystemworks.com"
+      description: "Modular operational architecture and consulting interface."
+      hub_framing: "Proof of Headless business logic and API-first organizational design."
+      hub_artifact_id: "Overarching"
+      rules:
+        - "Operates as independent consulting brand"
+        - "Does not mention the Hub ecosystem"
+        - "Stands alone as complete service offering"
+        - "Graduation from internal framework to market offering"
+
+    - id: "savepoint"
+      name: "Savepoint"
+      type: "Framework / Knowledge Management"
+      url: "https://savepoint.systems"
+      description: "Zero-latency knowledge engine and cognitive versioning protocol."
+      hub_framing: "Proof of Fidelity Preservation in distributed teams and context management at scale."
+      hub_artifact_id: "2.1"
+      rules:
+        - "Operates as open-source framework"
+        - "Does not link to consulting practice"
+        - "Stands alone as technical tool"
+        - "Graduation to independent technical asset"
+
+  bridge_principle: "The Hub reveals the systems thinking. The Spokes prove it works in the wild."

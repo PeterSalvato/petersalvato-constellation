@@ -320,6 +320,16 @@
                             <a href="{{ artifact.link }}">Read more →</a>
                         </p>
                         {% endif %}
+
+                        {% if artifact.spoke_id %}
+                        <div style="margin-top: 24px; padding: 16px; border-left: 4px solid #3A5F85; background-color: #F9F9F9;">
+                          <p style="font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: #2A2A2A; margin-bottom: 12px;">Standalone Spoke</p>
+                          <p style="font-size: 14px; line-height: 1.6;">{{ artifact.hub_context }}</p>
+                          <p style="margin-top: 12px;">
+                            <a href="{{ artifact.spoke_external_url }}" target="_blank" rel="noopener" style="font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;">Visit {{ artifact.spoke_id }} →</a>
+                          </p>
+                        </div>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
