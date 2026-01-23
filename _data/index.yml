@@ -3,21 +3,20 @@
 
 manifesto:
   id: "00"
-  title: "PRINCIPLES"
+  title: "SYSTEMS FOR SOVEREIGNTY"
   type: "manifesto"
   content: |
-    I build durable systems. My work sits at the intersection of design, engineering, and strategy.
+    I build sovereign, high-fidelity systems. Not products. Not SaaS. Systems designed for the gap between chaos and control.
 
-    Twelve years of architecture that didn't break when pressure increased.
+    Most innovation fails because of Fidelity Drift—the growing distance between strategy, design, and implementation. By the time a product ships, the original intention has been compromised by frameworks, dependencies, and architectural shortcuts.
 
-    I came up through screen shops and grid systems, writing type by hand and code by habit.
-    Design from SVA. Published work at Random House and Sterling. Years in brands, interfaces,
-    systems that had to scale without breaking.
+    I work at the seam of Design, Engineering, and AI Infrastructure. I am a Luthier—I build bespoke instruments because standard tools lack the resolution required for deep work.
 
-    That foundation shaped everything: the work itself, the way I approach it, the frameworks
-    I've built to understand it better.
+    My stack is intentionally idiosyncratic. Custom schemas. Local compute. Offline-first architecture. These choices are not over-engineering; they are Cognitive Ergonomics. They are built to scaffold the kind of rigor that prevents drift.
 
-    What's here is the visible part. Underneath is structure. Beneath that, process.
+    This site is not a portfolio. It is documentation of how a sovereign systems architect thinks. It is proof that you can build resilience "in a vacuum," without corporate dependencies.
+
+    What's here: Evidence of mastery. Underneath: Architecture. Beneath that: Philosophy.
 
 domains:
   - id: "01"
