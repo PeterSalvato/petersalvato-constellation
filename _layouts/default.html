@@ -6,123 +6,13 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}Peter Salvato</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
 
-    <!-- Google Fonts: Inter, EB Garamond, Space Mono -->
+    <!-- Google Fonts: Rubik, EB Garamond, Space Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-</head>
-<body>
-        /* Layout: Sidebar + Content */
-        body {
-            display: flex;
-            background-color: #F4F4F0;
-            color: #1A1A1A;
-        }
-
-        .sidebar-nav {
-            width: 350px;
-            background-color: #FFFFFF;
-            border-right: 2px solid #1A1A1A;
-            padding: 32px 24px;
-            position: fixed;
-            height: 100vh;
-            overflow-y: auto;
-            font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        }
-
-        .sidebar-header {
-            margin-bottom: 48px;
-            border-bottom: 1px solid #E5E5E0;
-            padding-bottom: 24px;
-        }
-
-        .sidebar-title {
-            font-size: 16px;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-            line-height: 1.3;
-            margin: 0;
-            text-transform: uppercase;
-        }
-
-        .sidebar-title a {
-            color: inherit;
-            text-decoration: none;
-            cursor: pointer;
-            transition: opacity 0.2s ease;
-        }
-
-        .sidebar-title a:hover {
-            opacity: 0.7;
-        }
-
-        .sidebar-menu {
-            display: flex;
-            flex-direction: column;
-            gap: 32px;
-        }
-
-        .nav-section-title {
-            font-size: 10px;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 12px;
-            color: #1A1A1A;
-        }
-
-        .nav-section-title--blue { color: #3A5F85; }
-        .nav-section-title--red { color: #A64B2A; }
-        .nav-section-title--green { color: #6B8E5F; }
-
-        .nav-list {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .nav-list a {
-            font-size: 11px;
-            letter-spacing: 0.05em;
-            color: #1A1A1A;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            padding-bottom: 2px;
-            transition: border-color 0.2s ease;
-        }
-
-        .nav-list a:hover {
-            border-bottom-color: #1A1A1A;
-        }
-
-        .main-content {
-            margin-left: 350px;
-            flex: 1;
-            padding: 64px 48px;
-            max-width: 1200px;
-            margin: 0 0 0 350px;
-            width: calc(100% - 350px);
-        }
-
-        /* Responsive */
-
-            .main-content {
-                margin-left: 0;
-                width: 100%;
-                padding: 32px 24px;
-            }
-
-            body {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <!-- Main Stylesheet (Jekyll compiles main.scss → main.css) -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
 
