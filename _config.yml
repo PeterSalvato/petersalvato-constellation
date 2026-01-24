@@ -26,7 +26,7 @@ collections:
 markdown: kramdown
 permalink: pretty
 
-# Tailwind CSS processing
+# SASS/SCSS processing
 sass:
   sass_dir: assets/css
   style: compressed
