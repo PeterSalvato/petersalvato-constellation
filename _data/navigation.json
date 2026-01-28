@@ -1,52 +1,60 @@
 {
   "sections": [
     {
-      "label": "1.0 THE EVIDENCE",
-      "color": "blue",
-      "items": [
-        {
-          "label": "The Encore Platform",
-          "url": "/evidence/the-encore-platform"
-        },
-        {
-          "label": "Visual Governance",
-          "url": "/evidence/visual-governance"
-        }
-      ]
-    },
-    {
-      "label": "2.0 THE PROTOCOLS",
-      "color": "red",
-      "items": [
-        {
-          "label": "Savepoint",
-          "url": "/protocols/savepoint"
-        },
-        {
-          "label": "The Order",
-          "url": "/protocols/order-of-the-aetherwright"
-        }
-      ]
-    },
-    {
-      "label": "3.0 THE LABS",
+      "label": "01. PLATFORMS",
       "color": "green",
       "items": [
         {
-          "label": "New City (Sim)",
-          "url": "/labs/new-city"
+          "label": "Encore",
+          "url": "/platforms/encore"
         },
         {
-          "label": "Modernist Homestead",
-          "url": "/labs/modernist-homestead"
+          "label": "Aiden-Jae",
+          "url": "/platforms/aiden-jae"
         },
         {
-          "label": "Visual Systems",
-          "url": "/labs/visual-systems"
+          "label": "Altrueism",
+          "url": "/platforms/altrueism"
+        }
+      ]
+    },
+    {
+      "label": "02. PROTOCOLS",
+      "color": "red",
+      "items": [
+        {
+          "label": "Savepoint Protocol",
+          "url": "/protocols/savepoint-protocol"
         },
         {
-          "label": "Math On Tape",
-          "url": "/labs/math-on-tape"
+          "label": "Order of the Ætherwright",
+          "url": "/protocols/order-of-the-aetherwright"
+        },
+        {
+          "label": "Culinary Mentor",
+          "url": "/protocols/culinary-mentor"
+        }
+      ]
+    },
+    {
+      "label": "03. ARTIFACTS",
+      "color": "blue",
+      "items": [
+        {
+          "label": "New City",
+          "url": "/artifacts/new-city"
+        },
+        {
+          "label": "Everyday Gold",
+          "url": "/artifacts/everyday-gold"
+        },
+        {
+          "label": "Photogeography",
+          "url": "/artifacts/photogeography"
+        },
+        {
+          "label": "Colophon",
+          "url": "/artifacts/colophon"
         }
       ]
     }
