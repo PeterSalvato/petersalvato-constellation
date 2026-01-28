@@ -1,26 +1,29 @@
 # Google Fonts Import
 google_fonts:
-  - Helvetica Now:400,700
-  - Space Mono:400,700
+  - EB Garamond:400,700
+  - Baskerville:400,700
 
 title: "Peter Salvato"
-description: "Systems Architect for High-Fidelity Cognition. I build sovereign, resilient systems that treat complexity as a feature."
+description: "Principal Architect | Systems & Implementation Infrastructure"
 author: "Peter Salvato"
 email: "peter@petersalvato.com"
 url: "https://petersalvato.github.io/petersalvato-constellation"
 baseurl: "/petersalvato-constellation"
 
-# Jekyll Collections
+# SEO Keywords (Dual-Layer Strategy)
+seo_keywords: ["Senior Engineering Lead", "UX Architect", "Design Systems", ".NET Core", "Front-end Engineer", "Information Architecture", "Systems Architecture"]
+
+# Jekyll Collections (Altitude IA)
 collections:
-  evidence:
+  platforms:
     output: true
-    permalink: /evidence/:path/
+    permalink: /platforms/:path/
   protocols:
     output: true
     permalink: /protocols/:path/
-  labs:
+  artifacts:
     output: true
-    permalink: /labs/:path/
+    permalink: /artifacts/:path/
 
 # Build settings
 markdown: kramdown
