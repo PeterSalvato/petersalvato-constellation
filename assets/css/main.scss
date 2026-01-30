@@ -116,11 +116,11 @@ a {
 
 #sidebar-nav {
   background-color: $color-white;
-  border-right: 2px solid $color-text;
+  border-right: 1px solid $color-border;
   padding: $padding-standard $padding-medium;
   position: fixed;
   width: $sidebar-width;
-  //height: 100vh;
+  height: 100vh;
   overflow-y: auto;
   font-family: $font-sans;
   z-index: 100;
