@@ -4,26 +4,26 @@ google_fonts:
   - Baskerville:400,700
 
 title: "Peter Salvato"
-description: "Principal Architect | Systems & Implementation Infrastructure"
+description: "I build durable, autonomous infrastructure at the intersection of classical design and full-stack engineering."
 author: "Peter Salvato"
 email: "peter@petersalvato.com"
 url: "https://petersalvato.github.io/petersalvato-constellation"
 baseurl: "/petersalvato-constellation"
 
 # SEO Keywords (Dual-Layer Strategy)
-seo_keywords: ["Senior Engineering Lead", "UX Architect", "Design Systems", ".NET Core", "Front-end Engineer", "Information Architecture", "Systems Architecture"]
+seo_keywords: ["Systems Architect", "Design Systems", "Front-end Engineering", "Information Architecture", ".NET Core", "Full-Stack Engineering", "AI DevOps"]
 
-# Jekyll Collections (Altitude IA)
+# Jekyll Collections (3-Tier IA)
 collections:
-  platforms:
-    output: true
-    permalink: /platforms/:path/
   protocols:
     output: true
     permalink: /protocols/:path/
-  artifacts:
+  systems:
     output: true
-    permalink: /artifacts/:path/
+    permalink: /systems/:path/
+  practice:
+    output: true
+    permalink: /practice/:path/
 
 # Build settings
 markdown: kramdown
@@ -40,7 +40,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
-  - docs/plans/
+  - docs/
   - /node_modules
   - /package.json
   - /package-lock.json

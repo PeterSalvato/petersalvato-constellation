@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-**Peter Salvato's portfolio site** showcasing systems architecture work, using Jekyll for static generation and GitHub Pages for hosting.
+**Peter Salvato's portfolio site** — a Master Builder's workbench. Jekyll static generation, GitHub Pages hosting.
 
-**Key Concept:** Cognitive Exoskeleton thesis — building sovereign, high-fidelity systems without SaaS dependencies.
+**Key Concept:** Systems Architect — Design × Engineering × Strategy. Construction-site pragmatism applied to digital architecture. Supporting creative teams and neurodivergent founders.
 
 ---
 
@@ -15,7 +15,7 @@
 - **Hosting:** GitHub Pages (`petersalvato-constellation` repo)
 - **Baseurl:** `/petersalvato-constellation`
 - **Data:** JSON (`_data/*.json`)
-- **Collections:** `_evidence/`, `_protocols/`, `_labs/`
+- **Collections:** `_protocols/`, `_systems/`, `_practice/`
 
 ---
 
@@ -33,11 +33,13 @@
 | File | Purpose |
 |------|---------|
 | `assets/css/main.scss` | **All styles** (Jekyll compiles to main.css) |
-| `_data/navigation.json` | Sidebar navigation structure |
-| `_data/index.json` | Portfolio content, manifesto, projects |
+| `_data/navigation.json` | Sidebar navigation structure (3 tiers + About) |
+| `_data/index.json` | Portfolio content, manifesto, routes, contact |
 | `_layouts/systemworks.html` | Homepage layout |
 | `_layouts/whitepaper.html` | Case study pages layout |
-| `_layouts/log.html` | Lab/protocol pages layout |
+| `_layouts/log.html` | Protocol pages layout |
+| `_layouts/workbench-spec.html` | Detailed spec pages layout |
+| `_layouts/domain-index.html` | Tier landing pages layout |
 | `_layouts/default.html` | Base layout with sidebar |
 | `_includes/sidebar-nav.html` | Sidebar navigation component |
 | `_config.yml` | Jekyll config (baseurl, collections, etc.) |
@@ -48,35 +50,51 @@
 
 ### Layout Structure
 - **Always side-by-side** (no mobile stacking)
-- **Sidebar:** 350px fixed width, always visible
-- **Main content:** calc(100% - 350px)
+- **Sidebar:** 250px fixed width, always visible
+- **Main content:** Offset by sidebar width + padding
 - **Responsive:** Only for tablets/mobile (if needed in future)
 
+### 3-Tier Structure
+
+The site organizes work by intent across three tiers, plus a biographical section:
+
+1. **Protocols** (red) — Governing logic and cognitive firmware (`_protocols/`)
+2. **Applied Systems** (blue) — Production deployments under constraint (`_systems/`)
+3. **Practice** (green) — Systemic research and expression (`_practice/`)
+4. **About** (neutral) — Provenance + Colophon (standalone pages)
+
+### Tier Landing Pages
+- `/protocols/` — Lists Protocol artifacts (Savepoint, Aetherwright, AI DevOps Workbench, Portable Agency)
+- `/systems/` — Lists Applied Systems artifacts (Encore, Joinery, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead)
+- `/practice/` — Lists Practice artifacts (New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams)
+- `/provenance/` — Full biographical page (no artifact list)
+
 ### Collections
-- **_evidence/:** Mission-critical infrastructure projects
-- **_protocols/:** Methods and frameworks (Savepoint, Order of the Ætherwright)
-- **_labs/:** Research and experimental work
+- **_protocols/:** Foundational logic — Savepoint Protocol, Order of the Aetherwright, AI DevOps Workbench, Portable Agency
+- **_systems/:** Production deployments — Encore, Joinery, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead
+- **_practice/:** Creative research — New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams, Colophon
 
 ### Data Structure
-- **navigation.json:** Sidebar sections (Evidence, Protocols, Labs)
-- **index.json:** Manifesto, three domains, artifacts, contact
+- **navigation.json:** Sidebar sections (3 tiers + About, with color coding)
+- **index.json:** Manifesto, three routes with artifacts, contact, legend
 - **holding_company.json:** Hub-and-Spokes architecture documentation
 
 ---
 
 ## Voice & Positioning
 
-**Tone:** Direct, grounded, no jargon, no performance
-**Not:** Self-serious, academic, design cosplay
-**Examples:**
-- ✓ "Most systems fail because the parts don't talk to each other"
-- ✗ "I build sovereign, high-fidelity systems designed for the gap between chaos and control"
+**Protocol:** Master Builder voice. Full reference at `/docs/voice-protocol.md`.
 
-**Key Concepts:**
-- **Fidelity Drift:** Gap between strategy and implementation
-- **Sovereignty:** Independence from SaaS, offline-first
-- **Cognitive Ergonomics:** Interfaces designed for signal, not noise
-- **Luthier Model:** Bespoke custom systems, not off-the-shelf
+**Summary:**
+- Direct, concrete, specific. Materials and joints, not abstractions.
+- Short declarative sentences. Longer ones only for causal chains.
+- Lead with what was built. Then why. Then what it survived.
+- No jargon that hasn't been earned through real work.
+- No performance, no self-mythologizing.
+- Every sentence must pass: "Would you say this out loud to a peer you respect?"
+
+**Key vocabulary:** Build, hold, structure, durable, constraint, govern, fabrication, scaffold, stable
+**Never use:** Paradigm, leverage, passionate, innovative, synergy, empower, journey
 
 ---
 
@@ -94,7 +112,7 @@ assets/css/main.scss
 ```
 
 ### Add Project
-1. Create file: `_evidence/project-name.md` (or `_protocols/` or `_labs/`)
+1. Create file: `_protocols/project-name.md` (or `_systems/` or `_practice/`)
 2. Add frontmatter:
    ```yaml
    ---
@@ -104,13 +122,13 @@ assets/css/main.scss
    tags: [tag1, tag2]
    ---
    ```
-3. Write markdown content
+3. Write markdown content in Master Builder voice
 4. Push to deploy
 
 ### Update Homepage Content
 Edit: `_data/index.json`
 - `manifesto.content` — Opening statement
-- `domains[].artifacts[]` — Project listings
+- `routes[].artifacts[]` — Project listings
 
 ---
 
@@ -121,12 +139,14 @@ Edit: `_data/index.json`
 - Edit only `main.scss`, never `main.css` (auto-generated)
 - Use `{{ '/' | relative_url }}` for internal links (respects baseurl)
 - Test locally with `jekyll serve` before pushing
+- Write all copy in Master Builder voice (see `/docs/voice-protocol.md`)
 
 **Never:**
 - Edit compiled CSS (`main.css`)
 - Break the sidebar + main-content flex layout
 - Stack layout on desktop (always side-by-side)
 - Change baseurl unless redirecting domain
+- Use jargon, aspirational language, or marketing copy
 
 ---
 
@@ -158,24 +178,24 @@ Edit: `_data/index.json`
 ## Future Work
 
 - Integrate Itshover icons (semantic + aesthetic use, hover microinteractions)
-- Refactor philosophy section if needed
 - Hub-and-Spokes documentation (currently in `_data/holding_company.json`)
 
 ---
 
 ## Key Learnings
 
-1. **Multi-page structure is intentional** — Collections + sidebar nav preserve granular project pages
-2. **350px sidebar is fixed** — All pages always show it (no mobile stacking for now)
-3. **Voice matters** — Direct, grounded tone. No self-seriousness.
+1. **3-tier structure is intentional** — Protocols / Applied Systems / Practice, organized by intent
+2. **250px sidebar is fixed** — All pages always show it (no mobile stacking for now)
+3. **Voice matters** — Master Builder: direct, concrete, grounded. See `/docs/voice-protocol.md`
 4. **JSON over YAML** — User preference for data layer
 5. **Jekyll native SCSS** — No npm watch needed; saves friction for remote development
 6. **baseurl requirement** — Deployed at `/petersalvato-constellation/`, affects all links
+7. **`routes` not `domains`** — Data key in index.json is `routes`, templates iterate `site.data.index.routes`
 
 ---
 
 ## See Also
 
+- `/docs/voice-protocol.md` — Full Master Builder voice protocol
 - `/DEV.md` — Detailed dev operations guide
-- `/README.md` — Project overview (if exists)
 - GitHub Repo: https://github.com/PeterSalvato/petersalvato-constellation

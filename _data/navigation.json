@@ -1,25 +1,7 @@
 {
   "sections": [
     {
-      "label": "01. PLATFORMS",
-      "color": "green",
-      "items": [
-        {
-          "label": "Encore",
-          "url": "/platforms/encore"
-        },
-        {
-          "label": "Aiden-Jae",
-          "url": "/platforms/aiden-jae"
-        },
-        {
-          "label": "Altrueism",
-          "url": "/platforms/altrueism"
-        }
-      ]
-    },
-    {
-      "label": "02. PROTOCOLS",
+      "label": "01. PROTOCOLS",
       "color": "red",
       "items": [
         {
@@ -27,34 +9,90 @@
           "url": "/protocols/savepoint-protocol"
         },
         {
-          "label": "Order of the Ætherwright",
+          "label": "Order of the Aetherwright",
           "url": "/protocols/order-of-the-aetherwright"
         },
         {
-          "label": "Culinary Mentor",
-          "url": "/protocols/culinary-mentor"
+          "label": "AI DevOps Workbench",
+          "url": "/protocols/ai-devops-workbench"
+        },
+        {
+          "label": "Portable Agency",
+          "url": "/protocols/portable-agency"
         }
       ]
     },
     {
-      "label": "03. ARTIFACTS",
+      "label": "02. APPLIED SYSTEMS",
       "color": "blue",
       "items": [
         {
-          "label": "New City",
-          "url": "/artifacts/new-city"
+          "label": "Encore / Cluen",
+          "url": "/systems/encore"
+        },
+        {
+          "label": "Joinery",
+          "url": "/systems/joinery"
+        },
+        {
+          "label": "Aiden-Jae",
+          "url": "/systems/aiden-jae"
         },
         {
           "label": "Everyday Gold",
-          "url": "/artifacts/everyday-gold"
+          "url": "/systems/everyday-gold"
+        },
+        {
+          "label": "Altrueism",
+          "url": "/systems/altrueism"
+        },
+        {
+          "label": "Modernist Homestead",
+          "url": "/systems/modernist-homestead"
+        }
+      ]
+    },
+    {
+      "label": "03. PRACTICE",
+      "color": "green",
+      "items": [
+        {
+          "label": "New City",
+          "url": "/practice/new-city"
+        },
+        {
+          "label": "MathOnTape",
+          "url": "/practice/mathontape"
         },
         {
           "label": "Photogeography",
-          "url": "/artifacts/photogeography"
+          "url": "/practice/photogeography"
+        },
+        {
+          "label": "The Deep Cuts",
+          "url": "/practice/deep-cuts"
+        },
+        {
+          "label": "Echo & Bone",
+          "url": "/practice/echo-and-bone"
+        },
+        {
+          "label": "Versagrams",
+          "url": "/practice/versagrams"
+        }
+      ]
+    },
+    {
+      "label": "04. ABOUT",
+      "color": "neutral",
+      "items": [
+        {
+          "label": "Provenance",
+          "url": "/provenance"
         },
         {
           "label": "Colophon",
-          "url": "/artifacts/colophon"
+          "url": "/practice/colophon"
         }
       ]
     }

@@ -10,9 +10,9 @@ layout: default
 
     <div id="domain-artifacts">
         {% assign page_title = page.title | upcase %}
-        {% for domain in site.data.index.domains %}
-            {% if domain.name == page_title %}
-                {% for artifact in domain.artifacts %}
+        {% for route in site.data.index.routes %}
+            {% if route.name == page_title %}
+                {% for artifact in route.artifacts %}
                 <div class="domain-artifact">
                     <div class="artifact-id">{{ artifact.id }}</div>
                     <h2><a href="{{ artifact.link }}">{{ artifact.title }}</a></h2>

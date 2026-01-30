@@ -5,7 +5,7 @@ layout: default
 <!-- Header -->
 <div id="systemworks-header">
     <h1>PETER SALVATO</h1>
-    <p>Systems Architect for High-Fidelity Cognition</p>
+    <p>Systems Architect — Design × Engineering × Strategy</p>
 </div>
 
 <!-- Manifesto -->
@@ -24,13 +24,13 @@ layout: default
 </div>
 {% endif %}
 
-<!-- Domain Cards -->
-<div id="domain-cards">
-    {% for domain in site.data.index.domains %}
-    <a href="/{{ domain.name | downcase }}/" class="domain-card">
-        <h3 class="domain-card-title domain-card-title--{{ domain.color }}">{{ domain.name }}</h3>
-        <p class="domain-card-description">{{ domain.description }}</p>
-        <span class="domain-card-link">Explore →</span>
+<!-- Route Cards -->
+<div id="route-cards">
+    {% for route in site.data.index.routes %}
+    <a href="{{ route.url | relative_url }}" class="route-card">
+        <h3 class="route-card-title route-card-title--{{ route.color }}">{{ route.name }}</h3>
+        <p class="route-card-description">{{ route.description }}</p>
+        <span class="route-card-link">Explore →</span>
     </a>
     {% endfor %}
 </div>

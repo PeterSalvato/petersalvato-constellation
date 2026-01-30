@@ -4,8 +4,8 @@ layout: default
 
 {% assign page_title_upper = page.title | upcase %}
 {% assign artifact = nil %}
-{% for domain in site.data.index.domains %}
-  {% for art in domain.artifacts %}
+{% for route in site.data.index.routes %}
+  {% for art in route.artifacts %}
     {% assign art_title_upper = art.title | upcase %}
     {% if art_title_upper contains page_title_upper %}
       {% assign artifact = art %}

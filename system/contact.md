@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Contact | Peter Salvato
+title: Contact
 ---
 
 # CONTACT
 
 ## Peter Salvato
-**Principal Systems Architect**
+
+I build durable systems for complex environments.
 
 **Email:** [peter@petersalvato.com](mailto:peter@petersalvato.com)
 **LinkedIn:** [linkedin.com/in/petersalvato](https://linkedin.com/in/petersalvato)
@@ -15,12 +16,13 @@ title: Contact | Peter Salvato
 ---
 
 ## Availability
+
 Currently accepting:
-- ✓ Architecture consulting engagements
-- ✓ Systems audits
-- ✓ Long-term product leadership roles
+- Architecture consulting engagements
+- Systems audits
+- Long-term product leadership roles
 
 Not accepting:
-- ✗ Short-term contract work (<3 months)
-- ✗ "Design refresh" projects
-- ✗ Spec work
+- Short-term contract work (under 3 months)
+- "Design refresh" projects
+- Spec work

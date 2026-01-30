@@ -12,10 +12,11 @@ $color-border: #E5E5E0;
 $color-text-secondary: #2A2A2A;
 $color-white: #FFFFFF;
 
-// Domain Colors
+// Route Colors
 $color-blue: #3A5F85;
 $color-red: #A64B2A;
 $color-green: #6B8E5F;
+$color-neutral: #7A7A72;
 
 // Typography
 $font-serif: 'EB Garamond', Georgia, serif;
@@ -173,6 +174,7 @@ a {
         &--blue { color: $color-blue; }
         &--red { color: $color-red; }
         &--green { color: $color-green; }
+        &--neutral { color: $color-neutral; }
       }
 
       .nav-list {
@@ -254,7 +256,7 @@ a {
   }
 }
 
-#domain-cards {
+#route-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: $gap-xlarge;
@@ -262,7 +264,7 @@ a {
   margin: 0 auto;
   margin-top: $gap-xxxlarge;
 
-  .domain-card {
+  .route-card {
     border: 2px solid $color-text;
     padding: $gap-xlarge;
     text-decoration: none;
@@ -282,7 +284,7 @@ a {
       flex-grow: 1;
     }
 
-    .domain-card-title {
+    .route-card-title {
       font-family: $font-sans;
       font-size: 24px;
       font-weight: 700;
@@ -294,16 +296,17 @@ a {
       &--blue { color: $color-blue; }
       &--red { color: $color-red; }
       &--green { color: $color-green; }
+      &--neutral { color: $color-neutral; }
     }
 
-    .domain-card-description {
+    .route-card-description {
       font-family: $font-serif;
       font-size: 14px;
       line-height: 1.7;
       margin-bottom: $gap-xlarge;
     }
 
-    .domain-card-link {
+    .route-card-link {
       font-family: $font-sans;
       font-size: 12px;
       font-weight: 600;

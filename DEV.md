@@ -2,8 +2,6 @@
 
 ## Project Setup
 
-**Project Root:** `/home/peter/homelab/projects/active/petersalvato.com/`
-
 **Tech Stack:**
 - Jekyll 4.4.1 (static site generator)
 - Ruby (Gemfile)
@@ -44,7 +42,7 @@ Edit: `assets/css/main.scss`
 - Refresh browser to see changes
 
 **4. Edit content**
-- Markdown files: `index.md`, `_evidence/*.md`, `_protocols/*.md`, `_labs/*.md`
+- Markdown files: `index.md`, `_protocols/*.md`, `_systems/*.md`, `_practice/*.md`
 - Data files: `_data/*.json`
 - Templates: `_layouts/*.html`
 - Includes: `_includes/*.html`
@@ -92,12 +90,26 @@ git push origin main
 | `assets/css/main.css` | Compiled CSS (auto-generated) |
 | `_layouts/*.html` | Page templates |
 | `_includes/sidebar-nav.html` | Sidebar navigation |
-| `_data/*.json` | Content data (navigation, projects, etc.) |
-| `_evidence/` | Case study projects |
-| `_protocols/` | Protocol/framework projects |
-| `_labs/` | Lab/research projects |
+| `_data/*.json` | Content data (navigation, routes, etc.) |
+| `_protocols/` | Governing logic and cognitive firmware |
+| `_systems/` | Production deployments under constraint |
+| `_practice/` | Systemic research and expression |
+| `provenance/` | Biographical narrative |
+| `protocols/` | Tier landing page |
+| `systems/` | Tier landing page |
+| `practice/` | Tier landing page |
+| `docs/voice-protocol.md` | Master Builder voice reference |
 | `_config.yml` | Jekyll configuration |
 | `Gemfile` | Ruby dependencies |
+
+---
+
+## Site Structure (3 Tiers + About)
+
+1. **Protocols** (red) — `_protocols/` → Savepoint Protocol, Order of the Aetherwright, AI DevOps Workbench, Portable Agency
+2. **Applied Systems** (blue) — `_systems/` → Encore, Joinery, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead
+3. **Practice** (green) — `_practice/` → New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams, Colophon
+4. **About** (neutral) — `provenance/` → Biographical narrative
 
 ---
 
@@ -114,9 +126,9 @@ nano/vim assets/css/main.scss
 
 ### Add New Project
 1. Create markdown file in appropriate collection:
-   - Evidence: `_evidence/project-name.md`
    - Protocols: `_protocols/project-name.md`
-   - Labs: `_labs/project-name.md`
+   - Systems: `_systems/project-name.md`
+   - Practice: `_practice/project-name.md`
 
 2. Add frontmatter:
    ```markdown
@@ -127,15 +139,15 @@ nano/vim assets/css/main.scss
    ---
    ```
 
-3. Write content
+3. Write content in Master Builder voice (see `docs/voice-protocol.md`)
 4. Push to deploy
 
 ### Update Navigation
 Edit: `_data/navigation.json`
 Changes appear immediately on next build.
 
-### Update Manifesto/Philosophy
-Edit: `_data/index.json` (sections: `manifesto` and top-level fields)
+### Update Homepage Content
+Edit: `_data/index.json` (sections: `manifesto`, `routes`)
 Changes appear on next build.
 
 ---
@@ -164,10 +176,6 @@ Changes appear on next build.
 - GitHub Actions auto-builds and deploys
 - Live in ~30 seconds at `petersalvato.github.io/petersalvato-constellation`
 
-**Manual (Remote Server)**
-- Already pushing to GitHub, so no manual deploy needed
-- Server mirrors production at all times
-
 ---
 
 ## Notes
@@ -177,3 +185,4 @@ Changes appear on next build.
 - **All data in JSON** for consistency
 - **Collections structure** keeps projects organized
 - **Multi-page layout** preserved (sidebar + main content always visible)
+- **Voice:** All copy follows Master Builder protocol (see `docs/voice-protocol.md`)
