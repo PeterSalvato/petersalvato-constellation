@@ -206,8 +206,8 @@ a {
 // ============================================================================
 
 #main-content {
-  padding-left: $sidebar-width;
   padding: $padding-large $padding-large;
+  padding-left: $sidebar-width;
 
   #container {
     max-width: $container-max-width;
