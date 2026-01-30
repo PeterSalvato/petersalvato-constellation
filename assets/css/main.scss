@@ -207,7 +207,7 @@ a {
 
 #main-content {
   padding: $padding-large $padding-large;
-  padding-left: $sidebar-width;
+  padding-left: calc($sidebar-width + 2rem);
 
   #container {
     max-width: $container-max-width;
