@@ -57,7 +57,7 @@ html, body {
 }
 
 body {
-  display: flex;
+  display: block;
   background-color: $color-background;
   color: $color-text;
   font-family: $font-serif;
@@ -115,12 +115,12 @@ a {
 // ============================================================================
 
 #sidebar-nav {
-  width: $sidebar-width;
   background-color: $color-white;
   border-right: 2px solid $color-text;
   padding: $padding-standard $padding-medium;
   position: fixed;
-  height: 100vh;
+  width: $sidebar-width;
+  //height: 100vh;
   overflow-y: auto;
   font-family: $font-sans;
   z-index: 100;
@@ -205,7 +205,7 @@ a {
 // ============================================================================
 
 #main-content {
-  margin-left: $sidebar-width;
+  padding-left: $sidebar-width;
   flex: 1;
   width: calc(100% - #{$sidebar-width});
   padding: $padding-large $padding-large;
