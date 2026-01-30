@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 {% assign page_title_upper = page.title | upcase %}
 {% assign artifact = nil %}
 {% for domain in site.data.index.domains %}
@@ -9,71 +13,46 @@
   {% endfor %}
 {% endfor %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | Peter Salvato</title>
-    {% if page.client %}<meta name="description" content="Client: {{ page.client }}.">{% endif %}
+<div id="whitepaper-header">
+    <h1>{{ page.title }}</h1>
 
-    <!-- Google Fonts: Rubik, EB Garamond, Space Mono -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Main Stylesheet (Jekyll compiles main.scss → main.css) -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-</head>
-<body>
-    {% include sidebar-nav.html %}
-    <main class="main-content">
-    <div class="container">
-        <div class="whitepaper-header">
-            <h1>{{ page.title }}</h1>
-
-            <div class="whitepaper-meta">
-                {% if page.client %}
-                <div class="meta-item">
-                    <div class="meta-label">Client</div>
-                    <div class="meta-value">{{ page.client }}</div>
-                </div>
-                {% endif %}
-
-                {% if artifact.status %}
-                <div class="meta-item">
-                    <div class="meta-label">Status</div>
-                    <div class="meta-value">{{ artifact.status }}</div>
-                </div>
-                {% endif %}
-
-                {% if page.tags %}
-                <div class="meta-item">
-                    <div class="meta-label">Tags</div>
-                    <div class="meta-value">{{ page.tags | join: ", " }}</div>
-                </div>
-                {% endif %}
-            </div>
-        </div>
-
-        {% if artifact.case_study_focus %}
-        <div class="strategic-context">
-            <div class="label">Strategic Context</div>
-            <div class="focus">{{ artifact.case_study_focus }}</div>
+    <div id="whitepaper-meta">
+        {% if page.client %}
+        <div class="meta-item">
+            <div class="meta-label">Client</div>
+            <div class="meta-value">{{ page.client }}</div>
         </div>
         {% endif %}
 
-        <div class="whitepaper-content">
-            {{ content }}
+        {% if artifact.status %}
+        <div class="meta-item">
+            <div class="meta-label">Status</div>
+            <div class="meta-value">{{ artifact.status }}</div>
         </div>
+        {% endif %}
 
-        {% if artifact.spoke_external_url %}
-        <div class="spoke-link">
-            <a href="{{ artifact.spoke_external_url }}" target="_blank" rel="noopener">Visit {{ artifact.spoke_id | capitalize }} →</a>
+        {% if page.tags %}
+        <div class="meta-item">
+            <div class="meta-label">Tags</div>
+            <div class="meta-value">{{ page.tags | join: ", " }}</div>
         </div>
         {% endif %}
     </div>
-    </main>
-</body>
-</html>
+</div>
+
+{% if artifact.case_study_focus %}
+<div id="strategic-context">
+    <div class="label">Strategic Context</div>
+    <div class="focus">{{ artifact.case_study_focus }}</div>
+</div>
+{% endif %}
+
+<div id="whitepaper-content">
+    {{ content }}
+</div>
+
+{% if artifact.spoke_external_url %}
+<div id="spoke-link">
+    <a href="{{ artifact.spoke_external_url }}" target="_blank" rel="noopener">Visit {{ artifact.spoke_id | capitalize }} →</a>
+</div>
+{% endif %}

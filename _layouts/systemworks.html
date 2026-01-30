@@ -1,71 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: 'Peter Salvato' }}</title>
-    <meta name="description" content="Systems Architect for High-Fidelity Cognition. I build sovereign, resilient systems that treat complexity as a feature.">
+---
+layout: default
+---
 
-    <!-- Google Fonts: Inter, EB Garamond, Space Mono -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<!-- Header -->
+<div id="systemworks-header">
+    <h1>PETER SALVATO</h1>
+    <p>Systems Architect for High-Fidelity Cognition</p>
+</div>
 
-    <!-- Tailwind CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-</head>
-<body>
-    {% include sidebar-nav.html %}
-    <main class="main-content">
-    <div class="container">
-        <!-- Header -->
-        <div class="systemworks-header">
-            <h1>PETER SALVATO</h1>
-            <p>Systems Architect for High-Fidelity Cognition</p>
-        </div>
-
-        <!-- Manifesto -->
-        {% if site.data.index.manifesto %}
-        <div class="manifesto-section">
-            <h2>{{ site.data.index.manifesto.title }}</h2>
-            <div>
-                {% assign paragraphs = site.data.index.manifesto.content | split: "
+<!-- Manifesto -->
+{% if site.data.index.manifesto %}
+<div id="manifesto-section">
+    <h2>{{ site.data.index.manifesto.title }}</h2>
+    <div>
+        {% assign paragraphs = site.data.index.manifesto.content | split: "
 " %}
-                {% for paragraph in paragraphs %}
-                  {% if paragraph != "" %}
-                    <p>{{ paragraph }}</p>
-                  {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        <!-- Domain Cards -->
-        <div class="domain-cards">
-            {% for domain in site.data.index.domains %}
-            <a href="/{{ domain.name | downcase }}/" class="domain-card">
-                <h3 class="domain-card-title domain-card-title--{{ domain.color }}">{{ domain.name }}</h3>
-                <p class="domain-card-description">{{ domain.description }}</p>
-                <span class="domain-card-link">Explore →</span>
-            </a>
-            {% endfor %}
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <p>
-                {% if site.data.index.contact.email %}
-                <a href="mailto:{{ site.data.index.contact.email }}">{{ site.data.index.contact.email }}</a>
-                {% endif %}
-            </p>
-            <div class="footer-links">
-                {% for link in site.data.index.contact.links %}
-                <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
-                {% endfor %}
-            </div>
-        </footer>
+        {% for paragraph in paragraphs %}
+          {% if paragraph != "" %}
+            <p>{{ paragraph }}</p>
+          {% endif %}
+        {% endfor %}
     </div>
-    </main>
-</body>
-</html>
+</div>
+{% endif %}
+
+<!-- Domain Cards -->
+<div id="domain-cards">
+    {% for domain in site.data.index.domains %}
+    <a href="/{{ domain.name | downcase }}/" class="domain-card">
+        <h3 class="domain-card-title domain-card-title--{{ domain.color }}">{{ domain.name }}</h3>
+        <p class="domain-card-description">{{ domain.description }}</p>
+        <span class="domain-card-link">Explore →</span>
+    </a>
+    {% endfor %}
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>
+        {% if site.data.index.contact.email %}
+        <a href="mailto:{{ site.data.index.contact.email }}">{{ site.data.index.contact.email }}</a>
+        {% endif %}
+    </p>
+    <div class="footer-links">
+        {% for link in site.data.index.contact.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
+        {% endfor %}
+    </div>
+</footer>

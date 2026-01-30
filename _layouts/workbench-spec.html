@@ -1,92 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | Peter Salvato</title>
-    <meta name="description" content="{% if page.drift %}{{ page.drift | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+---
+layout: default
+---
 
-    <!-- Google Fonts: EB Garamond, Baskerville, Space Mono -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<!-- Altitude Header -->
+{% if page.altitude %}
+<div class="altitude-marker">{{ page.altitude }}</div>
+{% endif %}
 
-    <!-- Main Stylesheet (Jekyll compiles main.scss → main.css) -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
 
-</head>
-<body>
-    {% include sidebar-nav.html %}
-    <main class="main-content">
-    <div class="container">
-        <!-- Altitude Header -->
-        {% if page.altitude %}
-        <div class="altitude-marker">{{ page.altitude }}</div>
-        {% endif %}
-
-        <!-- Page Title -->
-        <h1>{{ page.title }}</h1>
-
-        <!-- Technical Specification Sidebar -->
-        <div class="workbench-spec">
-            {% if page.drift %}
-            <div class="spec-block">
-                <div class="spec-label">Drift Identified</div>
-                <div class="spec-content">{{ page.drift }}</div>
-            </div>
-            {% endif %}
-
-            {% if page.scaffold %}
-            <div class="spec-block">
-                <div class="spec-label">Scaffold Installed</div>
-                <div class="spec-content">{{ page.scaffold }}</div>
-            </div>
-            {% endif %}
-
-            {% if page.fidelity %}
-            <div class="spec-block">
-                <div class="spec-label">Fidelity Rating</div>
-                <div class="spec-content">{{ page.fidelity }}</div>
-            </div>
-            {% endif %}
-
-            <!-- Faculty Indicators (RGB) -->
-            {% if page.faculty %}
-            <div class="spec-block">
-                <div class="spec-label">Faculty Weighting</div>
-                <div class="faculty-indicators">
-                    {% if page.faculty.logic %}
-                    <div class="faculty-item">
-                        <span class="faculty-color red"></span>
-                        <span class="faculty-label">Logic:</span>
-                        <span class="faculty-value">{{ page.faculty.logic }}</span>
-                    </div>
-                    {% endif %}
-                    {% if page.faculty.utility %}
-                    <div class="faculty-item">
-                        <span class="faculty-color green"></span>
-                        <span class="faculty-label">Utility:</span>
-                        <span class="faculty-value">{{ page.faculty.utility }}</span>
-                    </div>
-                    {% endif %}
-                    {% if page.faculty.surface %}
-                    <div class="faculty-item">
-                        <span class="faculty-color blue"></span>
-                        <span class="faculty-label">Surface:</span>
-                        <span class="faculty-value">{{ page.faculty.surface }}</span>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-            {% endif %}
-        </div>
-
-        <!-- Main Content -->
-        <div class="workbench-content">
-            {{ content }}
-        </div>
-
+<!-- Technical Specification Sidebar -->
+<div class="workbench-spec">
+    {% if page.drift %}
+    <div class="spec-block">
+        <div class="spec-label">Drift Identified</div>
+        <div class="spec-content">{{ page.drift }}</div>
     </div>
-    </main>
-</body>
-</html>
+    {% endif %}
+
+    {% if page.scaffold %}
+    <div class="spec-block">
+        <div class="spec-label">Scaffold Installed</div>
+        <div class="spec-content">{{ page.scaffold }}</div>
+    </div>
+    {% endif %}
+
+    {% if page.fidelity %}
+    <div class="spec-block">
+        <div class="spec-label">Fidelity Rating</div>
+        <div class="spec-content">{{ page.fidelity }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Faculty Indicators (RGB) -->
+    {% if page.faculty %}
+    <div class="spec-block">
+        <div class="spec-label">Faculty Weighting</div>
+        <div class="faculty-indicators">
+            {% if page.faculty.logic %}
+            <div class="faculty-item">
+                <span class="faculty-color red"></span>
+                <span class="faculty-label">Logic:</span>
+                <span class="faculty-value">{{ page.faculty.logic }}</span>
+            </div>
+            {% endif %}
+            {% if page.faculty.utility %}
+            <div class="faculty-item">
+                <span class="faculty-color green"></span>
+                <span class="faculty-label">Utility:</span>
+                <span class="faculty-value">{{ page.faculty.utility }}</span>
+            </div>
+            {% endif %}
+            {% if page.faculty.surface %}
+            <div class="faculty-item">
+                <span class="faculty-color blue"></span>
+                <span class="faculty-label">Surface:</span>
+                <span class="faculty-value">{{ page.faculty.surface }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Main Content -->
+<div class="workbench-content">
+    {{ content }}
+</div>

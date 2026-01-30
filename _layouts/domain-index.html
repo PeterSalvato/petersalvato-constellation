@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="domain-index-page">
-    <div class="domain-index-header">
+<div id="domain-index-page">
+    <div id="domain-index-header">
         <h1>{{ page.title | upcase }}</h1>
         <p>{{ page.description }}</p>
     </div>
 
-    <div class="domain-artifacts">
+    <div id="domain-artifacts">
         {% assign page_title = page.title | upcase %}
         {% for domain in site.data.index.domains %}
             {% if domain.name == page_title %}
@@ -43,95 +43,3 @@ layout: default
         {% endfor %}
     </div>
 </div>
-
-<style>
-.domain-index-page {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.domain-index-header {
-    border-bottom: 2px solid #1A1A1A;
-    padding-bottom: 48px;
-    margin-bottom: 64px;
-}
-
-.domain-index-header h1 {
-    font-size: 48px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    margin-bottom: 16px;
-}
-
-.domain-index-header p {
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-.domain-artifacts {
-    display: grid;
-    gap: 64px;
-}
-
-.domain-artifact {
-    border-top: 2px solid #1A1A1A;
-    padding-top: 48px;
-}
-
-.domain-artifact h2 {
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-}
-
-.domain-artifact h2 a {
-    color: #1A1A1A;
-    text-decoration: none;
-}
-
-.domain-artifact h2 a:hover {
-    text-decoration: underline;
-}
-
-.artifact-id {
-    font-family: 'Rubik', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #2A2A2A;
-    margin-bottom: 8px;
-}
-
-.artifact-meta {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 16px;
-    margin-bottom: 16px;
-    font-size: 12px;
-}
-
-.artifact-meta-label {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #2A2A2A;
-}
-
-.artifact-meta-value {
-    font-family: 'EB Garamond', Georgia, serif;
-    font-size: 13px;
-    line-height: 1.6;
-}
-
-.artifact-result {
-    font-family: 'EB Garamond', Georgia, serif;
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 24px;
-    font-style: italic;
-}
-</style>
