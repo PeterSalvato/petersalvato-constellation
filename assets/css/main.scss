@@ -160,13 +160,14 @@ a {
       display: flex;
       flex-direction: column;
       gap: $gap-small;
+      margin-bottom: 1rem;
 
       .nav-section-title {
         font-size: 10px;
         font-weight: 700;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        margin-bottom: $gap-medium;
+        margin-bottom: 0;
         color: $color-text;
 
         &--blue { color: $color-blue; }
