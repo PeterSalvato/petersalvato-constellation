@@ -612,18 +612,18 @@ footer {
 // RESPONSIVE
 // ============================================================================
 
-@media (max-width: 1400px) {
-  #domain-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+// @media (max-width: 1400px) {
+//   #domain-cards {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+// }
 
-@media (max-width: 900px) {
-  #domain-cards {
-    grid-template-columns: 1fr;
-  }
+// @media (max-width: 900px) {
+//   #domain-cards {
+//     grid-template-columns: 1fr;
+//   }
 
-  #main-content {
-    padding: $padding-large $padding-medium;
-  }
-}
+//   #main-content {
+//     padding: $padding-large $padding-medium;
+//   }
+// }
