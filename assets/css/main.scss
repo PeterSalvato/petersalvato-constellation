@@ -155,9 +155,6 @@ a {
   #sidebar-menu {
 
     .nav-section {
-      display: flex;
-      flex-direction: column;
-      gap: $gap-small;
       margin-bottom: 1rem;
 
       .nav-section-title {
