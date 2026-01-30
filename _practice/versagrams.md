@@ -1,11 +1,10 @@
 ---
-layout: log
+layout: whitepaper
 title: "Versagrams"
-type: "TYPOGRAPHIC PRACTICE"
-status: "In Development"
+tags: [Typographic Systems, Parametric Constraints, Grid Stress Testing]
 ---
 
-## What It Is
+## The Work
 
 A study in typographic systems and parametric constraints. Fixed grids stress-tested against variable content to find where typography holds and where it breaks.
 
@@ -13,18 +12,21 @@ The question: within a locked set of grid parameters — column width, baseline 
 
 ## The Approach
 
-### Fixed Parameters
-Every Versagram starts with the same locked grid: column count, gutter width, baseline increment, type scale ratio, and margin proportions. These don't change. They're the structure.
+**Fixed Parameters.** Every Versagram starts with the same locked grid: column count, gutter width, baseline increment, type scale ratio, and margin proportions. These don't change. They're the structure.
 
-### Variable Content
-The content changes every time. Different text lengths, different languages, different content types — headlines, body text, captions, data tables, pull quotes. Each piece of content is a load test on the grid.
+**Variable Content.** The content changes every time. Different text lengths, different languages, different content types — headlines, body text, captions, data tables, pull quotes. Each piece of content is a load test on the grid.
 
-### Failure Documentation
-When the grid breaks — text overflows, rhythm collapses, hierarchy becomes ambiguous — the failure is documented. What broke? Why? Was the grid too rigid, or was the content genuinely incompatible? Each failure teaches something about the relationship between structure and content.
+**Failure Documentation.** When the grid breaks — text overflows, rhythm collapses, hierarchy becomes ambiguous — the failure is documented. What broke? Why? Was the grid too rigid, or was the content genuinely incompatible? Each failure teaches something about the relationship between structure and content.
 
-## The Principle
+## The Numbers
 
-Typography is load-bearing. A typographic system isn't decoration — it's the structure that holds content in a readable, navigable form. Versagrams test that structure the way an engineer tests a beam: apply increasing load until you find the failure point. Then you know what the system can actually carry.
+| | |
+|--------|--------|
+| Fixed parameters | 5 (columns, gutters, baseline, type scale, margins) |
+| Content variables | 5+ (length, language, type, hierarchy, density) |
+| Load test method | Increasing content variation until failure |
+| Key finding | Baseline grid and column width are structural; typeface and color are cosmetic |
+| Output | More visual variety from rigid constraints, not less |
 
 ## What It Proves
 

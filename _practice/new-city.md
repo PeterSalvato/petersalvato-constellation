@@ -1,11 +1,10 @@
 ---
-layout: log
+layout: whitepaper
 title: "New City"
-type: "NARRATIVE SIMULATION"
-status: "In Development"
+tags: [Narrative Simulation, Directed Graph, Systems Fiction]
 ---
 
-## What It Is
+## The Work
 
 Most writers write outlines. I architect dependencies.
 
@@ -13,22 +12,24 @@ New City is a stress test. A fictional city with 40+ entities — districts, tra
 
 The operating principle: resources flow from the periphery (Lower Wards) through a hierarchical transit network to the center (Upper Districts). Wealth concentrates. Supply lines harden. And then infrastructure fails.
 
-## The First Story
+## The Approach
 
-**"The Keeper and the Veil"**
+**Relational Architecture.** Forty entities in a directed graph. Transit systems representing supply chains. Economic principles tested to failure. The city is built as a system, not described as a place.
 
-A transit strike disconnects the Upper Districts from their supply chains. The narrative stress-tests the system: what happens when infrastructure breaks? How do social hierarchies respond to scarcity? What does power actually mean when you can't get food?
+**Narrative Stress Testing.** The first story — "The Keeper and the Veil" — disconnects the Upper Districts from their supply chains via a transit strike. What happens when infrastructure breaks? How do social hierarchies respond to scarcity? Everything's mapped: character dependencies, plot nodes, cascading failures.
 
-Everything's mapped. Character dependencies, plot nodes, cascading failures. The city reveals itself through pressure.
+**Modular Fabrication.** Each story arc is a self-contained stress test that can be composed into larger sequences. Savepoint Protocol integration keeps narrative state versioned across drafts. Event cascades triggered by a single node collapse.
 
-## The Structure
+## The Numbers
 
-Forty entities in a directed graph. Transit systems representing supply chains. Event cascades triggered by a single node collapse. Economic principles tested to failure.
+| | |
+|--------|--------|
+| City entities | 40+ |
+| Entity types | Districts, transit, hierarchies, resource flows |
+| Graph type | Directed, relational |
+| First story | "The Keeper and the Veil" |
+| Integration | Savepoint Protocol (versioned narrative state) |
 
-Modular narrative fabrication — each story arc is a self-contained stress test that can be composed into larger sequences. Savepoint Protocol integration keeps the narrative state versioned across drafts.
+## What It Proves
 
-It's not metaphor. It's operational architecture expressed as narrative.
-
-## Status
-
-The dataset is built. The first sequence is mapped. Ready to write.
+It's not metaphor. It's operational architecture expressed as narrative. The city reveals itself through pressure — the same way any system does. Build the dependencies first, then break one node and watch what cascades.

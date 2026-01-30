@@ -1,40 +1,35 @@
 ---
-layout: log
+layout: whitepaper
 title: "Order of the Aetherwright"
-type: "GOVERNANCE FRAMEWORK"
-status: "Active"
+tags: [Governance Framework, Systems Discipline, Structural Integrity]
 ---
 
-## What It Is
+## The Work
 
-The Aetherwright builds systems that exist between the physical and digital — process systems, knowledge systems, organizational structure. The kind of architecture you can't point at but everyone depends on.
+The Aetherwright builds systems that exist between the physical and digital — process systems, knowledge systems, organizational structure. The kind of architecture you can't point at but everyone depends on. This documents the discipline required to make those systems hold.
 
-This documents the discipline required to make those systems hold.
+## The Approach
 
-## The Three Pillars
+Three pillars govern every system the Aetherwright builds:
 
-### Clarity
-Systems must be intellectually transparent. Ambiguity is structural debt. Every rule needs a reason. Every exception needs documentation. If you can't explain why a constraint exists, you've inherited someone else's assumption — and assumptions rot.
+**Clarity.** Systems must be intellectually transparent. Ambiguity is structural debt. Every rule needs a reason. Every exception needs documentation. If you can't explain why a constraint exists, you've inherited someone else's assumption — and assumptions rot.
 
-### Consistency
-Systems that survive are predictable. People operate them without constant recalibration. Consistency isn't rigidity — it's the property that builds trust. When the system behaves the same way twice, the people inside it can stop watching the system and start doing their work.
+**Consistency.** Systems that survive are predictable. People operate them without constant recalibration. Consistency isn't rigidity — it's the property that builds trust. When the system behaves the same way twice, the people inside it can stop watching the system and start doing their work.
 
-### Coherence
-The system must be logically sound as a whole. Changes in one area cascade through dependent areas without contradiction. Incoherent systems generate hidden debt — the kind that doesn't show up until someone asks "why does this break when I change that?"
+**Coherence.** The system must be logically sound as a whole. Changes in one area cascade through dependent areas without contradiction. Incoherent systems generate hidden debt — the kind that doesn't show up until someone asks "why does this break when I change that?"
 
-## The Principles
+From these pillars, four operational principles: start with constraints, make implicit decisions explicit, build feedback loops, and plan for succession. Assume you won't be here. Design for the next architect, not for your own comfort.
 
-**Start with constraints.** Define what cannot happen before optimizing what should. Constraints are the foundation. Features are the furniture.
+## The Numbers
 
-**Make implicit decisions explicit.** Document decision points and decision criteria. The most dangerous architecture is the kind nobody remembers choosing.
+| | |
+|--------|--------|
+| Governing pillars | 3 (clarity, consistency, coherence) |
+| Operational principles | 4 |
+| Review cadence | Weekly, quarterly, annual |
+| Succession requirement | Every system designed for handoff |
+| Documentation standard | If it's not written down, it didn't happen |
 
-**Build feedback loops.** Systems that can't measure themselves can't improve. Every process needs a way to surface its own failures.
+## What It Proves
 
-**Plan for succession.** Assume you won't be here. Design for the next architect, not for your own comfort.
-
-## In Practice
-
-- Weekly system reviews: does this rule still serve?
-- Quarterly audits: is this system still coherent?
-- Annual re-authorization: should this system continue to exist?
-- Continuous documentation: if it's not written down, it didn't happen
+Invisible architecture is still architecture. The systems nobody can point at — governance, process, decision frameworks — are the ones that determine whether everything else holds. The discipline isn't optional. It's the foundation.

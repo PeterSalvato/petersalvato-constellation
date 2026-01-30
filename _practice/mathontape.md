@@ -1,11 +1,10 @@
 ---
-layout: log
+layout: whitepaper
 title: "MathOnTape"
-type: "SONIC PRACTICE"
-status: "Active"
+tags: [Signal Flow Architecture, Systemic Production, Constraint-Driven Composition]
 ---
 
-## What It Is
+## The Work
 
 Systemic music production. Engineering signal flow protocols applied to sonic composition and arrangement.
 
@@ -13,16 +12,21 @@ The question: can the same structural discipline that governs a database migrati
 
 ## The Approach
 
-Music production is a signal flow problem. Audio enters the system, passes through processing stages, and exits as a mix. Every stage has inputs, outputs, constraints, and failure modes. Most producers work intuitively through this chain. MathOnTape makes the signal flow explicit and systematic.
+**Signal Architecture.** Every session starts with a routing diagram. Not a mixer layout — a signal flow map showing how audio moves through the system, where processing happens, where decisions get made, and where the chain can break.
 
-### Signal Architecture
-Every session starts with a routing diagram. Not a mixer layout — a signal flow map showing how audio moves through the system, where processing happens, where decisions get made, and where the chain can break.
+**Constraint-Driven Composition.** Set the constraints before writing. Tempo, key, instrument palette, frequency allocation — these are design parameters, not creative choices made in the moment. The constraints create the space. The music fills it.
 
-### Constraint-Driven Composition
-Set the constraints before writing. Tempo, key, instrument palette, frequency allocation — these are design parameters, not creative choices made in the moment. The constraints create the space. The music fills it.
+**Repeatable Process.** Session templates. Gain staging protocols. Mix bus architecture documented before the first note plays. The goal isn't to remove creativity — it's to remove the administrative overhead that eats creative time. When the routing is handled, you can focus on the sound.
 
-### Repeatable Process
-Session templates. Gain staging protocols. Mix bus architecture documented before the first note plays. The goal isn't to remove creativity — it's to remove the administrative overhead that eats creative time. When the routing is handled, you can focus on the sound.
+## The Numbers
+
+| | |
+|--------|--------|
+| Design parameters per session | 5+ (tempo, key, palette, frequency, dynamics) |
+| Process components | 3 (signal architecture, constraint composition, repeatable process) |
+| Session start | Routing diagram before first note |
+| Signal chain | Documented inputs, outputs, and failure modes |
+| Principle | Structure enables, doesn't constrain |
 
 ## What It Proves
 

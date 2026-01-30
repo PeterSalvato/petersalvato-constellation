@@ -1,48 +1,38 @@
 ---
-layout: log
+layout: whitepaper
 title: "Savepoint Protocol"
-type: "THOUGHT-VERSIONING SYSTEM"
-status: "V3.0 — Open Source"
+tags: [Thought-Versioning, Context Recovery, Open Source]
 ---
 
-## What It Is
+## The Work
 
 A savepoint is a documented moment of stability. In games, you save before the hard part so you can return to a known-good state when something breaks. In real work — engineering, creative, household — you need the same thing.
 
-Context is the first thing to go. In a meeting, after a vacation, during a reorg, on a bad executive-function day. The thread disappears. Savepoint Protocol is the system that keeps it visible.
+Context is the first thing to go. In a meeting, after a vacation, during a reorg, on a bad executive-function day. The thread disappears. Savepoint Protocol is the system that keeps it visible. It applies across engineering projects, households, and creative work — anywhere decisions compound and memory fails.
 
-## How It Works
+## The Approach
 
-### Engineering Projects
-- Define decision points before refactors, deployments, schema changes
-- Document state: code snapshot, database, config, rationale
-- Create rollback paths: revert scripts, restoration procedures
-- Execute, verify, archive
+Define stability before you need it. A savepoint isn't "done" — it's "stable enough to branch from." The protocol operates the same way in every domain:
 
-### Households
-- Weekly check-ins documenting patterns — meals, sleep, mood, friction points
-- Monthly reviews to catch problems before they become crises
-- Quarterly adjustments: if breakfast prep takes 90 minutes of decision-making, the system needs redesign
-- Annual audits: are we still solving the right problem?
+1. **Define decision points** before the risky work begins — refactors, deployments, schema changes, household system redesigns, creative direction shifts
+2. **Document state** at each point: code snapshot, database, config, rationale — or the household equivalent: meals, sleep, mood, friction points
+3. **Create rollback paths** — revert scripts, restoration procedures, archived intermediate states
+4. **Verify periodically** — a backup you've never restored is a theory, not a system
 
-### Creative Work
-- Define stability criteria — not "done," just "stable enough to branch from"
-- Save intermediate states, not just the final version
-- Document what's working so you don't accidentally erase it
-- Keep decision history — why this direction, not that one
+The protocol scales from weekly household check-ins to quarterly system audits to annual re-evaluations. The cadence changes. The discipline doesn't.
 
-## The Requirements
+## The Numbers
 
-**Clarity.** Know what "stable" actually means in your context.
+| | |
+|--------|--------|
+| Domains applied | 3 (engineering, household, creative) |
+| Review cadence | Weekly, monthly, quarterly, annual |
+| Version | V3.0 — Open Source |
+| Core requirements | 4 (clarity, documentation, automation, verification) |
+| Recovery principle | Structure-dependent, not willpower-dependent |
 
-**Documentation.** Write it down. Don't hold it in your head. Heads are unreliable.
+## What It Proves
 
-**Automation.** If savepoints require manual work, they won't happen consistently.
-
-**Verification.** Periodically test the rollback. A backup you've never restored is a theory, not a system.
-
-## What Changes
-
-Teams that do this recover faster from failures. They make bolder decisions because fallback is documented, not theoretical. They keep institutional memory through turnover.
+Teams and families that do this recover faster from failures. They make bolder decisions because fallback is documented, not theoretical. They keep institutional memory through turnover.
 
 It works because the structure does the work — not people's willpower, not their memory, not their good intentions on a bad day.

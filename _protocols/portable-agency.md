@@ -1,38 +1,36 @@
 ---
-layout: log
+layout: whitepaper
 title: "Portable Agency"
-type: "INFRASTRUCTURE PROTOCOL"
-status: "Live"
+tags: [Homelab Infrastructure, Digital Sovereignty, Network-Agnostic Design]
 ---
 
-## What It Is
+## The Work
 
 A homelab-based infrastructure stack for digital autonomy. Everything runs locally. No cloud dependencies for critical operations.
 
 The premise: if your family's data, media, backups, and compute depend entirely on services you don't control, you've built on someone else's foundation. When they change their pricing, deprecate their API, or go offline, your infrastructure goes with them.
 
-## The Problem
+## The Approach
 
-Cloud-only stacks create three kinds of risk:
-- **Geographical risk.** Cross-border relocation means your data crosses jurisdictions you didn't choose.
-- **Vendor risk.** Service changes, price hikes, and deprecations happen on someone else's schedule.
-- **Availability risk.** When the internet goes down — and it does — cloud-dependent infrastructure goes dark.
+Four layers eliminate external dependency for baseline operations:
 
-For a family navigating relocation, chronic health constraints, and neurodivergent workflow, these aren't theoretical risks. They're operational constraints.
+**Local Compute.** Ubuntu server. Docker containers for service isolation. GPU-enabled for local AI inference. The compute lives in the house, not in someone else's datacenter.
 
-## The Stack
+**Data Sovereignty.** Self-hosted storage. Automated backups with local and off-site redundancy. Media server for the family's content library. No subscription required to access your own files.
 
-### Local Compute
-Ubuntu server. Docker containers for service isolation. GPU-enabled for local AI inference. The compute lives in the house, not in someone else's datacenter.
+**Network-Agnostic Design.** Core services function on the local network. Internet connectivity extends capability but isn't required for baseline operation. The family can access their systems regardless of ISP status.
 
-### Data Sovereignty
-Self-hosted storage. Automated backups with local and off-site redundancy. Media server (Plex/Jellyfin) for the family's content library. No subscription required to access your own files.
+**AI Infrastructure.** Local LLM inference for sensitive or high-frequency tasks. No data leaves the network for routine AI operations. Cloud APIs available as a supplement, not a dependency.
 
-### Network-Agnostic Design
-Core services function on the local network. Internet connectivity extends capability but isn't required for baseline operation. The family can access their systems regardless of ISP status.
+## The Numbers
 
-### AI Infrastructure
-Local LLM inference for sensitive or high-frequency tasks. No data leaves the network for routine AI operations. Cloud APIs available as a supplement, not a dependency.
+| | |
+|--------|--------|
+| Infrastructure layers | 4 (compute, storage, network, AI) |
+| Cloud dependencies for core ops | 0 |
+| Containerization | Docker, service-isolated |
+| Redundancy | Local + off-site automated backup |
+| Risk classes mitigated | 3 (geographical, vendor, availability) |
 
 ## What It Proves
 
