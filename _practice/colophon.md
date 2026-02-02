@@ -2,10 +2,7 @@
 layout: workbench-spec
 title: "Colophon"
 type: "Site Architecture Record"
-faculty:
-  logic: 60
-  utility: 30
-  surface: 10
+faculty: ["red", "blue", "green"]
 ---
 
 ## What This Is

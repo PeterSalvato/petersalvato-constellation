@@ -1,7 +1,13 @@
 ---
-layout: whitepaper
+layout: workbench-spec
 title: "Modernist Homestead"
-tags: [Household Systems, Neurodivergent Design, Zero-Willpower Architecture]
+altitude: "02"
+context: "Neurodivergent household operating under health constraints and geographical disruption"
+drift: "Willpower-dependent processes fail when executive function is disrupted"
+scaffold: "Culinary modularity + executive function scaffolding + health navigation infrastructure"
+fidelity: "Family operates successfully across relocation and health challenges"
+faculty: ["red", "green"]
+seo_keywords: ["Household Systems", "Neurodivergent Design", "Zero-Willpower Architecture", "Culinary Systems", "Health Integration"]
 ---
 
 ## The Work

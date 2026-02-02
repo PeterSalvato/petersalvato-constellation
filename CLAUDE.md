@@ -199,3 +199,79 @@ Edit: `_data/index.json`
 - `/docs/voice-protocol.md` — Full Master Builder voice protocol
 - `/DEV.md` — Detailed dev operations guide
 - GitHub Repo: https://github.com/PeterSalvato/petersalvato-constellation
+
+---
+
+## Frontmatter Checklist for New Projects
+
+When adding a new project to any collection (`_protocols/`, `_systems/`, `_practice/`), ensure all required fields are present:
+
+### All Projects (minimum)
+- `layout`: Choose from `whitepaper` (case study), `workbench-spec` (technical spec), or `log` (protocol/framework)
+- `title`: Project/artifact name
+- `seo_keywords`: Array of 5-7 searchable terms
+
+### workbench-spec Projects (required fields)
+The following fields are required for `layout: workbench-spec` (primary layout for _systems/ and _practice/):
+
+- `altitude`: "01" (Protocol), "02" (Applied System), or "03" (Practice)
+  - **01** = Foundational logic, cognitive firmware, governing principles
+  - **02** = Production deployment, enterprise/commercial/personal systems
+  - **03** = Creative research, systemic expression, practice/exploration
+- `context`: The problem or constraint (1-2 sentences)
+- `drift`: The gap between intent and execution (1 sentence)
+- `scaffold`: The structural solution (1-2 sentences)
+- `fidelity`: The validation or result (1 sentence)
+- `faculty`: Array of color strings `["red", "blue", "green"]` indicating domain weightings
+  - `"red"` = Logic, governing logic, structural principles
+  - `"blue"` = Utility, functionality, technical depth
+  - `"green"` = Surface, expression, craft, presentation
+
+### Faculty Color Mapping
+| Color | Domain | Meaning |
+|-------|--------|---------|
+| red | Logic | Governing logic, structural rules, conceptual framework |
+| blue | Utility | Function, performance, technical depth, operational |
+| green | Surface | Craft, expression, aesthetic, presentation |
+
+### Examples
+
+**Aiden-Jae** (workbench-spec with multiple domains):
+```yaml
+faculty: ["blue", "green"]  # Technical infrastructure + aesthetic/craft
+```
+
+**Savepoint Protocol** (workbench-spec with mixed domains):
+```yaml
+faculty: ["red", "green"]  # Governing logic + expressiveness
+```
+
+**Colophon** (workbench-spec demonstrating all three):
+```yaml
+faculty: ["red", "blue", "green"]
+```
+
+### Layout Selection Guide
+
+| Layout | Best For | Example |
+|--------|----------|---------|
+| `workbench-spec` | Technical systems, architectural details, multi-domain work with drift/scaffold/fidelity | Encore, Aiden-Jae, Modernist Homestead |
+| `whitepaper` | Case studies, before/after narratives, design-focused work | (legacy; prefer workbench-spec) |
+| `log` | Protocols, frameworks, cognitive systems, open-source tools | Savepoint Protocol, Order of the Aetherwright |
+
+**Note:** All new projects should use `layout: workbench-spec` with complete altitude/drift/scaffold/fidelity/faculty metadata. Whitepaper layout is legacy.
+
+### Verification Checklist
+
+Before committing a new project:
+- [ ] File in correct collection folder (`_protocols/`, `_systems/`, `_practice/`)
+- [ ] Filename matches URL slug (lowercase, hyphens, no spaces)
+- [ ] `layout` specified correctly (prefer workbench-spec)
+- [ ] `title` field populated
+- [ ] `seo_keywords` populated (5-7 terms) — essential for discoverability
+- [ ] If workbench-spec: `altitude`, `context`, `drift`, `scaffold`, `fidelity`, `faculty` all present
+- [ ] Content follows Master Builder voice (see `/docs/voice-protocol.md`)
+- [ ] Internal links use `{{ '/' | relative_url }}` syntax
+- [ ] Run `bundle exec jekyll build` locally to verify rendering
+- [ ] Verify altitude marker displays (boxed "01"/"02"/"03")
+- [ ] Verify faculty colors render as dots

@@ -38,26 +38,36 @@ layout: default
     <div class="spec-block">
         <div class="spec-label">Faculty Weighting</div>
         <div class="faculty-indicators">
-            {% if page.faculty.logic %}
-            <div class="faculty-item">
-                <span class="faculty-color red"></span>
-                <span class="faculty-label">Logic:</span>
-                <span class="faculty-value">{{ page.faculty.logic }}</span>
-            </div>
-            {% endif %}
-            {% if page.faculty.utility %}
-            <div class="faculty-item">
-                <span class="faculty-color green"></span>
-                <span class="faculty-label">Utility:</span>
-                <span class="faculty-value">{{ page.faculty.utility }}</span>
-            </div>
-            {% endif %}
-            {% if page.faculty.surface %}
-            <div class="faculty-item">
-                <span class="faculty-color blue"></span>
-                <span class="faculty-label">Surface:</span>
-                <span class="faculty-value">{{ page.faculty.surface }}</span>
-            </div>
+            {% if page.faculty[0] %}
+                <!-- Handle array format: ["red", "blue", "green"] -->
+                {% for faculty_color in page.faculty %}
+                <div class="faculty-item faculty-array">
+                    <span class="faculty-color" data-color="{{ faculty_color }}"></span>
+                </div>
+                {% endfor %}
+            {% elsif page.faculty.logic %}
+                <!-- Handle object format: {logic: 60, utility: 30, surface: 10} -->
+                {% if page.faculty.logic %}
+                <div class="faculty-item">
+                    <span class="faculty-color red"></span>
+                    <span class="faculty-label">Logic:</span>
+                    <span class="faculty-value">{{ page.faculty.logic }}</span>
+                </div>
+                {% endif %}
+                {% if page.faculty.utility %}
+                <div class="faculty-item">
+                    <span class="faculty-color green"></span>
+                    <span class="faculty-label">Utility:</span>
+                    <span class="faculty-value">{{ page.faculty.utility }}</span>
+                </div>
+                {% endif %}
+                {% if page.faculty.surface %}
+                <div class="faculty-item">
+                    <span class="faculty-color blue"></span>
+                    <span class="faculty-label">Surface:</span>
+                    <span class="faculty-value">{{ page.faculty.surface }}</span>
+                </div>
+                {% endif %}
             {% endif %}
         </div>
     </div>

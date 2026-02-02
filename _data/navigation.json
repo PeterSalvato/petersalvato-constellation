@@ -87,6 +87,10 @@
       "color": "neutral",
       "items": [
         {
+          "label": "Doctrine",
+          "url": "/system/doctrine"
+        },
+        {
           "label": "Provenance",
           "url": "/provenance"
         },

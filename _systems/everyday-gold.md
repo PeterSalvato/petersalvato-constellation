@@ -1,8 +1,13 @@
 ---
-layout: whitepaper
-title: "Everyday Gold"
-client: "Everyday Gold"
-tags: [Brand Identity, Label Design, Regulatory Integration]
+layout: workbench-spec
+title: "Everyday Gold: E-Commerce Operations"
+altitude: "02"
+context: "Niche-market direct-to-consumer natural deodorant brand scaling operations"
+drift: "Handmade quality vs. digital scalability in direct-to-consumer commerce"
+scaffold: "E-commerce infrastructure + inventory management + modular scent-variant system"
+fidelity: "Sustainable sourcing becomes structural operational advantage"
+faculty: ["blue", "green"]
+seo_keywords: ["E-commerce Systems", "Direct-to-Consumer Operations", "Brand Architecture", "Inventory Systems", "Constraint-based Operations"]
 ---
 
 ## The Work
@@ -33,3 +38,15 @@ Natural deodorant brand requiring three things at once: trademark clearance, lab
 ## What It Proves
 
 Regulatory compliance isn't a constraint bolted onto the design — it's a design material. The ingredients ring, allergen warnings, and batch codes are specified to the same standard as the logotype and product name. The system treats all information as structural, regardless of whether it's "marketing" or "legal."
+
+---
+
+## Why Two Versions?
+
+Everyday Gold exists in both Systems and Practice because the project demonstrates two distinct architectural disciplines:
+
+- **Systems version** (`/systems/everyday-gold`): Operational infrastructure. E-commerce logistics, inventory management, supply chain, and direct-to-consumer fulfillment. The answer to: "How does a brand actually operate at scale?"
+
+- **Practice version** (`/practice/everyday-gold`): Label design and regulatory architecture. Typographic systems, FDA compliance, trademark distinctiveness, and production specifications. The answer to: "How do you encode regulatory requirements as design material?"
+
+Both are necessary. Joinery (design-engineering integration) connects them. The same system that holds premium brand positioning in the label holds the operational integrity of the supply chain.

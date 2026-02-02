@@ -1,7 +1,13 @@
 ---
-layout: whitepaper
-title: "Joinery"
-tags: [Design-Engineering Integration, Structural Consultancy, Shared Specification]
+layout: workbench-spec
+title: "Joinery: Design-Engineering Integration"
+altitude: "02"
+context: "Boutique teams lacking structural scaffolding between design intent and technical execution"
+drift: "Handoff friction between design specification and technical implementation"
+scaffold: "Shared specification + joint reviews + structural vocabulary"
+fidelity: "Design intent preserved through implementation cycle"
+faculty: ["red", "blue"]
+seo_keywords: ["Design Systems", "Design-Engineering Integration", "Structural Consultancy", "Specification Frameworks", "Team Coordination"]
 ---
 
 ## The Work
