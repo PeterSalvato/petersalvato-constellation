@@ -34,17 +34,3 @@ layout: default
     </a>
     {% endfor %}
 </div>
-
-<!-- Footer -->
-<footer>
-    <p>
-        {% if site.data.index.contact.email %}
-        <a href="mailto:{{ site.data.index.contact.email }}">{{ site.data.index.contact.email }}</a>
-        {% endif %}
-    </p>
-    <div class="footer-links">
-        {% for link in site.data.index.contact.links %}
-        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
-        {% endfor %}
-    </div>
-</footer>

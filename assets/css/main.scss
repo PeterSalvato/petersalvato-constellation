@@ -325,7 +325,7 @@ footer {
   padding: $gap-xlarge $padding-standard;
   padding-left: calc(#{$sidebar-width} + #{$padding-standard});
   border-top: 2px solid $color-text;
-  background-color: $color-background;
+  background-color: #2a2a2a;
   text-align: center;
 
   a {
@@ -334,19 +334,33 @@ footer {
     font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: #f4f4f0;
+    text-decoration: none;
+    transition: opacity $transition-fast;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   .colophon {
     font-size: 0.875rem;
-    color: $color-text-secondary;
+    color: #c0c0c0;
 
     small {
       font-size: inherit;
+      color: #c0c0c0;
     }
 
     .divider {
       margin: 0 $gap-medium;
+      color: #c0c0c0;
     }
+  }
+
+  p {
+    color: #f4f4f0;
+    margin: 0 0 $gap-medium 0;
   }
 }
 
