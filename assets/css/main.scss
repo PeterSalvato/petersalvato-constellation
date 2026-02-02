@@ -312,9 +312,20 @@ a {
 }
 
 footer {
+  // Full-width footer spanning sidebar and content
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  // Spacing and styling
   margin-top: $gap-xxxlarge;
-  padding-top: $gap-xlarge;
+  padding: $gap-xlarge $padding-standard;
+  padding-left: calc(#{$sidebar-width} + #{$padding-standard});
   border-top: 2px solid $color-text;
+  background-color: $color-background;
   text-align: center;
 
   a {
@@ -323,6 +334,19 @@ footer {
     font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+  }
+
+  .colophon {
+    font-size: 0.875rem;
+    color: $color-text-secondary;
+
+    small {
+      font-size: inherit;
+    }
+
+    .divider {
+      margin: 0 $gap-medium;
+    }
   }
 }
 
