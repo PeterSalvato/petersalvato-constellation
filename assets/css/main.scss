@@ -312,16 +312,14 @@ a {
 }
 
 footer {
-  // Full-width footer spanning sidebar and content
-  position: relative;
-  width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  // Full-width footer at bottom
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
 
   // Spacing and styling
-  margin-top: $gap-xxxlarge;
   padding: $gap-xlarge $padding-standard;
   padding-left: calc(#{$sidebar-width} + #{$padding-standard});
   border-top: 2px solid $color-text;
