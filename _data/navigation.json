@@ -81,24 +81,6 @@
           "url": "/practice/versagrams"
         }
       ]
-    },
-    {
-      "label": "04. ABOUT",
-      "color": "neutral",
-      "items": [
-        {
-          "label": "Doctrine",
-          "url": "/system/doctrine"
-        },
-        {
-          "label": "Provenance",
-          "url": "/provenance"
-        },
-        {
-          "label": "Colophon",
-          "url": "/practice/colophon"
-        }
-      ]
     }
   ]
 }
