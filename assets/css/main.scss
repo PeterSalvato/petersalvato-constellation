@@ -328,10 +328,14 @@ footer {
 
   .footer-columns {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: $sidebar-width 1fr 1fr;
     gap: $gap-xlarge;
-    max-width: 900px;
     width: 100%;
+    max-width: none;
+  }
+
+  .footer-pages {
+    margin-left: 0;
   }
 
   .footer-column {
