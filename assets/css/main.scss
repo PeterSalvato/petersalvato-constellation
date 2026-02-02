@@ -314,7 +314,7 @@ a {
 footer {
   // Full-width footer with centered text in viewport
   position: relative;
-  z-index: 50;
+  z-index: 101;
   margin-top: $gap-xxxlarge;
   padding: $gap-xlarge $padding-standard;
   border-top: 2px solid $color-text;
