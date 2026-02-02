@@ -1,9 +1,30 @@
 <footer class="system-footer">
-    <div class="colophon">
-        <small>EST. 2026</small>
-        <span class="divider">|</span>
-        <small>OPERATOR: PETER SALVATO</small>
-        <span class="divider">|</span>
-        <small>PUBLISHED BY JOINERY, LLC</small>
+    <div class="footer-columns">
+        <!-- Column 1: Contact & Socials -->
+        <div class="footer-column">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:{{ site.email }}">Email</a></li>
+                {% for link in site.data.index.contact.links %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Column 2: Meta Pages -->
+        <div class="footer-column">
+            <h4>Pages</h4>
+            <ul>
+                <li><a href="{{ '/provenance' | relative_url }}">Provenance</a></li>
+                <li><a href="{{ '/practice/colophon' | relative_url }}">Colophon</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Copyright & Codex -->
+        <div class="footer-column">
+            <h4>Codex</h4>
+            <div class="copyright">© 2026 Peter Salvato</div>
+            <div class="codex-expression">/Æ ● | [projects.petersalvato.{protocols|systems|practice}] /</div>
+        </div>
     </div>
 </footer>

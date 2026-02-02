@@ -320,45 +320,67 @@ footer {
   border-top: 2px solid $color-text;
   background-color: #2a2a2a;
 
-  // Center text in viewport
+  // Center columns in viewport
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  a {
-    display: inline-block;
-    margin: 0 $gap-large;
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $gap-xlarge;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .footer-column {
+    text-align: center;
+
+    h4 {
+      font-family: $font-sans;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #c0c0c0;
+      margin-bottom: $gap-large;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: $gap-medium;
+      font-size: 13px;
+    }
+
+    a {
+      color: #f4f4f0;
+      text-decoration: none;
+      transition: opacity $transition-fast;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .copyright {
     font-size: 12px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #f4f4f0;
-    text-decoration: none;
-    transition: opacity $transition-fast;
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-
-  .colophon {
-    font-size: 0.875rem;
     color: #c0c0c0;
-
-    small {
-      font-size: inherit;
-      color: #c0c0c0;
-    }
-
-    .divider {
-      margin: 0 $gap-medium;
-      color: #c0c0c0;
-    }
+    margin-bottom: $gap-medium;
   }
 
-  p {
+  .codex-expression {
+    font-family: $font-mono;
+    font-size: 12px;
     color: #f4f4f0;
-    margin: 0 0 $gap-medium 0;
+    letter-spacing: 0.05em;
+    margin-top: $gap-medium;
   }
 }
 
