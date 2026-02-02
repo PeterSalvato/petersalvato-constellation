@@ -1,0 +1,76 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- SEO Keywords -->
+  <meta name="keywords" content="{% if page.seo_keywords %}{{ page.seo_keywords | join: ', ' }}{% else %}{{ site.seo_keywords | join: ', ' }}{% endif %}">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- JSON-LD Schema for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "email": "mailto:{{ site.email }}",
+    "jobTitle": "Senior Engineering Lead & UX Architect",
+    "description": "{{ site.description }}",
+    "sameAs": [
+      "https://github.com/petersalvato",
+      "https://linkedin.com/in/petersalvato"
+    ],
+    "knowsAbout": [
+      "Design Systems",
+      "Front-end Engineering",
+      ".NET Core Architecture",
+      "Information Architecture",
+      "E-commerce Infrastructure",
+      "Brand Architecture",
+      "Systems Thinking",
+      "Local-first Systems",
+      "Full-Stack Engineering"
+    ]
+  }
+  </script>
+
+  {% if page.layout == "whitepaper" or page.layout == "workbench-spec" %}
+  <!-- Project/Artifact JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "{{ page.title }}",
+    "description": "{% if page.description %}{{ page.description }}{% elsif page.context %}{{ page.context }}{% endif %}",
+    "creator": {
+      "@type": "Person",
+      "name": "{{ site.author }}"
+    },
+    "url": "{{ page.url | absolute_url }}",
+    "keywords": "{% if page.seo_keywords %}{{ page.seo_keywords | join: ', ' }}{% endif %}"
+  }
+  </script>
+  {% endif %}
+
+  <!-- Google Fonts -->
+  {% if site.google_fonts %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?{% for font in site.google_fonts %}{% assign font_family = font | split: ':' | first %}{% assign font_weights = font | split: ':' | last %}family={{ font_family | replace: ' ', '+' }}:wght@{{ font_weights }}{% unless forloop.last %}&{% endunless %}{% endfor %}" rel="stylesheet">
+  {% endif %}
+</head>

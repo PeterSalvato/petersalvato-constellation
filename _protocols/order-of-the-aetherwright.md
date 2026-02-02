@@ -1,35 +1,28 @@
 ---
-layout: whitepaper
-title: "Order of the Aetherwright"
-tags: [Governance Framework, Systems Discipline, Structural Integrity]
+layout: workbench-spec
+title: "The Order of the Ætherwright: Symbolic Operating System"
+altitude: "02"
+context: "Lack of unified conceptual mapping in complex IP fabrication"
+drift: "Disconnection between philosophical intent and technical execution"
+scaffold: "Symbolic metadata framework linking meaning to implementation"
+fidelity: "Ensures design intent survives technical execution without loss"
+faculty: ["red"]
+role: "Master Protocol"
+seo_keywords: ["Workflow Systems", "Creative Process Design", "Metadata Architecture", "Conceptual Frameworks", "Systems Thinking"]
 ---
 
-## The Work
+## Symbolic Operating System
 
-The Aetherwright builds systems that exist between the physical and digital — process systems, knowledge systems, organizational structure. The kind of architecture you can't point at but everyone depends on. This documents the discipline required to make those systems hold.
+Conceptual framework and personal creative operating system. The philosophical layer that locks with Savepoint (the technical How).
 
-## The Approach
+## The Infrastructure
 
-Three pillars govern every system the Aetherwright builds:
+ScopeForge: Brutalist project-scoping. Constellation: The map of interoperable IP. 8-Glyph Domain System: Symbolic file system. Codex Syntax: Execution syntax for tracking creative phases.
 
-**Clarity.** Systems must be intellectually transparent. Ambiguity is structural debt. Every rule needs a reason. Every exception needs documentation. If you can't explain why a constraint exists, you've inherited someone else's assumption — and assumptions rot.
+## The Fix
 
-**Consistency.** Systems that survive are predictable. People operate them without constant recalibration. Consistency isn't rigidity — it's the property that builds trust. When the system behaves the same way twice, the people inside it can stop watching the system and start doing their work.
+The Order provides the "drivers" that allow abstract thoughts to interface with the physical world. It ensures that when you move from "Expression" to "Engineering," the intent doesn't crash.
 
-**Coherence.** The system must be logically sound as a whole. Changes in one area cascade through dependent areas without contradiction. Incoherent systems generate hidden debt — the kind that doesn't show up until someone asks "why does this break when I change that?"
+## The Locking Mechanism
 
-From these pillars, four operational principles: start with constraints, make implicit decisions explicit, build feedback loops, and plan for succession. Assume you won't be here. Design for the next architect, not for your own comfort.
-
-## The Numbers
-
-| | |
-|--------|--------|
-| Governing pillars | 3 (clarity, consistency, coherence) |
-| Operational principles | 4 |
-| Review cadence | Weekly, quarterly, annual |
-| Succession requirement | Every system designed for handoff |
-| Documentation standard | If it's not written down, it didn't happen |
-
-## What It Proves
-
-Invisible architecture is still architecture. The systems nobody can point at — governance, process, decision frameworks — are the ones that determine whether everything else holds. The discipline isn't optional. It's the foundation.
+When locked with Savepoint: Savepoint is the flight recorder. Order is the pilot's manual. Together they ensure Meaning-State Persistence.

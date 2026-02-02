@@ -1,36 +1,27 @@
 ---
-layout: whitepaper
-title: "Altrueism"
-client: "Altrueism"
-tags: [Brand Identity System, Mission-Driven Design, Premium Positioning]
+layout: workbench-spec
+title: "Altrueism: Brand Remediation"
+altitude: "01"
+context: "Philanthropic operational transparency"
+drift: "Incoherent brand vs. mission-driven positioning"
+scaffold: "Complete identity system, digital platform, messaging hierarchy"
+fidelity: "Transformed incoherent brand into premium-positioned system"
+faculty: ["red", "blue"]
+seo_keywords: ["Brand Strategy", "Identity Systems", "Non-profit Design", "Brand Architecture", "Messaging Hierarchy"]
 ---
 
-## The Work
+## Brand Remediation for Social Impact
 
-A values-first founder building a socially-driven brand with strong philosophical intent but no coherent way to express it. The job: translate mission into a visual and narrative system capable of supporting both authentic impact messaging and premium product positioning.
+Social impact nonprofit brand remediation. You identified a brand that had drifted from its mission and performed structural realignment.
 
-The original brand had structural problems: visual language looked cheap, website was poorly designed, no aesthetic unity across touchpoints, no functional relationship between mission and products, and mission story was muddled and abstract. It could not support higher price points.
+## The Narrative
 
-## The Approach
+Not "graphic design" but "Brand Remediation for Social Impact." Mission-driven organizations face a specific problem: their visual identity doesn't match their operational integrity.
 
-**Identity System.** New logo and wordmark. Full color system with defined hierarchy. Typography system — paired typefaces for brand structure. Graphic motifs reinforcing mission messaging. Application guidelines for packaging, digital, and apparel.
+## The Fix
 
-**Digital Platform.** Complete homepage architecture. Product catalog and e-commerce interface. Mission and impact communication pages. UX flow bridging mission to products to purchase. Premium visual aesthetic enabling higher-margin merchandise.
+You introduced "Digital Patina"—hand-made marks and stone textures—as proof of material honesty. Trust through Texture.
 
-**Messaging.** Complete brand narrative spine. Voice and tone definitions. Messaging hierarchy — mission-first without sacrificing commercial clarity. Product-level microcopy aligned to brand voice. Impact storytelling framework that avoids cliche.
+## The Result
 
-**Positioning.** Brand elevation from amateur to premium. Founder alignment and voice extraction. Structural clarity connecting values, products, and narrative. Framework enabling mission-driven pricing.
-
-## The Numbers
-
-| | |
-|--------|--------|
-| Deliverables | Identity system, digital platform, messaging framework, positioning strategy |
-| Identity components | Logo, wordmark, color system, typography, motifs, guidelines |
-| Platform scope | Homepage, catalog, e-commerce, mission pages |
-| Outcome | Complete system delivered; client did not launch (funding constraints) |
-| Failure mode | Financial, not design or strategic |
-
-## What It Proves
-
-Mission authenticity and commercial viability aren't opposites — they're both structural problems, and they respond to the same kind of architectural discipline. The ability to take an incoherent brand with good intentions and build it into a system that holds is the work.
+Transformed incoherent brand into premium-positioned system. Structural authority re-established through visual discipline. Work complete; client did not launch due to funding—but the architecture was "Delivered" grade.

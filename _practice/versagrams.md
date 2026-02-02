@@ -1,33 +1,24 @@
 ---
-layout: whitepaper
-title: "Versagrams"
-tags: [Typographic Systems, Parametric Constraints, Grid Stress Testing]
+layout: workbench-spec
+title: "Versagrams: Parametric Typography"
+altitude: "03"
+context: "Testing typographic durability within fixed grid parameters"
+drift: "Fixed grids failing under variable content"
+scaffold: "Parametric typographic rules for flexible grid systems"
+fidelity: "Constraint-driven forms that hold under variable input"
+faculty: ["blue"]
+status: "In Development"
+seo_keywords: ["Typography Design", "Parametric Systems", "Grid Systems", "Font Design", "Constraint-based Design"]
 ---
 
-## The Work
+## Parametric Typography
 
-A study in typographic systems and parametric constraints. Fixed grids stress-tested against variable content to find where typography holds and where it breaks.
+Study in typographic systems and parametric constraints. Fixed grids stressed against variable content.
 
-The question: within a locked set of grid parameters — column width, baseline grid, type scale, margin ratios — how much content variation can the system absorb before it fails? And what does "failure" actually look like in a typographic system?
+## The System
 
-## The Approach
+Typographic study where grid and typography rules are fixed. Content input varies. Constraint-driven forms hold under variable input.
 
-**Fixed Parameters.** Every Versagram starts with the same locked grid: column count, gutter width, baseline increment, type scale ratio, and margin proportions. These don't change. They're the structure.
+## The Proof
 
-**Variable Content.** The content changes every time. Different text lengths, different languages, different content types — headlines, body text, captions, data tables, pull quotes. Each piece of content is a load test on the grid.
-
-**Failure Documentation.** When the grid breaks — text overflows, rhythm collapses, hierarchy becomes ambiguous — the failure is documented. What broke? Why? Was the grid too rigid, or was the content genuinely incompatible? Each failure teaches something about the relationship between structure and content.
-
-## The Numbers
-
-| | |
-|--------|--------|
-| Fixed parameters | 5 (columns, gutters, baseline, type scale, margins) |
-| Content variables | 5+ (length, language, type, hierarchy, density) |
-| Load test method | Increasing content variation until failure |
-| Key finding | Baseline grid and column width are structural; typeface and color are cosmetic |
-| Output | More visual variety from rigid constraints, not less |
-
-## What It Proves
-
-Constraint-driven typographic forms hold under more variable input than intuition suggests. The failures are instructive — they reveal which parameters are truly structural (baseline grid, column width) and which are cosmetic (specific typeface, color). The rigid grid produces more visual variety, not less, because the constraints force creative solutions at the content level.
+Constraint-driven systems can handle variable input without breaking. This underpins your enterprise work.
