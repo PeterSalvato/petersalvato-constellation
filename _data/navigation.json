@@ -31,10 +31,6 @@
           "url": "/systems/encore"
         },
         {
-          "label": "Joinery",
-          "url": "/systems/joinery"
-        },
-        {
           "label": "Aiden-Jae",
           "url": "/systems/aiden-jae"
         },
@@ -70,7 +66,7 @@
         },
         {
           "label": "The Deep Cuts",
-          "url": "/practice/deep-cuts"
+          "url": "/practice/the-deep-cuts"
         },
         {
           "label": "Echo & Bone",
@@ -79,6 +75,22 @@
         {
           "label": "Versagrams",
           "url": "/practice/versagrams"
+        },
+        {
+          "label": "Cryptozoology",
+          "url": "/practice/cryptozoology"
+        },
+        {
+          "label": "Motorology",
+          "url": "/practice/motorology"
+        },
+        {
+          "label": "Sentimentology",
+          "url": "/practice/sentimentology"
+        },
+        {
+          "label": "Monstrum",
+          "url": "/practice/monstrum"
         }
       ]
     }
