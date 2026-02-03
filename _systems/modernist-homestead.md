@@ -15,7 +15,9 @@ seo_keywords: ["Household Systems", "Neurodivergent Design", "Zero-Willpower Arc
 
 This isn't a lifestyle project. It's systems engineering applied to household operations.
 
-Three simultaneous load conditions:
+## The Diagnosis
+
+Three simultaneous load conditions that create structural fragmentation:
 
 **Executive Function:** ADHD and autism across the household. Willpower-dependent processes fail under load. If breakfast prep takes 90 minutes of decision-making, the family doesn't eat. If systems depend on remembering to remember, they collapse.
 
@@ -23,13 +25,29 @@ Three simultaneous load conditions:
 
 **Geography:** Cross-border relocation where health systems reset, supply chains change, and institutional knowledge evaporates overnight.
 
-## The Approach
+The structural problem: **Most household systems are compensatory—they work when everyone has bandwidth, fail when they don't.** The diagnostic question: **What constraint would concentrate meaning?** Or more precisely: **What integration points could make a household operate without willpower?**
+
+## The Thinking
+
+The key realization: **Technology isn't opposed to tradition. Technology IS a clarifying lens for tradition.**
+
+Most family systems treat these three domains (cooking, executive function, health) as separate problems requiring separate solutions. That creates layering: a meal plan app + a health protocol + a schedule management system = cognitive chaos.
+
+The breakthrough: **What if the same structural principles that stabilize an enterprise platform for 12 years could stabilize a household?**
+
+This meant finding integration points:
 
 **Culinary Modularity.** A coherent cooking system across five traditions — American BBQ, Mexican, Italian, Thai, Japanese. Four structural elements (umami, acidity, heat, smoke) present across all five. Build any meal from the same handful of principles. No recipe hunting. No "what's for dinner" paralysis. Monday's braise becomes Wednesday's taco filling becomes Friday's rice bowl. Same technique, different tradition.
 
-**Executive Function Scaffolding.** Weekly household check-ins that function like savepoints in a game—a fixed moment to catch problems before they cascade. Default meals eliminate choice fatigue. Default schedules eliminate negotiation. Supply lists are printed and staged. The kitchen layout itself does the work: tools in reach, prep surfaces cleared, ingredients pre-portioned. Cognitive load moves from your brain into the environment.
+The integration point: **Culinary structure eliminates decision-making.** You're not choosing between cuisines; you're working within a system that contains them.
 
-**Health Navigation.** Celiac protocol built into kitchen geography, not into willpower. Separate prep surfaces. Separate tools. Supply chains verified at purchase. Medical records, medication schedules, and care provider contacts structured for portability—you relocate, your medical continuity relocates with you. Institutional knowledge becomes transferable knowledge.
+**Executive Function Scaffolding.** Weekly household check-ins that function like savepoints in a game—a fixed moment to catch problems before they cascade. Default meals eliminate choice fatigue. Default schedules eliminate negotiation. Supply lists are printed and staged. The kitchen layout itself does the work: tools in reach, prep surfaces cleared, ingredients pre-portioned. **Cognitive load moves from your brain into the environment.**
+
+The integration point: **The environment does the thinking.** Willpower isn't required because the system is designed to fail safely without it.
+
+**Health Navigation.** Celiac protocol built into kitchen geography, not into willpower. Separate prep surfaces. Separate tools. Supply chains verified at purchase. Medical records, medication schedules, and care provider contacts structured for portability—you relocate, your medical continuity relocates with you. **Institutional knowledge becomes transferable knowledge.**
+
+The integration point: **Health is structural, not behavioral.** Separation protocols aren't enforced by memory; they're enforced by design.
 
 ## The Numbers
 
