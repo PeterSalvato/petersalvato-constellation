@@ -12,7 +12,7 @@
       </h3>
       <ul class="nav-list">
         {% for doc in site.protocols %}
-        <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+        <li><a href="{{ doc.url | relative_url }}">{{ doc.title | split: ':' | first }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -24,7 +24,7 @@
       </h3>
       <ul class="nav-list">
         {% for doc in site.systems %}
-        <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+        <li><a href="{{ doc.url | relative_url }}">{{ doc.title | split: ':' | first }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -36,7 +36,7 @@
       </h3>
       <ul class="nav-list">
         {% for doc in site.practice %}
-        <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+        <li><a href="{{ doc.url | relative_url }}">{{ doc.title | split: ':' | first }}</a></li>
         {% endfor %}
       </ul>
     </div>

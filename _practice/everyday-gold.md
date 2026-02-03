@@ -4,7 +4,6 @@ title: "Everyday Gold: Regulatory Fabrication"
 altitude: "03"
 faculty: ["red", "blue"]
 systems: ["visual"]
-status: "Specified"
 seo_keywords: ["Packaging Design", "Brand Systems", "Regulatory Compliance", "Label Design", "Constraint-based Design"]
 ---
 
