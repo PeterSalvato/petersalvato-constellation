@@ -9,15 +9,25 @@ seo_keywords: ["Music Production", "Audio Engineering", "Signal Flow", "Electron
 
 ## Algorithmic Rhythm Research
 
-An electronic music project built on years of thinking systematically about sound, composition, and how rhythm works algorithmically. MathOnTape makes your thinking visible through sound. You can hear the structure.
+An electronic music project built on years of thinking systematically about sound, composition, and how rhythm works algorithmically. **MathOnTape makes your thinking visible through sound. You can hear the structure.**
 
-Most musicians compose by feel. That works fine until the piece gets complex. Once you're building something intricate—layering sounds, managing how they interact, shaping what the listener hears—intuition alone isn't enough. You need to think like you're engineering something. Because you are.
+## The Problem
+
+The structural fragmentation: **Most musicians compose by feel until complexity requires rigor.** That works for simple pieces. But once you're layering sounds, managing how they interact, shaping what the listener perceives—intuition alone isn't enough. The system becomes too intricate to hold in memory.
+
+The diagnostic question: **What if electronic music composition worked like audio engineering? With explicit signal flow, clear component boundaries, predictable interactions?**
+
+## The Thinking
+
+The breakthrough: **Signal flow as compositional principle.** In audio equipment, each piece does one job. Pieces connect in specific ways. You can predict what happens when you change one component because the whole signal path is explicit.
+
+Apply that same thinking to composition: what comes first, what feeds into what, how does changing one thing ripple through everything else?
+
+This isn't about killing creativity. It's about **enabling predictability so that complexity becomes possible.** Constraints enable creation. Once you know the rules of how your pieces fit together, you can predict what will happen. You can repeat what works. You can build something bigger than intuition alone could reach.
 
 ## The Method
 
-Think of how audio equipment works: each piece does one job, and pieces connect to each other in specific ways. This is signal flow—the path sound takes through the system. Apply that same thinking to composition: what comes first, what feeds into what, how does changing one thing ripple through everything else?
-
-This isn't about killing creativity. It's the opposite. Constraints are what make things possible. Once you know the rules of how your pieces fit together, you can predict what will happen. You can repeat what works. You can build something bigger than you could before.
+Think of composition as **designed signal flow.** Each element does one job. Each connection is intentional. The structure is the music.
 
 Each piece here shows how structure enables new possibilities. Rhythm becomes something you can design. Composition becomes something you can build. The visual language draws from mid-century electronic equipment—that old, purposeful aesthetic. Futuristic retro.
 
