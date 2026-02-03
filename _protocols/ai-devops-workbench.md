@@ -9,34 +9,38 @@ seo_keywords: ["AI Orchestration", "LLM Governance", "Multi-agent Systems", "AI 
 
 ## The Problem
 
-Run a multi-agent workflow twice and you get different outputs. Add a second agent and you can't trace what happened or why. Context window closes and agents start hallucinating to fill gaps. You have no audit trail and can't reproduce results.
+Run a multi-agent workflow twice and you get different outputs. Add a second agent and you lose the thread—what happened, why it happened, nothing.
 
-The agents are smart but uncoordinated. Each one has different assumptions about what "done" means, what the other agents are doing, what constraints exist. Decisions contradict each other. One agent overwrites another's work. Your system drifts further from intent every cycle.
+Context window closes. Agents hallucinate to fill the gaps. You have no audit trail. You can't run it again and get the same result.
+
+The agents work alone. Each one guesses what "done" means. Each one assumes different constraints exist. One agent rewrites what another just finished. Your system drifts. You notice the drift. You can't stop it.
 
 ## The Infrastructure
 
-Three-document system that governs multi-agent flow:
+Three documents. They work together.
 
-**conventions.md** — Hard rules agents cannot break. Constraint list with reasoning. When agents encounter ambiguity, conventions decide. Not flexible. Not negotiable.
+**conventions.md** — Boundary list. What agents can and cannot do. Why the boundary exists. When an agent hits ambiguity, conventions answer. They don't bend.
 
-**symbol-index.md** — Shared state map. What agents can touch. What's off-limits. Which agent owns which data. Prevents agents from corrupting each other's work.
+**symbol-index.md** — State ledger. Which agent owns which data. What's locked. What's open. Agents read this first. They know what they can touch.
 
-**institutional-memory-enforcer.js** — Runs before each agent step. Checks: Does this action violate conventions? Does this agent have write access to this data? Is the reasoning sound (not hallucinating)? If violation found, agent resets. No "let's see what happens."
+**institutional-memory-enforcer.js** — Runs before each agent moves. Checks three things: Does this action break a convention? Does this agent have write access? Is the reasoning sound or is it filling gaps? Violation found, agent stops. Resets. Tries again.
 
-Stack runs JSON prompting (configuration as code). Multi-agent choreography instead of chaos. Context window optimization respects model limits.
+The stack runs configuration as code (JSON prompts). Agents stay in their lanes. Context window doesn't overflow.
 
 ## The Mechanics
 
-Before agents run: Load conventions.md, symbol-index.md, and state snapshot.
+Setup: Load conventions.md. Load symbol-index.md. Snapshot the current state.
 
-When an agent executes: Enforce constraints via institutional-memory-enforcer.js. Agent sees violations in real time. Can't proceed until it corrects course.
+Agent runs: The enforcer intercepts. It checks constraints in real time. Agent sees the violation. Corrects course. Moves forward.
 
-After execution: Update symbol-index.md with new state. Verify no drift from conventions. Log decision and reasoning.
+After the agent finishes: Update symbol-index.md. Verify the state didn't drift from conventions. Write the decision and the reasoning to the log.
 
-When adding a new agent: Write its scope into conventions.md first. Define what it can touch. Define what "done" means for its domain. Other agents read this and don't interfere.
+New agent joins: First, write its boundaries into conventions.md. What can it touch. What "done" means in its domain. Other agents read it. They don't interfere.
 
 ## The Proof
 
-87% reduction in agent inconsistencies across 40+ workflow runs. 43% faster cycle times (agents no longer redo each other's work). 78% reduction in context management overhead. 100% reproducibility — same input → same output every time.
+40+ workflows. 87% fewer agent contradictions. 43% faster cycles—agents stopped redoing each other's work. 78% less context overhead. Same input produces the same output every time.
 
-Tested on 12-year platform with zero unplanned downtime. Context recovery after crisis: 1 hour instead of 3 days. Foundation: governance architecture, not just infrastructure.
+12-year platform. Zero unplanned outages. A crisis hit. Recovery took 1 hour instead of 3 days.
+
+We built coordination. Not by hoping agents would cooperate. By making it impossible for them to interfere.
