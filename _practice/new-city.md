@@ -14,13 +14,25 @@ NewCity is foundational infrastructure. It's where recursive system thinking tra
 
 ## The Problem
 
-Collapse narratives typically dramatize the endpoint. NewCity models the actual physics: incremental degradation. Infrastructure fails in stages. People restructure around the failure. New systems emerge from adaptation pressure. Henka—neurodivergent, hypersensitive to system state, learning through direct perception—survives not through domination but through reading the environment at a resolution others can't match.
+The structural fragmentation: **How do you encode a story's theme into mechanics rather than just dramatize it?** Most stories treat theme and mechanics as parallel tracks—mechanics tell the plot; theme is what readers extract afterward.
+
+The diagnostic question: **What if the theme IS the mechanic?** What if narrative structure itself revealed the story's central insight?
+
+## The Thinking
+
+The breakthrough: **Thematic-mechanical integration.** NewCity doesn't just *tell* a story about incremental system failure; the story *mechanics* operate as incremental system failure.
+
+Collapse narratives typically dramatize the endpoint. **NewCity models the actual physics: incremental degradation.** Infrastructure fails in stages. People restructure around the failure. New systems emerge from adaptation pressure. Henka—neurodivergent, hypersensitive to system state—survives not through domination but through reading the environment at a resolution others can't match.
+
+The integration point: **The protagonist's survival mechanic mirrors the story's structural mechanic.** Henka learns by reading system states. The reader learns by reading how narrative structure itself shifts in response to pressure.
 
 ## The Structure
 
 **Macro:** Three-act structure following the Hero's Journey template. Act II subdivides into distinct phases. Four load-bearing narrative sections.
 
-**Micro:** Each section operates as a Kishōtenketsu cycle—setup, development, reversal, resolution. This Eastern structural logic prioritizes perspective recalibration over antagonistic collision. It works.
+**Micro:** **Each section operates as a Kishōtenketsu cycle—setup, development, reversal, resolution.** Why not Western three-act? Because Kishōtenketsu prioritizes perspective recalibration over antagonistic collision. The character doesn't overcome obstacles; the character's *understanding of the system* shifts. This matches the theme: survival through reading system states, not fighting them.
+
+The choice of Eastern structural logic over Western proves the principle: **Form follows the story's ontology, not the writer's default patterns.**
 
 **Geography:** Brooklyn/Sunset Park as the model site. Layered survival zones. Industrial and residential infrastructure interpenetrating. The geography does narrative work.
 
