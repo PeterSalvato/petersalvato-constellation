@@ -11,7 +11,25 @@ seo_keywords: ["Photography Systems", "Visual Storytelling", "Constraint-based D
 
 Photography pretends to neutrality. It isn't. Every decision carries weight: what you frame, the lens you choose, the split second you release. Photogeography documents these decisions as fact. Not beauty. Not technique. The actual record of how you encountered a place.
 
-The constraint is the tool. Three fixed aspect ratios. You can't crop your way out—so you learn to see differently. Without the option to adjust proportions, you position differently. Without cropping, you compose differently. The format stops being invisible and becomes the thing that teaches you what to look for.
+## The Diagnosis
+
+The structural problem: **Photographs without structure are passive experiences.** Most photography systems treat constraint as limitation. You crop until the image feels right. You adjust aspect ratio until it fits your aesthetic. You remove anything that doesn't support the story you want to tell. This turns photography into *narrative*—the photographer deciding what to emphasize and what to hide.
+
+The diagnostic question: **What constraint would force active engagement instead of passive consumption?**
+
+## The Thinking
+
+The breakthrough: **Constraints don't limit emergence; they generate it.** By removing the option to crop, the option to adjust proportions, the option to "fix" the image, you force the photographer to make different compositional choices. You learn to *see* differently because the format forces you to position differently.
+
+This means:
+- Three fixed aspect ratios, not adjustable
+- No cropping—every image saved as-is, in the shape it arrived
+- Fixed container system—frame, padding, background consistent across all images
+- Fixed tonal range—brightness and color treated the same across formats
+
+The integration point: **The format becomes the teacher.** By removing the photographer's ability to control the final image shape, the photographer's eye develops differently in the moment of capture.
+
+## The Proof
 
 ## The System
 
