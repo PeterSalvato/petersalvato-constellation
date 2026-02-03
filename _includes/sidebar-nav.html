@@ -4,17 +4,53 @@
   </div>
 
   <nav id="sidebar-menu" aria-label="Site sections">
-    {% for section in site.data.navigation.sections %}
+
+    <!-- 01. PROTOCOLS (Red) - Auto-generated from _protocols collection -->
     <div class="nav-section">
-      <h3 class="nav-section-title nav-section-title--{{ section.color }}">
-        {{ section.label }}
+      <h3 class="nav-section-title nav-section-title--red">
+        01. PROTOCOLS
       </h3>
       <ul class="nav-list">
-        {% for item in section.items %}
-        <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+        {% for doc in site.protocols %}
+        <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
-    {% endfor %}
+
+    <!-- 02. APPLIED SYSTEMS (Blue) - Auto-generated from _systems collection -->
+    <div class="nav-section">
+      <h3 class="nav-section-title nav-section-title--blue">
+        02. APPLIED SYSTEMS
+      </h3>
+      <ul class="nav-list">
+        {% for doc in site.systems %}
+        <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- 03. PRACTICE (Green) - Auto-generated from _practice collection -->
+    <div class="nav-section">
+      <h3 class="nav-section-title nav-section-title--green">
+        03. PRACTICE
+      </h3>
+      <ul class="nav-list">
+        {% for doc in site.practice %}
+        <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- ABOUT (Neutral) - Manual links to standalone pages -->
+    <div class="nav-section">
+      <h3 class="nav-section-title nav-section-title--neutral">
+        ABOUT
+      </h3>
+      <ul class="nav-list">
+        <li><a href="{{ '/provenance' | relative_url }}">Provenance</a></li>
+        <li><a href="{{ '/practice/colophon' | relative_url }}">Colophon</a></li>
+      </ul>
+    </div>
+
   </nav>
 </aside>
