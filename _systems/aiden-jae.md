@@ -13,16 +13,16 @@ seo_keywords: ["E-commerce Design System", "Luxury Brand Architecture", "Shopify
 
 ## Retail Brand Architecture
 
-Brand and technical architecture for luxury jewelry e-commerce. From-scratch build of a visual and technical operating system bridging high-end craftsmanship and digital scalability.
+Built a jewelry e-commerce system from the ground up. The work bridges two worlds that don't usually talk to each other: a craftsperson's hands and a customer's screen.
 
-## The Narrative
+## The Problem
 
-Not "e-commerce site" but "Architecture of Accessible Luxury." You built a Visual Operating System from scratch to solve a structural problem: luxury brands struggle to translate handmade quality into digital trust.
+The friction was real. A jeweler spends weeks on a ring. A customer sees a thumbnail. That gap—between the object and its digital shadow—is where luxury drowns. So instead of bolting design onto an off-the-shelf platform, we built the entire visual and technical system as one thing. Photography, product pages, inventory logic, checkout flow. All designed to move the feeling of craftsmanship through a wire.
 
 ## The Fix
 
-Established "Visual Vocabulary" via high-fidelity, texture-led photography and custom Liquid/SCSS to bridge the gap between artisanal production and digital presentation.
+High-resolution photography that shows texture—the grain of a stone, the weight of metal in light. Then custom Liquid templates and SCSS that lets those images breathe. No shortcuts. No stock templates hiding behind placeholder copy. The code and the photography had to do the same job: make you believe a real person made this.
 
 ## The Result
 
-Premium positioning established. Sustainable sourcing becomes a structural advantage, not a marketing claim. The architecture proves the story.
+Premium pricing held. Sourcing practices that were once a footnote in the about page became visible in every product detail—not because we marketed them harder, but because the system made them visible by default. The structure proved the story was real.

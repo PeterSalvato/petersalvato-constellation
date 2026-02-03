@@ -9,25 +9,23 @@ seo_keywords: ["Photography Systems", "Visual Storytelling", "Constraint-based D
 
 ## Somatic Evidence
 
-A constraint-based photography project about travels and the things you notice in places. Not about format fidelity or equipment specs. About the way you experience place. A record of perception: what you noticed, what lingered, what felt like it meant something.
+Photography pretends to neutrality. It isn't. Every decision carries weight: what you frame, the lens you choose, the split second you release. Photogeography documents these decisions as fact. Not beauty. Not technique. The actual record of how you encountered a place.
 
-Most photographers pretend to be objective. But every choice is loaded: the frame, the focal length, the moment you press the button. Photogeography locks those choices as honest evidence. Three fixed aspect ratios. Format as constraint, not limitation.
-
-Each photograph holds the shape it arrived in, without cropping or manipulation. The constraint forces different seeing. When you can't crop, you have to compose differently. When you can't adjust the ratio, you have to position differently.
+The constraint is the tool. Three fixed aspect ratios. You can't crop your way out—so you learn to see differently. Without the option to adjust proportions, you position differently. Without cropping, you compose differently. The format stops being invisible and becomes the thing that teaches you what to look for.
 
 ## The System
 
-Three modular aspect ratios capture authentic perception:
-- 3:2 landscape (35mm field recording)
+Three aspect ratios, fixed:
+- 3:2 landscape (the 35mm field recording)
 - 4:3 landscape or vertical (phone observation)
-- 1:1 square (intentional moment or native crop)
+- 1:1 square (the intentional moment, the native crop)
 
-Each image placed in a framed container (like a specimen or pinned artifact) with fixed padding, subtle background tone, optional border. Standardized caption placement. Consistency through constraint, not cropping.
+Each image sits in a container. Frame, padding, background, optional border. Captions in standard place. Everything consistent because everything is constrained—not despite the constraint, but through it.
 
-Color grading and tone remain consistent across formats. The geometry of the place emerges through format-driven perception—not what you wanted to see, but what the constraint forced you to notice.
+The tonal range stays steady across all formats. The geometry of a place reveals itself not through what you wanted to capture, but through what the format forced you to notice.
 
 ## The Proof
 
 "Photogeography respects the shape in which the image arrived. Because this isn't about the world—it's about how I met it."
 
-A visual archive that isn't trying to be pretty. Just present. Rigorous. Proof that fixed constraints generate emergence, not limitation.
+An archive that has no interest in being beautiful. Present. Rigorous. Fixed constraints don't limit emergence—they generate it.

@@ -38,12 +38,12 @@ The site organizes work by intent:
 
 ### Voice
 
-Master Builder protocol. Blue-collar intellect. Rigorous. Systemic. Full reference at `/docs/voice-protocol.md`.
+Master Builder protocol. Rigorous. Systemic. Full reference at `/docs/voice-protocol.md`.
 
-Every page follows the same rules: lead with what was built, then why, then what it survived. No jargon that hasn't been earned. No performance. Every sentence should survive the question: "Would you say this out loud to someone you respect?"
+Every page follows one rule: lead with what was built, then why, then what it survived. No jargon that hasn't been earned. Every sentence should survive the question: "Would you say this out loud to someone you respect?"
 
 ## What It Proves
 
-The site is the proof. The person who builds durable, autonomous infrastructure should have a portfolio that functions as durable, autonomous infrastructure. The architecture is visible. The scaffolding isn't hidden.
+The site is the proof. The person who builds durable, autonomous infrastructure should have a portfolio that functions as durable, autonomous infrastructure.
 
-That's the colophon: this is what the methodology looks like when it's applied to itself.
+The architecture is visible. The scaffolding isn't hidden. That's the colophon: what the methodology looks like when applied to itself.

@@ -9,19 +9,19 @@ seo_keywords: ["Typography", "Emotional Vocabulary", "Language Design", "Concept
 
 ## Words for Feeling
 
-A typographic poster series exploring rare words describing specific emotions—creating a visual dictionary of feelings without common names. Not poetry. Definition as visual discipline.
+A typographic poster series mapping rare words that name specific emotions—building a visual dictionary of feelings English doesn't have words for. Not poetry. Definition as structure.
 
-These are real words from various languages and cultures describing feelings that English lacks vocabulary for. Sonder. Hiraeth. Mono no aware. Mamihlapinatapai. The project collects them, defines them, and visualizes them typographically.
+Real words from different languages and cultures naming feelings that English abandoned. Sonder. Hiraeth. Mono no aware. Mamihlapinatapai. The project collects them, defines them, makes them visible.
 
 ## The System
 
-Each entry: the word, its origin, what it names, what it feels like. Typography varies to match the emotional texture of each term. Modernist typography paired with color schemes that embody the feeling.
+Each poster: word, origin, what it names, what it feels like. Typography shifts to match the emotional weight of each term. Modernist typography paired with color that carries the feeling.
 
-Some definitions run sparse—single words or fragments. Others accumulate detail. The form follows the feeling. Subtle, sophisticated design reflecting each word's linguistic and emotional landscape.
+Some definitions compress to fragments. Others build outward. Form follows feeling. Clean, direct design that maps each word's linguistic and emotional territory.
 
 ## The Format
 
-Poster series expandable through POD to prints, merch. Part of personal explorations alongside Cryptozoology, Motorology, Versagrams. Showcases linguistic curiosity merged with design thinking. Format and approach established; ready for word/emotion selection phase.
+Poster series. Expandable through POD into prints, merchandise. Part of a larger investigation alongside Cryptozoology, Motorology, Versagrams. Shows how linguistic curiosity and design thinking build on each other. The system works. Ready for word and emotion selection.
 
 ## The Work
 

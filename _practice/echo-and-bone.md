@@ -9,22 +9,22 @@ seo_keywords: ["Narrative Theory", "Symbolic Systems", "Archetypal Design", "The
 
 ## Archetypal Systems
 
-Archetypes aren't decoration. They're structural patterns. They appear across cultures. They appear across millennia. Same shapes, different surface. The Hero. The Shadow. The Wise Old Man. The Trickster.
+Archetypes work. Not as ornament—as structure. The same load-bearing patterns repeat across every culture, every century. Same foundations under different exteriors. The Hero. The Shadow. The Wise Old Man. The Trickster.
 
-These aren't symbols. They're load-bearing structures in narrative and visual systems. Map them and you can build with them deliberately instead of accidentally.
+These are building blocks, not metaphors. They carry meaning the way girders carry weight. Identify them. Map them. Use them. Then you're constructing deliberately instead of guessing.
 
 ## The Research
 
-Typography and symbolism exploration centered on archetypal patterns. A visual and writing-based investigation into how archetypal structures organize human meaning. Not mysticism—structural analysis of how consciousness recognizes pattern across cultures and time.
+Typography and symbolism investigation grounded in archetypal patterns. A systematic exploration: how do archetypal structures organize meaning? Not mysticism. Structural mechanics. How human perception recognizes the same patterns repeating across cultures and time.
 
-27 reference points mapped. Visual systems expressing symbolic and archetypal investigation. The output is both artistic expression and philosophical documentation.
+27 reference points identified. Visual systems built on symbolic and archetypal investigation. The result functions as both artistic work and structural documentation.
 
 ## The Connection
 
-Heavy conceptual overlap with Order of the Ætherwright. Echo & Bone is the artistic expression; Ætherwright is the philosophical system. They cross-reference and validate each other—the visual proof that symbolic thinking is structural thinking.
+Clear structural overlap with Order of the Ætherwright. Echo & Bone is the visual execution; Ætherwright is the underlying system. They reinforce each other—visual proof that symbolic thinking is engineering.
 
 ## The Proof
 
-A working vocabulary for archetypal patterns applicable across domains. When you understand the Hero's journey as structure, not story, you can apply it to brand narratives, interaction design, product architecture. The pattern is the skeleton. The specific story is the flesh on the bones.
+A usable framework for archetypal patterns. Apply them anywhere. Understand the Hero's journey as skeleton instead of story, and you build with it: brand systems, interaction design, product architecture. Pattern is framework. Story is the specific assembly.
 
-Echo & Bone is the framework proving archetypes are engineering tools, not decorative concepts.
+Echo & Bone demonstrates what archetypes actually are: tools for building, not decoration.

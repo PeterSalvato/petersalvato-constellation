@@ -25,11 +25,11 @@ Three simultaneous load conditions:
 
 ## The Approach
 
-**Culinary Modularity.** A coherent cooking system across five traditions — American BBQ, Mexican, Italian, Thai, Japanese. Four structural elements (umami, acidity, heat, smoke) present across all five. Recipes composed from principles, not memorized. Zero-decision meals assembled without choosing.
+**Culinary Modularity.** A coherent cooking system across five traditions — American BBQ, Mexican, Italian, Thai, Japanese. Four structural elements (umami, acidity, heat, smoke) present across all five. Build any meal from the same handful of principles. No recipe hunting. No "what's for dinner" paralysis. Monday's braise becomes Wednesday's taco filling becomes Friday's rice bowl. Same technique, different tradition.
 
-**Executive Function Scaffolding.** Savepoint integration with weekly household check-ins. Decision elimination through default meals, schedules, and supply lists. Environmental design reducing cognitive load — tools in reach, ingredients pre-staged, the kitchen as an ergonomic system.
+**Executive Function Scaffolding.** Weekly household check-ins that function like savepoints in a game—a fixed moment to catch problems before they cascade. Default meals eliminate choice fatigue. Default schedules eliminate negotiation. Supply lists are printed and staged. The kitchen layout itself does the work: tools in reach, prep surfaces cleared, ingredients pre-portioned. Cognitive load moves from your brain into the environment.
 
-**Health Navigation.** Celiac protocol with supply chain verification and cross-contamination prevention built into kitchen layout. Medical continuity with records, medication schedules, and care provider information structured for portability across jurisdictions.
+**Health Navigation.** Celiac protocol built into kitchen geography, not into willpower. Separate prep surfaces. Separate tools. Supply chains verified at purchase. Medical records, medication schedules, and care provider contacts structured for portability—you relocate, your medical continuity relocates with you. Institutional knowledge becomes transferable knowledge.
 
 ## The Numbers
 

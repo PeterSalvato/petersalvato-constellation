@@ -13,12 +13,12 @@ A book teaching the craft of DJing as a path to deeper music appreciation and ac
 
 ## The Method
 
-DJing teaches you to listen. Selection, transition, sequence, timing—these aren't performance tricks. They're how you understand music's architecture. By learning to move between records, you learn to hear the joints in music. You become an active participant in musical meaning-making.
+DJing teaches you to listen. Selection, transition, sequence, timing—these aren't performance tricks. They're the mechanics of how music works.
 
-Understanding selection teaches you to hear. Understanding transition teaches you to recognize structure. Understanding sequence teaches you how meaning emerges from order. Understanding timing teaches you rhythm operates at multiple scales.
+Learn selection: you hear. Learn transition: you recognize structure. Learn sequence: you see how meaning assembles from order. Learn timing: you grasp rhythm's multiple scales.
+
+This isn't passive consumption. You become an active architect of meaning the moment you move between records.
 
 ## The Teaching
 
 Interactive methodology for developing deep music literacy. Possible formats: book, journal, workshop series, visual narrative approach. Concept established; positioned within creative practice for development.
-
-By learning to move between records, listeners become active participants in musical meaning-making. Understanding selection teaches you to hear.

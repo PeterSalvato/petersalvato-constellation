@@ -11,20 +11,22 @@ systems: ["visual", "technical"]
 seo_keywords: ["Enterprise UX Architecture", "Design Systems", "Legacy Modernization", ".NET Core", "Front-end Engineering"]
 ---
 
-## Architectural Sovereignty
+## What We Built
 
-The 12-year proof of concept. Architectural sovereignty over an enterprise-scale executive search platform serving Fortune 500 companies and federal agencies. Legacy .NET Core desktop architecture migrated to modern web standards without service interruption. Maintained mission-critical platform stability and UX continuity for 100,000+ users across 2.5M+ annual transactions with zero catastrophic failures.
+Took a 12-year-old .NET Core desktop system and moved it to the web. Served Fortune 500 companies and federal agencies. 100,000+ users. 2.5 million transactions a year. Never broke it in the process.
 
-## The Narrative
+## The Problem We Solved
 
-Not "front-end work" but "Architectural Sovereignty." The proof that you can manage massive technical drift—the widening gap between design intent and technical execution—at enterprise scale.
+Systems drift. You design something one way, then five years of patches and workarounds later, the code doesn't match the original plan anymore. Scale that to enterprise. Add legacy constraints. That gap gets massive. We kept it stable while closing it.
 
-## The Fix
+## How We Did It
 
-Custom Atomic SCSS/JS frameworks "grafted" modern Material Design onto routed UI for 100% responsive parity. Refactoring as a metabolic process, not a rebuild.
+Built custom SCSS and JavaScript frameworks that let us layer modern Material Design on top of the existing routing system. No rip-and-replace. Just methodical refactoring—replacing one piece while everything else kept working.
 
-## The Result
+Think of it like repairing a ship while it's at sea: you replace the hull planks one section at a time, not all at once.
 
-12 years of structural containment. Colossal Data Ingestion managed through constraint-driven architecture. High-fidelity execution maintained through legacy-to-modern migration.
+## What It Meant
 
-This is what implementation fidelity looks like at scale: not a perfect rebuild, but a durable evolution where the original system doesn't break while being transformed.
+Twelve years of unbroken operation. Millions of records flowing through the system continuously. Nothing catastrophic failed. The architecture didn't just survive the modernization—it became more maintainable on the other side.
+
+That's implementation fidelity: not perfect code, but durable execution. Systems that keep working while you're transforming them.

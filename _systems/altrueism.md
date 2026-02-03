@@ -23,10 +23,12 @@ The client's brand had accumulated contradictions. Messaging hierarchy was incoh
 
 ## The Solution
 
-Complete identity system. Visual and messaging architecture grounded in integrity. We introduced "Digital Patina"—hand-made marks and stone textures—as proof of material honesty. Not slick. Honest. The brand says: this organization is serious about transparency.
+We rebuilt the entire identity system—from typography choices to color hierarchy to how language worked across materials. Everything pointed the same direction.
+
+For the visual language, we introduced hand-made marks and weathered stone textures throughout. Not photographic. Hand-drawn, scanned, slightly imperfect. The idea was simple: this organization doesn't hide behind polish. It shows its work. The roughness itself became proof that someone cared enough to make it honest rather than slick.
 
 ## The Proof
 
-Transformed an incoherent brand into a premium-positioned operating system. Structural authority re-established through visual discipline. Work was delivered fully specified at "Delivered" grade.
+The system held. Every application—website, documents, internal tools—used the same visual logic. The organization could build on it. Could scale it. Could be recognized by it.
 
-The client didn't launch due to external funding constraints, not because the architecture failed. The system was sound.
+The client didn't launch due to external funding constraints, not because the architecture failed. The system was built to last.

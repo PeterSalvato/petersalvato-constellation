@@ -9,22 +9,22 @@ seo_keywords: ["Kaiju", "Speculative Fiction", "Social Commentary", "Visual Narr
 
 ## Kaiju as Social Commentary
 
-A kaiju-focused project using allegorical narrative to explore giant monsters as cultural metaphors. Treats kaiju not as entertainment but as language—symbolic articulation of social anxiety and cultural meaning.
+A kaiju-focused project that builds monsters as cultural language. Giant creatures aren't entertainment—they're articulations. Each one emerges because a society has something to say and no other way to say it. The creature *is* the statement.
 
-A kaiju emerges when a society has something to say but no words for it. The creature *is* the statement. Its form, behavior, and destruction reveal what the culture fears, desires, and values.
+You read the culture in what it builds. Form, behavior, destruction—these are the syntax. Fear shapes the body. Anxiety articulates through rampage. The monster doesn't symbolize the culture's terror; it *is* the terror, made tangible.
 
 ## The Analysis
 
-Kaiju narratives treated as case studies in cultural meaning-making. What anxiety produces this creature? What does its shape reveal about the society that imagines it? How does its destruction mirror or resist the culture's anxieties?
+Map the construction. What anxiety generated this creature? What does its architecture reveal about the hands that imagined it? Study each kaiju as a blueprint of what a culture cannot say directly but must build anyway.
 
-Each kaiju becomes a metaphor—an articulate force expressing what humans cannot directly articulate. The project maps these mappings: fear→form, anxiety→destruction, meaning→monster.
+This is translation work. Fear→form. Anxiety→destruction. Meaning→monster. The project doesn't interpret the creatures; it documents how they're assembled from the raw material of collective dread.
 
 ## The Format
 
-Trading cards, prints, visual series format. Expandable through POD. Can be serialized as essays, journal content, artifacts. Concept locked; kaiju→metaphor mappings established; sequenced carefully in creative pipeline.
+Trading cards, prints, visual series. Physical objects you can hold—expandable through POD. Sequenced as essays, journal artifacts, extended construction documents. The concept is locked. The kaiju-to-metaphor mappings are established and ordered deliberately through the pipeline.
 
 ## The Work
 
-Monsters teach you what a society fears most. Not the surface fear. The deep one.
+Monsters teach you what a society fears—not the surface fear. The foundational one.
 
-Each creature becomes a diagram of collective consciousness. You can read the culture in the shape of the thing it spawns.
+Each creature is a functional diagram of collective consciousness. You can read the society in the shape of the thing it was forced to build.

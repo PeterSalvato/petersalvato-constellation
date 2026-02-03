@@ -14,18 +14,18 @@ Everything lives in the cloud now. One ISP outage. One corporate policy shift. O
 
 This is the problem: digital dependency.
 
-Portable Agency is the antidote. Infrastructure you own. Local compute. Offline sovereignty. Your data stays with you.
+Portable Agency fixes it. You own the infrastructure. Your compute runs locally. Your data stays with you. The system works when the internet doesn't.
 
 ## The Approach
 
-Not "home server hobby." Architectural approach to digital autonomy.
+This isn't a hobby. It's how you actually build systems that last.
 
-**Local compute stacks:** Jellyfin for media. Nextcloud for files. Ollama for local AI. PostgreSQL for data. Everything runs on hardware you control.
+**What you run locally:** Jellyfin streams your movies. Nextcloud holds your files. Ollama runs AI on your hardware. PostgreSQL stores your data. Everything on machines you control.
 
-**Offline sovereignty:** When the internet disappears, the infrastructure still works.
+**When the internet fails, you don't.** Your infrastructure keeps running. Your files stay accessible. Your work continues.
 
-**Network-agnostic:** Works on LAN. Works over Tailscale VPN. Works offline.
+**It works everywhere.** On your home network. Over a VPN from anywhere. Completely offline. Same system, same reliability, no dependencies.
 
 ## The Proof
 
-Family infrastructure runs locally with zero cloud dependency. Not a side project. An operational lifestyle change. This is what it looks like when systems thinking gets applied to personal autonomy.
+A family runs on this setup. Zero cloud accounts required. Not a weekend project—it's how they actually live. This is what happens when you stop accepting infrastructure someone else controls and start building your own.

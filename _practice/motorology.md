@@ -9,22 +9,26 @@ seo_keywords: ["Vehicle Design", "Technical Graphics", "Blueprint Systems", "Ind
 
 ## Purpose-Built Vehicles
 
-An aesthetic and cultural study of purpose-built vehicles—Baja bugs, rat rods, overlanders, choppers, lowriders. Not automotive fantasy. Engineering made visible. Each vehicle type is a statement about human desire: adventure, rebellion, freedom, survival, identity.
+Purpose-built vehicles are problems solved in steel. Baja bugs, rat rods, overlanders, choppers, lowriders—each one engineered for something specific. Not styling exercises. Engineering made visible.
 
-Form follows function, but function expresses philosophy. The Baja bug says "unrestrained adventure." The rat rod says "anti-establishment defiance." The chopper says "personal freedom." The lowrider says "cultural identity made mobile."
+Every vehicle type answers a question about what people actually want: How do I survive the desert? How do I reject convention? How do I claim freedom? How do I claim identity? The machine embodies the answer.
+
+Form follows function. But function expresses philosophy. The Baja bug whispers "unrestrained adventure." The rat rod shouts "anti-establishment defiance." The chopper declares "personal freedom." The lowrider announces "cultural identity made mobile."
 
 ## The System
 
-12-column grids with technical precision. Industrial color palette: greys, blacks, metallics with bright accents. Typography condensed and functional—DIN, Akzidenz-Grotesk. Layouts echo engineering blueprints because vehicles *are* blueprints made manifest.
+12-column grids. Technical precision. Industrial palette—greys, blacks, metallics, bright accents where they matter. Typography built for purpose: DIN, Akzidenz-Grotesk. Condensed. Functional. Layouts read like engineering blueprints because vehicles *are* blueprints made manifest.
 
-Each poster expresses the core emotion of the vehicle type, not just its visual form. The design language reinforces the "spirit" of the machine.
+Design language doesn't decorate the emotion of a vehicle type. It reveals it. The poster shows what the machine learned.
 
 ## The Format
 
-Posters as primary output, expandable through POD to trading cards, apparel, home goods. Audience: design lovers, auto enthusiasts, subculture historians. Detailed vehicle taxonomy established; thematic framework locked. Ready for execution.
+Posters. Primary output. Expandable through POD—trading cards, apparel, home goods. Audience: people who read design seriously, auto enthusiasts, subculture historians.
 
-Each vehicle is a solution to a specific problem. Desert survival. Rock crawling. Long-distance durability. The posters document what the vehicle learned.
+Vehicle taxonomy established. Thematic framework locked. Ready to build.
+
+Each vehicle solves a specific problem. Desert survival. Rock crawling. Durability across distance. The poster documents what the vehicle learned in solving it.
 
 ## The Archive
 
-Purpose leaves traces. Build a vehicle for sand dunes and the dunes reshape the vehicle. The poster shows that conversation.
+Purpose leaves traces. Build a machine for sand dunes and the dunes reshape the machine. The poster shows that conversation between engineer and environment.
