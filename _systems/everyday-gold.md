@@ -1,5 +1,5 @@
 ---
-layout: workbench-spec
+layout: system-02
 title: "Everyday Gold: E-Commerce Operations"
 altitude: "02"
 context: "Niche-market direct-to-consumer natural deodorant brand scaling operations"
@@ -7,6 +7,7 @@ drift: "Handmade quality vs. digital scalability in direct-to-consumer commerce"
 scaffold: "E-commerce infrastructure + inventory management + modular scent-variant system"
 fidelity: "Sustainable sourcing becomes structural operational advantage"
 faculty: ["blue", "green"]
+systems: ["narrative", "visual", "technical"]
 seo_keywords: ["E-commerce Systems", "Direct-to-Consumer Operations", "Brand Architecture", "Inventory Systems", "Constraint-based Operations"]
 ---
 
@@ -49,4 +50,4 @@ Everyday Gold exists in both Systems and Practice because the project demonstrat
 
 - **Practice version** (`/practice/everyday-gold`): Label design and regulatory architecture. Typographic systems, FDA compliance, trademark distinctiveness, and production specifications. The answer to: "How do you encode regulatory requirements as design material?"
 
-Both are necessary. Joinery (design-engineering integration) connects them. The same system that holds premium brand positioning in the label holds the operational integrity of the supply chain.
+Both disciplines must work together. The same structural thinking that holds premium brand positioning in the label holds the operational integrity of the supply chain.

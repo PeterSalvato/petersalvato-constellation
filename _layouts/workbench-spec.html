@@ -72,6 +72,24 @@ layout: default
         </div>
     </div>
     {% endif %}
+
+    <!-- Systems Indicators -->
+    {% if page.systems %}
+    <div class="spec-block">
+        <div class="spec-label">Output Systems</div>
+        <div class="systems-indicators">
+            {% for system in page.systems %}
+            <span class="system-tag system-{{ system }}">
+                {% if system == "narrative" %}Narrative
+                {% elsif system == "visual" %}Visual
+                {% elsif system == "technical" %}Technical
+                {% else %}{{ system | capitalize }}
+                {% endif %}
+            </span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
 </div>
 
 <!-- Main Content -->

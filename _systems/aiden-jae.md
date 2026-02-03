@@ -1,12 +1,13 @@
 ---
-layout: workbench-spec
+layout: system-02
 title: "Aiden Jae: Retail Brand Architecture"
-altitude: "01"
+altitude: "02"
 context: "Luxury jewelry brand needing structural clarity"
 drift: "Disconnected visual language vs. luxury positioning"
 scaffold: "From-scratch Design System & Shopify Integration"
 fidelity: "Premium positioning established as operational advantage"
 faculty: ["blue", "green"]
+systems: ["narrative", "visual", "technical"]
 seo_keywords: ["E-commerce Design System", "Luxury Brand Architecture", "Shopify Development", "Visual Identity Systems", "Retail Infrastructure"]
 ---
 

@@ -1,26 +1,27 @@
 ---
-layout: workbench-spec
+layout: practice-03
 title: "Echo & Bone: Archetypal Systems"
 altitude: "03"
-context: "Structuring archetypal humanity through occult and alchemical systems"
-drift: "Unstructured archetypal research"
-scaffold: "Symbolic taxonomy framework for narrative and visual systems"
-fidelity: "Reusable structural vocabulary for archetypal patterns"
 faculty: ["red", "blue"]
+systems: ["narrative", "visual"]
 status: "In Development"
 seo_keywords: ["Narrative Theory", "Symbolic Systems", "Archetypal Design", "Thematic Research", "Structural Patterns"]
 ---
 
 ## Archetypal Systems
 
-Somatic/Symbolic research interfacing raw material with digital reflection.
+Archetypes aren't decoration. They're structural patterns. They appear across cultures. They appear across millennia. Same shapes, different surface. The Hero. The Shadow. The Wise Old Man. The Trickster.
 
-Thematic mapping and archetypal research. Symbolic taxonomy applied to narrative and visual systems.
+These aren't symbols. They're load-bearing structures in narrative and visual systems.
 
-## The System
+Map them and you can build with them deliberately instead of accidentally.
 
-Thematic mapping and archetypal research. Symbolic taxonomy applied across domains.
+## The Work
 
-## The Foundation
+Thematic mapping grounded in alchemical and archetypal systems. Not mysticism. Structural analysis. How human consciousness organizes meaning. How narrative and visual systems resonate because they're built on archetypal logic.
 
-A deep understanding of archetypal narrative patterns expressed as a buildable system.
+## The Result
+
+A working vocabulary for archetypal pattern applicable across domains. When you understand the Hero's journey as structure, not story, you can apply it to brand narratives, interaction design, product architecture. The pattern is the skeleton. The specific story is the flesh on the bones.
+
+Echo & Bone is the framework. The proof that archetypes are engineering tools, not decorative concepts.

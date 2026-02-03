@@ -1,0 +1,150 @@
+---
+layout: default
+---
+
+<!-- PROTOCOL-01 LAYOUT: Alt 01 Reference/System Template
+     Structure: Manifesto → Visual Identity → Doctrine → Specs Sidebar
+     Specs sidebar: Static (scrolls with content), not sticky
+     Components: manifesto, visual-identity, architecture-diagram, doctrine-sections, code-blocks
+-->
+
+<!-- Altitude Marker -->
+{% if page.altitude %}
+<div class="altitude-marker">{{ page.altitude }}</div>
+{% endif %}
+
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
+
+<!-- Two-Column Layout: Content + Sidebar -->
+<div class="protocol-layout">
+
+  <!-- MAIN CONTENT COLUMN -->
+  <div class="protocol-content">
+
+    <!-- MANIFESTO/INTRO SECTION -->
+    {% if page.manifesto %}
+    <section class="protocol-section manifesto-section">
+      <div class="manifesto-content">
+        {{ page.manifesto | markdownify }}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- VISUAL IDENTITY SECTION (TBD - glyphs, sigils, brand) -->
+    {% if page.visual_identity %}
+    <section class="protocol-section visual-identity-section">
+      <h2>Visual Identity</h2>
+      <div class="visual-identity-content">
+        <!-- COMPONENT SLOT: Glyphs, sigils, symbolic elements -->
+        {{ page.visual_identity | markdownify }}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- ARCHITECTURE DIAGRAM SECTION (TBD) -->
+    {% if page.architecture %}
+    <section class="protocol-section architecture-section">
+      <h2>System Architecture</h2>
+      <div class="architecture-content">
+        <!-- COMPONENT SLOT: Diagram, flowchart, or spatial visualization -->
+        {{ page.architecture | markdownify }}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- DOCTRINE/REFERENCE CONTENT -->
+    <!-- This is the main content from markdown, treated as navigable doctrine -->
+    <section class="protocol-section doctrine-section">
+      {{ content }}
+      <!-- COMPONENT SLOTS WITHIN CONTENT:
+           - Code blocks (syntax highlighted, copyable)
+           - Terminology tables
+           - Usage examples
+           - Invocation guides
+           - Philosophy sections
+      -->
+    </section>
+
+  </div>
+
+  <!-- SPECS SIDEBAR COLUMN -->
+  <aside class="protocol-specs">
+
+    <!-- Version -->
+    {% if page.version %}
+    <div class="spec-block">
+      <div class="spec-label">Version</div>
+      <div class="spec-content">{{ page.version }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Status -->
+    {% if page.status %}
+    <div class="spec-block">
+      <div class="spec-label">Status</div>
+      <div class="spec-content">{{ page.status }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Authorship -->
+    {% if page.author %}
+    <div class="spec-block">
+      <div class="spec-label">Authorship</div>
+      <div class="spec-content">{{ page.author }}</div>
+    </div>
+    {% endif %}
+
+    <!-- License / IP -->
+    {% if page.license %}
+    <div class="spec-block">
+      <div class="spec-label">License</div>
+      <div class="spec-content">{{ page.license }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Getting Started / Documentation Link -->
+    {% if page.get_started_link %}
+    <div class="spec-block">
+      <div class="spec-label">Getting Started</div>
+      <div class="spec-content">
+        <a href="{{ page.get_started_link }}">{{ page.get_started_label | default: "View Documentation" }}</a>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Faculty Indicators (if applicable) -->
+    {% if page.faculty %}
+    <div class="spec-block">
+      <div class="spec-label">Faculty Weighting</div>
+      <div class="faculty-indicators">
+        {% for faculty_color in page.faculty %}
+        <div class="faculty-item faculty-array">
+          <span class="faculty-color" data-color="{{ faculty_color }}"></span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Systems Tags (if applicable) -->
+    {% if page.systems %}
+    <div class="spec-block">
+      <div class="spec-label">Output Systems</div>
+      <div class="systems-indicators">
+        {% for system in page.systems %}
+        <span class="system-tag system-{{ system }}">
+          {% if system == "narrative" %}Narrative
+          {% elsif system == "visual" %}Visual
+          {% elsif system == "technical" %}Technical
+          {% else %}{{ system | capitalize }}
+          {% endif %}
+        </span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </aside>
+
+</div>

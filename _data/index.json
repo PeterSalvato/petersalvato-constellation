@@ -3,12 +3,12 @@
     "id": "00",
     "title": "I build durable, autonomous infrastructure for complex environments.",
     "type": "manifesto",
-    "content": "I work at the intersection of classical design and full-stack engineering. The systems I build serve creative teams and neurodivergent founders who need structural support — not another SaaS dependency, but infrastructure they can own and operate.\n\nThis site indexes that work, organized by intent: the governing logic, the production deployments, and the creative practice."
+    "content": "I start with the question: where does it fail?\n\nNot the surface of a thing — the joints. The load paths. The places where constraint meets intention and something either holds or breaks.\n\nI work at the intersection of classical design and full-stack engineering. Visual Communication as load-bearing structure. Typographic hierarchy as information architecture. Code as precision. All grounded in thirty years of knowing what happens when systems collapse under pressure.\n\nThe systems I build serve creative teams and neurodivergent founders who need structural support. Not another SaaS subscription. Infrastructure they can understand, operate, fix. Systems built for people who are tired, distracted, or new to the job.\n\nThis site indexes that work across three dimensions:\n\n**Protocols** — The governing logic and cognitive firmware that dictate how every other system gets built.\n\n**Applied Systems** — Production deployments. The proof that the framework holds under real constraints.\n\n**Practice** — Active research. Stress-testing the principles in lower-stakes environments. The laboratory."
   },
   "legend": [
-    { "tier": "Protocols", "description": "The governing logic and cognitive firmware." },
-    { "tier": "Applied Systems", "description": "Production deployments across enterprise, operational, and personal contexts." },
-    { "tier": "Practice", "description": "The discipline of systemic research and expression." }
+    { "tier": "Protocols", "description": "Decision-making frameworks. How the work gets built. Version control for intent." },
+    { "tier": "Applied Systems", "description": "Work deployed under constraint. Enterprise, commercial, personal. The proof the framework holds." },
+    { "tier": "Practice", "description": "Active research. Stress-testing principles at low stakes. The laboratory." }
   ],
   "routes": [
     {
@@ -16,15 +16,15 @@
       "name": "PROTOCOLS",
       "color": "red",
       "url": "/protocols/",
-      "definition": "The governing logic and cognitive firmware.",
-      "description": "Foundational logic — the version control for thought, the symbolic maps, and the technical scaffolds that dictate how I fabricate systems.",
+      "definition": "Decision-making frameworks. The version control for intent.",
+      "description": "These aren't theories. They're tools I've built because existing tools failed under load. Savepoint Protocol runs on the understanding that context leaks and decisions need fallback. Aetherwright runs on the understanding that scale requires symbolic governance. AI DevOps Workbench runs on the understanding that multi-agent systems need provenance. Portable Agency runs on the understanding that digital autonomy requires local infrastructure. Each one solves a structural problem with uncompromising precision.",
       "artifacts": [
         {
           "id": "1.1",
           "title": "SAVEPOINT PROTOCOL",
-          "context": "Erosion of intent across long-form creative and technical cycles.",
-          "spec": "A protocol for capturing and indexing cognitive state to prevent drift. Intent-based indexing, epistemic state capture, context window management.",
-          "result": "Teams recover faster. Decisions get bolder when fallback is documented, not theoretical.",
+          "context": "After 14 days on a feature, you can't remember why you made a decision. After a hospital visit or a crisis, the project context evaporates. This is cerebral leak. It collapses teams.",
+          "spec": "Semantic version control for thought. Capture intent. Index cognitive state. Write it down before you context-switch. v3.0 — CLI tool, open-source, designed for neurodivergent operators.",
+          "result": "People recover faster. Decisions stay bold when the fallback is documented. Teams operate on memory, not guesswork.",
           "status": "V3.0 — OPEN SOURCE",
           "link": "/protocols/savepoint-protocol",
           "spoke_id": "savepoint",
@@ -33,27 +33,27 @@
         {
           "id": "1.2",
           "title": "ORDER OF THE AETHERWRIGHT",
-          "context": "Lack of unified conceptual mapping in complex IP fabrication.",
-          "spec": "A creative operating system and symbolic framework. Symbolic mapping, narrative/technical orchestration, constraint-driven authorship.",
-          "result": "Used by founders and design leaders. The framework that keeps systems honest when scale introduces noise.",
+          "context": "Scale kills coherence. Add team members. Add platforms. Add constraints. The original vision fractures into contradictions. People disagree on what the thing even is.",
+          "spec": "A symbolic operating system. Map the story space. Establish frames and reels. Document what gets made and why. Creates unified conceptual governance without micromanagement.",
+          "result": "Teams stay coherent at scale. Founders and design leaders use this to keep complex IP honest when everything is pulling in different directions.",
           "status": "ACTIVE",
           "link": "/protocols/order-of-the-aetherwright"
         },
         {
           "id": "1.3",
           "title": "AI DEVOPS WORKBENCH",
-          "context": "Unstructured AI interaction leads to high drift and low provenance.",
-          "spec": "A structured environment for managing multi-agent AI workflows. JSON prompting, multi-agent orchestration, context window optimization.",
-          "result": "Structured AI collaboration with traceable provenance and reduced context drift.",
+          "context": "Throw a prompt at ChatGPT and you get output. Do it again and you can't reproduce it. Bring in multiple agents and nobody knows what happened or why. Drift accumulates. Provenance vanishes.",
+          "spec": "Structure for multi-agent AI workflows. JSON prompting as configuration. Orchestration that creates reproducible output. Each interaction documented. Each decision traceable.",
+          "result": "AI collaboration becomes operational. You can reproduce results. You can see what the agents learned. The system is auditable.",
           "status": "ACTIVE",
           "link": "/protocols/ai-devops-workbench"
         },
         {
           "id": "1.4",
           "title": "PORTABLE AGENCY",
-          "context": "Dependence on cloud-only stacks creates geographical and data risk.",
-          "spec": "Homelab-based infrastructure for digital autonomy. Local compute stacks, offline data sovereignty, network-agnostic infrastructure.",
-          "result": "Family infrastructure runs locally. Media, backups, AI compute — works when the internet doesn't.",
+          "context": "Everything lives in the cloud. One ISP outage. One corporate policy shift. One algorithm change. The entire infrastructure disappears.",
+          "spec": "Digital autonomy through local infrastructure. Homelab compute. Offline data sovereignty. Storage, media, AI compute—everything runs locally. Designed to work when the internet doesn't.",
+          "result": "Family operations run independent of any corporate provider. Infrastructure you own and understand. It just works.",
           "status": "LIVE",
           "link": "/protocols/portable-agency"
         }
@@ -64,60 +64,51 @@
       "name": "APPLIED SYSTEMS",
       "color": "blue",
       "url": "/systems/",
-      "definition": "Production deployments under constraint.",
-      "description": "Systems are only as valid as their performance under constraint. Production deployments where systemic logic is applied to enterprise, commercial, and personal environments.",
+      "definition": "The proof. Production deployments under real constraints.",
+      "description": "A system is only as valid as its performance when the load goes up. When the people operating it are tired. When the domain shrank overnight. Twelve years at 99.9% uptime isn't a portfolio highlight—it's structural proof. Luxury jewelry at scale. Philanthropic systems that maintain coherence through operational complexity. Household infrastructure running on zero willpower. These aren't case studies. They're proof the framework holds.",
       "artifacts": [
         {
           "id": "2.1",
           "title": "ENCORE",
-          "context": "12+ years of enterprise architectural depth.",
-          "spec": "Routed UI logic, design systems, front-end engineering. Legacy-to-modern migration for a recruitment platform. 40,000+ users. 2.5M+ annual transactions.",
-          "result": "Maintained mission-critical platform stability and UX continuity for 12+ years. Zero catastrophic failures.",
+          "context": "A recruitment platform serving Fortune 500 companies and federal agencies. Legacy .NET infrastructure colliding with modern web standards. The question: can you modernize without breaking mission-critical operations?",
+          "spec": "Architectural sovereignty. 12 years. 99.9% uptime. 40,000+ users. 2.5M+ transactions annually. Migrated from desktop-era code to modern React. No service interruption. Strangler Fig pattern applied with precision.",
+          "result": "This is what implementation fidelity looks like at scale. Not a perfect rebuild. A durable evolution where the original system doesn't break while being transformed.",
           "status": "DEPLOYED",
           "link": "/systems/encore"
         },
         {
-          "id": "2.2",
-          "title": "JOINERY",
-          "context": "Design/engineering integration for boutique systems.",
-          "spec": "Framework for bridging design intent and technical implementation in small, high-context teams. Structural consultancy model.",
-          "result": "Operational framework for the practice itself. The methodology applied to client engagement.",
-          "status": "ACTIVE",
-          "link": "/systems/joinery"
-        },
-        {
           "id": "2.3",
           "title": "AIDEN-JAE",
-          "context": "Luxury jewelry brand needing structural clarity.",
-          "spec": "Market positioning, sustainability matrix, competitive architecture. Operational e-commerce systems and manufacturing logic.",
-          "result": "Premium positioning established. Sustainable sourcing as structural advantage.",
+          "context": "A jewelry brand built on substance—recycled gold, ethical sourcing, real craftsmanship. The challenge: translate handmade quality into digital trust at scale.",
+          "spec": "Visual operating system from scratch. Texture-led photography. Custom Liquid and SCSS to bridge artisanal production and digital presentation. Sustainability woven into operational logic, not marketing claims.",
+          "result": "Accessible luxury achieved through architectural precision. Sustainable sourcing becomes a structural advantage, not a positioning claim. The architecture proves the story.",
           "status": "DELIVERED",
           "link": "/systems/aiden-jae"
         },
         {
           "id": "2.4",
           "title": "EVERYDAY GOLD",
-          "context": "Niche-market operational commerce and inventory systems.",
-          "spec": "Trademark clearance, Swiss-style label system, regulatory compliance as design constraint. Modular scent-variant production system.",
-          "result": "Legally clearable brand. Regulatory information treated as first-class design content.",
+          "context": "Fragrance commerce demands precision—scent variants, regulatory compliance, trademark clearance. Rules that can't be broken. Design constraint as material.",
+          "spec": "Swiss-style label system. Trademark research feeding design. Regulatory compliance becoming first-class design content. Modular production logic for scent variants. The grid holds the complexity.",
+          "result": "A brand that's legally sound and visually coherent. Regulatory information transformed into structural advantage, not a burden.",
           "status": "SPECIFIED",
           "link": "/systems/everyday-gold"
         },
         {
           "id": "2.5",
           "title": "ALTRUEISM",
-          "context": "Philanthropic operational transparency.",
-          "spec": "Complete identity system, digital platform, messaging hierarchy. Mission-driven brand needing structural coherence.",
-          "result": "Transformed incoherent brand into premium-positioned system. Work complete; client did not launch due to funding.",
+          "context": "Nonprofit that gives money away has to prove it's serious. Not just words. The infrastructure, the platform, the visual system—everything has to say 'transparency is structural here, not performative.'",
+          "spec": "Complete visual and operational identity system. Digital platform. Messaging architecture where philanthropic intent drives everything. No contradiction between what's said and what's built.",
+          "result": "Transformed a fractured brand into a premium-positioned operating system. Work delivered fully specified. Client didn't launch due to external funding constraints, not system failure.",
           "status": "DELIVERED",
           "link": "/systems/altrueism"
         },
         {
           "id": "2.6",
           "title": "MODERNIST HOMESTEAD",
-          "context": "Family autonomy and geographical independence.",
-          "spec": "Culinary modularity, celiac health navigation, executive function scaffolding. Zero-willpower household systems for a neurodivergent family.",
-          "result": "Systemic navigation of cross-border relocation and chronic health constraints. Family runs on structure, not willpower.",
+          "context": "ADHD + autism + celiac disease + five culinary traditions + cross-border relocation = household systems either run on structure or they collapse. Willpower fails. Decisions fail. Food doesn't appear.",
+          "spec": "Zero-willpower systems. Culinary modularity across traditions. Celiac health navigation. Executive function scaffolding. Medical complexity as design constraint. Every default decision is structural, not willful.",
+          "result": "The family operates. Meals get made. Medical constraints get managed. Systems hold the structure so people don't have to make willpower-dependent decisions.",
           "status": "ACTIVE",
           "link": "/systems/modernist-homestead",
           "spoke_id": "tasteonomy",
@@ -130,60 +121,60 @@
       "name": "PRACTICE",
       "color": "green",
       "url": "/practice/",
-      "definition": "The discipline of systemic research and expression.",
-      "description": "The active exercise of the system. Results of systemic research used to stress-test protocols in low-stakes, high-frequency environments.",
+      "definition": "Active research. Stress-testing at low stakes.",
+      "description": "These are the laboratories. Narrative systems that can hold 40+ entity networks. Typography that holds under variable content. Photography locked to rigid formats. Music production running on signal flow protocols. These aren't products—they're experiments proving the framework scales across domains. Where the protocols get real.",
       "artifacts": [
         {
           "id": "3.1",
           "title": "NEW CITY",
-          "context": "Intersection of systemic lore and urban theory.",
-          "spec": "Speculative fiction and narrative world-building. 40+ entity directed graph stress-testing infrastructure failure, social hierarchy, and resource flow.",
-          "result": "Operational architecture expressed as narrative. Dataset built, first sequence mapped.",
+          "context": "What happens when a city's infrastructure fails? Not dramatic collapse. Slow erosion. People adapt. New structures emerge. How do narratives hold when systems degrade?",
+          "spec": "A novel + game built on Kishōtenketsu narrative structure nested within a Hero's Journey macro. 40+ entity knowledge graph. Brooklyn/Sunset Park as geographic model. Neurodivergent protagonist navigating surveillance and rebuilding.",
+          "result": "The origin fractal. Where recursive system thinking first took form. A world where survival means seeing, not conquering.",
           "status": "IN DEVELOPMENT",
           "link": "/practice/new-city"
         },
         {
           "id": "3.2",
           "title": "MATHONTAPE",
-          "context": "Applying engineering signal flow protocols to music production.",
-          "spec": "Systemic music production and audio signal flow. Engineering discipline applied to sonic composition and arrangement.",
-          "result": "Signal flow protocols produce structured, repeatable creative output.",
+          "context": "Most musicians treat composition as intuition. But intuition breaks at scale. Signal flow—the engineering discipline of audio routing—reveals composition as architecture.",
+          "spec": "Music production grounded in signal flow protocols. Not decoration. Composition as systems engineering. How audio moves through space. How constraints shape what can be heard.",
+          "result": "Structured, repeatable creative output. Discipline applied to sound like it's applied to code.",
           "status": "ACTIVE",
           "link": "/practice/mathontape"
         },
         {
           "id": "3.3",
           "title": "PHOTOGEOGRAPHY",
-          "context": "Can rigid visual constraints generate a cohesive geographic mapping system?",
-          "spec": "Perception-driven visual archive. Three locked aspect ratios. Format-as-honest-evidence — each image preserved in the shape it arrived.",
-          "result": "Evolved from medium-constrained archive to perception-first system.",
+          "context": "Most photography pretends to be objective. But the frame is a choice. What if you locked the frame and let the world reveal itself through fixed constraint?",
+          "spec": "Three locked aspect ratios. Format as honest evidence. Each photograph holds the shape it arrived in. The constraint forces you to see differently. Rigid grid generates emergence.",
+          "result": "A visual archive that isn't trying to be pretty. Just present. The geography emerges from format-driven perception.",
           "status": "IN DEVELOPMENT",
           "link": "/practice/photogeography"
         },
         {
           "id": "3.4",
           "title": "THE DEEP CUTS",
-          "context": "Managing cognitive load through high-density layout systems.",
-          "spec": "Concert poster series encoding full setlist metadata inside a grid-governed typographic system. Typographic hierarchy stress test.",
-          "result": "Grid logic holding maximum data density without breaking readability.",
+          "context": "Most people listen to music passively. What if listening was active? What if learning to DJ taught you to hear more completely?",
+          "spec": "A book teaching DJ methodology as a path to deeper music appreciation. Not for club DJs. For anyone who wants to understand music through the craft of selection, transition, and sequence.",
+          "result": "Active listening as learnable skill. Understanding comes through hands-on practice in selection and mixing.",
           "status": "IN DEVELOPMENT",
           "link": "/practice/deep-cuts"
         },
         {
           "id": "3.5",
           "title": "ECHO & BONE",
-          "context": "Structuring archetypal humanity through occult and alchemical systems.",
-          "spec": "Thematic mapping and archetypal research. Symbolic taxonomy applied to narrative and visual systems.",
-          "result": "Structural vocabulary for archetypal patterns applicable across narrative and design.",
+          "context": "Archetypes aren't decoration. They're structural patterns that appear across cultures, myths, stories. Map them and you can build with them.",
+          "spec": "Symbolic taxonomy grounded in alchemical and archetypal systems. Not mysticism. Structural patterns made visible. How to build narrative and visual systems that resonate because they're built on archetypal logic.",
+          "result": "A working vocabulary for archetypal pattern that applies across domains—narrative, design, systems.",
           "status": "IN DEVELOPMENT",
           "link": "/practice/echo-and-bone"
         },
         {
           "id": "3.6",
           "title": "VERSAGRAMS",
-          "context": "Testing typographic durability within fixed grid parameters.",
-          "spec": "Study in typographic systems and parametric constraints. Fixed grids stress-tested against variable content.",
-          "result": "Constraint-driven typographic forms that hold under variable input.",
+          "context": "Typography alone can't convey feeling. Image alone can't hold structure. What happens when both are locked in constraint together?",
+          "spec": "Typography paired with AI-generated imagery. Fixed typographic rules. Parametric image generation. The constraint creates emergence. Verse made visible through letter and image.",
+          "result": "Proof that feeling can be encoded systematically. The intersection of structure and generation.",
           "status": "IN DEVELOPMENT",
           "link": "/practice/versagrams"
         }

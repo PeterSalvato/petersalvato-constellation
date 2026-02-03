@@ -1,8 +1,10 @@
 ---
-layout: workbench-spec
+layout: practice-03
 title: "Colophon"
+altitude: "03"
 type: "Site Architecture Record"
 faculty: ["red", "blue", "green"]
+systems: ["narrative", "visual", "technical"]
 ---
 
 ## What This Is
@@ -17,7 +19,7 @@ The site organizes work by intent:
 
 - **Protocols** (red) — The governing logic and cognitive firmware. Savepoint Protocol, Order of the Aetherwright, AI DevOps Workbench, Portable Agency. These are prerequisites — the foundational logic that dictates how everything else gets built.
 
-- **Applied Systems** (blue) — Production deployments under constraint. Encore, Joinery, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead. Systems validated by their performance in enterprise, commercial, and personal environments.
+- **Applied Systems** (blue) — Production deployments under constraint. Encore, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead. Systems validated by their performance in enterprise, commercial, and personal environments.
 
 - **Practice** (green) — The discipline of systemic research and expression. New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams. Protocols stress-tested in low-stakes, high-frequency creative environments.
 

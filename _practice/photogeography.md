@@ -1,26 +1,27 @@
 ---
-layout: workbench-spec
+layout: practice-03
 title: "Photogeography: Somatic Evidence"
 altitude: "03"
-context: "Can rigid visual constraints generate a cohesive geographic mapping system?"
-drift: "Unstructured photo archives lack coherence"
-scaffold: "Three-ratio constraint system for geographic fingerprinting"
-fidelity: "Perception-first visual archive of geographical context"
 faculty: ["blue"]
+systems: ["visual"]
 status: "In Development"
 seo_keywords: ["Photography Systems", "Visual Storytelling", "Constraint-based Design", "Geographic Mapping", "Visual Archive"]
 ---
 
 ## Somatic Evidence
 
-Photography as geographic fingerprinting. A poster series treating a specific geography as raw data to extract its unique visual geometry.
+Most photographers pretend to be objective. But the frame is a choice. The focal length is a choice. The moment you press the button is a choice.
 
-Perception-driven visual archive using three locked aspect ratios.
+Photogeography locks those choices. Three fixed aspect ratios. Format as honest evidence. Each photograph holds the shape it arrived in, without cropping or manipulation.
+
+The constraint forces different seeing. When you can't crop, you have to compose differently. When you can't adjust the ratio, you have to position differently. The geography reveals itself through the frame you can't escape.
 
 ## The System
 
-One Location = One System. Three locked aspect ratios force visual thinking. Evolved from medium-constrained archive to perception-first system.
+One location. Three locked ratios. Each photograph holds its original proportion exactly.
 
-## The Proof
+The geometry of the place emerges through format-driven perception. Not what you wanted to see. What the constraint forced you to notice.
 
-Rigid visual constraints generate a cohesive system. Constraint-driven visual forms hold under variable input.
+## The Result
+
+A visual archive that isn't trying to be pretty. Just present. Rigorous. The proof that fixed constraints generate emergence, not limitation.

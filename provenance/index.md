@@ -17,6 +17,16 @@ I went to the School of Visual Arts in New York. Studied graphic design — not 
 
 Between classes, I worked in print shops. Offset presses. Prepress production. The kind of work where a misaligned registration mark wastes a thousand sheets of paper. Precision wasn't a value — it was a material constraint.
 
+## Visual Communication as Foundation
+
+Before systems architecture, before front-end engineering, before protocols — typography.
+
+At SVA, I didn't learn "graphic design" as decoration. I learned Visual Communication as structural discipline. Swiss grid systems. Typographic hierarchy as information architecture. Josef Müller-Brockmann, Massimo Vignelli, Emil Ruder. The discipline that treats visual form as load-bearing structure.
+
+This isn't nostalgia. It's the foundation everything else sits on. You can't build durable interfaces without understanding typographic hierarchy. You can't architect brand systems without understanding visual grammar. You can't design information systems without understanding how the eye parses density.
+
+Visual Communication is the chassis. The output channels through three systems: Narrative (brand story and world-building), Visual (identity and typography), and Technical (engineering and infrastructure). The discipline stays constant. The outputs change based on context.
+
 ## Twelve Years at Cluen
 
 After New York, I became the Principal Architect at Cluen Corporation. The Encore Platform — a recruitment management system serving 40,000+ users across Fortune 500 companies and federal agencies.

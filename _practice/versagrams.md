@@ -1,24 +1,26 @@
 ---
-layout: workbench-spec
-title: "Versagrams: Parametric Typography"
+layout: practice-03
+title: "Versagrams: Typography and Feeling"
 altitude: "03"
-context: "Testing typographic durability within fixed grid parameters"
-drift: "Fixed grids failing under variable content"
-scaffold: "Parametric typographic rules for flexible grid systems"
-fidelity: "Constraint-driven forms that hold under variable input"
-faculty: ["blue"]
-status: "In Development"
-seo_keywords: ["Typography Design", "Parametric Systems", "Grid Systems", "Font Design", "Constraint-based Design"]
+faculty: ["green", "blue"]
+systems: ["visual"]
+seo_keywords: ["Typography Design", "Visual Communication", "AI-Generated Imagery", "Emotional Design", "Experimental Typography"]
+brief_explainer: |
+  Experimental exploration in how typography and AI-generated imagery work together to convey feeling. Not decoration—the intersection of constraint and generation.
+
+  Typographic rules establish structure. AI-generated images respond to that structure, creating meaning at the boundary between precision and emergence.
+
+  Verse made visible. The proof that feeling can be encoded systematically.
 ---
 
-## Parametric Typography
+## Typography and Feeling
 
-Study in typographic systems and parametric constraints. Fixed grids stressed against variable content.
+Experimental exploration in how typography and AI-generated imagery work together to convey feeling. Not decoration—the intersection of constraint and generation.
 
 ## The System
 
-Typographic study where grid and typography rules are fixed. Content input varies. Constraint-driven forms hold under variable input.
+Typographic rules establish structure. AI-generated images respond to that structure, creating meaning at the boundary between precision and emergence.
 
-## The Proof
+## The Result
 
-Constraint-driven systems can handle variable input without breaking. This underpins your enterprise work.
+Verse made visible. The proof that feeling can be encoded systematically.

@@ -1,5 +1,5 @@
 ---
-layout: workbench-spec
+layout: system-02
 title: "Modernist Homestead"
 altitude: "02"
 context: "Neurodivergent household operating under health constraints and geographical disruption"
@@ -7,14 +7,21 @@ drift: "Willpower-dependent processes fail when executive function is disrupted"
 scaffold: "Culinary modularity + executive function scaffolding + health navigation infrastructure"
 fidelity: "Family operates successfully across relocation and health challenges"
 faculty: ["red", "green"]
+systems: ["narrative", "technical"]
 seo_keywords: ["Household Systems", "Neurodivergent Design", "Zero-Willpower Architecture", "Culinary Systems", "Health Integration"]
 ---
 
 ## The Work
 
-Building the operating system for a neurodivergent household. Not a lifestyle project — a systems deployment. The Modernist Homestead is the infrastructure that keeps a family functional when executive function, health constraints, and geographical disruption converge.
+This isn't a lifestyle project. It's systems engineering applied to household operations.
 
-Three simultaneous load conditions: ADHD and autism across the household where willpower-dependent processes fail, celiac disease where cross-contamination is a medical event, and cross-border relocation where health systems and supply chains reset completely.
+Three simultaneous load conditions:
+
+**Executive Function:** ADHD and autism across the household. Willpower-dependent processes fail under load. If breakfast prep takes 90 minutes of decision-making, the family doesn't eat. If systems depend on remembering to remember, they collapse.
+
+**Health:** Celiac disease where cross-contamination is a medical event, not an inconvenience. One contaminated meal triggers weeks of pain.
+
+**Geography:** Cross-border relocation where health systems reset, supply chains change, and institutional knowledge evaporates overnight.
 
 ## The Approach
 

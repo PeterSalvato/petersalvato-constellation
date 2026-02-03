@@ -1,24 +1,21 @@
 ---
-layout: workbench-spec
-title: "The Deep Cuts: Narrative Sequencing"
+layout: practice-03
+title: "The Deep Cuts: DJ as Active Listening"
 altitude: "03"
-context: "Managing cognitive load through high-density layout systems"
-drift: "Data density vs. readability in typographic systems"
-scaffold: "Grid-governed typographic system for maximum data encoding"
-fidelity: "Grid logic holding maximum data density without loss of legibility"
-faculty: ["red", "blue"]
+faculty: ["green", "blue"]
+systems: ["narrative", "technical"]
 status: "In Development"
-seo_keywords: ["Typography Systems", "Information Hierarchy", "Data Visualization", "Graphic Design", "Constraint-based Layout"]
+seo_keywords: ["DJ Skills", "Music Education", "Active Listening", "Interactive Learning", "Music Appreciation"]
 ---
 
-## Narrative Sequencing
+## DJ as Active Listening
 
-Research into how narrative arcs are constructed through selection—directly informing routed UI architecture.
+A book teaching the craft of DJing as a path to deeper music appreciation. Not for aspiring club or festival DJs—for anyone who wants to hear music more completely.
 
-## The System
+## The Method
 
-Concert poster series encoding full setlist metadata inside a grid-governed typographic system. Maximum data density without breaking readability.
+DJing teaches you to listen. Selection, transition, sequence, timing—these aren't performance tricks. They're how you understand music's architecture.
 
-## The Research Value
+## The Teaching
 
-Directly informs UI/UX navigation patterns and information architecture.
+By learning to move between records, listeners become active participants in musical meaning-making. Understanding selection teaches you to hear.

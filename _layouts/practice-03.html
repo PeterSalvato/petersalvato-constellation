@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<!-- PRACTICE-03 LAYOUT: Alt 03 Artifact Showcase Template
+     Structure: Brief Explainer → Artifact Showcase
+     NO specs sidebar
+     Components: gallery, image carousel, media viewer, brief text sections
+     Focus: Artifact first, text supporting
+-->
+
+<!-- Altitude Marker -->
+{% if page.altitude %}
+<div class="altitude-marker">{{ page.altitude }}</div>
+{% endif %}
+
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
+
+<!-- SINGLE COLUMN LAYOUT (no sidebar) -->
+<div class="practice-layout">
+
+  <!-- BRIEF EXPLAINER SECTION -->
+  {% if page.brief_explainer %}
+  <section class="practice-section explainer-section">
+    <div class="explainer-content">
+      {{ page.brief_explainer | markdownify }}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- ARTIFACT SHOWCASE SECTION (main focus) -->
+  <section class="practice-section artifact-section">
+
+    <!-- FEATURED IMAGE / HERO (optional) -->
+    {% if page.featured_image %}
+    <div class="artifact-hero">
+      <img src="{{ page.featured_image }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <!-- GALLERY / ARTIFACT COLLECTION -->
+    {% if page.artifacts %}
+    <div class="artifact-gallery">
+      <!-- COMPONENT SLOT: Gallery grid/carousel showing the work -->
+      <!-- Can be: poster series, photo series, product shots, book spreads, etc. -->
+      {% for artifact in page.artifacts %}
+      <figure class="gallery-item">
+        <img src="{{ artifact.url }}" alt="{{ artifact.alt | default: artifact.title }}">
+        {% if artifact.caption %}<figcaption>{{ artifact.caption }}</figcaption>{% endif %}
+      </figure>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- MEDIA PLAYER (for music/audio projects) -->
+    {% if page.media_player %}
+    <div class="artifact-media">
+      <!-- COMPONENT SLOT: Audio player, video player, or embedded media -->
+      {{ page.media_player | markdownify }}
+    </div>
+    {% endif %}
+
+  </section>
+
+  <!-- MAIN MARKDOWN CONTENT (for additional artifact descriptions, process notes, etc.) -->
+  <section class="practice-section content-section">
+    {{ content }}
+    <!-- COMPONENT SLOTS WITHIN CONTENT:
+         - Artifact descriptions
+         - Process notes
+         - Technical details
+         - References
+    -->
+  </section>
+
+</div>

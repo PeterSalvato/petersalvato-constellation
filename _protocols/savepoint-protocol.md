@@ -1,32 +1,32 @@
 ---
-layout: workbench-spec
+layout: protocol-01
 title: "Savepoint Protocol: Cognitive Scaffolding"
-altitude: "02"
-context: "Erosion of intent across long-form creative and technical cycles"
-drift: "Cerebral leak and semantic drift in high-context work"
-scaffold: "Local-first, semantic version control CLI for cognitive state"
-fidelity: "Ensures epistemic clarity across extreme cognitive loads"
+altitude: "01"
+version: "v3.0"
+status: "Active — Open Source"
+author: "Peter Salvato"
+license: "MIT"
 faculty: ["red", "green"]
-status: "v3.0 — Open Source"
+systems: ["narrative", "technical"]
 seo_keywords: ["Information Architecture", "Knowledge Management", "Context Management", "Productivity Systems", "ND Ergonomics"]
 ---
 
 ## Cognitive Scaffolding
 
-Version control protocol for thought and cognitive state-indexing. Functions as a "Save Game" for executive function, allowing the operator to index a mental state before context-switching.
+After 14 days on a complex problem, you can't remember why you made a decision. After a crisis or hospital visit, the project context evaporates. This is cerebral leak. It collapses work.
 
-## The Narrative
+Savepoint Protocol captures intent before it disappears. You index your mental state. Document the decision gates. Seal the context window. When you return, you recover at full coherence, not from scratch.
 
-Not "note-taking" but "Semantic Version Control." A system designed specifically to solve for "Cerebral Leak"—the loss of high-fidelity context across long-form, non-linear cognitive cycles.
+## The System
 
-## The Implementation
+Not "note-taking." Semantic version control for thought. A protocol designed for neurodivergent operators and long-form creative work where context drift is fatal.
 
-Syntax Evolution: Iterated from YAML (v1.0) to XML-style tag (v3.0). CLI tool (sp) to extract savepoints from logs. Philosophy: "Sovereign Cognition."
+Iterated through three syntaxes: YAML (v1.0) → XML-style tags (v3.0). CLI tool (sp) extracts savepoints from logs. The philosophy: "Sovereign Cognition."
 
-## The Fix
+## The Proof
 
-Teams that use Savepoint recover faster from failures. Decisions get bolder when fallback is documented, not theoretical.
+Teams using Savepoint recover faster from failures. Decisions get bolder when fallback is documented, not theoretical. The person returning to the work at day 27 knows exactly where day 1 made the critical choice.
 
 ## The Result
 
-Fully documented protocol (v3.0) and CLI tool ready for deployment.
+Fully documented protocol (v3.0) with open-source CLI tooling ready for deployment. Used across teams in creative, technical, and operational contexts.

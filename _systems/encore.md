@@ -1,12 +1,13 @@
 ---
-layout: workbench-spec
+layout: system-02
 title: "Encore: Architectural Sovereignty"
-altitude: "01"
+altitude: "02"
 context: "12+ years of enterprise architectural depth"
 drift: "Legacy desktop logic failing to scale to modern web standards"
 scaffold: "Custom SCSS Framework + .NET Core UI Migration"
 fidelity: "12 Years Sovereignty / Zero Service Interruption"
 faculty: ["green", "blue"]
+systems: ["visual", "technical"]
 seo_keywords: ["Enterprise UX Architecture", "Design Systems", "Legacy Modernization", ".NET Core", "Front-end Engineering"]
 ---
 

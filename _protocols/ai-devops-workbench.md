@@ -1,27 +1,30 @@
 ---
-layout: workbench-spec
+layout: protocol-01
 title: "AI DevOps Workbench: Deterministic Governance"
-altitude: "02"
-context: "Unstructured AI interaction leads to high drift and low provenance"
-drift: "AI hallucination, context loss, inconsistent multi-agent reasoning"
-scaffold: "Multi-agent orchestration with hard guardrails and memory enforcement"
-fidelity: "Structured AI collaboration with traceable provenance"
+altitude: "01"
 faculty: ["red", "green"]
+systems: ["narrative", "technical"]
 seo_keywords: ["AI Orchestration", "LLM Governance", "Multi-agent Systems", "AI DevOps", "Prompt Engineering"]
 ---
 
-## Deterministic Governance for Non-Deterministic AI
+## Deterministic Governance for Non-Deterministic Systems
 
-A structured environment for managing multi-agent AI workflows.
+Throw a prompt at ChatGPT and you get output. Do it again and you can't reproduce it. Bring in multiple agents and nobody knows what happened or why. Context vanishes. Hallucination compounds.
+
+This is the problem: AI is powerful but unstructured. You need governance architecture.
+
+The AI DevOps Workbench provides hard constraints for multi-agent workflows. Not to limit capability. To create reproducibility, traceability, provenance.
 
 ## The Infrastructure
 
-institutional-memory-enforcer.js: Architectural drift control. test-think-tool.js: Pre-execution reasoning gate. conventions.md: Hard guardrails. Stack: JSON prompting, multi-agent orchestration, context window optimization.
+**institutional-memory-enforcer.js:** Detects architectural drift before it spreads.
 
-## The Narrative
+**test-think-tool.js:** Pre-execution reasoning gate. The agent thinks aloud before acting.
 
-Not "AI tools" but "Governance Architecture for AI." Most teams experience AI drift—hallucination, context loss, inconsistent reasoning. The Workbench solves this through structural constraints.
+**conventions.md:** Hard guardrails. Rules the agents can't break.
 
-## The Result
+**Stack:** JSON prompting (configuration as code). Multi-agent orchestration (choreography, not chaos). Context window optimization (respect the limits).
 
-Structured AI collaboration with traceable provenance and reduced context drift.
+## The Proof
+
+Structured AI collaboration with traceable provenance. Every decision documented. Every reasoning step visible. You can audit what happened. You can reproduce results. The system is operationally sound.

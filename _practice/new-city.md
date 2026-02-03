@@ -1,30 +1,39 @@
 ---
-layout: workbench-spec
+layout: practice-03
 title: "New City: Narrative Fabrication"
 altitude: "03"
-context: "The Complexity Tax of creative writing where infinite vision outpaces executive runway"
-drift: "Narrative vision exceeds executive capacity to finish"
-scaffold: "Kishōtenketsu narrative architecture + YAML scene contracts"
-fidelity: "64-beat roadmap with zero systemic burnout methodology"
 faculty: ["blue", "red"]
+systems: ["narrative"]
 system: "Somatic Gating v1.0"
 seo_keywords: ["Narrative Design", "Fiction Writing Systems", "Story Structure", "Creative Process", "Systems Fiction"]
 ---
 
-## Narrative Fabrication
+## Where It Started
 
-Speculative fiction project. Not a traditional book but a "Fabrication System" designed to minimize creative pressure through "Mechanical Placement."
+NewCity is where recursive system thinking first took form. Before Savepoint Protocol. Before the Order of the Ætherwright. Before the constellation itself existed. A novel and game exploring what happens when infrastructure fails at the structural level.
 
-A neurodivergent protagonist moving from a high-surveillance city to a hidden community.
+## The Problem
+
+Most collapse narratives are about dramatic endings. NewCity is about slow erosion. Infrastructure degrades. People adapt. New structures emerge. Henka—neurodivergent, hyperaware, learning through seeing—navigates surveillance and survival through perception, not conquest.
 
 ## The Structure
 
-Framework: Nested Kishōtenketsu (four acts, each containing four sub-beats). Fabrication System: YAML headers define the sensory "contract" before writing.
+**Macro:** Hero's Journey in three parts. Act II split into two halves. Four major sections.
 
-## The Implementation
+**Micro:** Each section embeds a Kishōtenketsu cycle—introduction, development, twist, resolution. Eastern narrative logic. Perspective-shifting instead of antagonistic conflict.
 
-Prose as an assembly problem. YAML-driven scene "contracts" define entry conditions and somatic registers before drafting. Uses Somatic Gating v1.0.
+**Geography:** Brooklyn/Sunset Park as model. Layered survival. Industrial and residential worlds collapsing together.
+
+## The System
+
+Not a book written by willpower. A system designed to reduce creative pressure through mechanical precision.
+
+**Fabrication:** Prose as assembly problem. YAML-driven scene "contracts" define entry conditions and somatic registers before drafting. You don't discover the story—you assemble it. Mechanical placement eliminates burnout.
+
+**Epistolary elements:** Logs. Encoded messages. Corporate records. Fragments revealing the world's hidden structure.
+
+**Somatic Gating v1.0:** Emotional states become architectural elements, not obstacles.
 
 ## The Result
 
-A complete 64-beat narrative roadmap ready for drafting. A reproducible method for high-fidelity creative output with zero systemic burnout.
+A complete 64-beat narrative roadmap. Reproducible method for high-fidelity creative output with zero systemic burnout. The proof that narrative structure can be engineered like any other system. The origin fractal of everything that follows.

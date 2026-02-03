@@ -1,28 +1,35 @@
 ---
-layout: workbench-spec
+layout: protocol-01
 title: "The Order of the Ætherwright: Symbolic Operating System"
-altitude: "02"
-context: "Lack of unified conceptual mapping in complex IP fabrication"
-drift: "Disconnection between philosophical intent and technical execution"
-scaffold: "Symbolic metadata framework linking meaning to implementation"
-fidelity: "Ensures design intent survives technical execution without loss"
+altitude: "01"
 faculty: ["red"]
+systems: ["narrative", "visual"]
 role: "Master Protocol"
 seo_keywords: ["Workflow Systems", "Creative Process Design", "Metadata Architecture", "Conceptual Frameworks", "Systems Thinking"]
 ---
 
 ## Symbolic Operating System
 
-Conceptual framework and personal creative operating system. The philosophical layer that locks with Savepoint (the technical How).
+Scale kills coherence. Add people. Add platforms. Add constraints. The original vision fractures into contradictions. People disagree on what the thing even is.
+
+The Order of the Ætherwright provides unified conceptual governance without micromanagement. It's a creative operating system grounded in symbol, narrative, and technical architecture.
 
 ## The Infrastructure
 
-ScopeForge: Brutalist project-scoping. Constellation: The map of interoperable IP. 8-Glyph Domain System: Symbolic file system. Codex Syntax: Execution syntax for tracking creative phases.
+**ScopeForge:** Brutalist project-scoping. Constraints define intent, not decoration.
 
-## The Fix
+**Constellation:** The map of interoperable IP. How projects relate to each other structurally.
 
-The Order provides the "drivers" that allow abstract thoughts to interface with the physical world. It ensures that when you move from "Expression" to "Engineering," the intent doesn't crash.
+**8-Glyph Domain System:** Symbolic file system. Every folder communicates its structural purpose.
 
-## The Locking Mechanism
+**Codex Syntax:** Execution syntax for tracking creative phases. The narrative evolves across documented states.
 
-When locked with Savepoint: Savepoint is the flight recorder. Order is the pilot's manual. Together they ensure Meaning-State Persistence.
+## The Philosophy
+
+An abstract idea doesn't reach the physical world by itself. It needs drivers. It needs translation. The Order provides the interface layer that ensures intent survives the move from concept to engineering, from design to code, from philosophy to operation.
+
+Without it, departments drift. Visions fracture. The team builds different things.
+
+## The Proof
+
+When locked with Savepoint Protocol: Savepoint is the flight recorder. Order is the pilot's manual. Together they ensure meaning-state persistence. The vision doesn't crash when the scale goes up.

@@ -1,0 +1,174 @@
+---
+layout: default
+---
+
+<!-- SYSTEM-02 LAYOUT: Alt 02 Case Study Template
+     Structure: Problem → Solution → Proof + Images/Visuals
+     Specs sidebar: Static (scrolls with content), not sticky
+     Components: problem-section with optional images, solution-section with optional images,
+                 proof-section with optional images, code-blocks, galleries
+-->
+
+<!-- Altitude Marker -->
+{% if page.altitude %}
+<div class="altitude-marker">{{ page.altitude }}</div>
+{% endif %}
+
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
+
+<!-- Two-Column Layout: Content + Sidebar -->
+<div class="system-layout">
+
+  <!-- MAIN CONTENT COLUMN -->
+  <div class="system-content">
+
+    <!-- PROBLEM SECTION -->
+    <section class="system-section problem-section">
+      <h2>The Problem</h2>
+
+      <!-- COMPONENT SLOTS: problem description + optional images -->
+      {% if page.problem_image %}
+      <div class="section-image">
+        <img src="{{ page.problem_image }}" alt="Problem context">
+      </div>
+      {% endif %}
+
+      <div class="section-content">
+        <!-- Markdown content from frontmatter or inline -->
+        {% if page.problem %}
+          {{ page.problem | markdownify }}
+        {% endif %}
+
+        <!-- If no frontmatter problem field, use first section of main content marked with ## The Problem -->
+      </div>
+    </section>
+
+    <!-- SOLUTION SECTION -->
+    <section class="system-section solution-section">
+      <h2>The Solution</h2>
+
+      <!-- COMPONENT SLOTS: solution description + optional images/gallery -->
+      {% if page.solution_images %}
+      <div class="section-gallery">
+        <!-- COMPONENT SLOT: Image gallery/carousel showing solution -->
+        {% for image in page.solution_images %}
+        <figure class="gallery-item">
+          <img src="{{ image.url }}" alt="{{ image.alt }}">
+          {% if image.caption %}<figcaption>{{ image.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="section-content">
+        <!-- COMPONENT SLOTS: code blocks, architecture diagrams, system diagrams -->
+        {% if page.solution %}
+          {{ page.solution | markdownify }}
+        {% endif %}
+      </div>
+    </section>
+
+    <!-- PROOF/RESULTS SECTION -->
+    <section class="system-section proof-section">
+      <h2>The Result</h2>
+
+      <!-- COMPONENT SLOTS: results description + before/after + metrics + images -->
+      {% if page.proof_images %}
+      <div class="section-gallery">
+        <!-- COMPONENT SLOT: Before/after comparison or result gallery -->
+        {% for image in page.proof_images %}
+        <figure class="gallery-item">
+          <img src="{{ image.url }}" alt="{{ image.alt }}">
+          {% if image.caption %}<figcaption>{{ image.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="section-content">
+        {% if page.proof %}
+          {{ page.proof | markdownify }}
+        {% endif %}
+      </div>
+    </section>
+
+    <!-- MAIN MARKDOWN CONTENT (fallback/additional content) -->
+    {% if page.show_main_content %}
+    <section class="system-section main-content-section">
+      {{ content }}
+    </section>
+    {% endif %}
+
+  </div>
+
+  <!-- SPECS SIDEBAR COLUMN -->
+  <aside class="system-specs">
+
+    <!-- Context (problem context/constraint) -->
+    {% if page.context %}
+    <div class="spec-block">
+      <div class="spec-label">Context</div>
+      <div class="spec-content">{{ page.context }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Drift (the gap/problem) -->
+    {% if page.drift %}
+    <div class="spec-block">
+      <div class="spec-label">The Problem</div>
+      <div class="spec-content">{{ page.drift }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Scaffold (the solution approach) -->
+    {% if page.scaffold %}
+    <div class="spec-block">
+      <div class="spec-label">The Approach</div>
+      <div class="spec-content">{{ page.scaffold }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Fidelity (the result/validation) -->
+    {% if page.fidelity %}
+    <div class="spec-block">
+      <div class="spec-label">The Result</div>
+      <div class="spec-content">{{ page.fidelity }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Faculty Indicators -->
+    {% if page.faculty %}
+    <div class="spec-block">
+      <div class="spec-label">Faculty Weighting</div>
+      <div class="faculty-indicators">
+        {% for faculty_color in page.faculty %}
+        <div class="faculty-item faculty-array">
+          <span class="faculty-color" data-color="{{ faculty_color }}"></span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Systems Tags -->
+    {% if page.systems %}
+    <div class="spec-block">
+      <div class="spec-label">Output Systems</div>
+      <div class="systems-indicators">
+        {% for system in page.systems %}
+        <span class="system-tag system-{{ system }}">
+          {% if system == "narrative" %}Narrative
+          {% elsif system == "visual" %}Visual
+          {% elsif system == "technical" %}Technical
+          {% else %}{{ system | capitalize }}
+          {% endif %}
+        </span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </aside>
+
+</div>
