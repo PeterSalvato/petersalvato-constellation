@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div id="about-page">
+    <!-- Page Title -->
+    <h1>{{ page.title }}</h1>
+
+    <!-- Content from frontmatter or JSON -->
+    {% if page.content %}
+        {{ page.content }}
+    {% else %}
+        <!-- Try to load from about.json -->
+        {% if page.slug %}
+            {% if site.data.about.pages[page.slug] %}
+                <div id="about-content">
+                    {{ site.data.about.pages[page.slug].content | markdownify }}
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+</div>

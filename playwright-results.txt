@@ -1,0 +1,98 @@
+
+Running 12 tests using 1 worker
+
+✓ Hamburger visible on mobile
+✓ Hamburger toggles sidebar
+Details open state: false
+✓ Main content visible on mobile
+  H1 font-size on mobile: 15px
+⚠ WARNING: Horizontal overflow on mobile! Body: 617px, Viewport: 375px
+  ✓   1 tests/responsive.spec.js:12:7 › Homepage - mobile (375x667) (4.3s)
+⚠ Protocol - Horizontal overflow on mobile
+  Grid columns on mobile: none
+  ✓   2 tests/responsive.spec.js:88:9 › Protocol page - mobile (1.1s)
+⚠ System - Horizontal overflow on mobile
+  Grid columns on mobile: none
+  ✓   3 tests/responsive.spec.js:88:9 › System page - mobile (940ms)
+⚠ Practice - Horizontal overflow on mobile
+  ✓   4 tests/responsive.spec.js:88:9 › Practice page - mobile (1.1s)
+✓ Hamburger hidden on tablet
+  ✘   5 tests/responsive.spec.js:12:7 › Homepage - tablet (768x1024) (6.0s)
+✓ Protocol - No overflow on tablet
+  Grid columns on tablet: 1fr
+  ✓   6 tests/responsive.spec.js:88:9 › Protocol page - tablet (1.1s)
+✓ System - No overflow on tablet
+  Grid columns on tablet: 1fr
+  ✓   7 tests/responsive.spec.js:88:9 › System page - tablet (946ms)
+✓ Practice - No overflow on tablet
+  ✓   8 tests/responsive.spec.js:88:9 › Practice page - tablet (1.1s)
+✓ Hamburger hidden on desktop
+  ✘   9 tests/responsive.spec.js:12:7 › Homepage - desktop (1440x900) (6.0s)
+✓ Protocol - No overflow on desktop
+  Grid columns on desktop: repeat(2, 1fr)
+  ✓  10 tests/responsive.spec.js:88:9 › Protocol page - desktop (1.1s)
+✓ System - No overflow on desktop
+  Grid columns on desktop: repeat(2, 1fr)
+  ✓  11 tests/responsive.spec.js:88:9 › System page - desktop (1.0s)
+✓ Practice - No overflow on desktop
+  ✓  12 tests/responsive.spec.js:88:9 › Practice page - desktop (1.2s)
+
+
+  1) tests/responsive.spec.js:12:7 › Homepage - tablet (768x1024) ──────────────────────────────────
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator:  locator('#sidebar-nav')
+    Expected: visible
+    Received: hidden
+    Timeout:  5000ms
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+    [2m  - waiting for locator('#sidebar-nav')[22m
+    [2m    9 × locator resolved to <aside id="sidebar-nav" aria-label="Main site navigation">…</aside>[22m
+    [2m      - unexpected value "hidden"[22m
+
+
+      52 |       // Check sidebar visible
+      53 |       const sidebar = page.locator('#sidebar-nav');
+    > 54 |       await expect(sidebar).toBeVisible();
+         |                             ^
+      55 |       console.log(`✓ Sidebar visible on ${viewport.name}`);
+      56 |     }
+      57 |
+        at /home/peter/homelab/projects/active/petersalvato.com/tests/responsive.spec.js:54:29
+
+    Error Context: test-results/responsive-Homepage---tablet-768x1024-/error-context.md
+
+  2) tests/responsive.spec.js:12:7 › Homepage - desktop (1440x900) ─────────────────────────────────
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator:  locator('#sidebar-nav')
+    Expected: visible
+    Received: hidden
+    Timeout:  5000ms
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+    [2m  - waiting for locator('#sidebar-nav')[22m
+    [2m    9 × locator resolved to <aside id="sidebar-nav" aria-label="Main site navigation">…</aside>[22m
+    [2m      - unexpected value "hidden"[22m
+
+
+      52 |       // Check sidebar visible
+      53 |       const sidebar = page.locator('#sidebar-nav');
+    > 54 |       await expect(sidebar).toBeVisible();
+         |                             ^
+      55 |       console.log(`✓ Sidebar visible on ${viewport.name}`);
+      56 |     }
+      57 |
+        at /home/peter/homelab/projects/active/petersalvato.com/tests/responsive.spec.js:54:29
+
+    Error Context: test-results/responsive-Homepage---desktop-1440x900-/error-context.md
+
+  2 failed
+    tests/responsive.spec.js:12:7 › Homepage - tablet (768x1024) ───────────────────────────────────
+    tests/responsive.spec.js:12:7 › Homepage - desktop (1440x900) ──────────────────────────────────
+  10 passed (32.8s)

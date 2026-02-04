@@ -1,0 +1,506 @@
+{
+  "tier": {
+    "name": "Practice",
+    "level": 3,
+    "color": "green",
+    "faculty": "surface",
+    "description": "Research and stress-testing across domains"
+  },
+  "collectionCopy": {
+    "title": "Practice",
+    "subtitle": "Research across domains and constraints",
+    "introduction": "Controlled experiments in form, system, and meaning. Practice is where questions become visible and constraints become creative. These projects ask: what breaks? What holds? What's possible?",
+    "tagline": "Questions made visible",
+    "narrative": {
+      "role": "Question → Experiment → Learning → Recursion",
+      "audience": "Designers and thinkers exploring new territory",
+      "proof": "Insights that reshape how we think about problems"
+    }
+  },
+  "collectionTemplate": {
+    "layout": "tier-landing",
+    "featured": {
+      "count": 6,
+      "sortBy": "recency",
+      "manualOrder": []
+    },
+    "display": {
+      "cardStyle": "compact",
+      "aspectRatio": "square",
+      "showFaculty": true,
+      "showSystems": false
+    },
+    "color": "green",
+    "altitudeLevel": 3
+  },
+  "artifacts": {
+    "new-city": {
+      "title": "New City: Narrative Fabrication",
+      "slug": "new-city",
+      "summary": "A novel and game modeling infrastructure failure through nested narrative structures (Kishōtenketsu within Hero's Journey) and a 40+ entity knowledge graph.",
+      "year": 2018,
+      "status": "in-development",
+      "faculty": ["blue", "red"],
+      "systems": ["narrative"],
+      "tags": ["narrative-design", "fiction-writing", "story-structure", "systems-fiction", "knowledge-graphs"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "How do you encode a story's theme into mechanics rather than just dramatize it? Most stories treat theme and mechanics as parallel tracks—mechanics tell the plot; theme is what readers extract afterward. The diagnostic question: What if the theme IS the mechanic? What if narrative structure itself revealed the story's central insight?",
+        "thinking": "The breakthrough: Thematic-mechanical integration. NewCity doesn't just tell a story about incremental system failure; the story mechanics operate as incremental system failure. Collapse narratives typically dramatize the endpoint. NewCity models the actual physics: incremental degradation. Infrastructure fails in stages. People restructure around the failure. New systems emerge from adaptation pressure. Henka—neurodivergent, hypersensitive to system state—survives not through domination but through reading the environment at a resolution others can't match. The integration point: The protagonist's survival mechanic mirrors the story's structural mechanic. Henka learns by reading system states. The reader learns by reading how narrative structure itself shifts in response to pressure.",
+        "structure": "Macro: Three-act structure following Hero's Journey with Act II subdividing into distinct phases. Micro: Each section operates as a Kishōtenketsu cycle—setup, development, reversal, resolution. Why not Western three-act? Because Kishōtenketsu prioritizes perspective recalibration over antagonistic collision. Geography: Brooklyn/Sunset Park as model site with layered survival zones. Method: Prose as construction assembly—YAML-driven scene contracts specify entry conditions and somatic registers before any draft work. Mechanical placement kills burnout at source. Epistolary elements include system logs, encoded communications, and corporate records exposing the world's structural logic.",
+        "proof": "A 64-beat narrative roadmap. Reproducible method for high-fidelity creative output with zero burnout incidence. Proof that narrative operates as a system—as engineerable as infrastructure itself. The origin fractal: every downstream method traces back to these mechanics."
+      },
+      "image": {
+        "src": "/assets/new-city/hero.jpg",
+        "alt": "New City narrative structure showing Kishōtenketsu cycles nested within Hero's Journey framework",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "order-of-the-aetherwright",
+          "echo-and-bone",
+          "savepoint-protocol"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Narrative Design, Systems Fiction",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "mathontape": {
+      "title": "MathOnTape: Algorithmic Rhythm Research",
+      "slug": "mathontape",
+      "summary": "Electronic music composition grounded in signal flow protocols—systems engineering applied to sound, making compositional structure visible through audio.",
+      "year": 2017,
+      "status": "active",
+      "faculty": ["blue", "green"],
+      "systems": ["technical"],
+      "tags": ["music-production", "audio-engineering", "signal-flow", "electronic-music", "generative-music"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Most musicians compose by feel until complexity requires rigor. That works for simple pieces. But once you're layering sounds, managing how they interact, shaping what the listener perceives—intuition alone isn't enough. The system becomes too intricate to hold in memory. The diagnostic question: What if electronic music composition worked like audio engineering? With explicit signal flow, clear component boundaries, predictable interactions?",
+        "thinking": "The breakthrough: Signal flow as compositional principle. In audio equipment, each piece does one job. Pieces connect in specific ways. You can predict what happens when you change one component because the whole signal path is explicit. Apply that same thinking to composition: what comes first, what feeds into what, how does changing one thing ripple through everything else? This isn't about killing creativity. It's about enabling predictability so that complexity becomes possible. Constraints enable creation. Once you know the rules of how your pieces fit together, you can predict what will happen. You can repeat what works. You can build something bigger than intuition alone could reach.",
+        "structure": "Composition as designed signal flow. Each element does one job. Each connection is intentional. The structure is the music. Each piece shows how structure enables new possibilities. Rhythm becomes something you can design. Composition becomes something you can build. Visual language draws from mid-century electronic equipment—that old, purposeful aesthetic.",
+        "proof": "Systems thinking applied to sound. Same discipline as Savepoint Protocol, but through music instead of narrative or code. Shows that the method works across different domains. You can engineer electronic music with the same rigor you'd apply to anything else. Give yourself clear constraints. Follow the signal flow. Build it piece by piece. Structured thinking produces structured work—music that's repeatable, that makes sense, that you can actually explain."
+      },
+      "image": {
+        "src": "/assets/mathontape/hero.jpg",
+        "alt": "MathOnTape signal flow diagrams showing composition as audio engineering",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "savepoint-protocol",
+          "motorology"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Music Production, Audio Systems Design",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "photogeography": {
+      "title": "Photogeography: Somatic Evidence",
+      "slug": "photogeography",
+      "summary": "Photography with fixed aspect ratios and no cropping—constraints force different compositional decisions and reveal how format teaches the eye.",
+      "year": 2019,
+      "status": "in-development",
+      "faculty": ["blue"],
+      "systems": ["visual"],
+      "tags": ["photography", "visual-storytelling", "constraint-based-design", "geographic-mapping", "visual-archive"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Most photography systems treat constraint as limitation. You crop until the image feels right. You adjust aspect ratio until it fits your aesthetic. You remove anything that doesn't support the story you want to tell. This turns photography into narrative—the photographer deciding what to emphasize and what to hide. The diagnostic question: What constraint would force active engagement instead of passive consumption?",
+        "thinking": "The breakthrough: Constraints don't limit emergence; they generate it. By removing the option to crop, the option to adjust proportions, the option to 'fix' the image, you force different compositional choices. You learn to see differently because the format forces you to position differently. The integration point: The format becomes the teacher. By removing the photographer's ability to control the final image shape, the photographer's eye develops differently in the moment of capture.",
+        "structure": "Three fixed aspect ratios, not adjustable: 3:2 landscape (the 35mm field recording), 4:3 landscape or vertical (phone observation), 1:1 square (the intentional moment, the native crop). Each image sits in a consistent container: frame, padding, background, optional border. Captions in standard place. Everything consistent because everything is constrained. The tonal range stays steady across all formats. The geometry of a place reveals itself not through what you wanted to capture, but through what the format forced you to notice.",
+        "proof": "An archive that has no interest in being beautiful. Present. Rigorous. Fixed constraints don't limit emergence—they generate it. Photogeography respects the shape in which the image arrived because this isn't about the world—it's about how I met it."
+      },
+      "image": {
+        "src": "/assets/photogeography/hero.jpg",
+        "alt": "Photogeography showing three fixed aspect ratio formats demonstrating constraint-based vision",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "versagrams",
+          "motorology"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Photography, Visual Systems",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "the-deep-cuts": {
+      "title": "The Deep Cuts: DJ as Active Listening",
+      "slug": "the-deep-cuts",
+      "summary": "A methodology and teaching system using DJ craft as a path to deeper music appreciation—active listening through deliberate practice in selection, transition, and sequence.",
+      "year": 2020,
+      "status": "in-development",
+      "faculty": ["green", "blue"],
+      "systems": ["narrative", "technical"],
+      "tags": ["DJ-skills", "music-education", "active-listening", "interactive-learning", "music-appreciation"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Most music education teaches theory abstractly or performance technically, but neither teaches how to listen structurally—how to understand how music actually works by experiencing how it connects. The structural fragmentation: Passive listening doesn't engage the listener's active understanding. The diagnostic question: What methodology could transform passive consumption into active understanding?",
+        "thinking": "Answer: Make the listener into the architect. DJing isn't performance—it's active engagement with structure. When you select songs to play next to each other, you're analyzing relationships. When you transition between them, you're discovering structural connections. When you sequence them into a set, you're understanding how meaning assembles from order. The breakthrough: Learning DJing teaches you to listen. Not by teaching theory. By making you responsible for how the music flows.",
+        "structure": "DJing teaches you to listen through deliberate practice: Learn selection → You hear what distinguishes one piece from another. Learn transition → You recognize structural similarities that allow connection. Learn sequence → You see how meaning assembles when order changes. Learn timing → You grasp rhythm's multiple scales. This isn't passive consumption. You become an active architect of meaning the moment you move between records. The methodology bridges the gap between hearing (passive) and understanding (active).",
+        "proof": "Interactive methodology for developing deep music literacy. Possible formats: book, journal, workshop series, visual narrative approach. Concept established; positioned within creative practice for development."
+      },
+      "image": {
+        "src": "/assets/the-deep-cuts/hero.jpg",
+        "alt": "The Deep Cuts showing DJ methodology as framework for active music listening",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "mathontape",
+          "echo-and-bone"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Music Education, Active Listening",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "echo-and-bone": {
+      "title": "Echo & Bone: Archetypal Systems",
+      "slug": "echo-and-bone",
+      "summary": "Archetypal patterns mapped as structural systems rather than literary references—27 reference points documenting how human perception organizes complexity.",
+      "year": 2019,
+      "status": "in-development",
+      "faculty": ["red", "blue"],
+      "systems": ["narrative", "visual"],
+      "tags": ["narrative-theory", "symbolic-systems", "archetypal-design", "thematic-research", "structural-patterns"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Most design treats archetypes as decoration—interesting references to add flavor. But archetypes are load-bearing. The same patterns repeat across every culture, every century because they're structural, not contingent. The diagnostic question: What if archetypes work not because they're mystical but because they're how human perception organizes complexity?",
+        "thinking": "The breakthrough: Archetypes as engineering patterns, not literary references. The Hero, the Shadow, the Wise Old Man, the Trickster—these aren't character templates. They're structural solutions to how meaning gets built and recognized. They carry meaning the way girders carry weight. Identify them. Map them. Use them deliberately. Then you're constructing with clear materials, not guessing.",
+        "structure": "Typography and symbolism investigation grounded in archetypal patterns as structural documentation. A systematic exploration: How do archetypal structures organize meaning? Not mysticism. Structural mechanics. How human perception recognizes and deploys the same patterns across cultures and centuries. 27 reference points identified. Visual systems built on symbolic and archetypal investigation. The result functions as both artistic work and structural documentation—proof that symbols are operational systems.",
+        "proof": "A usable framework for archetypal patterns. Apply them anywhere. Understand the Hero's journey as skeleton instead of story, and you build with it: brand systems, interaction design, product architecture. Pattern is framework. Story is the specific assembly. Echo & Bone demonstrates what archetypes actually are: tools for building, not decoration. Clear structural overlap with Order of the Ætherwright. Echo & Bone is the visual execution; Ætherwright is the underlying system."
+      },
+      "image": {
+        "src": "/assets/echo-and-bone/hero.jpg",
+        "alt": "Echo & Bone showing archetypal reference points and symbolic systems documentation",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "order-of-the-aetherwright",
+          "new-city",
+          "altrueism"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Symbolic Systems, Narrative Theory",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "versagrams": {
+      "title": "Versagrams: Typography and Feeling",
+      "slug": "versagrams",
+      "summary": "Experimental typographic systems where rigid grid rules pair with AI-generated imagery to create emotional geography—feeling as buildable structure, not decoration.",
+      "year": 2021,
+      "status": "active",
+      "faculty": ["green", "blue"],
+      "systems": ["visual"],
+      "tags": ["typography", "visual-communication", "AI-generated-imagery", "emotional-design", "experimental-typography"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "How do you visualize feeling in a design system without being decorative, sentimental, or therapeutic? Most emotional design relies on illustration or photography—adding images to evoke feeling. But that's compensatory. It doesn't solve the structural problem: Emotion needs structure, not illustration.",
+        "thinking": "The diagnostic question: What constraint would concentrate emotional meaning? Answer: Apply Swiss grid systems' precision to emotional terrain. The breakthrough: Emotion becomes cartographic. By applying typographic rigor and grid discipline to emotional territory, you create emotional geography—feelings become navigable, shareable, reproducible without requiring illustration to carry the meaning.",
+        "structure": "Typographic rules establish structure (constraint). AI-generated images respond to that structure (emergence). Meaning appears at the boundary between precision and generation. Typographic rules are load-bearing. They establish grid, rhythm, proportion. AI-generated images don't decorate these rules; they inhabit them. Meaning emerges where the structure meets what fills it.",
+        "proof": "Rigor produces depth; decoration produces surfaces. This approach works because it's built on typographic systems (Swiss grids), not aesthetics. Feeling becomes buildable. Not encoded—constructed. The same way a cantilever proves engineering works: the system stands or it doesn't."
+      },
+      "image": {
+        "src": "/assets/versagrams/hero.jpg",
+        "alt": "Versagrams showing typographic grids paired with AI-generated imagery creating emotional systems",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "sentimentology",
+          "photogeography"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Experimental Typography, Emotional Systems",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "cryptozoology": {
+      "title": "Cryptozoology: Creatures from Evidence",
+      "slug": "cryptozoology",
+      "summary": "Pseudo-academic exploration of cryptids using serious scientific aesthetics with playful subversion—field guide presentations of creatures that don't exist.",
+      "year": 2022,
+      "status": "active",
+      "faculty": ["green", "blue"],
+      "systems": ["visual"],
+      "tags": ["cryptids", "poster-design", "visual-research", "grid-systems", "folklore-documentation"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Design a system that treats cryptids as part of a legitimate field of study without claiming they're real. The challenge: Blend folklore, scientific presentation, and cultural fascination through visual language that reads as genuinely scholarly on the surface.",
+        "thinking": "The breakthrough: Deadpan presentation is the entire communication. Everything looks rigorous. The subject matter reveals the humor. By committing fully to field guide aesthetics, vintage scientific illustration, and mid-century sci-fi visuals, the juxtaposition becomes the meaning.",
+        "structure": "4-column and 6-column grids with asymmetrical text placement. Large cryptid illustrations carry mysterious weight. Typography stays minimal and precise—appearing scholarly and detached. Each poster treats the creature as a documented artifact, complete with fabricated provenance and pseudo-scientific taxonomy. Visual language draws from field guides, conspiracy theory aesthetics, and archival documentation.",
+        "proof": "Each poster exists as standalone research, but together they form an archive of the creatures that occupy the edge of known territory. Dark, moody tones. High contrast. The grid holds mystery without explaining it away. Cryptozoology as visual discipline. The creatures exist. The poster is how you see them."
+      },
+      "image": {
+        "src": "/assets/cryptozoology/hero.jpg",
+        "alt": "Cryptozoology posters showing field guide aesthetic applied to cryptids",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "monstrum",
+          "motorology",
+          "sentimentology"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Visual Design, Conceptual Art",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": false,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "monstrum": {
+      "title": "Monstrum: Kaiju as Social Commentary",
+      "slug": "monstrum",
+      "summary": "Kaiju mapped as cultural language—giant creatures as articulations of collective fear and anxiety, form as blueprint of social consciousness.",
+      "year": 2022,
+      "status": "in-development",
+      "faculty": ["red", "green"],
+      "systems": ["narrative", "visual"],
+      "tags": ["kaiju", "speculative-fiction", "social-commentary", "visual-narrative", "cultural-analysis"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Analyze what a culture's monsters reveal about its actual fears. Not the surface fear—the foundational one. The diagnostic question: What does the architecture of a creature tell you about the hands that imagined it?",
+        "thinking": "The breakthrough: Monsters teach you what a society fears by being functional diagrams of collective consciousness. You read the society in the shape of the thing it was forced to build. Fear shapes the body. Anxiety articulates through rampage. The monster doesn't symbolize the culture's terror; it IS the terror, made tangible.",
+        "structure": "Map the construction. What anxiety generated this creature? What does its architecture reveal about the hands that imagined it? Study each kaiju as a blueprint of what a culture cannot say directly but must build anyway. This is translation work: Fear→form, Anxiety→destruction, Meaning→monster. The project doesn't interpret the creatures; it documents how they're assembled from the raw material of collective dread.",
+        "proof": "Trading cards, prints, visual series as primary outputs. Expandable through POD. Sequenced as essays, journal artifacts, extended construction documents. The concept is locked. The kaiju-to-metaphor mappings are established and ordered deliberately through the pipeline. Each creature is a functional diagram of collective consciousness."
+      },
+      "image": {
+        "src": "/assets/monstrum/hero.jpg",
+        "alt": "Monstrum showing kaiju designs as blueprints of collective cultural anxiety",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "cryptozoology",
+          "echo-and-bone"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Speculative Design, Cultural Analysis",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": false,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "motorology": {
+      "title": "Motorology: Purpose-Built Vehicles",
+      "slug": "motorology",
+      "summary": "Purpose-built vehicles as problems solved in steel—engineering made visible through design systems documenting how form expresses philosophy.",
+      "year": 2021,
+      "status": "active",
+      "faculty": ["blue", "green"],
+      "systems": ["visual", "technical"],
+      "tags": ["vehicle-design", "technical-graphics", "blueprint-systems", "industrial-aesthetics", "constraint-based-design"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Baja bugs, rat rods, overlanders, choppers, lowriders—each one engineered for something specific. Not styling exercises. Engineering made visible. The diagnostic question: What does a vehicle type's form reveal about what people actually want?",
+        "thinking": "The breakthrough: Function expresses philosophy. The Baja bug whispers 'unrestrained adventure.' The rat rod shouts 'anti-establishment defiance.' The chopper declares 'personal freedom.' The lowrider announces 'cultural identity made mobile.' Form doesn't just follow function; function reveals aspiration.",
+        "structure": "12-column grids. Technical precision. Industrial palette—greys, blacks, metallics, bright accents where they matter. Typography built for purpose: DIN, Akzidenz-Grotesk. Condensed. Functional. Layouts read like engineering blueprints because vehicles ARE blueprints made manifest. Design language doesn't decorate the emotion of a vehicle type. It reveals it.",
+        "proof": "Purpose-built vehicles are problems solved in steel. Each vehicle solves a specific problem. Desert survival. Rock crawling. Durability across distance. The poster documents what the vehicle learned in solving it. Purpose leaves traces. Build a machine for sand dunes and the dunes reshape the machine. The poster shows that conversation between engineer and environment."
+      },
+      "image": {
+        "src": "/assets/motorology/hero.jpg",
+        "alt": "Motorology showing purpose-built vehicles as technical systems diagrams",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "mathontape",
+          "cryptozoology"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Industrial Design, Technical Graphics",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": false,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "sentimentology": {
+      "title": "Sentimentology: Words for Feeling",
+      "slug": "sentimentology",
+      "summary": "Typographic poster series mapping rare words that name emotions English abandoned—building a visual dictionary of feelings through emotional cartography.",
+      "year": 2021,
+      "status": "active",
+      "faculty": ["green", "red"],
+      "systems": ["visual", "narrative"],
+      "tags": ["typography", "emotional-vocabulary", "language-design", "conceptual-art", "typographic-systems"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Language shapes perception. Feeling without naming remains invisible. English abandoned certain emotional territories—words other languages kept. The result: emotional experiences we can't articulate because we lack the verbal anchors. The diagnostic question: How can you make unnamed feeling visible without resort to illustration or sentiment?",
+        "thinking": "Answer: Make the word itself the structure. By collecting rare words from different languages (Sonder, Hiraeth, Mono no aware, Mamihlapinatapai), defining them precisely, and mapping their emotional territory through typography and color, feeling becomes navigable and shareable. The breakthrough: Emotion as geographic territory, not as aesthetic expression. Each word gets: origin, definition, what it names, emotional landscape. Typography and color form the terrain.",
+        "structure": "Each poster: word, origin, definition as structure, emotional cartography. Typography shifts to match the emotional weight of each term. Modernist typography paired with color that carries the feeling—not decoration, but structural choices that map the terrain. Some definitions compress to fragments. Others build outward. Clean, direct design mapping each word's linguistic and emotional territory.",
+        "proof": "Language shapes perception. Give someone a word and they can see the feeling that was always there, unnamed. These posters are definitions made physical. Rigor produces depth; decoration produces surfaces. Once you see the word, you can't unsee the feeling."
+      },
+      "image": {
+        "src": "/assets/sentimentology/hero.jpg",
+        "alt": "Sentimentology showing typographic posters mapping rare emotional words",
+        "caption": null,
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "versagrams",
+          "everyday-gold"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Typography, Conceptual Art",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": false,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "colophon": {
+      "title": "Colophon: How This Site is Built",
+      "slug": "colophon",
+      "summary": "Documentation of the methodology: how this site demonstrates the principles it describes through its own architecture, narrative structure, and information design.",
+      "year": 2024,
+      "status": "active",
+      "faculty": ["red", "blue", "green"],
+      "systems": ["narrative", "visual", "technical"],
+      "tags": ["site-architecture", "design-thinking", "narrative-structure", "systems-design", "methodology", "meta-documentation"],
+      "altitude": 3,
+      "narrative": {
+        "problem": "Most portfolios show finished work. This one shows the thinking behind the work and the systems that hold it. The challenge: Create documentation that itself demonstrates the methodology it describes.",
+        "thinking": "The insight: This site is not just a portfolio. It's a working document of the methodology itself. Every design decision—the structure, the navigation, the copy, the information architecture—demonstrates the principles described in the Protocols, proven in the Applied Systems, and researched in Practice. This is recursive design—documentation that proves the methodology through its own structure.",
+        "structure": "The site organizes all content through a JSON-driven system that mirrors the narrative structure. Four master JSON files: protocols.json (Tier 01), appliedSystems.json (Tier 02), practice.json (Tier 03), about.json (static pages). Each JSON contains tier-level copy, template specifications, and artifacts structured by the narrative arc: problem → thinking → structure → proof. The architecture makes visible how narrative, visual, and technical systems integrate to hold creative vision under constraint.",
+        "proof": "The site demonstrates what it describes. Reading the Colophon explains why the site is built the way it is. The structure itself is the argument. The methodology scales because meaning lives in the structure, not in personality or individual brilliance. This site proves the principles work across narrative, visual, and infrastructure domains simultaneously."
+      },
+      "image": {
+        "src": "/assets/colophon/hero.jpg",
+        "alt": "Colophon showing the three-tier site architecture and narrative structure",
+        "caption": "The site IS the proof—architecture demonstrating methodology",
+        "dominantColor": "#6ba13d"
+      },
+      "integration": {
+        "github": null,
+        "live": "/colophon/",
+        "essay": null,
+        "related": [
+          "order-of-the-aetherwright",
+          "savepoint-protocol",
+          "ai-devops-workbench",
+          "echo-and-bone"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Meta-Documentation, Systems Architecture",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false,
+        "isMeta": true
+      }
+    }
+  }
+}

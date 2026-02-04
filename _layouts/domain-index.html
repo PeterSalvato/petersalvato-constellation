@@ -8,38 +8,82 @@ layout: default
         <p>{{ page.description }}</p>
     </div>
 
-    <div id="domain-artifacts">
-        {% assign page_title = page.title | upcase %}
-        {% for route in site.data.index.routes %}
-            {% if route.name == page_title %}
-                {% for artifact in route.artifacts %}
-                <div class="domain-artifact">
-                    <div class="artifact-id">{{ artifact.id }}</div>
-                    <h2><a href="{{ artifact.link }}">{{ artifact.title }}</a></h2>
+    <!-- Determine which JSON collection to use -->
+    {% if page.title == "Protocols" %}
+        {% assign collection = site.data.protocols %}
+        {% assign url_prefix = "/protocols/" %}
+    {% elsif page.title == "Applied Systems" %}
+        {% assign collection = site.data.appliedSystems %}
+        {% assign url_prefix = "/systems/" %}
+    {% elsif page.title == "Practice" %}
+        {% assign collection = site.data.practice %}
+        {% assign url_prefix = "/practice/" %}
+    {% endif %}
 
+    <!-- Tier introduction from JSON -->
+    {% if collection.collectionCopy %}
+    <div id="tier-introduction">
+        <h2>{{ collection.collectionCopy.title }}</h2>
+        <p>{{ collection.collectionCopy.introduction }}</p>
+        <p class="tagline">{{ collection.collectionCopy.tagline }}</p>
+    </div>
+    {% endif %}
+
+    <!-- Artifacts from JSON -->
+    <div id="domain-artifacts">
+        {% if collection.artifacts %}
+            {% for artifact_entry in collection.artifacts %}
+                {% assign artifact = artifact_entry[1] %}
+                <div class="domain-artifact">
+                    <div class="artifact-id">{{ artifact.altitude }}</div>
+                    <h2><a href="{{ url_prefix }}{{ artifact.slug }}/">{{ artifact.title }}</a></h2>
+
+                    {% if artifact.context %}
                     <div class="artifact-meta">
                         <div class="artifact-meta-label">Context:</div>
                         <div class="artifact-meta-value">{{ artifact.context }}</div>
                     </div>
-
-                    <div class="artifact-meta">
-                        <div class="artifact-meta-label">Spec:</div>
-                        <div class="artifact-meta-value">{{ artifact.spec }}</div>
-                    </div>
-
-                    <p class="artifact-result">{{ artifact.result }}</p>
-
-                    <div class="artifact-meta">
-                        <div class="artifact-meta-label">Status:</div>
-                        <div class="artifact-meta-value">{{ artifact.status }}</div>
-                    </div>
-
-                    {% if artifact.link %}
-                    <p><a href="{{ artifact.link }}">Read more →</a></p>
                     {% endif %}
+
+                    {% if artifact.scaffold %}
+                    <div class="artifact-meta">
+                        <div class="artifact-meta-label">Scaffold:</div>
+                        <div class="artifact-meta-value">{{ artifact.scaffold }}</div>
+                    </div>
+                    {% endif %}
+
+                    {% if artifact.summary %}
+                    <p class="artifact-summary">{{ artifact.summary }}</p>
+                    {% endif %}
+
+                    {% if artifact.fidelity %}
+                    <div class="artifact-meta">
+                        <div class="artifact-meta-label">Fidelity:</div>
+                        <div class="artifact-meta-value">{{ artifact.fidelity }}</div>
+                    </div>
+                    {% endif %}
+
+                    {% if artifact.faculty %}
+                    <div class="artifact-faculty">
+                        <span class="faculty-label">Faculty:</span>
+                        {% for faculty_color in artifact.faculty %}
+                        <span class="faculty-dot" data-color="{{ faculty_color }}"></span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    {% if artifact.systems %}
+                    <div class="artifact-systems">
+                        <span class="systems-label">Systems:</span>
+                        {% for system in artifact.systems %}
+                        <span class="system-badge">{{ system | capitalize }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <p><a href="{{ url_prefix }}{{ artifact.slug }}/">Read more →</a></p>
                 </div>
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
     </div>
 </div>

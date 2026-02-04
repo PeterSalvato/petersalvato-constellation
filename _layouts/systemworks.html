@@ -9,7 +9,22 @@ layout: default
 </div>
 
 <!-- Manifesto -->
-{% if site.data.index.manifesto %}
+{% if site.data.about.pages.manifesto %}
+<div id="manifesto-section">
+    <h2>{{ site.data.about.pages.manifesto.title }}</h2>
+    <div>
+        {% assign paragraphs = site.data.about.pages.manifesto.content | split: "
+
+" %}
+        {% for paragraph in paragraphs %}
+          {% if paragraph != "" %}
+            <p>{{ paragraph }}</p>
+          {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% elsif site.data.index.manifesto %}
+<!-- Fallback to legacy index.json if about.json not available -->
 <div id="manifesto-section">
     <h2>{{ site.data.index.manifesto.title }}</h2>
     <div>

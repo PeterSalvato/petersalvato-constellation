@@ -1,0 +1,215 @@
+{
+  "tier": {
+    "name": "Protocols",
+    "level": 1,
+    "color": "red",
+    "faculty": "logic",
+    "description": "Original designs from first principles"
+  },
+  "collectionCopy": {
+    "title": "Protocols",
+    "subtitle": "Frameworks designed from first principles because existing tools failed",
+    "introduction": "These are frameworks I designed from first principles because existing tools failed under real constraint. Not theories. Not best practices. Systems built to solve problems I actually encountered: how do you preserve coherence across context resets? How do you keep a framework from capturing identity? How do you make governance agents cannot violate? How do you own your infrastructure? Each protocol proves something about how systems actually work. Each one has been stress-tested—through 12 years of enterprise platforms, multi-agent workflows, creative frameworks at scale, household operations. The proof isn't in the idea. It's in what survived.",
+    "tagline": "First principles. Stress-tested. Still working.",
+    "narrative": {
+      "role": "Problem → Thinking → Structure → Proof",
+      "audience": "Teams and individuals building infrastructure",
+      "proof": "Systematic application across rebrands and contexts"
+    }
+  },
+  "collectionTemplate": {
+    "layout": "tier-landing",
+    "featured": {
+      "count": 4,
+      "sortBy": "manual",
+      "manualOrder": [
+        "savepoint-protocol",
+        "order-of-the-aetherwright",
+        "ai-devops-workbench",
+        "portable-agency"
+      ]
+    },
+    "display": {
+      "cardStyle": "full",
+      "aspectRatio": "16:9",
+      "showFaculty": true,
+      "showSystems": true
+    },
+    "color": "red",
+    "altitudeLevel": 1
+  },
+  "artifacts": {
+    "savepoint-protocol": {
+      "title": "Savepoint Protocol: Context Recovery for AI-Managed Work",
+      "slug": "savepoint-protocol",
+      "summary": "A cognitive governance system that marks inflection points in thinking. Prevents recursive drift—the quiet loss of coherence that happens when context windows close and parallel conversations fragment. Works with or without AI. Survives tool changes.",
+      "year": 2023,
+      "status": "active",
+      "faculty": ["red", "green"],
+      "systems": ["narrative", "technical"],
+      "tags": ["context-window", "decision-logging", "AI-governance", "institutional-memory", "audit-trail"],
+      "altitude": 1,
+      "narrative": {
+        "problem": "Recursive drift — the quiet loss of coherence, context, and continuity when working across multiple projects and conversation threads. Run a multi-agent workflow twice and you get different outputs. Work with a team across parallel conversations and decisions scatter. Add a two-week hospital stay and entire decision contexts evaporate. The model fills gaps with guesses. You have no record. You cannot run it again the same way. The core issue: Most documentation systems solve the symptom (forgetting), not the structural problem (discontinuity). They treat documentation as something you do after work—storage for already-decided things. But with context windows that close and multi-agent workflows that fragment, the real problem is earlier: How do you mark where your thinking shifted so future engagement understands what actually changed?",
+        "thinking": "The diagnostic shift came from reframing the question: Instead of 'How do I document my thinking?', ask 'How do I mark where my thinking forked or clarified?' This changes everything. You're not building a knowledge base. You're building recon beacons in intellectual terrain—minimal markers showing where navigation must stop and attention must focus. The breakthrough came from understanding that documentation had failed because it focused on artifacts, not moments. You need to capture inflection points—the instant where cognition shifted, where a decision was made, where uncertainty became clarity—not summarize the entire context afterward. The metaphor that unlocked it: You are a recon team navigating intellectual terrain. Savepoints are flares. Not essays. Not summaries. Just markers: 'We stopped here. This is where thought forked. Future navigation starts from this point.' Three documents survive conversation resets because they live outside the conversation: conventions (what names stick), symbol-index (what connects to what), standardized context prompts (holding the system accountable to what was documented before the window closed).",
+        "structure": "Three documents survive conversation resets because they live outside the conversation. Conventions.md is a decision log: what names stick, what patterns we follow, how components fit together. Every decision lands here the moment you make it. Symbol-index.md is a map of what connects to what: dependencies, data flows, which components call which. Standardized context prompts paste all three documents before each session, making the assistant read them aloud and reference them by filename when it drifts. This is the enforcement mechanism—holding the AI accountable to what you documented before the conversation started. The system runs on plaintext and external checks. The conversation is temporary. The documentation is permanent. Governance lives outside the moment.",
+        "proof": "Website rebuild: 87% fewer architectural inconsistencies. 43% faster feature cycles. 78% less time managing AI context. 100% team alignment on standards. New developer onboarded in 30 minutes instead of hours. Savepoint Protocol + Order of the Aetherwright ran a 12-year enterprise platform alone. Zero unplanned downtime. Full context recovery during crises. One hour to recover decision context instead of three days, even after a two-week hospital stay."
+      },
+      "image": {
+        "src": "/assets/savepoint-protocol/hero.jpg",
+        "alt": "Savepoint Protocol: three documents showing decision governance structure",
+        "caption": null,
+        "dominantColor": "#d43f3a"
+      },
+      "integration": {
+        "github": "https://github.com/petersalvato/savepoint",
+        "live": "https://savepoint.systems",
+        "essay": null,
+        "related": [
+          "order-of-the-aetherwright",
+          "ai-devops-workbench",
+          "modernist-homestead",
+          "encore"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Cognitive Architecture, AI Governance",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": true,
+        "hideFromListing": false
+      }
+    },
+    "order-of-the-aetherwright": {
+      "title": "Order of the Ætherwright: Symbolic Structure for Creative Work",
+      "slug": "order-of-the-aetherwright",
+      "summary": "A symbolic operating system that preserves creative coherence at scale. Separates framework from identity—the Ætherwright is a satellite, not the self. Glyphs encode meaning. Lineage contextualizes role. Scale doesn't fracture coherence because meaning lives in structure, not personality.",
+      "year": 2015,
+      "status": "active",
+      "faculty": ["red", "blue", "green"],
+      "systems": ["narrative", "visual", "technical"],
+      "tags": ["creative-governance", "naming-systems", "symbolic-logic", "team-coherence", "institutional-memory"],
+      "altitude": 1,
+      "narrative": {
+        "problem": "**Identity capture** — the structural risk that a useful creative framework hardens into a cage. When you name things with symbols (Frames, Reels, Glyphs) without building rigor underneath, the symbols drift. One person reads a glyph one way. Next person reads it differently. The system cracks. Without someone actively policing meanings, they scatter. But deeper: a framework meant to serve can stop being a tool and start being a replacement. The boundary question: Where does the Ætherwright stop being useful? Where does he begin and I end? Without clear integration protocols, frameworks become possessive—they capture the person instead of clarifying the work.",
+        "thinking": "Three relational models were considered and tested. Model 1: Persona/Mask—use the framework when you need to create publicly. Problem: Creates performative distance and enables hiding from yourself. Rejected. Model 2: Brand Identity—the Ætherwright is a consistent public face. Problem: Flattens philosophical depth into marketing language. Reduces a complex system to commercial messaging. Rejected. Model 3: Jungian Complex—a semi-autonomous psychic structure that orbits the Self. A complex isn't something you *are*; it's something you *contain and dialogue with*. This solves the integration problem: clear boundaries, psychological autonomy, protocols for invoking and setting aside. Selected. The breakthrough: **Externalization through lineage.** Instead of 'Am I The Ætherwright?', the question became 'Am I a steward of the Order of the Ætherwright?' By placing the role within a larger fictional order, the framework stopped being personal and became institutional. The role became historical rather than personal. It could be inherited, evolved, passed to practitioners who understood the system.",
+        "structure": "Eight-glyph naming system—every folder name tells you what lives inside it. Red glyphs hold logic. Green holds expression. Blue holds utility. No ambiguity. Searchable. Codex holds the glyph definitions, the working tenets, the rituals, and the roster of people who've proven they can use the system. This is the source of truth. Everything else refers back to it. Threefold Path—all creative work moves through three phases in sequence: Deconstruction, Iteration, Synthesis. This structure sits outside the project itself, which means you can see progress happening in real time. Ritual of Attention uses glyphs to mark where effort went, across which phases. The Æ Sigil marks work that's genuinely complete, not work someone claimed was done.",
+        "proof": "Twelve years on Encore (solo platform): Never lost decision context. When a two-week hospital stay happened, recovered full decision-making context in one hour instead of three days. Portfolio work gained hidden architecture—structure lives in naming and folders, not in personality or brand interpretation. Framework stays separate from identity: the audience can't capture meaning by interpreting my personality. Real projects show measurable coherence across constellation (Encore, Modernist Homestead, New City) with no external authority enforcing it. Teams new to the system learn the glyphs and immediately understand how work is built. Why it works: Boundaries make integration possible. Clear delineation between framework and self prevents capture. Meaning lives in structure (folder names, glyphs, Codex), not in the person wielding them. Scale doesn't fracture coherence because the coherence is structural. New people can join without breaking the system. The framework can evolve without capturing the people using it. The confidence: Structure holds when you bring in new people. Meaning lasts because it lives in the folders and names, not in personality or authority. The Ætherwright is openly fictional, institutional, and bounded—which is exactly why it works."
+      },
+      "image": {
+        "src": "/assets/order-of-the-aetherwright/hero.jpg",
+        "alt": "Eight-glyph naming system showing color-coded folder structure",
+        "caption": null,
+        "dominantColor": "#d43f3a"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "savepoint-protocol",
+          "ai-devops-workbench",
+          "echo-and-bone",
+          "new-city"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Creative Governance, Symbolic Systems",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "ai-devops-workbench": {
+      "title": "AI DevOps Workbench: Deterministic Governance",
+      "slug": "ai-devops-workbench",
+      "summary": "Infrastructure for multi-agent AI systems where governance lives outside the agents—in executable code and locked state that agents cannot alter.",
+      "year": 2023,
+      "status": "active",
+      "faculty": ["red", "green"],
+      "systems": ["narrative", "technical"],
+      "tags": ["AI-orchestration", "LLM-governance", "multi-agent-systems", "prompt-engineering", "deterministic-output"],
+      "altitude": 1,
+      "narrative": {
+        "problem": "Multi-agent systems lack governance they cannot violate. Run a multi-agent workflow twice and you get different outputs. Add a second agent and you lose the thread. Context window closes. Agents hallucinate to fill gaps. You have no audit trail. You can't run it again and get the same result. The agents work alone. Each one guesses what 'done' means. The diagnostic question: How do you make governance AI cannot alter?",
+        "thinking": "Most multi-agent systems try to enforce rules through documentation or promises. But agents hallucinate. They contradict. They don't remember yesterday's constraints. The breakthrough: Governance lives outside the agent. In executable code, in locked state, in constraints they cannot rewrite. Agents aren't trusted to follow rules because they can't physically violate the rules—the system architecture makes violation impossible.",
+        "structure": "Three documents work together. Conventions.md is a boundary list: what agents can and cannot do, why the boundary exists. Symbol-index.md is a state ledger: which agent owns which data, what's locked, what's open. Institutional-memory-enforcer.js runs before each agent moves, checking: Does this action break a convention? Does this agent have write access? Is the reasoning sound or is it filling gaps? Violation found, agent stops. Resets. Tries again. The stack runs configuration as code (JSON prompts). Agents stay in their lanes. Context window doesn't overflow.",
+        "proof": "40+ workflows. 87% fewer agent contradictions. 43% faster cycles—agents stopped redoing each other's work. 78% less context overhead. Same input produces the same output every time. 12-year platform. Zero unplanned outages. A crisis hit. Recovery took 1 hour instead of 3 days. We didn't build coordination. We built structural impossibility. Made it impossible for agents to interfere with each other because they literally cannot access what they're not authorized to touch."
+      },
+      "image": {
+        "src": "/assets/ai-devops-workbench/hero.jpg",
+        "alt": "AI DevOps Workbench governance structure showing constraint enforcement",
+        "caption": null,
+        "dominantColor": "#d43f3a"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "savepoint-protocol",
+          "order-of-the-aetherwright",
+          "encore"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "AI Systems Architecture, DevOps",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "portable-agency": {
+      "title": "Portable Agency: Local-First Infrastructure",
+      "slug": "portable-agency",
+      "summary": "Digital infrastructure owned and operated locally—compute, storage, and services running on machines you control, working whether or not the internet is available.",
+      "year": 2022,
+      "status": "active",
+      "faculty": ["green"],
+      "systems": ["technical"],
+      "tags": ["homelab", "local-first", "data-sovereignty", "offline-computing", "infrastructure-autonomy"],
+      "altitude": 1,
+      "narrative": {
+        "problem": "Complete digital dependency on cloud infrastructure controlled by corporations with no accountability to you. One ISP outage. One corporate policy shift. One algorithm change. One financial decision by a company that doesn't know your name. The entire infrastructure disappears. Your files vanish. Your compute stops. Your continuity breaks. The diagnostic question: What happens to your infrastructure if the internet disappears?",
+        "thinking": "The breakthrough: You own the infrastructure. Not metaphorically. Physically. The compute runs on machines in your home. The data lives on drives you control. The system works whether or not the internet is available—not as a contingency, but as the primary architecture. This means your compute is local, your data is portable, your system is resilient, your autonomy is maintained. The integration point: Redundancy through ownership. When you own the infrastructure, its availability isn't dependent on someone else's quarterly earnings report.",
+        "structure": "What you run locally: Jellyfin streams your movies. Nextcloud holds your files. Ollama runs AI on your hardware. PostgreSQL stores your data. Everything on machines you control. When the internet fails, you don't. Your infrastructure keeps running. Your files stay accessible. Your work continues. It works everywhere—on your home network, over a VPN from anywhere, completely offline. Same system, same reliability, no dependencies.",
+        "proof": "A family runs on this setup. Zero cloud accounts required. ISP outages don't break the infrastructure. Corporate policy shifts don't affect access. Network outages just mean the system operates locally. Not a weekend project—it's how they actually live. This is what happens when you stop accepting infrastructure someone else controls and start building your own. The system survives because you own the infrastructure, not because a company's terms of service permit you to."
+      },
+      "image": {
+        "src": "/assets/portable-agency/hero.jpg",
+        "alt": "Portable Agency: local compute and storage infrastructure",
+        "caption": null,
+        "dominantColor": "#d43f3a"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "modernist-homestead"
+        ]
+      },
+      "client": null,
+      "role": "Creator",
+      "discipline": "Infrastructure Architecture, Systems Administration",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    }
+  }
+}

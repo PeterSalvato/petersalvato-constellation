@@ -1,0 +1,58 @@
+Configuration file: /home/peter/homelab/projects/active/petersalvato.com/_config.yml
+            Source: /home/peter/homelab/projects/active/petersalvato.com
+       Destination: /home/peter/homelab/projects/active/petersalvato.com/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+     ╷
+1381 │       background-color: darken($color-background, 2%);
+     │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     ╵
+    /home/peter/homelab/projects/active/petersalvato.com/assets/css/main.scss 1381:25  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -2.1074380165%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+     ╷
+1381 │       background-color: darken($color-background, 2%);
+     │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     ╵
+    /home/peter/homelab/projects/active/petersalvato.com/assets/css/main.scss 1381:25  root stylesheet
+                    done in 0.414 seconds.
+ Auto-regeneration: enabled for '/home/peter/homelab/projects/active/petersalvato.com'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.4.1   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/usr/lib/ruby/3.2.0/socket.rb:205:in `bind': Address already in use - bind(2) for 127.0.0.1:4000 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/3.2.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/3.2.0/socket.rb:768:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/3.2.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/3.2.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/3.2.0/socket.rb:766:in `tcp_server_sockets'
+	from /var/lib/gems/3.2.0/gems/webrick-1.9.2/lib/webrick/utils.rb:60:in `create_listeners'
+	from /var/lib/gems/3.2.0/gems/webrick-1.9.2/lib/webrick/server.rb:130:in `listen'
+	from /var/lib/gems/3.2.0/gems/webrick-1.9.2/lib/webrick/server.rb:111:in `initialize'
+	from /var/lib/gems/3.2.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:47:in `initialize'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:216:in `new'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:216:in `start_up_webrick'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:102:in `process'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `each'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:85:in `block (2 levels) in init_with_program'
+	from /var/lib/gems/3.2.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /var/lib/gems/3.2.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /var/lib/gems/3.2.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /var/lib/gems/3.2.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /var/lib/gems/3.2.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /var/lib/gems/3.2.0/gems/jekyll-4.4.1/exe/jekyll:15:in `<top (required)>'
+	from /usr/local/bin/jekyll:25:in `load'
+	from /usr/local/bin/jekyll:25:in `<main>'

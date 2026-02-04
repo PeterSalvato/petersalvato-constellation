@@ -1,0 +1,239 @@
+{
+  "tier": {
+    "name": "Applied Systems",
+    "level": 2,
+    "color": "blue",
+    "faculty": "utility",
+    "description": "Proof methodology works at scale and on rebrands"
+  },
+  "collectionCopy": {
+    "title": "Applied Systems",
+    "subtitle": "Protocols transformed by real constraints",
+    "introduction": "Here's where theory meets constraint. Each project takes a protocol and proves it works when reality pushes back—through brand evolution, organizational change, or scaling pressure.",
+    "tagline": "Theory meets constraint"
+  },
+  "collectionTemplate": {
+    "layout": "tier-landing",
+    "featured": {
+      "count": 5,
+      "sortBy": "manual",
+      "manualOrder": [
+        "aiden-jae",
+        "encore",
+        "modernist-homestead",
+        "everyday-gold",
+        "altrueism"
+      ]
+    },
+    "display": {
+      "cardStyle": "full",
+      "aspectRatio": "16:9",
+      "showFaculty": true,
+      "showSystems": true
+    },
+    "color": "blue",
+    "altitudeLevel": 2
+  },
+  "artifacts": {
+    "aiden-jae": {
+      "title": "Aiden Jae: Retail Brand Architecture",
+      "slug": "aiden-jae",
+      "summary": "A jewelry e-commerce system where brand story becomes operational advantage. 'Accessible luxury' isn't a tagline—it's encoded into photography, Shopify UX, product grid logic. Visual texture proves ethical sourcing. Structure makes narrative visible.",
+      "year": 2021,
+      "status": "active",
+      "faculty": ["blue", "green"],
+      "systems": ["narrative", "visual", "technical"],
+      "tags": ["e-commerce", "luxury-brand", "design-systems", "shopify-development", "retail-infrastructure"],
+      "altitude": 2,
+      "drift": "Disconnected visual language failing to communicate luxury and craftsmanship integrity in digital environment",
+      "scaffold": "From-scratch design system integrating high-resolution photography with custom Liquid templates and CSS framework",
+      "fidelity": "Premium positioning established as operational advantage—structure proving authenticity rather than marketing claiming it",
+      "image": {
+        "src": "/assets/aiden-jae/hero.jpg",
+        "alt": "Aiden Jae jewelry e-commerce showing texture-led product photography and custom layout system",
+        "caption": "Photography and code as unified system—texture becomes brand truth",
+        "dominantColor": "#2c5f8d"
+      },
+      "integration": {
+        "github": null,
+        "live": "https://aiden-jae.petersalvato.com",
+        "essay": null,
+        "related": [
+          "order-of-the-aetherwright",
+          "portable-agency",
+          "echo-and-bone",
+          "everyday-gold"
+        ]
+      },
+      "client": "Aiden Jae Productions",
+      "role": "Lead Designer, Information Architect",
+      "discipline": "Product Design, Systems Thinking, E-commerce",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "encore": {
+      "title": "Encore: Architectural Sovereignty",
+      "slug": "encore",
+      "summary": "12 years. 40,000+ users. 2.5 million annual transactions. 99.9% uptime. Zero unplanned outages. A desktop-era platform evolved to modern standards through incremental transformation—never pausing operations, never breaking the system.",
+      "year": 2012,
+      "status": "active",
+      "faculty": ["green", "blue"],
+      "systems": ["visual", "technical"],
+      "tags": ["enterprise-ux", "design-systems", "legacy-modernization", ".net-core", "front-end-engineering"],
+      "altitude": 2,
+      "drift": "Legacy desktop logic failing to scale to modern web standards and user expectations",
+      "scaffold": "Custom SCSS framework and .NET Core UI migration enabling layer-by-layer modernization without disrupting 24/7 operations",
+      "fidelity": "12 years sovereignty, zero service interruption—architectural integrity proved through continuous operation under transformation",
+      "image": {
+        "src": "/assets/encore/hero.jpg",
+        "alt": "Encore enterprise platform interface showing modernized design system layered on legacy infrastructure",
+        "caption": "Incremental refactoring: transformation while running, not after",
+        "dominantColor": "#2c5f8d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "order-of-the-aetherwright",
+          "ai-devops-workbench",
+          "savepoint-protocol"
+        ]
+      },
+      "client": "Enterprise Fortune 500 / Federal Agencies",
+      "role": "Lead Systems Architect, Frontend Engineer",
+      "discipline": "Enterprise Architecture, Systems Modernization",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "modernist-homestead": {
+      "title": "Modernist Homestead: Zero-Willpower Systems",
+      "slug": "modernist-homestead",
+      "summary": "Household systems engineering for a neurodivergent family managing ADHD, autism, and celiac disease across international relocation—culinary modularity, executive function scaffolding, health integration.",
+      "year": 2018,
+      "status": "active",
+      "faculty": ["red", "green"],
+      "systems": ["narrative", "technical"],
+      "tags": ["household-systems", "neurodivergent-design", "culinary-systems", "health-integration", "constraint-based-operations"],
+      "altitude": 2,
+      "drift": "Willpower-dependent processes fail when executive function is disrupted by ADHD, autism, health constraints, or geographic relocation",
+      "scaffold": "Culinary modularity + executive function scaffolding + health navigation infrastructure integrating five cuisine traditions, celiac protocols, and portable medical continuity",
+      "fidelity": "Family operates successfully across relocation and health challenges—proof that structural discipline replaces willpower dependency",
+      "image": {
+        "src": "/assets/modernist-homestead/hero.jpg",
+        "alt": "Modernist Homestead kitchen system showing modular culinary and health infrastructure",
+        "caption": "Zero-willpower systems: the environment does the thinking",
+        "dominantColor": "#2c5f8d"
+      },
+      "integration": {
+        "github": null,
+        "live": "https://tasteonomy.com",
+        "essay": null,
+        "related": [
+          "savepoint-protocol",
+          "portable-agency",
+          "order-of-the-aetherwright"
+        ]
+      },
+      "client": "Personal / Family Operations",
+      "role": "Systems Architect",
+      "discipline": "Household Systems, Neurodivergent Design, Culinary Architecture",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "everyday-gold": {
+      "title": "Everyday Gold: E-Commerce Operations",
+      "slug": "everyday-gold",
+      "summary": "Natural deodorant direct-to-consumer brand where regulatory compliance becomes design material and premium positioning emerges from architectural honesty rather than marketing.",
+      "year": 2020,
+      "status": "active",
+      "faculty": ["blue", "green"],
+      "systems": ["narrative", "visual", "technical"],
+      "tags": ["e-commerce", "direct-to-consumer", "brand-architecture", "inventory-systems", "constraint-based-operations"],
+      "altitude": 2,
+      "drift": "Handmade quality vs. digital scalability in direct-to-consumer commerce—regulatory requirements competing with aspirational brand messaging",
+      "scaffold": "E-commerce infrastructure + inventory management + modular scent-variant system with regulatory material as design material",
+      "fidelity": "Sustainable sourcing becomes structural operational advantage—compliance architecture proves authenticity",
+      "image": {
+        "src": "/assets/everyday-gold/hero.jpg",
+        "alt": "Everyday Gold label system showing circular die-cut design with integrated regulatory information",
+        "caption": "Regulatory material as brand material—honesty becomes premium positioning",
+        "dominantColor": "#2c5f8d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "aiden-jae",
+          "altrueism",
+          "sentimentology"
+        ]
+      },
+      "client": "Everyday Gold",
+      "role": "Brand Architect, Systems Designer",
+      "discipline": "E-commerce Design, Regulatory Integration, Branding",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    },
+    "altrueism": {
+      "title": "Altrueism: Brand Remediation",
+      "slug": "altrueism",
+      "summary": "Nonprofit identity and platform system where transparency becomes structural rather than aspirational—visual language proving rather than claiming organizational integrity.",
+      "year": 2019,
+      "status": "active",
+      "faculty": ["red", "blue"],
+      "systems": ["narrative", "visual"],
+      "tags": ["brand-strategy", "identity-systems", "non-profit-design", "brand-architecture", "messaging-hierarchy"],
+      "altitude": 2,
+      "drift": "Incoherent brand vs. mission-driven positioning—visual system failing to support transparent operations",
+      "scaffold": "Complete identity system, digital platform, messaging hierarchy with hand-made marks as operational proof of transparency",
+      "fidelity": "Transformed incoherent brand into premium-positioned system—structure proving transparency rather than marketing claiming it",
+      "image": {
+        "src": "/assets/altrueism/hero.jpg",
+        "alt": "Altrueism identity system showing hand-made marks and rigorous typography conveying structural transparency",
+        "caption": "Transparency as structure, not marketing—hand-made marks prove honesty",
+        "dominantColor": "#2c5f8d"
+      },
+      "integration": {
+        "github": null,
+        "live": null,
+        "essay": null,
+        "related": [
+          "modernist-homestead",
+          "echo-and-bone"
+        ]
+      },
+      "client": "Altrueism",
+      "role": "Brand Strategist, Systems Designer",
+      "discipline": "Brand Architecture, Non-profit Design, Visual Systems",
+      "recognition": [],
+      "template": {
+        "layout": "artifact-full",
+        "featured": true,
+        "pinned": false,
+        "hideFromListing": false
+      }
+    }
+  }
+}

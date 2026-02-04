@@ -1,17 +1,90 @@
 ---
-layout: practice-03
-title: "Colophon"
+layout: workbench-spec
+title: "Colophon: How This Site is Built"
 altitude: "03"
-type: "Site Architecture Record"
 faculty: ["red", "blue", "green"]
 systems: ["narrative", "visual", "technical"]
+seo_keywords: ["site architecture", "design thinking", "narrative structure", "systems design", "methodology", "first principles"]
+context: "This site is documentation of a methodology. The Colophon explains how the site itself is built using that methodology."
+drift: "Most portfolios show finished work. This one shows the thinking behind the work, and the systems that hold it."
+scaffold: "Recursive documentation: the Colophon demonstrates the design principles it describes."
+fidelity: "The site is proof the methodology works. Reading the Colophon explains why."
 ---
 
-## What This Is
+## Mission
 
-This site is a working demonstration of the systems it describes. The same architectural discipline applied to Encore, Savepoint, and the Modernist Homestead governs how this portfolio is built, organized, and maintained.
+I help creative teams clarify their vision and build the systems that make it hold.
 
-More than that: this colophon documents the strategic thinking that went into building the site *itself* — the voice, the positioning, the decision-making framework. It's Savepoint Protocol applied to institutional memory.
+The work spans vision diagnosis—pulling out what's actually there when intent is fragmented—and systems architecture: the narrative, visual, and infrastructure that let vision survive real-world deployment.
+
+Whether starting from scratch or reconceiving what's broken, the method is the same: go to first principles, understand what should actually be built, then build it to last.
+
+---
+
+## What This Site Demonstrates
+
+This site is not just a portfolio. It's a **working document** of the methodology itself. Every design decision—the structure, the navigation, the copy, the information architecture—demonstrates the principles described in the Protocols, proven in the Applied Systems, and researched in Practice.
+
+The Colophon you're reading is meta: it explains how the site explains itself. This is recursive design—documentation that proves the methodology through its own structure.
+
+---
+
+## The Narrative Architecture
+
+The site tells one story through three tiers of evidence.
+
+### Main Story
+**"I design systems from first principles that clarify vision and hold under constraint."**
+
+### Tier 01: PROTOCOLS (Red)
+"Here's what I designed from first principles."
+
+Original conceptions. Not reactive. Deliberate architecture. Each protocol proves something about how systems actually work: **Savepoint Protocol** (decision governance survives context loss), **Order of the Aetherwright** (creative coherence holds at scale), **AI DevOps Workbench** (multi-agent orchestration becomes reproducible), **Portable Agency** (digital autonomy works locally).
+
+### Tier 02: APPLIED SYSTEMS (Blue)
+"Here's proof the methodology works everywhere."
+
+Same methodology, different constraints:
+- **Original builds** (Aiden-Jae, Everyday Gold, Modernist Homestead) — Proof from-scratch design holds
+- **Enterprise scale** (Encore, 12 years, 99.9% uptime) — Proof methodology works long-term under load
+- **Client rebrand** (Altrueism) — Proof methodology works reconceiving broken systems
+
+### Tier 03: PRACTICE (Green)
+"Here's where I research and stress-test the principles."
+
+Active exploration across domains. Each project tests whether the principles hold in lower-stakes creative environments: narrative systems (New City), signal flow protocols (MathOnTape), format-driven perception (Photogeography), archetypal systems (Echo & Bone), parametric generation (Versagrams), active listening (The Deep Cuts).
+
+### The Artifact Arc
+Every project (Protocol, Applied System, Practice) tells the same story:
+1. **Problem/Conception** — What gap I saw. What I designed.
+2. **Thinking** — Why this structure. What principles underlie it.
+3. **Structure** — How it's built. What the mechanisms are.
+4. **Proof** — What it proves about how systems work. What survived.
+
+This structure is recursive. The site uses it. The Colophon uses it. Even this explanation uses it.
+
+---
+
+## The Content Architecture
+
+The site organizes all content through a JSON-driven system that mirrors the narrative structure.
+
+### Four Master JSON Files
+**protocols.json** — Tier landing + 4 Protocol artifacts
+**appliedSystems.json** — Tier landing + 5 System artifacts (including Altrueism rebrand)
+**practice.json** — Tier landing + 6 Practice artifacts + Colophon
+**about.json** — Manifesto, Provenance, Three Systems explainer, Contact
+
+Each JSON file contains:
+- **Tier copy** — What this tier proves
+- **Tier template** — How to render the tier landing
+- **Artifacts** — Each project's story (summary, image, full sections)
+- **Artifact template** — Shared narrative arc (problem → thinking → structure → proof)
+
+### Why This Structure
+Content isn't just stored—it's **structured as story**. When you visit `/protocols/`, you see cards pulled from the JSON, each summarizing a design story. When you visit `/protocols/savepoint-protocol/`, you read the full story, structured by the same architecture.
+
+This is content as system. Not decoration. **Architecture that tells the story.**
 
 ---
 
@@ -175,10 +248,32 @@ Most significant projects use all three. This tagging makes visible that this is
 
 ---
 
-## What It Proves
+## What This Site Proves
 
-The site itself is the proof. The person who claims to build durable, autonomous infrastructure should have a portfolio that *functions* as durable, autonomous infrastructure.
+1. **Vision diagnosis works** — Fragmented intent can be pulled into sharp focus through first-principles thinking.
 
-The architecture is visible. The decision-making is documented. The scaffolding isn't hidden. The voice is consistent.
+2. **Systems architecture works** — Narrative + Visual + Infrastructure working together hold creative vision under real-world pressure.
 
-That's the colophon: what the methodology looks like when applied to itself.
+3. **The methodology scales** — Proves at multiple scales:
+   - Single person (Savepoint Protocol, 12 years on Encore)
+   - Teams (Order of the Aetherwright, creative coherence at scale)
+   - Enterprises (Encore, 40,000+ users, 2.5M+ transactions annually)
+   - Client work (Altrueism rebrand)
+   - Original builds (Aiden-Jae, Everyday Gold, Modernist Homestead)
+   - Research (Practice projects across domains)
+
+4. **The principles are portable** — Work in narrative, visual, infrastructure, music, photography, game design, family systems.
+
+5. **Documentation of process is part of the value** — This Colophon. The narrative architecture. The design decisions visible in the site structure. Understanding how something was built teaches more than seeing the finished thing.
+
+---
+
+## How to Use This Site
+
+**If you want to understand the methodology:** Start with Protocols (Tier 01). Each explains a design principle through a system I built. Then read Applied Systems (Tier 02) to see evidence the methodology works everywhere. Then explore Practice (Tier 03) to see the principles work across domains.
+
+**If you want to see what I've built:** Start with Applied Systems. This is the proof portfolio.
+
+**If you want to understand me:** Read Provenance (About section) for chronological context. Read Three Systems (About section) to see how I think about output.
+
+**If you're doing similar work:** This Colophon explains how the site was built using the methodology it describes. The architecture is the demonstration.
