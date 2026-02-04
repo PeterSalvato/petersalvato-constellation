@@ -1124,7 +1124,7 @@ footer {
   }
 
   .section-content {
-    font-size: 1rem;
+    font-size: clamp(0.875rem, 1.5vw, 1.125rem);
     line-height: 1.7;
 
     p {
@@ -1158,7 +1158,7 @@ footer {
 .explainer-section {
   .explainer-content {
     max-width: 800px;
-    font-size: 1rem;
+    font-size: clamp(0.875rem, 1.5vw, 1.125rem);
     line-height: 1.7;
     margin-bottom: $gap-xxxlarge;
 
@@ -1210,7 +1210,7 @@ footer {
 
       figcaption {
         margin-top: $gap-medium;
-        font-size: 0.85rem;
+        font-size: clamp(0.75rem, 1.2vw, 0.95rem);
         color: $color-text-secondary;
         font-style: italic;
       }
@@ -1236,7 +1236,7 @@ footer {
 
 .content-section {
   max-width: 800px;
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 1.5vw, 1.125rem);
   line-height: 1.7;
 
   p {
@@ -1269,7 +1269,7 @@ footer {
 
     .spec-label {
       font-family: $font-sans;
-      font-size: 11px;
+      font-size: clamp(0.65rem, 1.1vw, 0.85rem);
       font-weight: 700;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -1279,7 +1279,7 @@ footer {
 
     .spec-content {
       font-family: $font-serif;
-      font-size: 0.95rem;
+      font-size: clamp(0.85rem, 1.4vw, 1rem);
       line-height: 1.6;
       color: $color-text;
 
@@ -1315,7 +1315,7 @@ footer {
 
 code {
   font-family: $font-mono;
-  font-size: 0.85rem;
+  font-size: clamp(0.75rem, 1.2vw, 0.95rem);
   background-color: rgba(0, 0, 0, 0.04);
   padding: 2px 6px;
   border-radius: 2px;
@@ -1333,7 +1333,7 @@ pre {
   code {
     background-color: transparent;
     padding: 0;
-    font-size: 0.85rem;
+    font-size: clamp(0.75rem, 1.2vw, 0.95rem);
     color: $color-text;
   }
 }
@@ -1388,7 +1388,7 @@ pre {
     align-items: center;
     justify-content: center;
     color: $color-text-secondary;
-    font-size: 0.875rem;
+    font-size: clamp(0.75rem, 1.3vw, 1rem);
     font-family: $font-sans;
     transition: background-color 0.2s ease;
 
@@ -1398,7 +1398,7 @@ pre {
   }
 
   .placeholder-caption {
-    font-size: 0.75rem;
+    font-size: clamp(0.65rem, 1rem, 0.85rem);
     color: $color-text-secondary;
     font-family: $font-sans;
     font-weight: 500;
@@ -1472,5 +1472,72 @@ pre {
   .protocol-specs,
   .system-specs {
     grid-template-columns: 1fr !important;
+  }
+}
+
+// ============================================================================
+// MOBILE HAMBURGER MENU (< 600px)
+// ============================================================================
+
+@media (max-width: 600px) {
+  // Hide sidebar by default on mobile
+  #sidebar-nav {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    background-color: #fff;
+    border-right: 1px solid #e5e5e0;
+    overflow-y: auto;
+  }
+
+  // Show sidebar when details is open
+  #sidebar-toggle[open] #sidebar-nav {
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  // Hamburger icon visible only on mobile
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background: white;
+    border-bottom: 1px solid #e5e5e0;
+    width: 100%;
+  }
+
+  .hamburger-line {
+    width: 24px;
+    height: 2px;
+    background-color: #1a1a1a;
+    transition: all 0.3s ease;
+  }
+
+  // Overlay backdrop when menu is open
+  #sidebar-toggle[open]::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  // Main content adjusts on mobile
+  #main-content {
+    padding: 40px 20px;
+    padding-top: 70px; // Space for hamburger
   }
 }
