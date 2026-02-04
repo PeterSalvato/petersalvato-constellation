@@ -1586,3 +1586,48 @@ pre {
     display: none;
   }
 }
+
+// ============================================================================
+// HORIZONTAL TABLET / DESKTOP (900px+)
+// ============================================================================
+
+@media (min-width: 900px) {
+  // Sidebar returns to full width
+  #sidebar-nav {
+    position: fixed;
+    width: $sidebar-width;
+    left: 0;
+    padding: 32px 24px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #main-content {
+    padding: 64px 64px;
+    padding-left: calc(#{$sidebar-width} + 2rem);
+  }
+
+  #sidebar-title {
+    font-size: 1.25rem;
+  }
+
+  .nav-list a {
+    font-size: 11px;
+  }
+
+  // Specs sidebars return to two-column
+  .protocol-specs,
+  .system-specs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Route cards return to 3-column
+  #route-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  // Gallery grids expand
+  .artifact-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
