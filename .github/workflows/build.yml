@@ -17,8 +17,17 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
+      - name: Check Ruby version
+        run: ruby --version && gem --version && bundle --version
+
+      - name: Install dependencies
+        run: bundle install --verbose
+
+      - name: Build Jekyll site with verbose output
+        run: bundle exec jekyll build --verbose 2>&1 | head -100
+
+      - name: Check build output
+        run: ls -la _site/ | head -20
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
