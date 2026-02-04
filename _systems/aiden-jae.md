@@ -122,6 +122,18 @@ Ethically-sourced stones aren't labeled and explained. They're *visible* in the 
 
 This proves the methodology works when narrative is load-bearing, not decorative. Photography + code unified = brand truth proven through structure.
 
+## How the Three Systems Unified
+
+Aiden Jae demonstrates that **Narrative + Visual + Technical must be one integrated system, not sequential layers:**
+
+- **Narrative unified:** "Accessible luxury, ethically sourced" isn't a tagline on the about page. It's baked into every technical choice (which images are displayed, which details are visible, how spacing proves worth). The story IS the system.
+
+- **Visual unified:** Photography isn't decoration. Typography isn't ornament. Grid structure isn't arbitrary. Each visual choice is an operational choice. The photography reveals material because the code was built to reveal it. The spacing proves premium because the system enforces it.
+
+- **Technical unified:** Custom Liquid templates, flexible SCSS, image-driven layouts—these aren't technical flourishes. They're how the narrative survives deployment. The code says: "This work is handmade and matters." The visual system proves it. The story is proven through structure.
+
+When these work as one, premium positioning doesn't need marketing support. The structure proves it.
+
 ## What This Proves
 
 **Methodology transfer: Narrative as structural system**

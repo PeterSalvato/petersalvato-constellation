@@ -23,9 +23,16 @@ Whether starting from scratch or reconceiving what's broken, the method is the s
 
 ## What This Site Demonstrates
 
-This site is not just a portfolio. It's a **working document** of the methodology itself. Every design decision—the structure, the navigation, the copy, the information architecture—demonstrates the principles described in the Protocols, proven in the Applied Systems, and researched in Practice.
+This site proves one principle: **Narrative, Visual, and Technical must be structurally unified so that intent survives deployment.**
 
-The Colophon you're reading is meta: it explains how the site explains itself. This is recursive design—documentation that proves the methodology through its own structure.
+It's not just a portfolio. It's a **working document** of how this principle applies at every scale. Every design decision—the structure, the navigation, the copy, the information architecture—demonstrates the integration of:
+- **Narrative** (what the site says about itself)
+- **Visual** (how form makes intent visible)
+- **Technical** (how code makes it reliable)
+
+They are not separate layers. They are one unified system proving the principle through their own coherence.
+
+The Colophon you're reading is meta: it explains how the site demonstrates the principle it describes. This is recursive integration—when all three systems work as one.
 
 ---
 
@@ -251,22 +258,56 @@ Most significant projects use all three. This tagging makes visible that this is
 
 ## What This Site Proves
 
-1. **Vision diagnosis works** — Fragmented intent can be pulled into sharp focus through first-principles thinking.
+1. **Integration is structural, not aspirational** — Narrative, Visual, and Technical cannot be separated. When they work as one unified system, intent survives deployment. When they're separate, everything breaks.
 
-2. **Systems architecture works** — Narrative + Visual + Infrastructure working together hold creative vision under real-world pressure.
+2. **This principle scales across all constraints** — Proves at multiple scales:
+   - Single person systems (Savepoint Protocol, Portable Agency)
+   - Team coherence (Order of the Aetherwright)
+   - Enterprise platforms (Encore: 40,000+ users, 2.5M+ transactions, 12 years, 99.9% uptime)
+   - Brand remediation (Altrueism rebrand proving transparency is structural)
+   - Luxury e-commerce (Aiden Jae proving brand story survives scaling)
+   - Household operations (Modernist Homestead)
+   - Creative research (12 Practice projects)
 
-3. **The methodology scales** — Proves at multiple scales:
-   - Single person (Savepoint Protocol, 12 years on Encore, Portable Agency)
-   - Teams (Order of the Aetherwright, creative coherence at scale)
-   - Enterprises (Encore, 40,000+ users, 2.5M+ transactions annually)
-   - Client work (Altrueism rebrand)
-   - Consultancies (Joinery, design-engineering integration positioning)
-   - Original builds (Aiden Jae, Everyday Gold, Modernist Homestead)
-   - Research (12 Practice projects across domains)
+3. **The methodology is portable** — Works regardless of domain because it's about structural integration, not tools. Music. Photography. Game design. Family systems. Organizational design.
 
-4. **The principles are portable** — Work in narrative, visual, infrastructure, music, photography, game design, family systems.
+4. **Documentation of process is the value** — Understanding how something was built—how all three systems were unified—teaches more than the finished artifact. This Colophon. The case studies. The design decisions visible in the site structure.
 
-5. **Documentation of process is part of the value** — This Colophon. The narrative architecture. The design decisions visible in the site structure. Understanding how something was built teaches more than seeing the finished thing.
+5. **Narrative Solvency is the outcome** — When Narrative, Visual, and Technical are unified, brand story doesn't need marketing support. The system proves it. The intent survives because it was built into the structure.
+
+---
+
+## How the Three Systems Work Together
+
+This principle is not theoretical. Here are concrete examples from the site:
+
+### Encore: Technical + Narrative + Visual Unified
+
+**Technical decision:** Use Strangler Fig pattern (prove each component under production load before deprecating old paths).
+
+But this isn't just engineering. It's narrative: the platform's story—"we're here for your entire migration"—is proven through architecture. Customers see progress because the system visibly degrades gracefully. It's visual: the design system evolves from desktop to mobile without losing coherence because both paths run simultaneously and must look intentional.
+
+When the technical, narrative, and visual strategies work as one, the customer experiences reliability as structure, not claim.
+
+### Aiden Jae: Photography (Visual) + Code (Technical) + Story (Narrative) Unified
+
+**Visual decision:** High-resolution photography showing actual texture and craftsmanship.
+
+But the photography isn't decoration. It's code. Custom Liquid templates make the image *drive* the layout. Typography scales based on image dominance. The story—"handmade quality, ethically sourced"—isn't in copy. It's proven through the system's refusal to compromise image quality.
+
+When visual, technical, and narrative choices work as one, premium positioning doesn't need marketing. The structure proves it.
+
+### Altrueism: Operations (Technical) + Marks (Visual) + Mission (Narrative) Unified
+
+**Visual decision:** Hand-drawn marks that aren't algorithm-smoothed. Rigorous typography. Limited palette.
+
+But these visual choices enforce operational discipline. The organization decided: transparency isn't a claim, it's structural. Every visual choice was given functional justification. Operations mirror design. Hierarchy in code mirrors hierarchy in typography. The narrative—"radical transparency"—survives because it's built into structure.
+
+When visual, technical, and narrative integrity align, stakeholders feel the difference not through messaging but through structure.
+
+---
+
+**The principle:** These three systems cannot be addressed separately. When narrative informs visual which informs technical which informs narrative, the system holds. When one breaks, all three fail.
 
 ---
 
