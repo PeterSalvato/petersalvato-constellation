@@ -24,10 +24,10 @@ jobs:
         run: bundle install --verbose
 
       - name: Build Jekyll site with verbose output
-        run: bundle exec jekyll build --verbose 2>&1 | head -100
+        run: bundle exec jekyll build --verbose
 
       - name: Check build output
-        run: ls -la _site/ | head -20
+        run: ls -la _site/ 2>&1 || echo "ERROR: _site directory not found"
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
