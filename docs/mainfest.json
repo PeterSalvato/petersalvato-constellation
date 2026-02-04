@@ -1,0 +1,179 @@
+{
+  "site_manifest": {
+    "tier_01_protocols": {
+      "summary": "These are the systems i used to organize my thoughts and move through creativiety and complexity",
+      "projects": [
+        {
+          "id": "savepoint-protocol",
+          "name": "Savepoint Protocol",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "order-of-the-aetherwright",
+          "name": "Order of the Ætherwright",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "ai-devops-workbench",
+          "name": "AI DevOps Workbench",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "portable-agency",
+          "name": "Portable Agency",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        }
+      ]
+    },
+    "tier_02_applied_systems": {
+      "summary": "Concrete implementations where protocols solve real-world systemic friction.",
+      "projects": [
+        {
+          "id": "aiden-jae",
+          "name": "Aiden Jae",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "altrueism",
+          "name": "Altrueism",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "encore",
+          "name": "Encore",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "everyday-gold",
+          "name": "Everyday Gold",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "modernist-homestead",
+          "name": "Modernist Homestead",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        }
+      ]
+    },
+    "tier_03_practice": {
+      "summary": "Research and sensory stress-tests that inform and refine the foundational protocols.",
+      "projects": [
+        {
+          "id": "cryptozoology",
+          "name": "Cryptozoology",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "echo-and-bone",
+          "name": "Echo & Bone",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "everyday-gold-practice",
+          "name": "Everyday Gold (Practice)",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "mathontape",
+          "name": "MathOnTape",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "monstrum",
+          "name": "Monstrum",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "motorology",
+          "name": "Motorology",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "new-city",
+          "name": "New City",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "photogeography",
+          "name": "Photogeography",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "sentimentology",
+          "name": "Sentimentography",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "the-deep-cuts",
+          "name": "The Deep Cuts",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        },
+        {
+          "id": "versagrams",
+          "name": "Versograms",
+          "mission_statement": "",
+          "plain_spoken_lesson": "",
+          "defense_against_drift": "",
+          "description": ""
+        }
+      ]
+    }
+  }
+}
