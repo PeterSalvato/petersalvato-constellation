@@ -93,6 +93,24 @@
           "url": "/practice/monstrum"
         }
       ]
+    },
+    {
+      "label": "ABOUT",
+      "color": "neutral",
+      "items": [
+        {
+          "label": "How I Think",
+          "url": "/how-i-think"
+        },
+        {
+          "label": "Provenance",
+          "url": "/provenance"
+        },
+        {
+          "label": "Colophon",
+          "url": "/practice/colophon"
+        }
+      ]
     }
   ]
 }
