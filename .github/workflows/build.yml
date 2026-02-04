@@ -4,9 +4,17 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -21,17 +29,19 @@ jobs:
         run: ruby --version && gem --version && bundle --version
 
       - name: Install dependencies
-        run: bundle install --verbose
+        run: bundle install
 
-      - name: Build Jekyll site with verbose output
-        run: bundle exec jekyll build --verbose
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
 
-      - name: Check build output
-        run: ls -la _site/ 2>&1 || echo "ERROR: _site directory not found"
+      - name: Verify build output
+        run: ls -la _site/ && echo "Build successful"
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          force_orphan: true
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
