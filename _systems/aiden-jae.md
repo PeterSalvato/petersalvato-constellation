@@ -11,17 +11,56 @@ systems: ["narrative", "visual", "technical"]
 seo_keywords: ["E-Commerce Architecture", "Brand Systems", "Luxury Positioning", "Photography Integration", "Shopify Development"]
 ---
 
+## Where It Started
+
+A jewelry brand created luxury pieces—handmade, ethically sourced, meticulously crafted. Each ring took weeks to perfect. Stones came from verified ethical suppliers. Metalwork showed intention. But when the product launched on e-commerce, this craft disappeared.
+
+The real constraint: **Standard Shopify templates treat all products identically.** Photography gets cropped. Spacing becomes uniform. Every product looks like a catalog item in a grid of 24 others. For handmade work positioned as "accessible luxury, ethically sourced," this created a catastrophic structural lie.
+
 ## The Problem
 
-**Visual truth doesn't scale through templates.** Standard e-commerce platforms treat photography as decoration—route every product through identical templates, same CSS assumptions, same grid. A jeweler spends weeks perfecting a ring. Customer sees it as a thumbnail in a grid of 24 identical product cards, flattened by generic layout assumptions. For handmade work, this is catastrophic. The craft disappears.
+**Structural Fragmentation:** Visual truth doesn't scale through templates.
 
-Most luxury brands solve this through *compensation*: premium photography, more copy, marketing harder. That's not fixing the structural problem—that's decoration hiding a broken system. **The platform itself doesn't believe the work is real.**
+The actual fragmentation:
+- Generic Shopify templates forced every ring into identical CSS assumptions
+- Photography became decoration, not evidence
+- Ethical sourcing claim contradicted by generic product grid
+- Brand positioning ("handmade quality") was marketing copy, not observable reality
+- Luxury positioning undermined by template mediocrity
+
+**The false solution:** Compensation. Premium photography. Better copy. Premium marketing language. This hides the broken system—it doesn't fix it. The platform itself still doesn't believe the work is real.
 
 The diagnostic question: **What if the e-commerce system itself proved the brand story true?** What if code and photography worked as one unified system, both saying "this is handmade quality"?
 
 ## The Solution
 
-**Photography and code as unified narrative system.** Not sequential. Not layered. Co-authored.
+**Three approaches were tested:**
+
+**Approach 1: Premium Photography + Marketing** – Hire professional photographer, write compelling copy, use premium language.
+- Problem: Decorated a broken system. Grid still generic. Photography still cropped. Copy contradicted structure. Rejected because compensation doesn't fix fragmentation.
+
+**Approach 2: Custom Shopify Theme** – Purchase premium theme, customize CSS for better layouts.
+- Problem: Themes are built for volume products. Luxury handmade work needs different logic. Forced rigid assumptions about product display. Rejected because themes can't adapt to actual product quality.
+
+**Approach 3: Manual Layout Per Product** – Design unique layout for each product, build separate template variations.
+- Problem: Doesn't scale. Unmaintainable when expanding catalog. Rejected because labor approach fails at scale.
+
+### The Breakthrough: Photography and Code as Unified System
+
+**Key Insight: Photography and code do the same job. Not sequentially. Not as layers. As one unified system.**
+
+The reframing: *What if the e-commerce system itself proved the brand story true?*
+
+Not through copy. Through structure. Through the actual technical choices the system made about *how* to show the product.
+
+This meant:
+- **Photography foundation:** High-resolution images showing actual texture, actual wear, actual craftsmanship. Not lifestyle photography. Not styled context. Pure detail. Aspect ratios vary because the ring itself dictates the frame.
+- **Custom Liquid templates:** Each product's layout responsive to its photograph. Space calculated from visual weight, not template assumptions. Typography scale respects the photography's importance.
+- **SCSS architecture:** Variable spacing responding to image density. Color system derived from actual product palettes. Grid breaks at natural visual boundaries, not arbitrary breakpoints.
+
+Integration point: **Narrative Solvency.** Brand story survives deployment because it's encoded in architecture, not applied as decoration.
+
+## The Solution
 
 ### The Design System
 

@@ -48,6 +48,7 @@ Same methodology, different constraints:
 - **Original builds** (Aiden-Jae, Everyday Gold, Modernist Homestead) — Proof from-scratch design holds
 - **Enterprise scale** (Encore, 12 years, 99.9% uptime) — Proof methodology works long-term under load
 - **Client rebrand** (Altrueism) — Proof methodology works reconceiving broken systems
+- **Consultancy positioning** (Joinery) — Proof integration of three disciplines creates category distinction
 
 ### Tier 03: PRACTICE (Green)
 "Here's where I research and stress-test the principles."
@@ -69,11 +70,11 @@ This structure is recursive. The site uses it. The Colophon uses it. Even this e
 
 The site organizes all content through a JSON-driven system that mirrors the narrative structure.
 
-### Four Master JSON Files
-**protocols.json** — Tier landing + 4 Protocol artifacts
-**appliedSystems.json** — Tier landing + 5 System artifacts (including Altrueism rebrand)
-**practice.json** — Tier landing + 6 Practice artifacts + Colophon
-**about.json** — Manifesto, Provenance, Three Systems explainer, Contact
+### Master Collections & Data Files
+**_protocols/ collection** — 4 Protocol artifacts (Savepoint, Order of the Aetherwright, AI DevOps Workbench, Portable Agency)
+**_systems/ collection** — 6 Applied System artifacts (Encore, Aiden Jae, Altrueism, Everyday Gold, Modernist Homestead, Joinery)
+**_practice/ collection** — 12 Practice artifacts + Colophon
+**_data/ JSON files** — Navigation, index, contact information
 
 Each JSON file contains:
 - **Tier copy** — What this tier proves
@@ -194,7 +195,7 @@ The site organizes work by intent across three altitude levels:
 
 - **Protocols** (red, altitude 01) — Governing logic and cognitive firmware. Prerequisites. Savepoint Protocol, Order of the Aetherwright, AI DevOps Workbench, Portable Agency. These define how everything else gets built.
 
-- **Applied Systems** (blue, altitude 02) — Production deployments under constraint. Enterprise, commercial, personal. Validated by performance: Encore, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead.
+- **Applied Systems** (blue, altitude 02) — Production deployments under constraint. Enterprise, commercial, personal, consultancy. Validated by performance: Encore, Aiden Jae, Altrueism, Everyday Gold, Modernist Homestead, Joinery.
 
 - **Practice** (green, altitude 03) — Systemic research and expression. Low-stakes, high-frequency creative environments. Protocols stress-tested under variable conditions: New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams.
 
@@ -255,12 +256,13 @@ Most significant projects use all three. This tagging makes visible that this is
 2. **Systems architecture works** — Narrative + Visual + Infrastructure working together hold creative vision under real-world pressure.
 
 3. **The methodology scales** — Proves at multiple scales:
-   - Single person (Savepoint Protocol, 12 years on Encore)
+   - Single person (Savepoint Protocol, 12 years on Encore, Portable Agency)
    - Teams (Order of the Aetherwright, creative coherence at scale)
    - Enterprises (Encore, 40,000+ users, 2.5M+ transactions annually)
    - Client work (Altrueism rebrand)
-   - Original builds (Aiden-Jae, Everyday Gold, Modernist Homestead)
-   - Research (Practice projects across domains)
+   - Consultancies (Joinery, design-engineering integration positioning)
+   - Original builds (Aiden Jae, Everyday Gold, Modernist Homestead)
+   - Research (12 Practice projects across domains)
 
 4. **The principles are portable** — Work in narrative, visual, infrastructure, music, photography, game design, family systems.
 
