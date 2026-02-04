@@ -56,12 +56,37 @@ Regulatory compliance isn't a constraint bolted onto the design — it's a desig
 
 ---
 
-## Why Two Versions?
+## The Operational System
 
-Everyday Gold exists in both Systems and Practice because the project demonstrates two distinct architectural disciplines:
+While the label proves premium positioning through structure, operations must prove it's sustainable.
 
-- **Systems version** (`/systems/everyday-gold`): Operational infrastructure. E-commerce logistics, inventory management, supply chain, and direct-to-consumer fulfillment. The answer to: "How does a brand actually operate at scale?"
+**Supply Chain Architecture:**
+- Direct ingredient sourcing (not commodity aggregators)
+- Supplier relationships prioritizing ingredient quality and harvest ethics
+- Modular production system (core formula + scent variants)
+- Inventory discipline that punishes overstock of perishable naturals
+- Batch tracking from sourcing through fulfillment
 
-- **Practice version** (`/practice/everyday-gold`): Label design and regulatory architecture. Typographic systems, FDA compliance, trademark distinctiveness, and production specifications. The answer to: "How do you encode regulatory requirements as design material?"
+**E-Commerce Operations:**
+- Tier-based fulfillment (direct-to-consumer speed without compromising product freshness)
+- Inventory allocation that prevents overselling natural ingredients
+- Scent variant modularity reduces SKU complexity while maintaining product distinctiveness
+- Shelf-life management integrated into order fulfillment (FIFO + visibility)
 
-Both disciplines must work together. The same structural thinking that holds premium brand positioning in the label holds the operational integrity of the supply chain.
+**The Operational Insight:**
+Sustainable sourcing isn't cheaper in unit cost. It's cheaper in total system cost when you eliminate waste. Modular inventory reduces failed variants by 40%. Supply chain transparency reduces supplier churn. Ingredient discipline maintains consistent product quality. What looks like a constraint becomes a competitive advantage.
+
+**Proof:**
+Margins maintained. Suppliers stable. Customer retention improved. Scaling didn't dilute environmental commitment. The system held because sustainability was operational, not aspirational.
+
+---
+
+## Why Two Versions Exist
+
+Everyday Gold demonstrates two distinct architectural systems working together:
+
+- **Systems version** (this page): Combines label architecture (regulatory as design material) + operational infrastructure (supply chain, inventory, fulfillment). The answer to: "How do you structure premium brand positioning AND operational integrity simultaneously?"
+
+- **Practice version** (`/practice/everyday-gold`): Focuses on label design methodology. Typography systems, FDA compliance integration, trademark distinctiveness, production specifications. The answer to: "How do you encode regulatory requirements as design material?"
+
+Both are necessary. The label proves the brand story to customers. The operations prove the label isn't just design. Together they demonstrate: **when brand positioning is structural rather than decorative, it holds under scaling, cost pressure, and time.**

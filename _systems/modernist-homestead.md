@@ -60,8 +60,55 @@ The integration point: **Health is structural, not behavioral.** Separation prot
 | Integration | Savepoint Protocol, Portable Agency |
 | Spoke project | [tasteonomy.com](https://tasteonomy.com) |
 
-## What It Proves
+## The Implementation
 
-The same structural discipline that keeps an enterprise platform stable for 12 years can keep a household running. Constraints aren't limitations — they're design parameters. A neurodivergent family isn't a hardship story — it's the most demanding systems environment I work in.
+**Culinary System Details:**
+- Five cuisine traditions organized by four structural flavor elements (umami, acidity, heat, smoke)
+- Each element present across all traditions (how *you* use them differs)
+- Repertoire of 15-20 core techniques that generate 200+ meals
+- Recipe reduction from 1000s of separate items to ~40 core components
+- Modular prep: a braise becomes taco filling becomes rice bowl becomes sandwich
 
-The family eats. The family relocates. The family operates. That's the proof.
+**Executive Function Architecture:**
+- Weekly household check-in (30 minutes, structured agenda, documented decisions)
+- Default meals organized by day (reduces choice fatigue)
+- Supply lists printed and staged (no hunting)
+- Kitchen layout enforces workflow (tool placement, prep surface organization)
+- Visual timers and checklists prevent cascade failures
+- **Cognitive load moved from brain to environment**
+
+**Health Integration:**
+- Celiac protocol built into kitchen geography (separate prep surfaces, tools, cutting boards)
+- Ingredient sourcing verified at purchase (certified gluten-free suppliers)
+- Medical records structured for portability (not locked in local systems)
+- Medication schedules automated (not memory-dependent)
+- Care provider contacts organized by function (emergency, regular, specialist)
+- Cross-border medical continuity maintained through documentation structure
+
+**Proof of Operation:**
+- Family of 4 (2 ADHD, 1 autism, 1 celiac) across two countries
+- Successfully relocated while maintaining health protocols
+- Zero medical incidents from protocol breakdown
+- Meal prep time reduced from 2+ hours to 30 minutes (including cooking)
+- No emergency scheduling failures
+- Documentation portable and transferable (if someone needs to take over)
+
+## What This Proves
+
+**Methodology transfer: Enterprise discipline applied to personal systems**
+
+The same structural thinking that keeps Encore running for 12 years works in a household:
+
+1. **Diagnose fragmentation** — Where does the system break under load?
+2. **Find integration points** — What structure would prevent the break?
+3. **Build it into architecture** — Make the system self-enforcing
+4. **Verify under constraint** — Does it hold when load is highest?
+
+For Encore: international transactions, 40K users, 12 years of operations
+For Modernist Homestead: neurodivergence, health complexity, geographical disruption
+
+**The principle is identical.** Constraints aren't limitations—they're design parameters. A neurodivergent family managing celiac disease across international relocation isn't a "hardship story"—it's *the most demanding systems environment* to work in. And it proves the methodology works.
+
+The family eats. The family relocates. The family operates. No willpower required because the system does the work.
+
+This demonstrates that systems discipline transfers across every scale: from enterprise platforms to household operations. The methodology holds whether you're managing 40,000 users or four family members.
