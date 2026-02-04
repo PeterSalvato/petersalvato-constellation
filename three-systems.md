@@ -5,31 +5,23 @@ title: "Three Systems"
 
 # Three Systems
 
-The work produces three kinds of output. Not departments. Not roles. Output channels.
+The work produces three kinds of output. Not departments. Not roles. Output channels through a single foundational discipline: Visual Communication.
 
-All three channel through Visual Communication — the foundational discipline learned at SVA. Typography is the chassis. Hierarchy is the load path. The rest builds on top.
+Typography is the chassis. Hierarchy is the load path. Everything else builds on top.
 
 ## 1. Narrative Systems
 
-Brand story. Strategic positioning. World-building. The infrastructure that ensures a narrative holds together when it moves from concept to deployment.
+Brand story. Strategic positioning. World-building. **Narrative Solvency** — the infrastructure that ensures a narrative holds together when it moves from concept to deployment.
 
-This isn't copywriting. It's **Narrative Solvency** — building the systems that prevent brand drift when the story hits technical reality. The brand's "why" gets encoded into the UX architecture, the design system, the technical logic. It survives constraint because it's structural, not decorative.
+This isn't copywriting. It's structural integrity of the story itself. The brand's "why" gets encoded into the UX architecture, the design system, the technical logic. It survives constraint because it's load-bearing, not decorative.
 
-### The Problem
+**The Problem:** Most brands lose their story when execution hits constraints. The messaging doesn't match the experience. The positioning fractures across touchpoints.
 
-Most brands lose their story when marketing hands off to product. The messaging doesn't match the experience. The positioning fractures across touchpoints.
+**The Solution:** Encode narrative logic into operational systems. In Aiden Jae, "accessible luxury" isn't a tagline — it's baked into photography, Shopify UX, product grid logic. In Altrueism, "radical transparency" drives the information architecture and visual hierarchy. In New City, a knowledge graph holds the narrative. The story is the system.
 
-### The Solution
+**When It Works:** Companies hiring "brand storytellers" at $200k+ aren't looking for copywriters. They need someone who can build the narrative infrastructure — the systems that ensure the story doesn't break when it hits technical reality. That's Narrative Systems.
 
-Narrative Systems treat story as infrastructure. In Aiden Jae, "accessible luxury" isn't a tagline — it's encoded in the photography system, the Shopify UX, the product grid logic. In Altrueism, "radical transparency" drives the information architecture and visual hierarchy. The story is the system.
-
-### Examples
-
-- **Aiden Jae** — Luxury positioning encoded into e-commerce
-- **Altrueism** — Philanthropic transparency as operational structure
-- **New City** — Kishōtenketsu narrative cycles nested within Hero's Journey
-- **Order of the Aetherwright** — Symbolic framework as design governance
-- **Modernist Homestead** — Household operations as narrative infrastructure
+**Examples:** Aiden Jae, Altrueism, Everyday Gold, New City, Order of the Aetherwright, Modernist Homestead
 
 ---
 
@@ -37,22 +29,13 @@ Narrative Systems treat story as infrastructure. In Aiden Jae, "accessible luxur
 
 Identity. Typography. Design systems. The visual language that makes a brand or world coherent across contexts.
 
-This is where the SVA lineage shows up most directly. Swiss grid systems. Typographic hierarchy as information architecture. Visual form as load-bearing structure. Every project uses Visual Systems — from Aiden Jae's luxury brand identity to high-density concert posters to Encore's 12-year enterprise UI.
+This is where the SVA lineage shows up directly. Swiss grid systems. Typographic hierarchy as information architecture. Visual form as load-bearing structure. Every project uses some form of Visual Systems — from Aiden Jae's luxury brand identity to The Deep Cuts' high-density concert posters to Encore's 12-year design system.
 
-### The Discipline
+**The Discipline:** Visual Systems answer "How does the eye parse this?" Whether it's regulatory constraints as design material (Everyday Gold), a format-locked visual archive (Photogeography), or a parametric typographic system (Versagrams), the work treats visual form as structural logic, not decoration.
 
-Visual Systems answer "How does the eye parse this?" Whether it's a circular perfume label with regulatory constraints, a parametric typographic system, or a format-locked visual archive, the work treats visual form as structural logic.
+**The Foundation:** This sits directly on top of Visual Communication discipline. The same principles that held a 10,000-sheet print run hold a 12-year enterprise system. Precision. Constraint. Load paths. Visual coherence under pressure.
 
-### Examples
-
-- **Aiden Jae** — Luxury brand identity and visual hierarchy
-- **Versagrams** — Typography + AI-generated imagery under constraint
-- **Photogeography** — Format-locked visual archive
-- **Cryptozoology** — Swiss grid system for mysterious subjects
-- **Motorology** — Technical blueprint aesthetics for vehicles
-- **Everyday Gold** — Regulatory information as design material
-- **Encore** — Enterprise design systems at 12-year scale
-- **Echo & Bone** — Archetypal visual language
+**Examples:** Aiden Jae, The Deep Cuts, Versagrams, Encore, Photogeography, Echo & Bone, Everyday Gold
 
 ---
 
@@ -60,31 +43,23 @@ Visual Systems answer "How does the eye parse this?" Whether it's a circular per
 
 Engineering. UX architecture. Platforms. Infrastructure. The code and systems that make it actually work.
 
-This is the full-stack engineering half of the practice. Encore serving 40K+ users with 99.9% uptime. Savepoint Protocol as a CLI tool for cognitive scaffolding. Portable Agency as local-first homelab infrastructure. AI DevOps Workbench for multi-agent governance. Modernist Homestead as household operating systems.
+This is the "full-stack engineering" half. Encore: 12 years, 40K+ users, 99.9% uptime. Savepoint Protocol: CLI tool for cognitive scaffolding. Portable Agency: homelab infrastructure. Modernist Homestead: household operational systems. MathOnTape: signal flow protocols applied to music.
 
-### The Approach
+**The Approach:** Technical Systems aren't isolated from Narrative and Visual. They're co-designed. The brand story informs the UX logic. The typographic system constrains the component library. The technical constraints shape the narrative. When all three systems work together, the result is **granular fidelity** — the idea and the infrastructure are the same thing.
 
-Technical Systems aren't built in isolation from Narrative and Visual. They're co-designed. The brand story informs the UX logic. The typographic system constrains the component library. The technical constraints shape the narrative. When all three systems work together, the result is **granular fidelity** — the idea and the infrastructure are the same thing.
-
-### Examples
-
-- **Encore** — Enterprise platform with 99.9% uptime over 12 years
-- **Savepoint Protocol** — Semantic version control for cognitive state
-- **Portable Agency** — Digital autonomy through local infrastructure
-- **AI DevOps Workbench** — Deterministic governance for multi-agent workflows
-- **Modernist Homestead** — Household infrastructure under constraint
-- **MathOnTape** — Signal flow engineering applied to music composition
+**Examples:** Encore, Savepoint Protocol, Portable Agency, Modernist Homestead, AI DevOps Workbench, MathOnTape
 
 ---
 
 ## Narrative Solvency
 
-The term matters.
+The term matters. Companies hiring "brand storytellers" don't just need someone who can write compelling copy. They need someone who can build the **narrative infrastructure** — the systems that ensure the story doesn't break when it moves from strategy to deployment.
 
-Companies hiring "brand storytellers" don't just need someone who can write compelling copy. They need someone who can build the **narrative infrastructure** — the systems that ensure the story doesn't break when it moves from strategy deck to production deployment.
+That's the intersection of all three systems:
+- **Narrative** (the story logic)
+- **Visual** (the identity expression)
+- **Technical** (the engineering implementation)
 
-That's the intersection of all three systems. Narrative (the story logic), Visual (the identity expression), and Technical (the engineering implementation) working together to create brands and products where the intent survives execution.
+Working together to create brands and products where the intent survives execution.
 
-### Proof
-
-Aiden Jae. Altrueism. Everyday Gold. Modernist Homestead. These aren't just "designed" — they're **narratively engineered**. The story is load-bearing.
+**Proof:** Aiden Jae. Altrueism. Everyday Gold. Modernist Homestead. These aren't just "designed" — they're **narratively engineered**. The story is load-bearing.

@@ -1339,6 +1339,113 @@ pre {
 }
 
 // ============================================================================
+// IMAGE GALLERIES & PLACEHOLDERS
+// ============================================================================
+
+.image-gallery {
+  display: grid;
+  gap: $gap-large;
+  margin: $gap-large 0;
+}
+
+.image-gallery--square {
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-gallery--wide {
+  grid-template-columns: 1fr;
+}
+
+.image-gallery--three-col {
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 512px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-placeholder {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .placeholder-box {
+    aspect-ratio: 1;
+    width: 100%;
+    background-color: $color-background;
+    border: 1px solid $color-border;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-text-secondary;
+    font-size: 0.875rem;
+    font-family: $font-sans;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: darken($color-background, 2%);
+    }
+  }
+
+  .placeholder-caption {
+    font-size: 0.75rem;
+    color: $color-text-secondary;
+    font-family: $font-sans;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  // Replace with real image
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+}
+
+.section-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap-large;
+  margin: $gap-large 0;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Visual section dividers
+.system-section {
+  position: relative;
+  padding-top: $gap-large;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -$padding-standard;
+    right: -$padding-standard;
+    height: 1px;
+    background: linear-gradient(to right, transparent, $color-border 20%, $color-border 80%, transparent);
+  }
+
+  &:first-of-type::before {
+    display: none;
+  }
+}
+
+// ============================================================================
 // RESPONSIVE (Tablet / Mobile)
 // ============================================================================
 

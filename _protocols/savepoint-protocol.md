@@ -3,7 +3,7 @@ layout: log
 title: "Savepoint Protocol: Context Recovery for AI-Managed Work"
 altitude: "01"
 faculty: ["red", "green"]
-systems: ["AI DevOps", "Context Management", "Institutional Memory"]
+systems: ["narrative", "technical"]
 seo_keywords: ["context window", "decision logging", "AI governance", "institutional memory", "hostile governance", "audit trail"]
 ---
 

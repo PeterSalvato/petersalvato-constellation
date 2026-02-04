@@ -17,6 +17,26 @@ layout: default
 <!-- Page Title -->
 <h1>{{ page.title }}</h1>
 
+<!-- Systems Indicators (if present) -->
+{% if page.systems %}
+<div class="workbench-spec" style="margin-bottom: 48px;">
+    <div class="spec-block">
+        <div class="spec-label">Output Systems</div>
+        <div class="systems-indicators">
+            {% for system in page.systems %}
+            <span class="system-tag system-{{ system }}">
+                {% if system == "narrative" %}Narrative
+                {% elsif system == "visual" %}Visual
+                {% elsif system == "technical" %}Technical
+                {% else %}{{ system | capitalize }}
+                {% endif %}
+            </span>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
 <!-- SINGLE COLUMN LAYOUT (no sidebar) -->
 <div class="practice-layout">
 
