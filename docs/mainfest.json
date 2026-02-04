@@ -6,34 +6,34 @@
         {
           "id": "savepoint-protocol",
           "name": "Savepoint Protocol",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Capture semantic turning points where thinking shifts and meaning clicks. Authorship infrastructure for tracing cognitive inflection—not memory recall, but the moments that changed you.",
+          "plain_spoken_lesson": "Your thinking matters more than your data. Mark where you changed, not what you stored.",
+          "defense_against_drift": "Savepoint resists feature creep by staying symbolic—it's a markup language, not a platform. Stays legible to both humans and LLMs. Format degrades gracefully.",
+          "description": "Self-authored semantic trail markers. Timestamps and structures the moments when realization clicks. Built for thinkers in wild terrain who need cognitive version control. Markup system for claiming where your thinking changed, not summaries or notes."
         },
         {
           "id": "order-of-the-aetherwright",
           "name": "Order of the Ætherwright",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Symbolic operating system for sovereign cognition. Ritual framework for aligning tools, thoughts, and practice—across digital and physical domains. For anyone who works with care and brings intention into the act of working.",
+          "plain_spoken_lesson": "You don't need permission. But you must choose. Entry requires willingness and a deliberate step forward—then your tools align with your intention.",
+          "defense_against_drift": "Documented in doctrine and protective IP. Visual sigil, shell commands, overlays keep the system coherent across applications and domains. Ritual reinforces return to core principles.",
+          "description": "Philosophical doctrine + visual assets + tactile tools + shell language + ritual installation. A living archive recording intentional development of a personal-philosophical system of Work. Designed for makers, writers, developers, researchers—anyone who brings intention to their craft."
         },
         {
           "id": "ai-devops-workbench",
           "name": "AI DevOps Workbench",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Combat 'vibecoding'—fragile AI-generated code with amnesia. Map architectural decisions and system dependencies so the system remembers what it changed and why. Institutional memory guardrails that prevent repeated mistakes.",
+          "plain_spoken_lesson": "Document your decisions once. Then every agent uses those decisions. No more fragile code because the system forgot its own context.",
+          "defense_against_drift": "Two core files (conventions.md, symbol-index.md) are read before every change. System checks: Does this decision exist? Has it been made? If not, document it. If yes, use it. Drift is detected and reported.",
+          "description": "Structured system that captures architectural decisions and code structure mapping. Claude checks existing decisions before coding, asks specific questions for missing decisions, documents answers, implements using standards. Prevents context loss across agent conversations. Institutional memory guardrails—stop repeating decisions, document once, use everywhere."
         },
         {
           "id": "portable-agency",
           "name": "Portable Agency",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Self-discovering AI specialists that automatically configure based on your project's tech stack and verify their own work. Agents that know what they built, test it, and report back.",
+          "plain_spoken_lesson": "Agents that verify themselves. No 'please run the tests.' They run them. They know if they broke something.",
+          "defense_against_drift": "Technology detection automatically loads appropriate verification tools. Every specialist runs npm lint, typecheck, build, tests. Built-in verification prevents incomplete analysis. Project health indicators (green/yellow/red) track quality.",
+          "description": "Suite of self-discovering specialists (Project Manager, Tech Lead, Frontend, Backend, QA) that bolt onto AI DevOps Workbench. Zero configuration. Automatically detects React, TypeScript, databases, etc. Each specialist runs verification tools relevant to the project before reporting completion. Built-in verification prevents incomplete analysis."
         }
       ]
     },
@@ -43,42 +43,42 @@
         {
           "id": "aiden-jae",
           "name": "Aiden Jae",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Prove that luxury can be organic. Build a complete branding system for a jewelry business inspired by tropical South Florida textures—and maintain that fidelity across visual conception, logo, photography, brand voice, web design, and Shopify store.",
+          "plain_spoken_lesson": "When you own the entire system end-to-end, the brand coherence survives. Organic textures + luxury positioning holds true everywhere because nothing got handed off.",
+          "defense_against_drift": "Complete ownership from visual conception through Shopify store. Every decision (logo, photography style, copywriting, grid, color) reinforces the tropical-organic-meets-luxury positioning. Integrated system where each part proves the brand story.",
+          "description": "Complete branding system for a luxury jewelry business. Tropical South Florida organic texture inspiration integrated into every element: visual identity, logo design, photography standards, brand voice, web experience, and Shopify architecture. Built to prove that organic and luxury can coexist when maintained as a unified system."
         },
         {
           "id": "altrueism",
           "name": "Altrueism",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Brand remediation. Take a gaudy decorated apparel company transitioning to handcrafted artisanal production and build a complete brand system that proves the shift is real—visually, structurally, tonally.",
+          "plain_spoken_lesson": "Brand remediation is harder than starting from scratch. It means diagnosing what was broken and proving a new direction is genuine. This system shows it can be done.",
+          "defense_against_drift": "Complete brand system (visual identity, typography, voice, color logic, photography approach) all reinforcing the artisanal positioning. Every element contradicts the old gaudy aesthetic and proves intentionality in the new direction.",
+          "description": "Full brand system remediation for a company transitioning from gaudy decorated apparel to handcrafted artisanal production. Complete redesign of visual identity, positioning, voice, and aesthetic logic. Project was never implemented by client (external funding constraints) but demonstrates capability to diagnose brand fragmentation and design coherent remediation."
         },
         {
           "id": "encore",
           "name": "Encore",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Stewardship at scale. Migrate an enterprise platform from Windows Forms to web, making it platform-agnostic. Own the entire front end as sole custodian—UX architect, visual designer, daily collaborator with the original vision stakeholder. Keep it alive, coherent, and growing for 12 years.",
+          "plain_spoken_lesson": "Enterprise durability is proof of structural integrity. 12 years, 40,000+ users, 2.5M annual transactions, 99.9% uptime. That only survives if the system is actually sound.",
+          "defense_against_drift": "Daily collaboration with the original stakeholder keeps vision aligned. Complete front-end ownership means decisions don't fragment. 12 years of incremental evolution without breaking—if drift happened, the system would show it.",
+          "description": "Enterprise software platform. Hired 12 years ago to migrate from Windows Forms to web-based, platform-agnostic architecture. Sole front-end engineer, UX architect, visual designer. Works daily with original designer/developer stakeholder to evolve product vision. 40,000+ users, 2.5M annual transactions, 99.9% uptime. Proof of structural durability through sustained stewardship."
         },
         {
           "id": "everyday-gold",
           "name": "Everyday Gold",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Build a natural deodorant brand that lives under the same umbrella as Aiden Jae jewelry. Full branding system and packaging design that maintains coherence across two different product categories.",
+          "plain_spoken_lesson": "The same brand philosophy applies to different products. Organic, intentional, crafted—whether it's jewelry or deodorant. The system holds.",
+          "defense_against_drift": "Complete branding and packaging system reinforces positioning. Visual language, typography, packaging structure all consistent with the Aiden Jae ecosystem while being distinct as its own product.",
+          "description": "Natural deodorant brand under the Aiden Jae umbrella. Full branding exercise including visual identity, packaging design, and brand positioning. Sister company to jewelry business, showing how the same brand philosophy extends across different product categories."
         },
         {
           "id": "modernist-homestead",
           "name": "Modernist Homestead",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Build a personal home system that accounts for neurodivergent needs and unifies disparate interests—modernist cooking, recipe craft, horticulture, plant growing, hydroponics, home labbing, mycology. Systemize everyday life, then brand it, then publish it.",
+          "plain_spoken_lesson": "Your life can be a system. Neurodivergent scaffolding means intentional defaults that work WITH how your brain operates, not against it. Then you can scale it and share it.",
+          "defense_against_drift": "System accounts for neurodivergent considerations at every level. Defaults are structural, not willpower-dependent. Scalable because it's built on constraint, not heroics.",
+          "description": "Personal home operating system integrating modernist cooking, recipe craft, horticulture, plant growing, hydroponics, home lab operations, and mycology. Neurodivergent-aware design with structural scaffolding. Systemized from everyday practice, branded, and being developed into a technology-focused homesteading publication."
         }
       ]
     },
@@ -88,90 +88,90 @@
         {
           "id": "cryptozoology",
           "name": "Cryptozoology",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[PENDING - NEEDS EXTRACTION FROM CONVERSATIONS]",
+          "plain_spoken_lesson": "[PENDING]",
+          "defense_against_drift": "[PENDING]",
+          "description": "[PENDING]"
         },
         {
           "id": "echo-and-bone",
           "name": "Echo & Bone",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Three-part poster series on Stoic philosophy. Visual system stress-test: can engraving-style illustrations + black letter typography + centered grid structure encode philosophical concepts? Does the visual language itself teach the philosophy?",
+          "plain_spoken_lesson": "Philosophy can be visual. Grid structure, typography, and illustration work together. If all three are chosen right, they teach the idea without explanation.",
+          "defense_against_drift": "Each of three posters reinforces Stoic principle through centered grid logic + visual language + typography. Consistency across series and structural approach keeps philosophical coherence.",
+          "description": "Three-part poster series on Stoic philosophy. Engraved illustration style + black letter typography + centered grid experimentation. Research project testing whether grid structure, visual discipline, and typographic choice together can hold and teach philosophical meaning. Proof that structural systems encode meaning."
         },
         {
           "id": "everyday-gold-practice",
           "name": "Everyday Gold (Practice)",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[PENDING - NEEDS EXTRACTION FROM CONVERSATIONS]",
+          "plain_spoken_lesson": "[PENDING]",
+          "defense_against_drift": "[PENDING]",
+          "description": "[PENDING]"
         },
         {
           "id": "mathontape",
           "name": "MathOnTape",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Branding exercise for personal electronic music production. Retro-futuristic aesthetic research: cassette futurism + dot matrix typography. Test whether retro-future visual language can authentically represent contemporary electronic music.",
+          "plain_spoken_lesson": "Retro aesthetics aren't nostalgia if they're chosen intentionally. They're a visual language that communicates something real about the work.",
+          "defense_against_drift": "Consistent visual language (cassette, dot matrix, retro-futuristic palette) across all music branding elements. Aesthetic coherence keeps the brand identity.",
+          "description": "Branding system for personal electronic music production. Retro-futuristic visual identity using cassette futurism and dot matrix typography. Practice research testing whether vintage computational aesthetics can authentically represent contemporary electronic music production."
         },
         {
           "id": "monstrum",
           "name": "Monstrum",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[PENDING - NEEDS EXTRACTION FROM CONVERSATIONS]",
+          "plain_spoken_lesson": "[PENDING]",
+          "defense_against_drift": "[PENDING]",
+          "description": "[PENDING]"
         },
         {
           "id": "motorology",
           "name": "Motorology",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[PENDING - NEEDS EXTRACTION FROM CONVERSATIONS]",
+          "plain_spoken_lesson": "[PENDING]",
+          "defense_against_drift": "[PENDING]",
+          "description": "[PENDING]"
         },
         {
           "id": "new-city",
           "name": "New City",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[COMPLEX PROJECT - NEEDS EXTRACTION FROM CONVERSATIONS: Narrative systems + Marketing planning]",
+          "plain_spoken_lesson": "[PENDING]",
+          "defense_against_drift": "[PENDING]",
+          "description": "[PENDING - Extract from /home/peter/homelab/knowledge/exports/]"
         },
         {
           "id": "photogeography",
           "name": "Photogeography",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "Poster series stress-testing grid systems as information architecture. Central photograph surrounded by QR codes, location data, latitude/longitude, metadata. Can a grid system elegantly hold spatial data and make it meaningful?",
+          "plain_spoken_lesson": "Grid systems can be more than layout. They can be data containers that make information poetic instead of utilitarian.",
+          "defense_against_drift": "Consistent grid structure across all posters. Information hierarchy stays readable. Visual language reinforces the geographical/spatial concept.",
+          "description": "Poster series featuring photographs taken across the country and world. Each poster uses a grid system to organize central photograph with QR codes, location metadata, coordinates, and geographical information. Research into information architecture and how grid systems can hold and present spatial data aesthetically."
         },
         {
           "id": "sentimentology",
           "name": "Sentimentography",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[DROPPED - IMMATURE]",
+          "plain_spoken_lesson": "[DROPPED]",
+          "defense_against_drift": "[DROPPED]",
+          "description": "[DROPPED]"
         },
         {
           "id": "the-deep-cuts",
           "name": "The Deep Cuts",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "mission_statement": "[COMPLEX PROJECT - NEEDS EXTRACTION FROM CONVERSATIONS: Book concept on DJ methodology for music appreciation]",
+          "plain_spoken_lesson": "[PENDING]",
+          "defense_against_drift": "[PENDING]",
+          "description": "[PENDING - Extract from /home/peter/homelab/knowledge/exports/]"
         },
         {
           "id": "versagrams",
-          "name": "Versograms",
-          "mission_statement": "",
-          "plain_spoken_lesson": "",
-          "defense_against_drift": "",
-          "description": ""
+          "name": "Versagrams",
+          "mission_statement": "Poster series sibling to Photogeography. Central generative AI artwork surrounded by song lyrics from favorite songs in a grid system. Testing whether lyrics + AI visuals can encode meaning together. How do constraints create coherence?",
+          "plain_spoken_lesson": "Grid systems work across media. Whether it's photographs, location data, or lyrics + AI art—the structure holds meaning.",
+          "defense_against_drift": "Consistent grid structure across all posters. Lyrics remain readable. AI artwork chosen intentionally to reinforce the song's meaning.",
+          "description": "Poster series pairing song lyrics with generative AI artwork in a grid system structure. Research into how constraints (grid, typography, generated imagery) work together to create coherence. Testing whether AI-generated visuals can authentically represent poetic content."
         }
       ]
     }
