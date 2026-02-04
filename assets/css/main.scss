@@ -1541,3 +1541,48 @@ pre {
     padding-top: 70px; // Space for hamburger
   }
 }
+
+// ============================================================================
+// VERTICAL TABLET (600px - 900px)
+// ============================================================================
+
+@media (min-width: 600px) and (max-width: 900px) {
+  // Sidebar visible but narrower
+  #sidebar-nav {
+    position: fixed;
+    width: 200px;
+    left: 0;
+    padding: 24px 16px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #main-content {
+    padding: 40px 40px;
+    padding-left: calc(200px + 2rem);
+  }
+
+  #sidebar-title {
+    font-size: 1rem;
+  }
+
+  .nav-list a {
+    font-size: 10px;
+  }
+
+  // Specs sidebars stack to single column
+  .protocol-specs,
+  .system-specs {
+    grid-template-columns: 1fr;
+  }
+
+  // Route cards stay single column
+  #route-cards {
+    grid-template-columns: 1fr;
+  }
+
+  // Hamburger icon hidden (sidebar is visible)
+  .hamburger-icon {
+    display: none;
+  }
+}
