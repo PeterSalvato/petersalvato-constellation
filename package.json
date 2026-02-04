@@ -7,6 +7,7 @@
     "css:watch": "tailwindcss -i assets/css/tailwind.css -o assets/css/tailwind-output.css --watch"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.1",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.1"

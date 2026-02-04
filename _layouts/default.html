@@ -16,17 +16,17 @@
 </head>
 <body>
 
-<!-- Details toggle for mobile hamburger menu -->
+<!-- Hamburger toggle (mobile only) -->
 <details id="sidebar-toggle" class="sidebar-toggle">
   <summary class="hamburger-icon" aria-label="Toggle navigation">
     <span class="hamburger-line"></span>
     <span class="hamburger-line"></span>
     <span class="hamburger-line"></span>
   </summary>
-
-  <!-- Sidebar Navigation (existing content) -->
-  {% include sidebar-nav.html %}
 </details>
+
+<!-- Sidebar Navigation (always present, not inside details) -->
+{% include sidebar-nav.html %}
 
 <!-- Main Content -->
 <main id="main-content">

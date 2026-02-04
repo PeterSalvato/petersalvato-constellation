@@ -1451,8 +1451,8 @@ pre {
   overflow-y: auto;
 }
 
-// Show sidebar when details is open
-#sidebar-toggle[open] #sidebar-nav {
+// Show sidebar when details is open (sibling selector)
+#sidebar-toggle[open] ~ #sidebar-nav {
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -1481,7 +1481,7 @@ pre {
 }
 
 // Overlay backdrop when menu is open
-#sidebar-toggle[open]::before {
+#sidebar-toggle::after {
   content: '';
   position: fixed;
   top: 0;
@@ -1490,12 +1490,63 @@ pre {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
+  display: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+#sidebar-toggle[open]::after {
+  display: block;
 }
 
 // Main content adjusts on mobile
 #main-content {
-  padding: 40px 20px;
+  padding: 20px 16px;
   padding-top: 70px; // Space for hamburger
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Ensure all grids stack on mobile
+.protocol-specs,
+.system-specs,
+#route-cards {
+  grid-template-columns: 1fr !important;
+  width: 100%;
+}
+
+// Gallery grids also single column on mobile
+.section-gallery,
+.artifact-gallery {
+  grid-template-columns: 1fr !important;
+  width: 100%;
+}
+
+// Constrain all major containers on mobile
+.protocol-layout,
+.system-layout,
+.practice-layout {
+  grid-template-columns: 1fr !important;
+  width: 100%;
+}
+
+// Ensure footer doesn't overflow
+footer {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Constrain container
+#container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Ensure all text breaks properly
+body {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 // ============================================================================
