@@ -46,3 +46,8 @@ exclude:
   - /package-lock.json
   - /tailwind.config.js
   - /.gitignore
+  - .github/
+
+# GitHub Pages configuration (GitHub Actions deployment)
+remote_theme: null
+theme: null
