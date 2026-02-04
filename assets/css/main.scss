@@ -54,7 +54,7 @@ $transition-standard: 0.3s ease;
 
 html, body {
   height: 100%;
-  font-size: 16px;
+  font-size: clamp(15px, 1vw, 16px);
 }
 
 body {
@@ -798,7 +798,7 @@ footer {
 
       .artifact-id {
         font-family: $font-sans;
-        font-size: 11px;
+        font-size: clamp(0.65rem, 0.8vw, 11px);
         font-weight: 700;
         letter-spacing: 0.1em;
         text-transform: uppercase;
@@ -807,7 +807,7 @@ footer {
       }
 
       h2 {
-        font-size: 32px;
+        font-size: clamp(1.75rem, 5vw, 2.5rem);
         font-weight: 700;
         letter-spacing: 0.05em;
         text-transform: uppercase;
@@ -828,12 +828,12 @@ footer {
         grid-template-columns: 100px 1fr;
         gap: $gap-medium;
         margin-bottom: $gap-medium;
-        font-size: 12px;
+        font-size: clamp(0.75rem, 1vw, 12px);
       }
 
       .artifact-result {
         font-family: $font-serif;
-        font-size: 14px;
+        font-size: clamp(0.85rem, 1.2vw, 14px);
         line-height: 1.7;
         margin-bottom: $gap-medium;
         font-style: italic;
@@ -895,7 +895,7 @@ footer {
 
 .system-tag {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: clamp(0.6rem, 0.9vw, 0.75rem);
   padding: 0.35rem 0.65rem;
   border: 1.5px solid currentColor;
   border-radius: 3px;
@@ -974,14 +974,14 @@ footer {
 
   h2 {
     margin-bottom: $gap-xlarge;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
     text-transform: none;
   }
 }
 
 .manifesto-section {
   .manifesto-content {
-    font-size: 1.05rem;
+    font-size: clamp(0.95rem, 1.5vw + 0.25rem, 1.1rem);
     line-height: 1.8;
 
     p {
@@ -1023,7 +1023,7 @@ footer {
     width: 100%;
     border-collapse: collapse;
     margin: $gap-large 0;
-    font-size: 0.95rem;
+    font-size: clamp(0.9rem, 1.2vw, 0.95rem);
 
     th, td {
       border: 1px solid $color-border;
@@ -1078,7 +1078,7 @@ footer {
 
   h2 {
     margin-bottom: $gap-xlarge;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
     text-transform: none;
   }
 }
@@ -1116,7 +1116,7 @@ footer {
 
       figcaption {
         margin-top: $gap-medium;
-        font-size: 0.9rem;
+        font-size: clamp(0.85rem, 1vw, 0.9rem);
         color: $color-text-secondary;
         font-style: italic;
       }
