@@ -78,31 +78,56 @@ WHY NEEDED: Thinking was disappearing, not captured structurally
 
 ### 3. Timeline Narrator Specialist
 
-**Purpose:** Identify narrative arc from sanitized timeline
+**Purpose:** Synthesize narrative arc from manifest + sanitized timeline
 
 **Process:**
-1. Read `docs/working/sanitized-[project].md` chronologically
-2. Identify:
-   - When/why was project conceived?
-   - How did it evolve over time?
-   - What decisions emerged?
-   - What survived? What changed?
-   - What was the actual arc?
-3. Produce: Structured outline (no prose yet)
+
+Use NotebookLM synthesis to extract the story:
+
+1. Run: `python3 docs/synthesis-workflow.py [project-slug]`
+2. NotebookLM loads:
+   - Manifest entry (mission, why, defense)
+   - Extraction timeline (chronological events)
+3. NotebookLM synthesizes:
+   - What is the actual story?
+   - What was the arc from conception to reality?
+   - What key moments changed thinking?
+   - How does timeline evidence match manifest mission?
+4. Produce: Structured outline with synthesis notes
 
 **Output File:** `docs/working/outline-[project].md`
+
+**Output includes:**
+- Raw synthesis response from NotebookLM
+- Structured timeline arc identified
+- Key moments with specific timeline references
+- Where narrative connects to manifest mission
 
 **Example Structure:**
 ```
 PROJECT: Aiden Jae
+SOURCE: NotebookLM synthesis (manifest + timeline)
 
-TIMELINE ARC:
-- Initial conception: Problem with luxury + handmade coherence
-- Early exploration: Visual identity experiments
-- Key pivot: Realized complete ownership was essential
-- Technical decisions: Why Shopify over custom
-- Resolution: System proved coherence across brand/visual/technical
+TIMELINE ARC (from synthesis):
+- Initial conception: Founder caught between luxury expectations and production constraints
+- Early exploration: Tested different supplier relationships and visual approaches
+- Key pivot: Realized complete system ownership was essential for coherence
+- Technical decisions: Platform choice (Shopify) to maintain control
+- Resolution: All systems unified (visual, brand, platform) proved the luxury-organic thesis
+
+EVIDENCE FROM TIMELINE:
+- Lines 156-200: Supplier conflicts revealed fragmentation
+- Lines 412-490: Design-first decision (6 weeks before code)
+- Lines 567-634: Platform evaluation and Shopify selection
+- Lines 701-800: Implementation proving system worked
+
+CONNECTION TO MANIFEST:
+Mission ("Prove luxury can be organic through complete system ownership") ✓ validated by timeline
 ```
+
+**Authentication:**
+First time requires: `cd ~/.claude/notebooklm-mcp && notebooklm-mcp-auth --file`
+See: `docs/NOTEBOOKLM-AUTH-SETUP.md`
 
 **Pass to:** Master Builder Copywriter Specialist
 
