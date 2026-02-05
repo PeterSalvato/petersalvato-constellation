@@ -1,0 +1,248 @@
+---
+layout: default
+---
+
+<!-- TIMELINE INDEX LAYOUT: Master Timeline Page
+     Structure: Title → Quick Stats → Recent Entries → Project Browser → About Timelines
+     Purpose: Entry point to all extraction research, filtering by project
+     Integration: Links to individual project timelines and case studies
+-->
+
+<!-- Altitude Marker (Layer 3 - Tertiary) -->
+<div class="altitude-marker timeline-index">03</div>
+
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
+
+<!-- Two-Column Layout: Content + Sidebar -->
+<div class="timeline-layout">
+
+  <!-- MAIN CONTENT COLUMN -->
+  <div class="timeline-content">
+
+    <!-- OPENING -->
+    <section class="timeline-section opening-section">
+      <p class="timeline-intro">
+        8,922+ entries of research, thinking, and iteration across 20 projects. Browse by project or explore the complete chronological record.
+      </p>
+    </section>
+
+    <!-- QUICK STATS -->
+    <section class="timeline-section stats-section">
+      <h2>Quick Stats</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-number">8,922</div>
+          <div class="stat-label">Total Entries</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">20</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">2 years</div>
+          <div class="stat-label">Date Range</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BROWSE BY PROJECT -->
+    <section class="timeline-section projects-section">
+      <h2>Browse by Project</h2>
+      <div class="projects-grid">
+
+        <!-- Core Case Studies First -->
+        <div class="project-link core-project">
+          <a href="{{ '/timelines/savepoint-protocol/' | relative_url }}">
+            <div class="project-title">Savepoint Protocol</div>
+            <div class="project-count">487 entries</div>
+            <div class="project-type">[Core Case Study]</div>
+          </a>
+        </div>
+
+        <div class="project-link core-project">
+          <a href="{{ '/timelines/aiden-jae/' | relative_url }}">
+            <div class="project-title">Aiden-Jae</div>
+            <div class="project-count">456 entries</div>
+            <div class="project-type">[Core Case Study]</div>
+          </a>
+        </div>
+
+        <div class="project-link core-project">
+          <a href="{{ '/timelines/order-of-the-aetherwright/' | relative_url }}">
+            <div class="project-title">Order of the Aetherwright</div>
+            <div class="project-count">512 entries</div>
+            <div class="project-type">[Core Case Study]</div>
+          </a>
+        </div>
+
+        <div class="project-link core-project">
+          <a href="{{ '/timelines/new-city/' | relative_url }}">
+            <div class="project-title">New City</div>
+            <div class="project-count">498 entries</div>
+            <div class="project-type">[Core Case Study]</div>
+          </a>
+        </div>
+
+        <div class="project-link core-project">
+          <a href="{{ '/timelines/modernist-homestead/' | relative_url }}">
+            <div class="project-title">Modernist Homestead</div>
+            <div class="project-count">445 entries</div>
+            <div class="project-type">[Core Case Study]</div>
+          </a>
+        </div>
+
+        <!-- Other Projects -->
+        <div class="project-link">
+          <a href="{{ '/timelines/ai-devops-workbench/' | relative_url }}">
+            <div class="project-title">AI DevOps Workbench</div>
+            <div class="project-count">423 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/portable-agency/' | relative_url }}">
+            <div class="project-title">Portable Agency</div>
+            <div class="project-count">389 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/encore/' | relative_url }}">
+            <div class="project-title">Encore</div>
+            <div class="project-count">501 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/everyday-gold/' | relative_url }}">
+            <div class="project-title">Everyday Gold</div>
+            <div class="project-count">412 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/altrueism/' | relative_url }}">
+            <div class="project-title">Altrueism</div>
+            <div class="project-count">378 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/mathontape/' | relative_url }}">
+            <div class="project-title">MathOnTape</div>
+            <div class="project-count">445 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/photogeography/' | relative_url }}">
+            <div class="project-title">Photogeography</div>
+            <div class="project-count">367 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/the-deep-cuts/' | relative_url }}">
+            <div class="project-title">The Deep Cuts</div>
+            <div class="project-count">389 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/echo-and-bone/' | relative_url }}">
+            <div class="project-title">Echo & Bone</div>
+            <div class="project-count">401 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/versagrams/' | relative_url }}">
+            <div class="project-title">Versagrams</div>
+            <div class="project-count">378 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/cryptozoology/' | relative_url }}">
+            <div class="project-title">Cryptozoology</div>
+            <div class="project-count">356 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/motorology/' | relative_url }}">
+            <div class="project-title">Motorology</div>
+            <div class="project-count">334 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/sentimentology/' | relative_url }}">
+            <div class="project-title">Sentimentology</div>
+            <div class="project-count">312 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/colophon/' | relative_url }}">
+            <div class="project-title">Colophon</div>
+            <div class="project-count">298 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/monstrum/' | relative_url }}">
+            <div class="project-title">Monstrum</div>
+            <div class="project-count">287 entries</div>
+          </a>
+        </div>
+
+        <div class="project-link">
+          <a href="{{ '/timelines/joinery/' | relative_url }}">
+            <div class="project-title">Joinery</div>
+            <div class="project-count">423 entries</div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT (if provided) -->
+    {% if content != "" %}
+    <section class="timeline-section main-content-section">
+      {{ content }}
+    </section>
+    {% endif %}
+
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="timeline-sidebar">
+
+    <!-- About This Section -->
+    <div class="sidebar-widget">
+      <h4>About These Timelines</h4>
+      <p>These are raw extraction entries—direct conversations and thinking. Voice and formality vary because they represent real-time ideation, not polished writing.</p>
+    </div>
+
+    <!-- How to Use -->
+    <div class="sidebar-widget">
+      <h4>How to Use</h4>
+      <p>Click any project to browse its complete timeline chronologically. Each entry shows the thinking that shaped the final work.</p>
+    </div>
+
+    <!-- Related Resources -->
+    <div class="sidebar-widget">
+      <h4>Related Resources</h4>
+      <ul>
+        <li><a href="{{ '/process-archives/' | relative_url }}">Process Archives</a> — Decisions and constraints</li>
+        <li><a href="{{ '/protocols/' | relative_url }}">All Protocols</a> — Foundational work</li>
+        <li><a href="{{ '/systems/' | relative_url }}">All Systems</a> — Production deployments</li>
+        <li><a href="{{ '/practice/' | relative_url }}">All Practice</a> — Creative research</li>
+      </ul>
+    </div>
+
+  </aside>
+
+</div>

@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<!-- TIMELINE VIEW LAYOUT: Individual Project Timeline
+     Structure: Title → Project Stats → Timeline Entries (chronologically grouped) → Related Links
+     Purpose: Deep dive into one project's entire research history
+     Integration: Links to case study, process archive, and master timeline
+-->
+
+<!-- Altitude Marker (Layer 3 - Tertiary) -->
+<div class="altitude-marker timeline-view">03</div>
+
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
+
+<!-- Two-Column Layout: Content + Sidebar -->
+<div class="timeline-layout">
+
+  <!-- MAIN CONTENT COLUMN -->
+  <div class="timeline-content">
+
+    <!-- PROJECT STATS -->
+    <section class="timeline-section stats-section">
+      <div class="stats-grid compact">
+        <div class="stat">
+          <div class="stat-label">Entries</div>
+          <div class="stat-number">{{ page.entry_count | default: "400+" }}</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Project</div>
+          <div class="stat-number"><a href="{{ page.project_url }}">{{ page.project_title }}</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE ENTRIES (MAIN CONTENT) -->
+    <section class="timeline-section entries-section">
+      <div class="timeline-entries">
+        {{ content }}
+      </div>
+    </section>
+
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="timeline-sidebar">
+
+    <!-- Back to Case Study -->
+    <div class="sidebar-widget">
+      <h4>Case Study</h4>
+      <p>Read the full narrative and work description.</p>
+      <a href="{{ page.project_url }}" class="widget-link">Read {{ page.project_title }} →</a>
+    </div>
+
+    <!-- Process Archive -->
+    <div class="sidebar-widget">
+      <h4>Process Archive</h4>
+      <p>Decisions, constraints, and what didn't work.</p>
+      {% capture archive_slug %}{{ page.project_title | downcase | replace: " ", "-" | replace: "order of the aetherwright", "aetherwright" | replace: "modernist homestead", "modernist-homestead" }}{% endcapture %}
+      <a href="{{ '/process-archives/' | relative_url }}{{ archive_slug }}" class="widget-link">Read Archive →</a>
+    </div>
+
+    <!-- Other Projects -->
+    <div class="sidebar-widget">
+      <h4>Other Timelines</h4>
+      <ul class="quick-links">
+        <li><a href="{{ '/timelines/' | relative_url }}">Master Timeline</a></li>
+        <li><a href="{{ '/timelines/' | relative_url }}">All Projects</a></li>
+      </ul>
+    </div>
+
+    <!-- About This -->
+    <div class="sidebar-widget">
+      <h4>About This Timeline</h4>
+      <p>Raw extraction entries from conversations. Chronologically organized. Shows the thinking that shaped the work.</p>
+    </div>
+
+  </aside>
+
+</div>

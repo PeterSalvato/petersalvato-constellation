@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<!-- PROCESS ARCHIVE LAYOUT: Sidebar + Main Content
+     Structure: Title → How This Was Built → Key Decisions → What Didn't Work → Technical Notes → Constraints → Retrospective
+     Purpose: Decision logs, technical architecture notes, constraints documentation
+     Integration: Links to case study and timeline
+-->
+
+<!-- Altitude Marker (Layer 2 - Secondary) -->
+<div class="altitude-marker process-archive">02</div>
+
+<!-- Page Title -->
+<h1>{{ page.title }}</h1>
+
+<!-- Two-Column Layout: Content + Sidebar -->
+<div class="process-archive-layout">
+
+  <!-- MAIN CONTENT COLUMN -->
+  <div class="process-archive-content">
+
+    <!-- OPENING -->
+    <section class="archive-section opening-section">
+      <p class="archive-intro">
+        This archive documents the thinking, decisions, and constraints behind the work.
+      </p>
+    </section>
+
+    <!-- MARKDOWN CONTENT (Primary) -->
+    <section class="archive-section main-content-section">
+      {{ content }}
+    </section>
+
+  </div>
+
+  <!-- SIDEBAR WIDGETS -->
+  <aside class="archive-sidebar">
+
+    <!-- Back to Case Study -->
+    <div class="sidebar-widget">
+      <h4>Back to Case Study</h4>
+      <p>Read the full narrative and work description.</p>
+      <a href="{{ page.project_url }}" class="widget-link">Read Case Study →</a>
+    </div>
+
+    <!-- Exploration Timeline -->
+    <div class="sidebar-widget">
+      <h4>Full Conversation Timeline</h4>
+      <p>See all entries documenting the research and iteration behind this work.</p>
+      {% capture timeline_slug %}{{ page.title | downcase | replace: " - process archive", "" | replace: " ", "-" | replace: "order of the aetherwright", "aetherwright" | replace: "modernist homestead", "modernist-homestead" }}{% endcapture %}
+      <a href="{{ '/timelines/' | relative_url }}{{ timeline_slug }}" class="widget-link">Explore Timeline →</a>
+    </div>
+
+    <!-- Archive Index -->
+    <div class="sidebar-widget">
+      <h4>All Process Archives</h4>
+      <p>Browse decisions and constraints from other projects.</p>
+      <a href="{{ '/process-archives/' | relative_url }}" class="widget-link">All Archives →</a>
+    </div>
+
+  </aside>
+
+</div>
