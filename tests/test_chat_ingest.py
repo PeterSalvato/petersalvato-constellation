@@ -1,6 +1,6 @@
 # tests/test_chat_ingest.py
 import json
-from scripts.chat_ingest import GeminiParser
+from scripts.chat_ingest import GeminiParser, ChatExportLoader
 
 def test_gemini_parser_extracts_title():
     sample_gemini = {
@@ -28,3 +28,14 @@ def test_gemini_parser_handles_missing_html():
     result = parser.parse_chat(sample_gemini)
 
     assert result["content"] == ""
+
+def test_load_gemini_export():
+    loader = ChatExportLoader()
+    chats = loader.load_gemini(
+        "/home/peter/homelab/knowledge/exports/takeout-20260126T155729Z-3-001/Takeout/My Activity/Gemini Apps/MyActivity.json"
+    )
+
+    assert isinstance(chats, list)
+    assert len(chats) > 0
+    assert all("timestamp" in c for c in chats)
+    assert all(c["platform"] == "gemini" for c in chats)
