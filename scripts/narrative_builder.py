@@ -108,9 +108,20 @@ class NarrativeBuilder:
         def parse_timestamp(moment):
             timestamp_str = moment.get("timestamp", "")
             try:
-                return datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+                # Try to parse with timezone
+                dt = datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+                # Convert to naive datetime to avoid comparison issues
+                if dt.tzinfo is not None:
+                    dt = dt.replace(tzinfo=None)
+                return dt
             except (ValueError, AttributeError):
-                return datetime.min
+                try:
+                    # Try to parse without timezone
+                    dt = datetime.fromisoformat(timestamp_str)
+                    return dt
+                except (ValueError, AttributeError):
+                    # Return min (naive)
+                    return datetime.min
 
         sorted_moments = sorted(moments, key=parse_timestamp)
         return sorted_moments
