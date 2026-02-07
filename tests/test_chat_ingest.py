@@ -39,3 +39,27 @@ def test_load_gemini_export():
     assert len(chats) > 0
     assert all("timestamp" in c for c in chats)
     assert all(c["platform"] == "gemini" for c in chats)
+
+def test_end_to_end_extraction():
+    """Load all chats, index them, build timelines, extract for Aetherwright"""
+    from scripts.chat_ingest import ChatExportLoader
+    from scripts.semantic_index import SemanticIndexer
+    from scripts.lineage_builder import LineageBuilder
+
+    # Load
+    loader = ChatExportLoader()
+    chats = loader.load_gemini(
+        "/home/peter/homelab/knowledge/exports/takeout-20260126T155729Z-3-001/Takeout/My Activity/Gemini Apps/MyActivity.json"
+    )
+
+    # Index
+    indexer = SemanticIndexer()
+    indexed_chats = [indexer.index_chat(c) for c in chats]
+
+    # Build timelines
+    builder = LineageBuilder()
+    timelines = builder.build_all_project_timelines(indexed_chats)
+
+    # Should have detected Aetherwright mentions
+    assert "order-of-the-aetherwright" in timelines
+    assert len(timelines["order-of-the-aetherwright"]) > 0
