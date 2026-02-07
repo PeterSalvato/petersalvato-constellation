@@ -104,10 +104,79 @@ class ChatGPTParser:
 
         return "\n\n".join(content_parts)
 
+class ClaudeParser:
+    def parse_conversation(self, conversation_dict):
+        """Parse a single Claude conversation export"""
+        # Extract conversation title
+        title = conversation_dict.get("title", "")
+
+        # Extract timestamp from create_time
+        timestamp = self._extract_timestamp(conversation_dict)
+
+        # Extract and concatenate all message content
+        content = self._extract_content(conversation_dict)
+
+        return {
+            "title": title,
+            "timestamp": timestamp,
+            "content": content,
+            "platform": "claude"
+        }
+
+    def _extract_timestamp(self, conversation_dict):
+        """Extract timestamp from conversation"""
+        # Claude stores create_time as Unix timestamp (float)
+        create_time = conversation_dict.get("create_time")
+        if create_time is None:
+            return ""
+
+        # Convert Unix timestamp to ISO 8601 format
+        try:
+            from datetime import datetime
+            dt = datetime.fromtimestamp(float(create_time))
+            return dt.isoformat()
+        except (ValueError, TypeError):
+            return ""
+
+    def _extract_content(self, conversation_dict):
+        """Extract and concatenate all conversation messages"""
+        mapping = conversation_dict.get("mapping", {})
+        content_parts = []
+
+        # Claude stores messages in a tree structure via mapping
+        # Each node has a message field and parent/children pointers
+        for node_id, node in mapping.items():
+            if not node.get("message"):
+                continue
+
+            message = node["message"]
+            role = message.get("author", {}).get("role")
+
+            # Only include user and assistant messages (skip system messages)
+            if role not in ["user", "assistant"]:
+                continue
+
+            # Extract content from parts array
+            content_obj = message.get("content", {})
+            parts = content_obj.get("parts", [])
+
+            # Join all parts (usually just one, but handle multiple)
+            text = ""
+            if parts:
+                text_parts = [p for p in parts if isinstance(p, str)]
+                text = "".join(text_parts)
+
+            # Only include non-empty messages
+            if text.strip():
+                content_parts.append(f"{role}: {text}")
+
+        return "\n\n".join(content_parts)
+
 class ChatExportLoader:
     def __init__(self):
         self.gemini_parser = GeminiParser()
         self.chatgpt_parser = ChatGPTParser()
+        self.claude_parser = ClaudeParser()
 
     def load_gemini(self, filepath: str) -> List[Dict]:
         """Load and parse Gemini activity export"""
@@ -135,6 +204,19 @@ class ChatExportLoader:
 
         return chats
 
+    def load_claude(self, filepath: str) -> List[Dict]:
+        """Load and parse Claude conversation export"""
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        # Claude exports as array of conversations
+        chats = []
+        for conversation in data:
+            parsed = self.claude_parser.parse_conversation(conversation)
+            chats.append(parsed)
+
+        return chats
+
     def load_all_exports(self, gemini_path: str, chatgpt_path: str, claude_path: str):
         """Load all three exports and combine"""
         all_chats = []
@@ -147,6 +229,8 @@ class ChatExportLoader:
         chatgpt_chats = self.load_chatgpt(chatgpt_path)
         all_chats.extend(chatgpt_chats)
 
-        # TODO: Add Claude loader
+        # Load Claude
+        claude_chats = self.load_claude(claude_path)
+        all_chats.extend(claude_chats)
 
         return all_chats
