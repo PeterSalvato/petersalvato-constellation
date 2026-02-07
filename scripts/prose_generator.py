@@ -1,8 +1,11 @@
 # scripts/prose_generator.py
 from typing import Dict, List
 import json
+from anthropic import Anthropic
 
 class ProseGenerator:
+    def __init__(self):
+        self.client = Anthropic()
     def generate_prose(self, skeleton: Dict, voice_prompt: str, max_length: int = 2000) -> str:
         """Generate prose from skeleton using blended voice"""
 
@@ -60,10 +63,15 @@ Remember: Every claim must be grounded in the arc moments. Don't fabricate detai
         return "\n".join(summary)
 
     def _call_llm(self, prompt: str, max_length: int) -> str:
-        """Call LLM to generate prose (placeholder)"""
-        # This would be actual API call to Claude API
-        # For now, return structured response with more content
-        return f"""I built a system to mark where my thinking changed. The problem emerged when I realized that tagging systems don't capture the shift in how I approach problems. The key insight was that a markup language preserves the moment of transformation. This allows me to capture semantic turning points where thinking shifts, creating a record of intellectual evolution. The savepoint protocol represents this thinking in a structured way that honors both the what and the why of my decision-making process. This approach proves effective because it grounds my work in the actual moments of cognitive change."""
+        """Call Claude API to generate prose"""
+        message = self.client.messages.create(
+            model="claude-opus-4-1-20250805",
+            max_tokens=max_length,
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+        return message.content[0].text
 
     def validate_fidelity(self, prose: str, skeleton: Dict) -> Dict:
         """Validate that prose stays grounded in skeleton"""
