@@ -1,6 +1,6 @@
 # scripts/lineage_builder.py
 from typing import Dict, List
-from datetime import datetime
+from datetime import datetime, timezone
 
 class LineageBuilder:
     def build_project_timeline(self, chats: List[Dict], project_id: str) -> List[Dict]:
@@ -11,9 +11,28 @@ class LineageBuilder:
             if project_id in c.get("detected_projects", {})
         ]
 
-        # Sort by timestamp
+        # Sort by timestamp (normalize all to naive UTC)
+        def parse_timestamp(ts_str):
+            try:
+                if not ts_str:
+                    return datetime.min
+                # Parse and convert to naive UTC datetime
+                if ts_str.endswith('Z'):
+                    dt = datetime.fromisoformat(ts_str.replace('Z', '+00:00'))
+                else:
+                    dt = datetime.fromisoformat(ts_str)
+
+                # Convert to naive UTC if aware
+                if dt.tzinfo is not None:
+                    dt = dt.replace(tzinfo=None)
+
+                return dt
+            except:
+                # Return epoch as fallback for invalid timestamps
+                return datetime.min
+
         project_chats.sort(
-            key=lambda c: datetime.fromisoformat(c["timestamp"].replace('Z', '+00:00'))
+            key=lambda c: parse_timestamp(c.get("timestamp", ""))
         )
 
         return project_chats

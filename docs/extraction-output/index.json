@@ -1,0 +1,210 @@
+{
+  "extraction_metadata": {
+    "timestamp": "2026-02-06T21:15:00",
+    "status": "complete",
+    "version": "1.0"
+  },
+  "source_data": {
+    "total_conversations": 3201,
+    "gemini": 1430,
+    "chatgpt": 128,
+    "claude": 1643
+  },
+  "results": {
+    "projects_detected": 17,
+    "projects_expected": 18,
+    "coverage_percent": 94,
+    "total_entries": 2448,
+    "entry_files": [
+      {
+        "project": "savepoint-protocol",
+        "filename": "savepoint-protocol-timeline.json",
+        "entries": 548,
+        "size_mb": 43.2
+      },
+      {
+        "project": "order-of-the-aetherwright",
+        "filename": "order-of-the-aetherwright-timeline.json",
+        "entries": 351,
+        "size_mb": 30.7
+      },
+      {
+        "project": "monstrum",
+        "filename": "monstrum-timeline.json",
+        "entries": 295,
+        "size_mb": 40.2
+      },
+      {
+        "project": "modernist-homestead",
+        "filename": "modernist-homestead-timeline.json",
+        "entries": 220,
+        "size_mb": 13.9
+      },
+      {
+        "project": "mathontape",
+        "filename": "mathontape-timeline.json",
+        "entries": 185,
+        "size_mb": 26.2
+      },
+      {
+        "project": "aiden-jae",
+        "filename": "aiden-jae-timeline.json",
+        "entries": 177,
+        "size_mb": 22.1
+      },
+      {
+        "project": "photogeography",
+        "filename": "photogeography-timeline.json",
+        "entries": 150,
+        "size_mb": 21.7
+      },
+      {
+        "project": "altrueism",
+        "filename": "altrueism-timeline.json",
+        "entries": 89,
+        "size_mb": 11.7
+      },
+      {
+        "project": "portable-agency",
+        "filename": "portable-agency-timeline.json",
+        "entries": 80,
+        "size_mb": 3.0
+      },
+      {
+        "project": "echo-and-bone",
+        "filename": "echo-and-bone-timeline.json",
+        "entries": 71,
+        "size_mb": 15.0
+      },
+      {
+        "project": "the-deep-cuts",
+        "filename": "the-deep-cuts-timeline.json",
+        "entries": 69,
+        "size_mb": 13.7
+      },
+      {
+        "project": "cryptozoology",
+        "filename": "cryptozoology-timeline.json",
+        "entries": 53,
+        "size_mb": 11.4
+      },
+      {
+        "project": "ai-devops-workbench",
+        "filename": "ai-devops-workbench-timeline.json",
+        "entries": 42,
+        "size_mb": 5.2
+      },
+      {
+        "project": "encore",
+        "filename": "encore-timeline.json",
+        "entries": 38,
+        "size_mb": 4.5
+      },
+      {
+        "project": "everyday-gold",
+        "filename": "everyday-gold-timeline.json",
+        "entries": 37,
+        "size_mb": 2.6
+      },
+      {
+        "project": "motorology",
+        "filename": "motorology-timeline.json",
+        "entries": 34,
+        "size_mb": 6.2
+      },
+      {
+        "project": "versagrams",
+        "filename": "versagrams-timeline.json",
+        "entries": 9,
+        "size_mb": 1.8
+      }
+    ]
+  },
+  "timeline_files": {
+    "ai-devops-workbench": {
+      "filename": "ai-devops-workbench-timeline.json",
+      "entries": 42,
+      "size_mb": 5.2
+    },
+    "aiden-jae": {
+      "filename": "aiden-jae-timeline.json",
+      "entries": 177,
+      "size_mb": 22.1
+    },
+    "altrueism": {
+      "filename": "altrueism-timeline.json",
+      "entries": 89,
+      "size_mb": 11.7
+    },
+    "cryptozoology": {
+      "filename": "cryptozoology-timeline.json",
+      "entries": 53,
+      "size_mb": 11.4
+    },
+    "echo-and-bone": {
+      "filename": "echo-and-bone-timeline.json",
+      "entries": 71,
+      "size_mb": 15.0
+    },
+    "encore": {
+      "filename": "encore-timeline.json",
+      "entries": 38,
+      "size_mb": 4.5
+    },
+    "everyday-gold": {
+      "filename": "everyday-gold-timeline.json",
+      "entries": 37,
+      "size_mb": 2.6
+    },
+    "mathontape": {
+      "filename": "mathontape-timeline.json",
+      "entries": 185,
+      "size_mb": 26.2
+    },
+    "modernist-homestead": {
+      "filename": "modernist-homestead-timeline.json",
+      "entries": 220,
+      "size_mb": 13.9
+    },
+    "monstrum": {
+      "filename": "monstrum-timeline.json",
+      "entries": 295,
+      "size_mb": 40.2
+    },
+    "motorology": {
+      "filename": "motorology-timeline.json",
+      "entries": 34,
+      "size_mb": 6.2
+    },
+    "order-of-the-aetherwright": {
+      "filename": "order-of-the-aetherwright-timeline.json",
+      "entries": 351,
+      "size_mb": 30.7
+    },
+    "photogeography": {
+      "filename": "photogeography-timeline.json",
+      "entries": 150,
+      "size_mb": 21.7
+    },
+    "portable-agency": {
+      "filename": "portable-agency-timeline.json",
+      "entries": 80,
+      "size_mb": 3.0
+    },
+    "savepoint-protocol": {
+      "filename": "savepoint-protocol-timeline.json",
+      "entries": 548,
+      "size_mb": 43.2
+    },
+    "the-deep-cuts": {
+      "filename": "the-deep-cuts-timeline.json",
+      "entries": 69,
+      "size_mb": 13.7
+    },
+    "versagrams": {
+      "filename": "versagrams-timeline.json",
+      "entries": 9,
+      "size_mb": 1.8
+    }
+  }
+}
