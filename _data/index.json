@@ -122,7 +122,7 @@
       "color": "green",
       "url": "/practice/",
       "definition": "Active research. Stress-testing at low stakes.",
-      "description": "These are the laboratories. Narrative systems that can hold 40+ entity networks. Typography that holds under variable content. Photography locked to rigid formats. Music production running on signal flow protocols. These aren't products—they're experiments proving the framework scales across domains. Where the protocols get real.",
+      "description": "These are the laboratories. Narrative systems that can hold 40+ entity networks. Visual taxonomies that prove structure creates credibility. Format constraints that force seeing differently. Music production running on signal flow protocols. Some are deep research projects with real development arcs. Others are format demonstrations—proof that the same systems discipline applies to visual categorization, emotional mapping, and constraint-based creativity. Not products. Experiments proving the framework scales across domains.",
       "artifacts": [
         {
           "id": "3.1",
@@ -177,6 +177,42 @@
           "result": "Proof that feeling can be encoded systematically. The intersection of structure and generation.",
           "status": "IN DEVELOPMENT",
           "link": "/practice/versagrams"
+        },
+        {
+          "id": "3.7",
+          "title": "CRYPTOZOOLOGY",
+          "context": "How do you present creatures that don't exist with structural credibility? Most cryptid imagery is tongue-in-cheek or credulous. Neither treats them as legitimate subjects for visual inquiry.",
+          "spec": "Pseudo-academic visual archive. 4-column grids. Taxonomic labeling. Field guide aesthetics applied to imaginary subjects. The form makes the content believable.",
+          "result": "Proof that rigorous design systems create credibility regardless of content. Serious aesthetics applied to playful subjects.",
+          "status": "COMPLETE",
+          "link": "/practice/cryptozoology"
+        },
+        {
+          "id": "3.8",
+          "title": "MOTOROLOGY",
+          "context": "Automotive enthusiasm defaults to either nostalgic sentimentality or spec-sheet fetishism. Neither captures the structural logic of why certain machines resonate.",
+          "spec": "Systematic visual taxonomy of automotive design. Grid-based presentation. Engineering as aesthetic category. Format constraint forces attention to proportion, line, and mechanical logic.",
+          "result": "Proof that enthusiasm can be systematized. The grid reveals what unstructured appreciation misses.",
+          "status": "COMPLETE",
+          "link": "/practice/motorology"
+        },
+        {
+          "id": "3.9",
+          "title": "MONSTRUM",
+          "context": "Horror imagery tends toward excess or irony. What if you applied the same scholarly rigor to monsters that field guides apply to wildlife?",
+          "spec": "Visual taxonomy of the monstrous. Archival aesthetics. Dark, high-contrast presentation. The grid holds mystery without explaining it away.",
+          "result": "Proof that restraint amplifies presence. Structure makes the uncanny more unsettling than excess does.",
+          "status": "COMPLETE",
+          "link": "/practice/monstrum"
+        },
+        {
+          "id": "3.10",
+          "title": "SENTIMENTOLOGY",
+          "context": "Emotion resists systemization. Most design treats feeling as decoration layered on structure. What if emotion could be mapped with the same rigor as geography?",
+          "spec": "Swiss grid systems applied to emotional mapping. Typographic precision holding subjective content. The constraint forces feeling into form without killing it.",
+          "result": "Proof that structure and sentiment aren't opposites. The grid doesn't suppress emotion—it clarifies it.",
+          "status": "COMPLETE",
+          "link": "/practice/sentimentology"
         }
       ]
     }
