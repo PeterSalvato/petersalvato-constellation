@@ -113,6 +113,10 @@
         {
           "label": "Colophon",
           "url": "/colophon"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact"
         }
       ]
     }

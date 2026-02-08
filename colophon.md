@@ -1,9 +1,12 @@
 ---
-layout: about-page
+layout: default
 title: "Colophon"
-description: "How this site is built using the methodology it describes."
-seo_keywords: ["site architecture", "design thinking", "narrative structure", "systems design", "methodology"]
+permalink: /colophon/
 ---
+
+# Colophon
+
+How this site is built using the methodology it describes.
 
 ## Mission
 
