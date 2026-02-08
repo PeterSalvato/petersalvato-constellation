@@ -103,12 +103,16 @@
           "url": "/how-i-think"
         },
         {
+          "label": "Three Systems",
+          "url": "/three-systems"
+        },
+        {
           "label": "Provenance",
           "url": "/provenance"
         },
         {
           "label": "Colophon",
-          "url": "/practice/colophon"
+          "url": "/colophon"
         }
       ]
     }

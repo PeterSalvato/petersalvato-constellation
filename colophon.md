@@ -1,14 +1,8 @@
 ---
-layout: workbench-spec
-title: "Colophon: How This Site is Built"
-altitude: "03"
-faculty: ["red", "blue", "green"]
-systems: ["narrative", "visual", "technical"]
-seo_keywords: ["site architecture", "design thinking", "narrative structure", "systems design", "methodology", "first principles"]
-context: "This site is documentation of a methodology. The Colophon explains how the site itself is built using that methodology."
-drift: "Most portfolios show finished work. This one shows the thinking behind the work, and the systems that hold it."
-scaffold: "Recursive documentation: the Colophon demonstrates the design principles it describes."
-fidelity: "The site is proof the methodology works. Reading the Colophon explains why."
+layout: about-page
+title: "Colophon"
+description: "How this site is built using the methodology it describes."
+seo_keywords: ["site architecture", "design thinking", "narrative structure", "systems design", "methodology"]
 ---
 
 ## Mission
@@ -55,7 +49,6 @@ Same methodology, different constraints:
 - **Original builds** (Aiden-Jae, Everyday Gold, Modernist Homestead) — Proof from-scratch design holds
 - **Enterprise scale** (Encore, 12 years, 99.9% uptime) — Proof methodology works long-term under load
 - **Client rebrand** (Altrueism) — Proof methodology works reconceiving broken systems
-- **Consultancy positioning** (Joinery) — Proof integration of three disciplines creates category distinction
 
 ### Tier 03: PRACTICE (Green)
 "Here's where I research and stress-test the principles."
@@ -79,8 +72,8 @@ The site organizes all content through a JSON-driven system that mirrors the nar
 
 ### Master Collections & Data Files
 **_protocols/ collection** — 4 Protocol artifacts (Savepoint, Order of the Aetherwright, AI DevOps Workbench, Portable Agency)
-**_systems/ collection** — 6 Applied System artifacts (Encore, Aiden Jae, Altrueism, Everyday Gold, Modernist Homestead, Joinery)
-**_practice/ collection** — 12 Practice artifacts + Colophon
+**_systems/ collection** — 5 Applied System artifacts (Encore, Aiden Jae, Altrueism, Everyday Gold, Modernist Homestead)
+**_practice/ collection** — 12 Practice artifacts
 **_data/ JSON files** — Navigation, index, contact information
 
 Each JSON file contains:
@@ -202,7 +195,7 @@ The site organizes work by intent across three altitude levels:
 
 - **Protocols** (red, altitude 01) — Governing logic and cognitive firmware. Prerequisites. Savepoint Protocol, Order of the Aetherwright, AI DevOps Workbench, Portable Agency. These define how everything else gets built.
 
-- **Applied Systems** (blue, altitude 02) — Production deployments under constraint. Enterprise, commercial, personal, consultancy. Validated by performance: Encore, Aiden Jae, Altrueism, Everyday Gold, Modernist Homestead, Joinery.
+- **Applied Systems** (blue, altitude 02) — Production deployments under constraint. Enterprise, commercial, personal. Validated by performance: Encore, Aiden Jae, Altrueism, Everyday Gold, Modernist Homestead.
 
 - **Practice** (green, altitude 03) — Systemic research and expression. Low-stakes, high-frequency creative environments. Protocols stress-tested under variable conditions: New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams.
 
